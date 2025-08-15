@@ -2,3 +2,5 @@ Integrantes del Equipo:
 Santiago Bertone: Promocionar
 
 Cesar almonacid: APRENDER A USAR GIT
+
+Thiago Vidal: lograr que funcione el git
