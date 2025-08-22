@@ -1,14 +1,10 @@
-asasasasasas
 
-Integrantes del Equipazo:
-Santiago Bertone: Promocionar
+Integrantes del Equipo:
 
-Cesar almonacid: EL MAS INTELIGENTE DEL GRUPO
+Santiago Bertone: entender git y el repositorio
 
-Thiago Vidal: lograr que funcione el git A VECES
+Cesar almonacid: lograr hacer merge
 
-Franco Venerus: VAMOS CICLON!!!
+Thiago Vidal: lograr que funcione el git
 
-
-dfdfdf
-
+Franco Venerus: hacer este proyecto
