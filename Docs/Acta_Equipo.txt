@@ -1,10 +1,10 @@
-iñaki no estudia
-Integrantes del Equipo:
-Santiago Bertone: Promocionar
 
-Cesar almonacid: EL MAS INTELIGENTE DEL GRUPO
+Integrantes del Equipo:
+
+Santiago Bertone: entender git y el repositorio
+
+Cesar almonacid: lograr hacer merge
 
 Thiago Vidal: lograr que funcione el git
 
-
-dfdfdf
+Franco Venerus: hacer este proyecto
