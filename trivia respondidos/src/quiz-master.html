@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎯 Respondidos - Cultura General</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(to right, #7c3aed, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        
+        .image-hover {
+            transition: transform 0.3s ease;
+        }
+        
+        .card-hover:hover .image-hover {
+            transform: scale(1.1);
+        }
+        
+        .timer-bar {
+            transition: width 1s linear;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .star-filled {
+            color: #fbbf24;
+            fill: currentColor;
+        }
+        
+        .star-empty {
+            color: #d1d5db;
+        }
+        
+        .btn-scale:hover {
+            transform: scale(1.05);
+        }
+        
+        .progress-bar {
+            transition: width 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Pantalla de Selección de Categorías -->
+    <div id="category-screen" class="min-h-screen bg-gradient-to-br from-pink-100 via-purple-100 to-indigo-100 p-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-8">
+                <h1 class="text-5xl font-bold mb-4 gradient-text">
+                    🎯 Respondidos
+                </h1>
+                <p class="text-xl text-gray-600 mb-2">
+                    Pone a prueba tus conocimientos y bardea a todos tu amigxs
+                </p>
+                <span class="inline-block bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">
+                    300+ preguntas • 6 categorías • Diversión garantizada
+                </span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8" id="categories-grid">
+                <!-- Las categorías se generarán dinámicamente -->
+            </div>
+
+            <!-- Opción "Todas las categorías" destacada -->
+            <div class="max-w-2xl mx-auto">
+                <div class="card-hover cursor-pointer bg-white rounded-lg shadow-xl border-4 border-purple-200" onclick="selectCategory('todas')">
+                    <div class="relative overflow-hidden rounded-t-lg">
+                        <img src="https://images.unsplash.com/photo-1714475575582-5230a87c1d1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2xvcmZ1bCUyMHF1aXolMjB0cml2aWElMjBiYWNrZ3JvdW5kfGVufDF8fHx8MTc1NzY5OTkwN3ww&ixlib=rb-4.1.0&q=80&w=1080" alt="Todas las Categorías" class="w-full h-64 object-cover image-hover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-pink-500 via-purple-500 to-indigo-500 opacity-80"></div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center text-white">
+                                <div class="text-6xl mb-4">🌟</div>
+                                <h3 class="text-4xl font-bold mb-2">
+                                    Todas las Categorías
+                                </h3>
+                                <p class="text-xl mb-4">
+                                    Mezcla todas las categorías para el desafío definitivo
+                                </p>
+                                <span class="inline-block bg-white/90 text-purple-600 text-lg px-4 py-2 rounded-full font-medium">
+                                    300 preguntas • Máxima dificultad
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-8 text-center">
+                        <button class="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white text-xl px-8 py-3 rounded-lg font-medium hover:opacity-90 transition-all duration-200 btn-scale">
+                            ¡Acepto el Desafío! 🚀
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-8">
+                <p class="text-gray-500 text-sm">
+                    Cada partida incluye 10 preguntas aleatorias de la categoría seleccionada
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pantalla de Juego -->
+    <div id="game-screen" class="min-h-screen p-4 hidden">
+        <div class="max-w-4xl mx-auto">
+            <!-- Header del juego -->
+            <div class="flex items-center justify-between mb-6">
+                <button onclick="backToCategories()" class="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
+                    <span>←</span>
+                    Volver
+                </button>
+                
+                <div class="flex items-center gap-4">
+                    <span class="flex items-center gap-2 px-3 py-1 border border-gray-300 rounded-full text-sm">
+                        <span>🎯</span>
+                        <span id="score-display">0/10</span>
+                    </span>
+                    <span id="timer-badge" class="flex items-center gap-2 px-3 py-1 bg-gray-100 rounded-full text-sm">
+                        <span>⏰</span>
+                        <span id="timer-display">30s</span>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Progreso y categoría -->
+            <div class="mb-6">
+                <div class="flex justify-between items-center mb-3">
+                    <div class="flex items-center gap-3">
+                        <span class="text-2xl" id="category-icon">🌟</span>
+                        <div>
+                            <h2 class="text-xl font-medium" id="category-name">Categoría</h2>
+                            <p class="text-sm text-gray-600" id="question-counter">
+                                Pregunta 1 de 10
+                            </p>
+                        </div>
+                    </div>
+                    <span class="px-3 py-1 border border-gray-300 rounded-full text-sm" id="question-category">
+                        categoria
+                    </span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-3">
+                    <div id="progress-bar" class="h-3 bg-blue-500 rounded-full progress-bar" style="width: 10%"></div>
+                </div>
+            </div>
+
+            <!-- Tarjeta de pregunta -->
+            <div class="bg-white rounded-lg shadow-2xl border-2">
+                <div id="question-header" class="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-6 rounded-t-lg">
+                    <h1 class="text-2xl font-medium text-center" id="question-text">
+                        ¿Cuál es la capital de Francia?
+                    </h1>
+                </div>
+                <div class="p-8">
+                    <div class="grid gap-4" id="options-container">
+                        <!-- Las opciones se generarán dinámicamente -->
+                    </div>
+
+                    <div id="result-container" class="mt-8 p-6 bg-gray-50 rounded-lg border-t-4 border-purple-500 hidden">
+                        <div class="text-center space-y-4">
+                            <div id="result-content">
+                                <!-- Contenido del resultado -->
+                            </div>
+                            <button onclick="nextQuestion()" id="next-button" class="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-3 rounded-lg font-medium hover:opacity-90 transition-all duration-200">
+                                Siguiente Pregunta
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indicador de tiempo visual -->
+            <div class="mt-4">
+                <div class="w-full bg-gray-200 rounded-full h-2">
+                    <div id="time-bar" class="h-2 rounded-full timer-bar bg-green-500" style="width: 100%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pantalla de Resultados -->
+    <div id="results-screen" class="min-h-screen p-4 flex items-center justify-center hidden">
+        <div class="max-w-2xl w-full">
+            <!-- Tarjeta principal de resultados -->
+            <div class="bg-white rounded-lg shadow-2xl border-4 border-white/20 backdrop-blur-sm">
+                <div id="results-header" class="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-center py-8 rounded-t-lg">
+                    <div class="text-8xl mb-4" id="results-emoji">🏆</div>
+                    <h1 class="text-4xl font-bold mb-2" id="results-title">¡MAESTRO SUPREMO!</h1>
+                    <p class="text-xl opacity-90" id="results-message">Eres un verdadero experto en esta materia</p>
+                </div>
+                
+                <div class="p-8 text-center space-y-6">
+                    <!-- Puntuación principal -->
+                    <div class="space-y-4">
+                        <div class="text-7xl text-gray-800" id="final-score">
+                            8/10
+                        </div>
+                        <div class="text-2xl text-gray-600" id="final-percentage">
+                            80% de aciertos
+                        </div>
+                        
+                        <!-- Estrellas -->
+                        <div class="flex justify-center gap-1" id="stars-container">
+                            <!-- Las estrellas se generarán dinámicamente -->
+                        </div>
+                        
+                        <!-- Categoría -->
+                        <div class="flex items-center justify-center gap-3 mt-6">
+                            <span class="text-3xl" id="results-category-icon">🌟</span>
+                            <div>
+                                <span class="inline-block border border-gray-300 px-4 py-2 rounded-full text-lg" id="results-category-name">
+                                    Todas las Categorías
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Estadísticas detalladas -->
+                    <div class="grid grid-cols-3 gap-4 py-6 border-t border-gray-200">
+                        <div class="text-center">
+                            <div class="text-3xl text-green-500 mb-1">✅</div>
+                            <div class="text-2xl" id="correct-answers">8</div>
+                            <div class="text-sm text-gray-600">Correctas</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl text-red-500 mb-1">❌</div>
+                            <div class="text-2xl" id="incorrect-answers">2</div>
+                            <div class="text-sm text-gray-600">Incorrectas</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl text-blue-500 mb-1">📊</div>
+                            <div class="text-2xl" id="precision-percentage">80%</div>
+                            <div class="text-sm text-gray-600">Precisión</div>
+                        </div>
+                    </div>
+
+                    <!-- Botones de acción -->
+                    <div class="space-y-3 pt-4">
+                        <button onclick="playAgain()" id="play-again-btn" class="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xl py-6 rounded-lg font-medium hover:opacity-90 transition-all duration-200 btn-scale">
+                            <span class="mr-2">🔄</span>
+                            Jugar de Nuevo
+                        </button>
+                        
+                        <div class="grid grid-cols-2 gap-3">
+                            <button onclick="backToCategories()" class="border border-gray-300 text-gray-700 text-lg py-4 rounded-lg font-medium hover:bg-gray-50 transition-colors">
+                                <span class="mr-2">🏠</span>
+                                Inicio
+                            </button>
+                            
+                            <button onclick="backToCategories()" class="border border-gray-300 text-gray-700 text-lg py-4 rounded-lg font-medium hover:bg-gray-50 transition-colors">
+                                <span class="mr-2">🏆</span>
+                                Otras Categorías
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Mensaje motivacional -->
+                    <div class="text-center pt-4 border-t border-gray-200">
+                        <p class="text-gray-600 italic" id="motivational-message">
+                            ¡Sigue así! Tu conocimiento es impresionante.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Estadística adicional -->
+            <div class="mt-6 text-center">
+                <p class="text-white/80 text-sm" id="additional-stats">
+                    ¿Sabías que el promedio en esta categoría es del 65%? ¡Estás por encima!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Estado de la aplicación
+        let appState = 'category-selection';
+        let selectedCategory = 'todas';
+        let finalScore = 0;
+        let totalQuestions = 0;
+        let currentQuestions = [];
+        let currentQuestionIndex = 0;
+        let selectedAnswer = null;
+        let score = 0;
+        let showResult = false;
+        let timeLeft = 30;
+        let isTimeUp = false;
+        let timerInterval = null;
+
+        // Definición de categorías
+        const categories = {
+            cine: {
+                name: 'Cine',
+                color: 'from-red-500 to-pink-500',
+                icon: '🎬',
+                image: 'https://images.unsplash.com/photo-1524712245354-2c4e5e7121c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaW5lbWElMjBtb3ZpZSUyMHRoZWF0ZXJ8ZW58MXx8fHwxNzU3NjgxNDU3fDA&ixlib=rb-4.1.0&q=80&w=1080'
+            },
+            musica: {
+                name: 'Música',
+                color: 'from-purple-500 to-indigo-500',
+                icon: '🎵',
+                image: 'https://images.unsplash.com/photo-1539692397242-335cd88cf0a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMGhlYWRwaG9uZXMlMjBjb2xvcmZ1bHxlbnwxfHx8fDE3NTc2OTk5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
+            },
+            historia: {
+                name: 'Historia',
+                color: 'from-amber-500 to-orange-500',
+                icon: '🏛️',
+                image: 'https://images.unsplash.com/photo-1719249527220-42ed1845f0c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaXN0b3J5JTIwYW5jaWVudCUyMGFydGlmYWN0c3xlbnwxfHx8fDE3NTc2MjEwNjh8MA&ixlib=rb-4.1.0&q=80&w=1080'
+            },
+            geografia: {
+                name: 'Geografía',
+                color: 'from-green-500 to-teal-500',
+                icon: '🌍',
+                image: 'https://images.unsplash.com/photo-1619469399933-05d6e31688d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b3JsZCUyMG1hcCUyMGdlb2dyYXBoeXxlbnwxfHx8fDE3NTc2OTk5MjB8MA&ixlib=rb-4.1.0&q=80&w=1080'
+            },
+            videojuegos: {
+                name: 'Videojuegos',
+                color: 'from-blue-500 to-cyan-500',
+                icon: '🎮',
+                image: 'https://images.unsplash.com/photo-1655976796204-308e6f3deaa8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBjb250cm9sbGVyJTIwdmlkZW9nYW1lc3xlbnwxfHx8fDE3NTc2OTk5MTV8MA&ixlib=rb-4.1.0&q=80&w=1080'
+            },
+            ciencia: {
+                name: 'Ciencia',
+                color: 'from-violet-500 to-purple-500',
+                icon: '🔬',
+                image: 'https://images.unsplash.com/photo-1614308457932-e16d85c5d053?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzY2llbmNlJTIwbGFib3JhdG9yeSUyMG1pY3Jvc2NvcGV8ZW58MXx8fHwxNzU3Njc4MzQ3fDA&ixlib=rb-4.1.0&q=80&w=1080'
+            },
+            todas: {
+                name: 'Todas las Categorías',
+                color: 'from-pink-500 via-purple-500 to-indigo-500',
+                icon: '🌟',
+                image: 'https://images.unsplash.com/photo-1714475575582-5230a87c1d1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2xvcmZ1bCUyMHF1aXolMjB0cml2aWElMjBiYWNrZ3JvdW5kfGVufDF8fHx8MTc1NzY5OTkwN3ww&ixlib=rb-4.1.0&q=80&w=1080'
+            }
+        };
+
+        // Base de datos de preguntas (300 preguntas)
+        const questions = [
+            // CINE - 50 preguntas
+            { id: 1, question: "¿Quién dirigió la película 'Pulp Fiction'?", options: ["Martin Scorsese", "Quentin Tarantino", "Steven Spielberg", "Christopher Nolan"], correctAnswer: 1, category: "cine" },
+            { id: 2, question: "¿En qué año se estrenó 'Titanic'?", options: ["1996", "1997", "1998", "1999"], correctAnswer: 1, category: "cine" },
+            { id: 3, question: "¿Cuál es la película más taquillera de todos los tiempos?", options: ["Avatar", "Avengers: Endgame", "Titanic", "Star Wars"], correctAnswer: 1, category: "cine" },
+            { id: 4, question: "¿Quién interpretó a Forrest Gump?", options: ["Tom Cruise", "Brad Pitt", "Tom Hanks", "Will Smith"], correctAnswer: 2, category: "cine" },
+            { id: 5, question: "¿Cuántos Oscar ganó 'El Señor de los Anillos: El Retorno del Rey'?", options: ["9", "10", "11", "12"], correctAnswer: 2, category: "cine" },
+            { id: 6, question: "¿En qué película aparece la frase 'Que la fuerza te acompañe'?", options: ["Star Trek", "Star Wars", "Guardianes de la Galaxia", "Interstellar"], correctAnswer: 1, category: "cine" },
+            { id: 7, question: "¿Quién dirigió 'El Padrino'?", options: ["Martin Scorsese", "Francis Ford Coppola", "Stanley Kubrick", "Robert De Niro"], correctAnswer: 1, category: "cine" },
+            { id: 8, question: "¿Cuál es la primera película de Marvel Studios?", options: ["Iron Man", "Thor", "Capitán América", "Hulk"], correctAnswer: 0, category: "cine" },
+            { id: 9, question: "¿En qué año se estrenó 'Jurassic Park'?", options: ["1992", "1993", "1994", "1995"], correctAnswer: 1, category: "cine" },
+            { id: 10, question: "¿Quién interpretó a Joker en 'The Dark Knight'?", options: ["Jack Nicholson", "Joaquin Phoenix", "Heath Ledger", "Jared Leto"], correctAnswer: 2, category: "cine" },
+            { id: 11, question: "¿Cuál es la primera película de Pixar?", options: ["Monsters Inc", "Toy Story", "A Bug's Life", "Cars"], correctAnswer: 1, category: "cine" },
+            { id: 12, question: "¿Quién dirigió 'Inception'?", options: ["Christopher Nolan", "Denis Villeneuve", "Ridley Scott", "James Cameron"], correctAnswer: 0, category: "cine" },
+            { id: 13, question: "¿En qué película aparece la frase 'I'll be back'?", options: ["Predator", "Conan", "Terminator", "Total Recall"], correctAnswer: 2, category: "cine" },
+            { id: 14, question: "¿Cuántas películas de Harry Potter se han hecho?", options: ["7", "8", "9", "10"], correctAnswer: 1, category: "cine" },
+            { id: 15, question: "¿Quién interpretó a Neo en 'The Matrix'?", options: ["Keanu Reeves", "Brad Pitt", "Leonardo DiCaprio", "Will Smith"], correctAnswer: 0, category: "cine" },
+            { id: 16, question: "¿En qué año se estrenó 'E.T.'?", options: ["1981", "1982", "1983", "1984"], correctAnswer: 1, category: "cine" },
+            { id: 17, question: "¿Quién dirigió 'Jaws' (Tiburón)?", options: ["George Lucas", "Steven Spielberg", "Martin Scorsese", "Francis Ford Coppola"], correctAnswer: 1, category: "cine" },
+            { id: 18, question: "¿Cuál es la segunda película de la saga 'Rocky'?", options: ["Rocky II", "Rocky Balboa", "Rocky III", "Creed"], correctAnswer: 0, category: "cine" },
+            { id: 19, question: "¿Quién interpretó a Scarlett O'Hara en 'Gone with the Wind'?", options: ["Grace Kelly", "Audrey Hepburn", "Vivien Leigh", "Elizabeth Taylor"], correctAnswer: 2, category: "cine" },
+            { id: 20, question: "¿En qué película de Disney aparece la canción 'Let It Go'?", options: ["Moana", "Frozen", "Tangled", "Beauty and the Beast"], correctAnswer: 1, category: "cine" },
+            { id: 21, question: "¿Quién dirigió 'Goodfellas'?", options: ["Francis Ford Coppola", "Martin Scorsese", "Brian De Palma", "Sergio Leone"], correctAnswer: 1, category: "cine" },
+            { id: 22, question: "¿Cuál es la película más larga jamás hecha para cines comerciales?", options: ["Lawrence of Arabia", "Gone with the Wind", "The Irishman", "Cleopatra"], correctAnswer: 0, category: "cine" },
+            { id: 23, question: "¿Quién interpretó a Hannibal Lecter en 'The Silence of the Lambs'?", options: ["Robert De Niro", "Al Pacino", "Anthony Hopkins", "Jack Nicholson"], correctAnswer: 2, category: "cine" },
+            { id: 24, question: "¿En qué año se estrenó 'Casablanca'?", options: ["1941", "1942", "1943", "1944"], correctAnswer: 1, category: "cine" },
+            { id: 25, question: "¿Quién dirigió '2001: A Space Odyssey'?", options: ["Ridley Scott", "Stanley Kubrick", "George Lucas", "Steven Spielberg"], correctAnswer: 1, category: "cine" },
+            { id: 26, question: "¿Cuál es la primera película de James Bond?", options: ["Goldfinger", "From Russia with Love", "Dr. No", "Thunderball"], correctAnswer: 2, category: "cine" },
+            { id: 27, question: "¿Quién interpretó a Vito Corleone en 'El Padrino'?", options: ["Al Pacino", "Robert De Niro", "Marlon Brando", "James Caan"], correctAnswer: 2, category: "cine" },
+            { id: 28, question: "¿En qué película aparece la frase 'Here's looking at you, kid'?", options: ["Citizen Kane", "Casablanca", "Sunset Boulevard", "The Maltese Falcon"], correctAnswer: 1, category: "cine" },
+            { id: 29, question: "¿Quién dirigió 'Vertigo'?", options: ["Alfred Hitchcock", "Orson Welles", "Billy Wilder", "John Ford"], correctAnswer: 0, category: "cine" },
+            { id: 30, question: "¿Cuál es la película más cara jamás hecha?", options: ["Avengers: Endgame", "Pirates of the Caribbean 3", "Tangled", "Avatar"], correctAnswer: 0, category: "cine" },
+            { id: 31, question: "¿Quién interpretó a Maximus en 'Gladiator'?", options: ["Brad Pitt", "Russell Crowe", "Mel Gibson", "Kevin Costner"], correctAnswer: 1, category: "cine" },
+            { id: 32, question: "¿En qué año se estrenó 'The Shining'?", options: ["1979", "1980", "1981", "1982"], correctAnswer: 1, category: "cine" },
+            { id: 33, question: "¿Quién dirigió 'Taxi Driver'?", options: ["Francis Ford Coppola", "Martin Scorsese", "Michael Cimino", "William Friedkin"], correctAnswer: 1, category: "cine" },
+            { id: 34, question: "¿Cuál es la primera película en color de Disney?", options: ["Snow White", "Pinocchio", "Flowers and Trees", "Fantasia"], correctAnswer: 2, category: "cine" },
+            { id: 35, question: "¿Quién interpretó a Clarice Starling en 'The Silence of the Lambs'?", options: ["Meryl Streep", "Glenn Close", "Jodie Foster", "Michelle Pfeiffer"], correctAnswer: 2, category: "cine" },
+            { id: 36, question: "¿En qué película aparece la frase 'May the odds be ever in your favor'?", options: ["Divergent", "The Hunger Games", "The Maze Runner", "Ready Player One"], correctAnswer: 1, category: "cine" },
+            { id: 37, question: "¿Quién dirigió 'Blade Runner'?", options: ["Philip K. Dick", "Ridley Scott", "Denis Villeneuve", "James Cameron"], correctAnswer: 1, category: "cine" },
+            { id: 38, question: "¿Cuál es la secuela de 'Alien'?", options: ["Alien 3", "Aliens", "Alien: Resurrection", "Prometheus"], correctAnswer: 1, category: "cine" },
+            { id: 39, question: "¿Quién interpretó a Tony Montana en 'Scarface'?", options: ["Robert De Niro", "Al Pacino", "Joe Pesci", "James Gandolfini"], correctAnswer: 1, category: "cine" },
+            { id: 40, question: "¿En qué año se estrenó 'The Exorcist'?", options: ["1972", "1973", "1974", "1975"], correctAnswer: 1, category: "cine" },
+            { id: 41, question: "¿Quién dirigió 'Psycho'?", options: ["Alfred Hitchcock", "Roman Polanski", "Brian De Palma", "John Carpenter"], correctAnswer: 0, category: "cine" },
+            { id: 42, question: "¿Cuál es la primera película de la saga 'Fast & Furious'?", options: ["2 Fast 2 Furious", "The Fast and the Furious", "Fast & Furious", "Fast Five"], correctAnswer: 1, category: "cine" },
+            { id: 43, question: "¿Quién interpretó a Tyler Durden en 'Fight Club'?", options: ["Edward Norton", "Brad Pitt", "Matt Damon", "Leonardo DiCaprio"], correctAnswer: 1, category: "cine" },
+            { id: 44, question: "¿En qué película aparece la frase 'Frankly, my dear, I don't give a damn'?", options: ["Citizen Kane", "Casablanca", "Gone with the Wind", "The Maltese Falcon"], correctAnswer: 2, category: "cine" },
+            { id: 45, question: "¿Quién dirigió 'One Flew Over the Cuckoo's Nest'?", options: ["Milos Forman", "Sidney Lumet", "Arthur Hiller", "Hal Ashby"], correctAnswer: 0, category: "cine" },
+            { id: 46, question: "¿Cuál es la primera película de superhéroes de DC Comics?", options: ["Batman", "Superman", "Wonder Woman", "The Flash"], correctAnswer: 1, category: "cine" },
+            { id: 47, question: "¿Quién interpretó a Ripley en 'Alien'?", options: ["Sigourney Weaver", "Linda Hamilton", "Jamie Lee Curtis", "Meryl Streep"], correctAnswer: 0, category: "cine" },
+            { id: 48, question: "¿En qué año se estrenó 'Apocalypse Now'?", options: ["1978", "1979", "1980", "1981"], correctAnswer: 1, category: "cine" },
+            { id: 49, question: "¿Quién dirigió 'The Departed'?", options: ["Quentin Tarantino", "Martin Scorsese", "Christopher Nolan", "David Fincher"], correctAnswer: 1, category: "cine" },
+            { id: 50, question: "¿Cuál es la película animada más taquillera de todos los tiempos?", options: ["Frozen II", "The Lion King (2019)", "Incredibles 2", "Finding Dory"], correctAnswer: 0, category: "cine" },
+
+            // MÚSICA - 50 preguntas
+            { id: 51, question: "¿Cuál es el álbum más vendido de todos los tiempos?", options: ["Back in Black", "Thriller", "The Dark Side of the Moon", "Abbey Road"], correctAnswer: 1, category: "musica" },
+            { id: 52, question: "¿Quién compuso 'Bohemian Rhapsody'?", options: ["John Lennon", "Freddie Mercury", "David Bowie", "Elton John"], correctAnswer: 1, category: "musica" },
+            { id: 53, question: "¿En qué año murió Elvis Presley?", options: ["1976", "1977", "1978", "1979"], correctAnswer: 1, category: "musica" },
+            { id: 54, question: "¿Cuál es el nombre real de Lady Gaga?", options: ["Stefani Germanotta", "Amanda Smith", "Jennifer Wilson", "Sarah Johnson"], correctAnswer: 0, category: "musica" },
+            { id: 55, question: "¿Qué banda lanzó el álbum 'Nevermind'?", options: ["Pearl Jam", "Soundgarden", "Nirvana", "Alice in Chains"], correctAnswer: 2, category: "musica" },
+            { id: 56, question: "¿Cuántos miembros tenían The Beatles?", options: ["3", "4", "5", "6"], correctAnswer: 1, category: "musica" },
+            { id: 57, question: "¿Quién es conocido como 'The King of Pop'?", options: ["Elvis Presley", "Michael Jackson", "Prince", "Bruno Mars"], correctAnswer: 1, category: "musica" },
+            { id: 58, question: "¿En qué década se originó el rock and roll?", options: ["1940s", "1950s", "1960s", "1970s"], correctAnswer: 1, category: "musica" },
+            { id: 59, question: "¿Cuál es el instrumento principal de Jimi Hendrix?", options: ["Bajo", "Batería", "Guitarra", "Piano"], correctAnswer: 2, category: "musica" },
+            { id: 60, question: "¿Qué significa 'AC/DC'?", options: ["Corriente Alterna/Corriente Directa", "Angus/Cameron", "Australia/Canada", "Angel/Devil"], correctAnswer: 0, category: "musica" },
+            { id: 61, question: "¿Quién compuso 'Imagine'?", options: ["Paul McCartney", "John Lennon", "George Harrison", "Ringo Starr"], correctAnswer: 1, category: "musica" },
+            { id: 62, question: "¿Cuál es el álbum debut de Pink Floyd?", options: ["The Wall", "Dark Side of the Moon", "The Piper at the Gates of Dawn", "Wish You Were Here"], correctAnswer: 2, category: "musica" },
+            { id: 63, question: "¿En qué año se realizó el festival de Woodstock?", options: ["1968", "1969", "1970", "1971"], correctAnswer: 1, category: "musica" },
+            { id: 64, question: "¿Quién es el vocalista de Queen?", options: ["Brian May", "Roger Taylor", "John Deacon", "Freddie Mercury"], correctAnswer: 3, category: "musica" },
+            { id: 65, question: "¿Cuál es la canción más reproducida en Spotify?", options: ["Shape of You", "Blinding Lights", "Someone You Loved", "Sunflower"], correctAnswer: 1, category: "musica" },
+            { id: 66, question: "¿Qué género musical creó Bob Marley?", options: ["Reggae", "Ska", "Calypso", "Dancehall"], correctAnswer: 0, category: "musica" },
+            { id: 67, question: "¿Cuántas cuerdas tiene una guitarra estándar?", options: ["4", "5", "6", "7"], correctAnswer: 2, category: "musica" },
+            { id: 68, question: "¿Quién compuso 'Yesterday'?", options: ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"], correctAnswer: 1, category: "musica" },
+            { id: 69, question: "¿En qué ciudad se originó el blues?", options: ["Nashville", "Nueva Orleans", "Chicago", "Memphis"], correctAnswer: 1, category: "musica" },
+            { id: 70, question: "¿Cuál es el nombre real de Eminem?", options: ["Marshall Mathers", "Calvin Broadus", "Sean Carter", "Andre Young"], correctAnswer: 0, category: "musica" },
+            { id: 71, question: "¿Qué banda lanzó 'Stairway to Heaven'?", options: ["Deep Purple", "Black Sabbath", "Led Zeppelin", "The Rolling Stones"], correctAnswer: 2, category: "musica" },
+            { id: 72, question: "¿En qué año murió Kurt Cobain?", options: ["1993", "1994", "1995", "1996"], correctAnswer: 1, category: "musica" },
+            { id: 73, question: "¿Cuál es el álbum más vendido de Madonna?", options: ["Like a Virgin", "True Blue", "Like a Prayer", "Ray of Light"], correctAnswer: 0, category: "musica" },
+            { id: 74, question: "¿Quién es conocido como 'El Rey del Rock'?", options: ["Chuck Berry", "Elvis Presley", "Jerry Lee Lewis", "Little Richard"], correctAnswer: 1, category: "musica" },
+            { id: 75, question: "¿Cuántas teclas blancas tiene un piano?", options: ["50", "52", "54", "56"], correctAnswer: 1, category: "musica" },
+            { id: 76, question: "¿Qué instrumento toca Yo-Yo Ma?", options: ["Violín", "Viola", "Chelo", "Contrabajo"], correctAnswer: 2, category: "musica" },
+            { id: 77, question: "¿En qué década se popularizó el disco?", options: ["1960s", "1970s", "1980s", "1990s"], correctAnswer: 1, category: "musica" },
+            { id: 78, question: "¿Cuál es el nombre real de Sting?", options: ["Gordon Sumner", "Stewart Copeland", "Andy Summers", "Henry Padovani"], correctAnswer: 0, category: "musica" },
+            { id: 79, question: "¿Qué banda lanzó 'Hotel California'?", options: ["Fleetwood Mac", "The Eagles", "America", "Crosby, Stills & Nash"], correctAnswer: 1, category: "musica" },
+            { id: 80, question: "¿En qué año se lanzó 'Thriller'?", options: ["1981", "1982", "1983", "1984"], correctAnswer: 1, category: "musica" },
+            { id: 81, question: "¿Cuál es el instrumento principal en una orquesta sinfónica?", options: ["Piano", "Violín", "Flauta", "Trompeta"], correctAnswer: 1, category: "musica" },
+            { id: 82, question: "¿Quién compuso 'Purple Haze'?", options: ["Eric Clapton", "Jimi Hendrix", "Jimmy Page", "Keith Richards"], correctAnswer: 1, category: "musica" },
+            { id: 83, question: "¿Cuál es el álbum debut de Nirvana?", options: ["Nevermind", "In Utero", "Bleach", "MTV Unplugged"], correctAnswer: 2, category: "musica" },
+            { id: 84, question: "¿En qué ciudad nació Mozart?", options: ["Viena", "Salzburgo", "Berlín", "Munich"], correctAnswer: 1, category: "musica" },
+            { id: 85, question: "¿Cuál es la canción más famosa de ABBA?", options: ["Dancing Queen", "Mamma Mia", "Fernando", "SOS"], correctAnswer: 0, category: "musica" },
+            { id: 86, question: "¿Qué género musical se asocia con Nueva Orleans?", options: ["Blues", "Jazz", "Country", "Rock"], correctAnswer: 1, category: "musica" },
+            { id: 87, question: "¿Cuántas sinfonías compuso Beethoven?", options: ["8", "9", "10", "11"], correctAnswer: 1, category: "musica" },
+            { id: 88, question: "¿Quién es el vocalista de U2?", options: ["The Edge", "Adam Clayton", "Larry Mullen Jr.", "Bono"], correctAnswer: 3, category: "musica" },
+            { id: 89, question: "¿En qué año se separaron The Beatles?", options: ["1969", "1970", "1971", "1972"], correctAnswer: 1, category: "musica" },
+            { id: 90, question: "¿Cuál es el nombre real de David Bowie?", options: ["David Jones", "David Smith", "David Brown", "David Wilson"], correctAnswer: 0, category: "musica" },
+            { id: 91, question: "¿Qué banda lanzó 'Smells Like Teen Spirit'?", options: ["Pearl Jam", "Soundgarden", "Nirvana", "Alice in Chains"], correctAnswer: 2, category: "musica" },
+            { id: 92, question: "¿En qué década se inventó el sintetizador Moog?", options: ["1950s", "1960s", "1970s", "1980s"], correctAnswer: 1, category: "musica" },
+            { id: 93, question: "¿Cuál es el álbum más vendido de The Beatles?", options: ["Abbey Road", "Sgt. Pepper's", "The White Album", "Revolver"], correctAnswer: 0, category: "musica" },
+            { id: 94, question: "¿Quién compuso 'La Traviata'?", options: ["Mozart", "Verdi", "Puccini", "Rossini"], correctAnswer: 1, category: "musica" },
+            { id: 95, question: "¿Cuál es el instrumento nacional de Escocia?", options: ["Violín", "Gaita", "Arpa", "Flauta"], correctAnswer: 1, category: "musica" },
+            { id: 96, question: "¿En qué año murió John Lennon?", options: ["1979", "1980", "1981", "1982"], correctAnswer: 1, category: "musica" },
+            { id: 97, question: "¿Cuál es la escala musical más común?", options: ["Pentatónica", "Cromática", "Mayor", "Menor"], correctAnswer: 2, category: "musica" },
+            { id: 98, question: "¿Qué banda lanzó 'Back in Black'?", options: ["Metallica", "AC/DC", "Iron Maiden", "Judas Priest"], correctAnswer: 1, category: "musica" },
+            { id: 99, question: "¿En qué ciudad se encuentra el Apollo Theater?", options: ["Los Angeles", "Chicago", "Nueva York", "Detroit"], correctAnswer: 2, category: "musica" },
+            { id: 100, question: "¿Cuál es el nombre real de Prince?", options: ["Prince Rogers Nelson", "Prince Williams", "Prince Johnson", "Prince Anderson"], correctAnswer: 0, category: "musica" },
+
+            // HISTORIA - 50 preguntas
+            { id: 101, question: "¿En qué año comenzó la Segunda Guerra Mundial?", options: ["1938", "1939", "1940", "1941"], correctAnswer: 1, category: "historia" },
+            { id: 102, question: "¿Quién fue el primer emperador de Roma?", options: ["Julio César", "Augusto", "Nerón", "Trajano"], correctAnswer: 1, category: "historia" },
+            { id: 103, question: "¿En qué año cayó el Imperio Romano de Occidente?", options: ["455", "476", "480", "495"], correctAnswer: 1, category: "historia" },
+            { id: 104, question: "¿Cuál fue la primera civilización en usar la escritura?", options: ["Egipcios", "Sumerios", "Griegos", "Chinos"], correctAnswer: 1, category: "historia" },
+            { id: 105, question: "¿En qué año descubrió Cristóbal Colón América?", options: ["1490", "1491", "1492", "1493"], correctAnswer: 2, category: "historia" },
+            { id: 106, question: "¿Cuál fue la causa principal de la Primera Guerra Mundial?", options: ["El asesinato del Archiduque Franz Ferdinand", "La invasión de Polonia", "El hundimiento del Lusitania", "La Revolución Rusa"], correctAnswer: 0, category: "historia" },
+            { id: 107, question: "¿En qué año se firmó la Declaración de Independencia de Estados Unidos?", options: ["1774", "1775", "1776", "1777"], correctAnswer: 2, category: "historia" },
+            { id: 108, question: "¿Quién fue Napoleón Bonaparte?", options: ["Rey de Francia", "Emperador de Francia", "General de Francia", "Primer Ministro de Francia"], correctAnswer: 1, category: "historia" },
+            { id: 109, question: "¿En qué año terminó la Guerra Civil Americana?", options: ["1863", "1864", "1865", "1866"], correctAnswer: 2, category: "historia" },
+            { id: 110, question: "¿Cuál fue la capital del Imperio Bizantino?", options: ["Roma", "Atenas", "Constantinopla", "Alejandría"], correctAnswer: 2, category: "historia" },
+            { id: 111, question: "¿En qué año se produjo la Revolución Francesa?", options: ["1788", "1789", "1790", "1791"], correctAnswer: 1, category: "historia" },
+            { id: 112, question: "¿Quién fue el primer presidente de Estados Unidos?", options: ["Thomas Jefferson", "John Adams", "George Washington", "Benjamin Franklin"], correctAnswer: 2, category: "historia" },
+            { id: 113, question: "¿En qué batalla derrotó Napoleón a los austríacos y rusos?", options: ["Waterloo", "Austerlitz", "Borodino", "Leipzig"], correctAnswer: 1, category: "historia" },
+            { id: 114, question: "¿Cuál fue la primera dinastía china?", options: ["Han", "Shang", "Zhou", "Qin"], correctAnswer: 1, category: "historia" },
+            { id: 115, question: "¿En qué año se construyó el Muro de Berlín?", options: ["1960", "1961", "1962", "1963"], correctAnswer: 1, category: "historia" },
+            { id: 116, question: "¿Quién fue conocido como 'El Libertador' en América del Sur?", options: ["José de San Martín", "Simón Bolívar", "Antonio José de Sucre", "Bernardo O'Higgins"], correctAnswer: 1, category: "historia" },
+            { id: 117, question: "¿En qué año se fundó el Imperio Romano?", options: ["27 a.C.", "31 a.C.", "44 a.C.", "49 a.C."], correctAnswer: 0, category: "historia" },
+            { id: 118, question: "¿Cuál fue la primera capital de Estados Unidos?", options: ["Boston", "Filadelfia", "Nueva York", "Washington D.C."], correctAnswer: 2, category: "historia" },
+            { id: 119, question: "¿En qué año murió Alejandro Magno?", options: ["324 a.C.", "323 a.C.", "322 a.C.", "321 a.C."], correctAnswer: 1, category: "historia" },
+            { id: 120, question: "¿Cuál fue el imperio más extenso de la historia?", options: ["Imperio Romano", "Imperio Mongol", "Imperio Británico", "Imperio Español"], correctAnswer: 2, category: "historia" },
+            { id: 121, question: "¿En qué año se abolió la esclavitud en Estados Unidos?", options: ["1863", "1864", "1865", "1866"], correctAnswer: 2, category: "historia" },
+            { id: 122, question: "¿Quién fue el último emperador de Rusia?", options: ["Alejandro III", "Nicolás II", "Pedro el Grande", "Catalina la Grande"], correctAnswer: 1, category: "historia" },
+            { id: 123, question: "¿En qué año se produjo la caída del Muro de Berlín?", options: ["1987", "1988", "1989", "1990"], correctAnswer: 2, category: "historia" },
+            { id: 124, question: "¿Cuál fue la primera universidad del mundo?", options: ["Oxford", "Cambridge", "Universidad de Bolonia", "Universidad de París"], correctAnswer: 2, category: "historia" },
+            { id: 125, question: "¿En qué año se fundó la Liga de las Naciones?", options: ["1918", "1919", "1920", "1921"], correctAnswer: 2, category: "historia" },
+            { id: 126, question: "¿Quién fue el faraón que construyó la Gran Pirámide?", options: ["Keops", "Kefrén", "Micerinos", "Tutankamón"], correctAnswer: 0, category: "historia" },
+            { id: 127, question: "¿En qué año se estableció la República de Roma?", options: ["510 a.C.", "509 a.C.", "508 a.C.", "507 a.C."], correctAnswer: 1, category: "historia" },
+            { id: 128, question: "¿Cuál fue la primera cruzada?", options: ["1095-1099", "1096-1100", "1097-1101", "1098-1102"], correctAnswer: 0, category: "historia" },
+            { id: 129, question: "¿En qué año murió Julio César?", options: ["45 a.C.", "44 a.C.", "43 a.C.", "42 a.C."], correctAnswer: 1, category: "historia" },
+            { id: 130, question: "¿Cuál fue el primer país en otorgar el voto a las mujeres?", options: ["Estados Unidos", "Reino Unido", "Nueva Zelanda", "Australia"], correctAnswer: 2, category: "historia" },
+            { id: 131, question: "¿En qué año se produjo la Revolución Rusa?", options: ["1916", "1917", "1918", "1919"], correctAnswer: 1, category: "historia" },
+            { id: 132, question: "¿Quién fue el primer hombre en el espacio?", options: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"], correctAnswer: 2, category: "historia" },
+            { id: 133, question: "¿En qué año se firmó la Carta Magna?", options: ["1214", "1215", "1216", "1217"], correctAnswer: 1, category: "historia" },
+            { id: 134, question: "¿Cuál fue la batalla decisiva de las Guerras Napoleónicas?", options: ["Austerlitz", "Borodino", "Waterloo", "Leipzig"], correctAnswer: 2, category: "historia" },
+            { id: 135, question: "¿En qué año se estableció la ONU?", options: ["1944", "1945", "1946", "1947"], correctAnswer: 1, category: "historia" },
+            { id: 136, question: "¿Quién fue el emperador azteca cuando llegaron los españoles?", options: ["Moctezuma I", "Moctezuma II", "Huitzilihuitl", "Axayácatl"], correctAnswer: 1, category: "historia" },
+            { id: 137, question: "¿En qué año se fundó Constantinopla?", options: ["330", "331", "332", "333"], correctAnswer: 0, category: "historia" },
+            { id: 138, question: "¿Cuál fue la primera bomba atómica lanzada?", options: ["Little Boy", "Fat Man", "Trinity", "Gadget"], correctAnswer: 0, category: "historia" },
+            { id: 139, question: "¿En qué año se produjo la Peste Negra en Europa?", options: ["1346-1353", "1347-1354", "1348-1355", "1349-1356"], correctAnswer: 1, category: "historia" },
+            { id: 140, question: "¿Quién fue el primer emperador del Sacro Imperio Romano Germánico?", options: ["Otón I", "Carlomagno", "Federico Barbarroja", "Enrique IV"], correctAnswer: 0, category: "historia" },
+            { id: 141, question: "¿En qué año se fundó la ciudad de Roma?", options: ["754 a.C.", "753 a.C.", "752 a.C.", "751 a.C."], correctAnswer: 1, category: "historia" },
+            { id: 142, question: "¿Cuál fue la primera guerra de la historia registrada?", options: ["Guerra de Troya", "Guerras Médicas", "Guerras del Peloponeso", "Guerra entre Lagash y Umma"], correctAnswer: 3, category: "historia" },
+            { id: 143, question: "¿En qué año se produjo la Revolución Industrial?", options: ["1750-1840", "1760-1850", "1770-1860", "1780-1870"], correctAnswer: 1, category: "historia" },
+            { id: 144, question: "¿Quién fue el último emperador romano de Occidente?", options: ["Rómulo Augústulo", "Odoacro", "Teodosio", "Honorio"], correctAnswer: 0, category: "historia" },
+            { id: 145, question: "¿En qué año se estableció el Estado de Israel?", options: ["1947", "1948", "1949", "1950"], correctAnswer: 1, category: "historia" },
+            { id: 146, question: "¿Cuál fue la primera civilización de Mesopotamia?", options: ["Asirios", "Babilonios", "Sumerios", "Acadios"], correctAnswer: 2, category: "historia" },
+            { id: 147, question: "¿En qué año terminó la Guerra de los Cien Años?", options: ["1452", "1453", "1454", "1455"], correctAnswer: 1, category: "historia" },
+            { id: 148, question: "¿Quién fue el primer califa del Islam?", options: ["Ali", "Umar", "Uthman", "Abu Bakr"], correctAnswer: 3, category: "historia" },
+            { id: 149, question: "¿En qué año se produjo la masacre de Tiananmen?", options: ["1988", "1989", "1990", "1991"], correctAnswer: 1, category: "historia" },
+            { id: 150, question: "¿Cuál fue la primera guerra mundial televisada?", options: ["Guerra de Corea", "Guerra de Vietnam", "Guerra del Golfo", "Guerra de las Malvinas"], correctAnswer: 2, category: "historia" },
+
+            // GEOGRAFÍA - 50 preguntas
+            { id: 151, question: "¿Cuál es el país más grande del mundo?", options: ["China", "Canadá", "Estados Unidos", "Rusia"], correctAnswer: 3, category: "geografia" },
+            { id: 152, question: "¿Cuál es la capital de Australia?", options: ["Sydney", "Melbourne", "Canberra", "Perth"], correctAnswer: 2, category: "geografia" },
+            { id: 153, question: "¿Cuál es el río más largo del mundo?", options: ["Amazonas", "Nilo", "Yangtsé", "Misisipi"], correctAnswer: 1, category: "geografia" },
+            { id: 154, question: "¿En qué continente se encuentra el desierto del Sahara?", options: ["Asia", "África", "Australia", "América"], correctAnswer: 1, category: "geografia" },
+            { id: 155, question: "¿Cuál es la montaña más alta del mundo?", options: ["K2", "Everest", "Kilimanjaro", "Mont Blanc"], correctAnswer: 1, category: "geografia" },
+            { id: 156, question: "¿Cuántos continentes hay?", options: ["5", "6", "7", "8"], correctAnswer: 2, category: "geografia" },
+            { id: 157, question: "¿Cuál es el océano más grande?", options: ["Atlántico", "Índico", "Ártico", "Pacífico"], correctAnswer: 3, category: "geografia" },
+            { id: 158, question: "¿Cuál es la capital de Brasil?", options: ["São Paulo", "Río de Janeiro", "Brasilia", "Salvador"], correctAnswer: 2, category: "geografia" },
+            { id: 159, question: "¿En qué país se encuentra Machu Picchu?", options: ["Bolivia", "Ecuador", "Perú", "Colombia"], correctAnswer: 2, category: "geografia" },
+            { id: 160, question: "¿Cuál es el país más pequeño del mundo?", options: ["Mónaco", "Vaticano", "San Marino", "Liechtenstein"], correctAnswer: 1, category: "geografia" },
+            { id: 161, question: "¿Cuál es la capital de Japón?", options: ["Osaka", "Kioto", "Tokio", "Hiroshima"], correctAnswer: 2, category: "geografia" },
+            { id: 162, question: "¿En qué país se encuentran las Cataratas del Niágara?", options: ["Solo en Canadá", "Solo en Estados Unidos", "En Canadá y Estados Unidos", "En México"], correctAnswer: 2, category: "geografia" },
+            { id: 163, question: "¿Cuál es el desierto más grande del mundo?", options: ["Sahara", "Gobi", "Kalahari", "Antártida"], correctAnswer: 3, category: "geografia" },
+            { id: 164, question: "¿Cuál es la capital de Canadá?", options: ["Toronto", "Vancouver", "Montreal", "Ottawa"], correctAnswer: 3, category: "geografia" },
+            { id: 165, question: "¿En qué país se encuentra la Torre de Pisa?", options: ["Francia", "España", "Italia", "Grecia"], correctAnswer: 2, category: "geografia" },
+            { id: 166, question: "¿Cuál es el lago más grande del mundo?", options: ["Lago Superior", "Mar Caspio", "Lago Victoria", "Lago Baikal"], correctAnswer: 1, category: "geografia" },
+            { id: 167, question: "¿Cuál es la capital de Egipto?", options: ["Alejandría", "El Cairo", "Luxor", "Asuán"], correctAnswer: 1, category: "geografia" },
+            { id: 168, question: "¿En qué continente se encuentra el río Congo?", options: ["Asia", "América", "África", "Europa"], correctAnswer: 2, category: "geografia" },
+            { id: 169, question: "¿Cuál es la isla más grande del mundo?", options: ["Australia", "Groenlandia", "Nueva Guinea", "Borneo"], correctAnswer: 1, category: "geografia" },
+            { id: 170, question: "¿Cuál es la capital de Rusia?", options: ["San Petersburgo", "Moscú", "Novosibirsk", "Yekaterinburg"], correctAnswer: 1, category: "geografia" },
+            { id: 171, question: "¿En qué país se encuentra el Monte Kilimanjaro?", options: ["Kenia", "Tanzania", "Uganda", "Etiopía"], correctAnswer: 1, category: "geografia" },
+            { id: 172, question: "¿Cuál es el país con más fronteras?", options: ["Rusia", "China", "Brasil", "Alemania"], correctAnswer: 1, category: "geografia" },
+            { id: 173, question: "¿Cuál es la capital de India?", options: ["Mumbai", "Nueva Delhi", "Calcuta", "Chennai"], correctAnswer: 1, category: "geografia" },
+            { id: 174, question: "¿En qué país se encuentra la Gran Muralla?", options: ["Japón", "Corea del Sur", "China", "Mongolia"], correctAnswer: 2, category: "geografia" },
+            { id: 175, question: "¿Cuál es el punto más bajo de la Tierra?", options: ["Mar Muerto", "Valle de la Muerte", "Depresión de Afar", "Fosa de las Marianas"], correctAnswer: 0, category: "geografia" },
+            { id: 176, question: "¿Cuál es la capital de Sudáfrica?", options: ["Johannesburgo", "Ciudad del Cabo", "Pretoria", "Durban"], correctAnswer: 2, category: "geografia" },
+            { id: 177, question: "¿En qué país se encuentran los fiordos más famosos?", options: ["Islandia", "Noruega", "Dinamarca", "Suecia"], correctAnswer: 1, category: "geografia" },
+            { id: 178, question: "¿Cuál es el volcán activo más alto del mundo?", options: ["Etna", "Vesubio", "Ojos del Salado", "Mauna Loa"], correctAnswer: 2, category: "geografia" },
+            { id: 179, question: "¿Cuál es la capital de Argentina?", options: ["Córdoba", "Rosario", "Buenos Aires", "Mendoza"], correctAnswer: 2, category: "geografia" },
+            { id: 180, question: "¿En qué país se encuentra Petra?", options: ["Israel", "Jordania", "Siria", "Líbano"], correctAnswer: 1, category: "geografia" },
+            { id: 181, question: "¿Cuál es el estrecho que separa Europa de África?", options: ["Estrecho de Bering", "Estrecho de Gibraltar", "Estrecho de Magallanes", "Estrecho de Ormuz"], correctAnswer: 1, category: "geografia" },
+            { id: 182, question: "¿Cuál es la capital de México?", options: ["Guadalajara", "Monterrey", "Ciudad de México", "Tijuana"], correctAnswer: 2, category: "geografia" },
+            { id: 183, question: "¿En qué país se encuentra Angkor Wat?", options: ["Tailandia", "Vietnam", "Camboya", "Laos"], correctAnswer: 2, category: "geografia" },
+            { id: 184, question: "¿Cuál es la cadena montañosa más larga del mundo?", options: ["Himalayas", "Andes", "Montañas Rocosas", "Alpes"], correctAnswer: 1, category: "geografia" },
+            { id: 185, question: "¿Cuál es la capital de Chile?", options: ["Valparaíso", "Santiago", "Concepción", "Antofagasta"], correctAnswer: 1, category: "geografia" },
+            { id: 186, question: "¿En qué país se encuentra el Taj Mahal?", options: ["Pakistán", "Bangladesh", "India", "Nepal"], correctAnswer: 2, category: "geografia" },
+            { id: 187, question: "¿Cuál es el país sin costa marítima más grande?", options: ["Mongolia", "Chad", "Kazajistán", "Afganistán"], correctAnswer: 2, category: "geografia" },
+            { id: 188, question: "¿Cuál es la capital de Tailandia?", options: ["Phuket", "Chiang Mai", "Bangkok", "Pattaya"], correctAnswer: 2, category: "geografia" },
+            { id: 189, question: "¿En qué país se encuentra el Coliseo?", options: ["Grecia", "España", "Italia", "Francia"], correctAnswer: 2, category: "geografia" },
+            { id: 190, question: "¿Cuál es la península más grande del mundo?", options: ["Península Ibérica", "Península Arábiga", "Península de Indochina", "Península de Escandinavia"], correctAnswer: 1, category: "geografia" },
+            { id: 191, question: "¿Cuál es la capital de Turquía?", options: ["Estambul", "Ankara", "Izmir", "Antalya"], correctAnswer: 1, category: "geografia" },
+            { id: 192, question: "¿En qué país se encuentra el monte Fuji?", options: ["China", "Corea del Sur", "Japón", "Filipinas"], correctAnswer: 2, category: "geografia" },
+            { id: 193, question: "¿Cuál es el río más caudaloso del mundo?", options: ["Nilo", "Amazonas", "Congo", "Yangtsé"], correctAnswer: 1, category: "geografia" },
+            { id: 194, question: "¿Cuál es la capital de Perú?", options: ["Arequipa", "Trujillo", "Lima", "Cusco"], correctAnswer: 2, category: "geografia" },
+            { id: 195, question: "¿En qué país se encuentra Stonehenge?", options: ["Irlanda", "Escocia", "Inglaterra", "Gales"], correctAnswer: 2, category: "geografia" },
+            { id: 196, question: "¿Cuál es la bahía más grande del mundo?", options: ["Bahía de Hudson", "Bahía de Bengala", "Golfo de México", "Mar Arábigo"], correctAnswer: 1, category: "geografia" },
+            { id: 197, question: "¿Cuál es la capital de Colombia?", options: ["Medellín", "Cali", "Bogotá", "Cartagena"], correctAnswer: 2, category: "geografia" },
+            { id: 198, question: "¿En qué país se encuentra la ciudad de Dubái?", options: ["Arabia Saudí", "Kuwait", "Emiratos Árabes Unidos", "Qatar"], correctAnswer: 2, category: "geografia" },
+            { id: 199, question: "¿Cuál es el canal artificial más famoso del mundo?", options: ["Canal de Suez", "Canal de Panamá", "Canal de Corinto", "Canal de Kiel"], correctAnswer: 1, category: "geografia" },
+            { id: 200, question: "¿Cuál es la capital de Venezuela?", options: ["Maracaibo", "Valencia", "Caracas", "Barquisimeto"], correctAnswer: 2, category: "geografia" },
+
+            // VIDEOJUEGOS - 50 preguntas
+            { id: 201, question: "¿Cuál es el videojuego más vendido de todos los tiempos?", options: ["Tetris", "Minecraft", "Grand Theft Auto V", "Super Mario Bros"], correctAnswer: 1, category: "videojuegos" },
+            { id: 202, question: "¿En qué año se lanzó el primer Super Mario Bros?", options: ["1983", "1985", "1987", "1989"], correctAnswer: 1, category: "videojuegos" },
+            { id: 203, question: "¿Cuál es la consola más vendida de Nintendo?", options: ["Nintendo Switch", "Nintendo DS", "Game Boy", "Wii"], correctAnswer: 1, category: "videojuegos" },
+            { id: 204, question: "¿Cómo se llama el protagonista de la saga Zelda?", options: ["Zelda", "Link", "Ganondorf", "Epona"], correctAnswer: 1, category: "videojuegos" },
+            { id: 205, question: "¿Cuál fue la primera consola de Sony?", options: ["PlayStation", "PlayStation 2", "PSP", "PlayStation Portable"], correctAnswer: 0, category: "videojuegos" },
+            { id: 206, question: "¿En qué año se lanzó Pac-Man?", options: ["1978", "1980", "1982", "1984"], correctAnswer: 1, category: "videojuegos" },
+            { id: 207, question: "¿Cuál es el nombre del fontanero rival de Mario?", options: ["Luigi", "Bowser", "Wario", "Yoshi"], correctAnswer: 2, category: "videojuegos" },
+            { id: 208, question: "¿Qué empresa creó la saga Halo?", options: ["Microsoft", "Bungie", "343 Industries", "Epic Games"], correctAnswer: 1, category: "videojuegos" },
+            { id: 209, question: "¿Cuál es el nombre del protagonista de Grand Theft Auto: San Andreas?", options: ["Tommy Vercetti", "Claude", "CJ", "Niko Bellic"], correctAnswer: 2, category: "videojuegos" },
+            { id: 210, question: "¿En qué año se lanzó Street Fighter II?", options: ["1990", "1991", "1992", "1993"], correctAnswer: 1, category: "videojuegos" },
+            { id: 211, question: "¿Cuál es la empresa creadora de Pokémon?", options: ["Nintendo", "Game Freak", "Creatures Inc", "The Pokémon Company"], correctAnswer: 1, category: "videojuegos" },
+            { id: 212, question: "¿Cómo se llama el protagonista de la saga Metal Gear?", options: ["Big Boss", "Solid Snake", "Liquid Snake", "Gray Fox"], correctAnswer: 1, category: "videojuegos" },
+            { id: 213, question: "¿Cuál fue el primer videojuego de la historia?", options: ["Pong", "Tennis for Two", "Spacewar!", "Computer Space"], correctAnswer: 1, category: "videojuegos" },
+            { id: 214, question: "¿En qué año se lanzó la primera PlayStation?", options: ["1993", "1994", "1995", "1996"], correctAnswer: 2, category: "videojuegos" },
+            { id: 215, question: "¿Cuál es el nombre del creador de Mario?", options: ["Satoru Iwata", "Shigeru Miyamoto", "Gunpei Yokoi", "Hiroshi Yamauchi"], correctAnswer: 1, category: "videojuegos" },
+            { id: 216, question: "¿Qué significa 'RPG' en videojuegos?", options: ["Real Player Game", "Role Playing Game", "Rapid Progress Game", "Random Play Game"], correctAnswer: 1, category: "videojuegos" },
+            { id: 217, question: "¿Cuál es la saga de videojuegos más vendida?", options: ["Super Mario", "Pokémon", "Call of Duty", "FIFA"], correctAnswer: 0, category: "videojuegos" },
+            { id: 218, question: "¿En qué año se fundó Nintendo?", options: ["1886", "1889", "1892", "1895"], correctAnswer: 1, category: "videojuegos" },
+            { id: 219, question: "¿Cuál es el nombre del protagonista de Sonic?", options: ["Miles Prower", "Sonic the Hedgehog", "Knuckles", "Shadow"], correctAnswer: 1, category: "videojuegos" },
+            { id: 220, question: "¿Qué empresa creó la Xbox?", options: ["Sony", "Nintendo", "Microsoft", "Sega"], correctAnswer: 2, category: "videojuegos" },
+            { id: 221, question: "¿En qué año se lanzó Tetris?", options: ["1983", "1984", "1985", "1986"], correctAnswer: 1, category: "videojuegos" },
+            { id: 222, question: "¿Cuál es el nombre del villano principal de Donkey Kong?", options: ["King K. Rool", "Bowser", "Ganondorf", "Dr. Robotnik"], correctAnswer: 0, category: "videojuegos" },
+            { id: 223, question: "¿Qué significa 'FPS' en videojuegos?", options: ["Fast Player Shooter", "First Person Shooter", "Final Player Stage", "Fire Power System"], correctAnswer: 1, category: "videojuegos" },
+            { id: 224, question: "¿Cuál fue la primera consola portátil de Nintendo?", options: ["Game Boy", "Game & Watch", "Game Boy Color", "Game Boy Advance"], correctAnswer: 1, category: "videojuegos" },
+            { id: 225, question: "¿En qué año se lanzó World of Warcraft?", options: ["2003", "2004", "2005", "2006"], correctAnswer: 1, category: "videojuegos" },
+            { id: 226, question: "¿Cuál es el nombre del protagonista de Half-Life?", options: ["Gordon Freeman", "Adrian Shephard", "Barney Calhoun", "Alyx Vance"], correctAnswer: 0, category: "videojuegos" },
+            { id: 227, question: "¿Qué empresa creó Mortal Kombat?", options: ["Capcom", "SNK", "Midway", "Arc System Works"], correctAnswer: 2, category: "videojuegos" },
+            { id: 228, question: "¿En qué año se lanzó la Nintendo 64?", options: ["1995", "1996", "1997", "1998"], correctAnswer: 1, category: "videojuegos" },
+            { id: 229, question: "¿Cuál es el nombre del protagonista de Crash Bandicoot?", options: ["Crash Bandicoot", "Coco Bandicoot", "Neo Cortex", "Aku Aku"], correctAnswer: 0, category: "videojuegos" },
+            { id: 230, question: "¿Qué significa 'MMORPG'?", options: ["Massive Multiplayer Online Role Playing Game", "Multiple Military Online RPG", "Major Multiplayer Online Real Player Game", "Maximum Multi Online Role Play Game"], correctAnswer: 0, category: "videojuegos" },
+            { id: 231, question: "¿En qué año se lanzó la primera Xbox?", options: ["2000", "2001", "2002", "2003"], correctAnswer: 1, category: "videojuegos" },
+            { id: 232, question: "¿Cuál es el nombre del protagonista de The Legend of Zelda: Breath of the Wild?", options: ["Zelda", "Link", "Ganon", "Impa"], correctAnswer: 1, category: "videojuegos" },
+            { id: 233, question: "¿Qué empresa creó Counter-Strike?", options: ["Valve", "id Software", "Epic Games", "Activision"], correctAnswer: 0, category: "videojuegos" },
+            { id: 234, question: "¿En qué año se lanzó Super Mario 64?", options: ["1995", "1996", "1997", "1998"], correctAnswer: 1, category: "videojuegos" },
+            { id: 235, question: "¿Cuál es el nombre del protagonista de God of War?", options: ["Zeus", "Ares", "Kratos", "Poseidón"], correctAnswer: 2, category: "videojuegos" },
+            { id: 236, question: "¿Qué empresa creó Final Fantasy?", options: ["Square", "Enix", "Square Enix", "Capcom"], correctAnswer: 0, category: "videojuegos" },
+            { id: 237, question: "¿En qué año se lanzó Fortnite?", options: ["2016", "2017", "2018", "2019"], correctAnswer: 1, category: "videojuegos" },
+            { id: 238, question: "¿Cuál es el nombre del protagonista de Assassin's Creed?", options: ["Altaïr", "Ezio", "Desmond", "Varía según el juego"], correctAnswer: 3, category: "videojuegos" },
+            { id: 239, question: "¿Qué significa 'DLC' en videojuegos?", options: ["Download Level Content", "Downloadable Content", "Digital License Code", "Direct Link Connection"], correctAnswer: 1, category: "videojuegos" },
+            { id: 240, question: "¿En qué año se lanzó el primer Call of Duty?", options: ["2002", "2003", "2004", "2005"], correctAnswer: 1, category: "videojuegos" },
+            { id: 241, question: "¿Cuál es el nombre del protagonista de Resident Evil?", options: ["Leon Kennedy", "Chris Redfield", "Jill Valentine", "Varía según el juego"], correctAnswer: 3, category: "videojuegos" },
+            { id: 242, question: "¿Qué empresa creó League of Legends?", options: ["Blizzard", "Riot Games", "Valve", "Epic Games"], correctAnswer: 1, category: "videojuegos" },
+            { id: 243, question: "¿En qué año se lanzó la PlayStation 2?", options: ["1999", "2000", "2001", "2002"], correctAnswer: 1, category: "videojuegos" },
+            { id: 244, question: "¿Cuál es el nombre del protagonista de The Witcher?", options: ["Dandelion", "Triss", "Geralt", "Yennefer"], correctAnswer: 2, category: "videojuegos" },
+            { id: 245, question: "¿Qué significa 'NPC' en videojuegos?", options: ["New Player Character", "Non-Player Character", "Next Program Code", "Network Player Connection"], correctAnswer: 1, category: "videojuegos" },
+            { id: 246, question: "¿En qué año se lanzó Doom?", options: ["1992", "1993", "1994", "1995"], correctAnswer: 1, category: "videojuegos" },
+            { id: 247, question: "¿Cuál es el nombre del protagonista de Tomb Raider?", options: ["Lara Croft", "Nathan Drake", "Indiana Jones", "Alicia Vikander"], correctAnswer: 0, category: "videojuegos" },
+            { id: 248, question: "¿Qué empresa creó Overwatch?", options: ["Activision", "Blizzard", "Riot Games", "Epic Games"], correctAnswer: 1, category: "videojuegos" },
+            { id: 249, question: "¿En qué año se lanzó la Nintendo Switch?", options: ["2015", "2016", "2017", "2018"], correctAnswer: 2, category: "videojuegos" },
+            { id: 250, question: "¿Cuál es el videojuego indie más exitoso?", options: ["Cuphead", "Hollow Knight", "Minecraft", "Among Us"], correctAnswer: 2, category: "videojuegos" },
+
+            // CIENCIA - 50 preguntas
+            { id: 251, question: "¿Cuál es el elemento químico más abundante en el universo?", options: ["Oxígeno", "Carbono", "Hidrógeno", "Helio"], correctAnswer: 2, category: "ciencia" },
+            { id: 252, question: "¿Cuántos huesos tiene el cuerpo humano adulto?", options: ["206", "208", "210", "212"], correctAnswer: 0, category: "ciencia" },
+            { id: 253, question: "¿Cuál es la velocidad de la luz?", options: ["299,792,458 m/s", "300,000,000 m/s", "299,000,000 m/s", "301,000,000 m/s"], correctAnswer: 0, category: "ciencia" },
+            { id: 254, question: "¿Cuál es el planeta más cercano al Sol?", options: ["Venus", "Tierra", "Mercurio", "Marte"], correctAnswer: 2, category: "ciencia" },
+            { id: 255, question: "¿Quién propuso la teoría de la evolución?", options: ["Gregor Mendel", "Charles Darwin", "Louis Pasteur", "Alexander Fleming"], correctAnswer: 1, category: "ciencia" },
+            { id: 256, question: "¿Cuál es la fórmula química del agua?", options: ["H2O", "CO2", "O2", "NaCl"], correctAnswer: 0, category: "ciencia" },
+            { id: 257, question: "¿En qué año se descubrió la penicilina?", options: ["1927", "1928", "1929", "1930"], correctAnswer: 1, category: "ciencia" },
+            { id: 258, question: "¿Cuál es el órgano más grande del cuerpo humano?", options: ["Hígado", "Cerebro", "Pulmones", "Piel"], correctAnswer: 3, category: "ciencia" },
+            { id: 259, question: "¿Cuántos cromosomas tiene el ser humano?", options: ["44", "46", "48", "50"], correctAnswer: 1, category: "ciencia" },
+            { id: 260, question: "¿Cuál es el gas más abundante en la atmósfera terrestre?", options: ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Argón"], correctAnswer: 2, category: "ciencia" },
+            { id: 261, question: "¿Quién desarrolló la teoría de la relatividad?", options: ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Stephen Hawking"], correctAnswer: 1, category: "ciencia" },
+            { id: 262, question: "¿Cuál es la unidad básica de la vida?", options: ["Átomo", "Molécula", "Célula", "Tejido"], correctAnswer: 2, category: "ciencia" },
+            { id: 263, question: "¿En qué parte del átomo se encuentran los electrones?", options: ["Núcleo", "Orbitales", "Protones", "Neutrones"], correctAnswer: 1, category: "ciencia" },
+            { id: 264, question: "¿Cuál es el proceso por el cual las plantas producen oxígeno?", options: ["Respiración", "Fotosíntesis", "Transpiración", "Germinación"], correctAnswer: 1, category: "ciencia" },
+            { id: 265, question: "¿Cuánto dura un año en Marte?", options: ["365 días", "687 días", "225 días", "1000 días"], correctAnswer: 1, category: "ciencia" },
+            { id: 266, question: "¿Cuál es el hueso más largo del cuerpo humano?", options: ["Tibia", "Húmero", "Fémur", "Radio"], correctAnswer: 2, category: "ciencia" },
+            { id: 267, question: "¿Qué tipo de animal es un ornitorrinco?", options: ["Reptil", "Mamífero", "Ave", "Anfibio"], correctAnswer: 1, category: "ciencia" },
+            { id: 268, question: "¿Cuál es la temperatura de ebullición del agua a nivel del mar?", options: ["90°C", "95°C", "100°C", "105°C"], correctAnswer: 2, category: "ciencia" },
+            { id: 269, question: "¿Cuántas cámaras tiene el corazón humano?", options: ["2", "3", "4", "5"], correctAnswer: 2, category: "ciencia" },
+            { id: 270, question: "¿Cuál es el símbolo químico del oro?", options: ["Go", "Au", "Or", "Ag"], correctAnswer: 1, category: "ciencia" },
+            { id: 271, question: "¿Qué científico formuló las leyes del movimiento?", options: ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Johannes Kepler"], correctAnswer: 1, category: "ciencia" },
+            { id: 272, question: "¿Cuál es la galaxia más cercana a la Vía Láctea?", options: ["Andrómeda", "Magallanes", "Triangulum", "Centaurus"], correctAnswer: 0, category: "ciencia" },
+            { id: 273, question: "¿Cuántos pares de costillas tiene el ser humano?", options: ["10", "11", "12", "13"], correctAnswer: 2, category: "ciencia" },
+            { id: 274, question: "¿Cuál es el animal más rápido del mundo?", options: ["Guepardo", "Halcón peregrino", "Antílope", "Libélula"], correctAnswer: 1, category: "ciencia" },
+            { id: 275, question: "¿En qué año se clonó la oveja Dolly?", options: ["1995", "1996", "1997", "1998"], correctAnswer: 1, category: "ciencia" },
+            { id: 276, question: "¿Cuál es la escala utilizada para medir la acidez?", options: ["Escala Richter", "Escala pH", "Escala Celsius", "Escala Kelvin"], correctAnswer: 1, category: "ciencia" },
+            { id: 277, question: "¿Cuántos ojos tienen las arañas?", options: ["6", "8", "10", "12"], correctAnswer: 1, category: "ciencia" },
+            { id: 278, question: "¿Cuál es el primer elemento de la tabla periódica?", options: ["Helio", "Hidrógeno", "Litio", "Carbono"], correctAnswer: 1, category: "ciencia" },
+            { id: 279, question: "¿Qué parte del cerebro controla el equilibrio?", options: ["Cerebelo", "Cerebro", "Tronco encefálico", "Hipotálamo"], correctAnswer: 0, category: "ciencia" },
+            { id: 280, question: "¿Cuál es la luna más grande de Júpiter?", options: ["Europa", "Ío", "Ganímedes", "Calisto"], correctAnswer: 2, category: "ciencia" },
+            { id: 281, question: "¿Cuánto tiempo tarda la luz del Sol en llegar a la Tierra?", options: ["8 minutos", "12 minutos", "15 minutos", "20 minutos"], correctAnswer: 0, category: "ciencia" },
+            { id: 282, question: "¿Cuál es el músculo más fuerte del cuerpo humano?", options: ["Bíceps", "Cuádriceps", "Masetero", "Glúteo"], correctAnswer: 2, category: "ciencia" },
+            { id: 283, question: "¿Qué gas produce el efecto invernadero?", options: ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Hidrógeno"], correctAnswer: 2, category: "ciencia" },
+            { id: 284, question: "¿Cuántos dientes tiene un adulto humano?", options: ["28", "30", "32", "34"], correctAnswer: 2, category: "ciencia" },
+            { id: 285, question: "¿Cuál es el metal más abundante en la corteza terrestre?", options: ["Hierro", "Aluminio", "Cobre", "Zinc"], correctAnswer: 1, category: "ciencia" },
+            { id: 286, question: "¿En qué año se descubrió la estructura del ADN?", options: ["1951", "1952", "1953", "1954"], correctAnswer: 2, category: "ciencia" },
+            { id: 287, question: "¿Cuál es la partícula subatómica con carga positiva?", options: ["Electrón", "Neutrón", "Protón", "Positrón"], correctAnswer: 2, category: "ciencia" },
+            { id: 288, question: "¿Cuántas especies de pingüinos existen?", options: ["15", "17", "19", "21"], correctAnswer: 1, category: "ciencia" },
+            { id: 289, question: "¿Cuál es la temperatura más baja posible?", options: ["-273°C", "-300°C", "-250°C", "-200°C"], correctAnswer: 0, category: "ciencia" },
+            { id: 290, question: "¿Qué científica descubrió el radio y el polonio?", options: ["Rosalind Franklin", "Marie Curie", "Dorothy Hodgkin", "Lise Meitner"], correctAnswer: 1, category: "ciencia" },
+            { id: 291, question: "¿Cuántas vértebras tiene la columna vertebral humana?", options: ["31", "33", "35", "37"], correctAnswer: 1, category: "ciencia" },
+            { id: 292, question: "¿Cuál es el nombre del punto más caliente de la Tierra?", options: ["Núcleo interno", "Núcleo externo", "Manto", "Corteza"], correctAnswer: 0, category: "ciencia" },
+            { id: 293, question: "¿Qué vitamina produce la piel con la luz solar?", options: ["Vitamina A", "Vitamina C", "Vitamina D", "Vitamina E"], correctAnswer: 2, category: "ciencia" },
+            { id: 294, question: "¿Cuántos litros de sangre tiene aproximadamente el cuerpo humano?", options: ["4-5 litros", "5-6 litros", "6-7 litros", "7-8 litros"], correctAnswer: 1, category: "ciencia" },
+            { id: 295, question: "¿Cuál es el animal que vive más tiempo?", options: ["Tortuga gigante", "Ballena de Groenlandia", "Medusa inmortal", "Tiburón de Groenlandia"], correctAnswer: 2, category: "ciencia" },
+            { id: 296, question: "¿En qué parte del ojo se forma la imagen?", options: ["Córnea", "Cristalino", "Retina", "Iris"], correctAnswer: 2, category: "ciencia" },
+            { id: 297, question: "¿Cuál es la velocidad del sonido en el aire?", options: ["330 m/s", "340 m/s", "350 m/s", "360 m/s"], correctAnswer: 1, category: "ciencia" },
+            { id: 298, question: "¿Cuántos planetas hay en nuestro sistema solar?", options: ["7", "8", "9", "10"], correctAnswer: 1, category: "ciencia" },
+            { id: 299, question: "¿Cuál es el componente principal del aire que respiramos?", options: ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Vapor de agua"], correctAnswer: 2, category: "ciencia" },
+            { id: 300, question: "¿Qué instrumento se usa para medir la presión atmosférica?", options: ["Termómetro", "Barómetro", "Higrómetro", "Anemómetro"], correctAnswer: 1, category: "ciencia" }
+        ];
+
+        // Funciones auxiliares
+        function shuffleArray(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        function getQuestionsByCategory(category, limit = 10) {
+            let filteredQuestions = questions;
+            
+            if (category !== 'todas') {
+                filteredQuestions = questions.filter(q => q.category === category);
+            }
+            
+            return shuffleArray(filteredQuestions).slice(0, limit);
+        }
+
+        // Funciones de navegación
+        function selectCategory(category) {
+            selectedCategory = category;
+            currentQuestions = getQuestionsByCategory(category, 10);
+            currentQuestionIndex = 0;
+            selectedAnswer = null;
+            score = 0;
+            showResult = false;
+            timeLeft = 30;
+            isTimeUp = false;
+            
+            showGameScreen();
+            loadQuestion();
+            startTimer();
+        }
+
+        function backToCategories() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+            }
+            showCategoryScreen();
+        }
+
+        function playAgain() {
+            selectCategory(selectedCategory);
+        }
+
+        // Funciones de visualización de pantallas
+        function showCategoryScreen() {
+            document.getElementById('category-screen').classList.remove('hidden');
+            document.getElementById('game-screen').classList.add('hidden');
+            document.getElementById('results-screen').classList.add('hidden');
+            appState = 'category-selection';
+            generateCategoriesGrid();
+        }
+
+        function showGameScreen() {
+            document.getElementById('category-screen').classList.add('hidden');
+            document.getElementById('game-screen').classList.remove('hidden');
+            document.getElementById('results-screen').classList.add('hidden');
+            appState = 'playing';
+            
+            // Aplicar color de fondo según categoría
+            const categoryInfo = categories[selectedCategory];
+            const gameScreen = document.getElementById('game-screen');
+            gameScreen.className = `min-h-screen p-4 bg-gradient-to-br ${categoryInfo.color} bg-opacity-20`;
+        }
+
+        function showResultsScreen() {
+            document.getElementById('category-screen').classList.add('hidden');
+            document.getElementById('game-screen').classList.add('hidden');
+            document.getElementById('results-screen').classList.remove('hidden');
+            appState = 'results';
+            
+            // Aplicar color de fondo según categoría
+            const categoryInfo = categories[selectedCategory];
+            const resultsScreen = document.getElementById('results-screen');
+            resultsScreen.className = `min-h-screen p-4 flex items-center justify-center bg-gradient-to-br ${categoryInfo.color} bg-opacity-30`;
+            
+            generateResults();
+        }
+
+        // Generación de elementos dinámicos
+        function generateCategoriesGrid() {
+            const grid = document.getElementById('categories-grid');
+            grid.innerHTML = '';
+
+            Object.entries(categories).slice(0, -1).forEach(([key, category]) => {
+                const categoryCard = document.createElement('div');
+                categoryCard.className = 'card-hover cursor-pointer bg-white rounded-lg shadow-xl border-2 hover:border-purple-300';
+                categoryCard.onclick = () => selectCategory(key);
+                
+                categoryCard.innerHTML = `
+                    <div class="relative overflow-hidden rounded-t-lg">
+                        <img src="${category.image}" alt="${category.name}" class="w-full h-48 object-cover image-hover">
+                        <div class="absolute inset-0 bg-gradient-to-t ${category.color} opacity-75"></div>
+                        <div class="absolute top-4 right-4">
+                            <span class="inline-block bg-white/90 text-black text-lg px-3 py-1 rounded-full font-medium">
+                                ${category.icon}
+                            </span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-medium mb-2 text-center">
+                            ${category.name}
+                        </h3>
+                        <p class="text-gray-600 text-center mb-4">
+                            50 preguntas únicas
+                        </p>
+                        <button class="w-full bg-gradient-to-r ${category.color} text-white border-0 hover:opacity-90 px-4 py-2 rounded-lg font-medium transition-opacity">
+                            Jugar ${category.icon}
+                        </button>
+                    </div>
+                `;
+                
+                grid.appendChild(categoryCard);
+            });
+        }
+
+        function loadQuestion() {
+            if (currentQuestions.length === 0) return;
+
+            const currentQuestion = currentQuestions[currentQuestionIndex];
+            const categoryInfo = categories[selectedCategory];
+            const progress = ((currentQuestionIndex + 1) / currentQuestions.length) * 100;
+
+            // Actualizar información de la pregunta
+            document.getElementById('category-icon').textContent = categoryInfo.icon;
+            document.getElementById('category-name').textContent = categoryInfo.name;
+            document.getElementById('question-counter').textContent = `Pregunta ${currentQuestionIndex + 1} de ${currentQuestions.length}`;
+            document.getElementById('question-category').textContent = currentQuestion.category;
+            document.getElementById('question-text').textContent = currentQuestion.question;
+            document.getElementById('score-display').textContent = `${score}/${currentQuestions.length}`;
+            
+            // Actualizar progreso
+            document.getElementById('progress-bar').style.width = `${progress}%`;
+            
+            // Actualizar header de pregunta con color de categoría
+            const questionHeader = document.getElementById('question-header');
+            questionHeader.className = `bg-gradient-to-r ${categoryInfo.color} text-white p-6 rounded-t-lg`;
+
+            // Generar opciones
+            generateOptions(currentQuestion);
+            
+            // Ocultar resultado
+            document.getElementById('result-container').classList.add('hidden');
+        }
+
+        function generateOptions(question) {
+            const container = document.getElementById('options-container');
+            container.innerHTML = '';
+
+            question.options.forEach((option, index) => {
+                const button = document.createElement('button');
+                button.className = 'w-full justify-start h-auto p-6 text-left text-lg transition-all duration-200 hover:scale-105 border border-gray-300 rounded-lg hover:bg-gray-50';
+                button.onclick = () => handleAnswerSelect(index);
+                
+                button.innerHTML = `
+                    <span class="mr-4 shrink-0 w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-gray-800 inline-flex">
+                        ${String.fromCharCode(65 + index)}
+                    </span>
+                    <span class="flex-1">${option}</span>
+                `;
+                
+                container.appendChild(button);
+            });
+        }
+
+        // Lógica del juego
+        function handleAnswerSelect(answerIndex) {
+            if (selectedAnswer !== null || isTimeUp) return;
+            
+            selectedAnswer = answerIndex;
+            showResult = true;
+            
+            const currentQuestion = currentQuestions[currentQuestionIndex];
+            const isCorrect = answerIndex === currentQuestion.correctAnswer;
+            
+            if (isCorrect) {
+                score++;
+                document.getElementById('score-display').textContent = `${score}/${currentQuestions.length}`;
+            }
+
+            // Actualizar botones con colores
+            updateOptionsAfterAnswer(answerIndex, currentQuestion.correctAnswer);
+            
+            // Mostrar resultado
+            showQuestionResult(isCorrect, currentQuestion);
+            
+            // Detener timer
+            if (timerInterval) {
+                clearInterval(timerInterval);
+            }
+        }
+
+        function updateOptionsAfterAnswer(selectedIndex, correctIndex) {
+            const buttons = document.getElementById('options-container').children;
+            
+            Array.from(buttons).forEach((button, index) => {
+                button.onclick = null; // Deshabilitar clicks
+                
+                if (index === correctIndex) {
+                    button.className = 'w-full justify-start h-auto p-6 text-left text-lg bg-green-500 text-white border-green-500 rounded-lg';
+                } else if (index === selectedIndex && index !== correctIndex) {
+                    button.className = 'w-full justify-start h-auto p-6 text-left text-lg bg-red-500 text-white border-red-500 rounded-lg';
+                } else {
+                    button.className = 'w-full justify-start h-auto p-6 text-left text-lg opacity-50 border border-gray-300 rounded-lg';
+                }
+            });
+        }
+
+        function showQuestionResult(isCorrect, question) {
+            const container = document.getElementById('result-container');
+            const content = document.getElementById('result-content');
+            const nextButton = document.getElementById('next-button');
+            const categoryInfo = categories[selectedCategory];
+            
+            if (isTimeUp) {
+                content.innerHTML = `
+                    <div class="text-orange-600">
+                        <div class="text-4xl mb-2">⏰</div>
+                        <h3 class="text-xl font-medium">¡Se acabó el tiempo!</h3>
+                        <p class="text-gray-600">
+                            La respuesta correcta era: <strong>${question.options[question.correctAnswer]}</strong>
+                        </p>
+                    </div>
+                `;
+            } else if (isCorrect) {
+                content.innerHTML = `
+                    <div class="text-green-600">
+                        <div class="text-4xl mb-2">🎉</div>
+                        <h3 class="text-xl font-medium">¡Excelente!</h3>
+                        <p class="text-gray-600">Respuesta correcta</p>
+                    </div>
+                `;
+            } else {
+                content.innerHTML = `
+                    <div class="text-red-600">
+                        <div class="text-4xl mb-2">❌</div>
+                        <h3 class="text-xl font-medium">No es correcto</h3>
+                        <p class="text-gray-600">
+                            La respuesta correcta era: <strong>${question.options[question.correctAnswer]}</strong>
+                        </p>
+                    </div>
+                `;
+            }
+            
+            nextButton.className = `bg-gradient-to-r ${categoryInfo.color} text-white px-8 py-3 rounded-lg font-medium hover:opacity-90 transition-all duration-200`;
+            nextButton.textContent = currentQuestionIndex < currentQuestions.length - 1 ? 'Siguiente Pregunta' : 'Ver Resultados';
+            
+            container.classList.remove('hidden');
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < currentQuestions.length - 1) {
+                currentQuestionIndex++;
+                selectedAnswer = null;
+                showResult = false;
+                timeLeft = 30;
+                isTimeUp = false;
+                loadQuestion();
+                startTimer();
+            } else {
+                finalScore = score;
+                totalQuestions = currentQuestions.length;
+                showResultsScreen();
+            }
+        }
+
+        // Sistema de timer
+        function startTimer() {
+            updateTimerDisplay();
+            updateTimeBar();
+            
+            timerInterval = setInterval(() => {
+                timeLeft--;
+                updateTimerDisplay();
+                updateTimeBar();
+                
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    if (!showResult) {
+                        isTimeUp = true;
+                        handleTimeUp();
+                    }
+                }
+            }, 1000);
+        }
+
+        function updateTimerDisplay() {
+            const timerDisplay = document.getElementById('timer-display');
+            const timerBadge = document.getElementById('timer-badge');
+            
+            timerDisplay.textContent = `${timeLeft}s`;
+            
+            if (timeLeft <= 10) {
+                timerBadge.className = 'flex items-center gap-2 px-3 py-1 bg-red-100 text-red-600 rounded-full text-sm';
+            } else if (timeLeft <= 20) {
+                timerBadge.className = 'flex items-center gap-2 px-3 py-1 bg-yellow-100 text-yellow-600 rounded-full text-sm';
+            } else {
+                timerBadge.className = 'flex items-center gap-2 px-3 py-1 bg-gray-100 rounded-full text-sm';
+            }
+        }
+
+        function updateTimeBar() {
+            const timeBar = document.getElementById('time-bar');
+            const percentage = (timeLeft / 30) * 100;
+            
+            timeBar.style.width = `${percentage}%`;
+            
+            if (timeLeft <= 10) {
+                timeBar.className = 'h-2 rounded-full timer-bar bg-red-500';
+            } else if (timeLeft <= 20) {
+                timeBar.className = 'h-2 rounded-full timer-bar bg-yellow-500';
+            } else {
+                timeBar.className = 'h-2 rounded-full timer-bar bg-green-500';
+            }
+        }
+
+        function handleTimeUp() {
+            const currentQuestion = currentQuestions[currentQuestionIndex];
+            updateOptionsAfterAnswer(-1, currentQuestion.correctAnswer);
+            showQuestionResult(false, currentQuestion);
+        }
+
+        // Generación de resultados
+        function generateResults() {
+            const percentage = Math.round((finalScore / totalQuestions) * 100);
+            const categoryInfo = categories[selectedCategory];
+            
+            const scoreInfo = getScoreInfo(percentage);
+            const stars = getStars(percentage);
+            
+            // Actualizar elementos del resultado
+            document.getElementById('results-emoji').textContent = scoreInfo.emoji;
+            document.getElementById('results-title').textContent = scoreInfo.title;
+            document.getElementById('results-message').textContent = scoreInfo.message;
+            document.getElementById('final-score').textContent = `${finalScore}/${totalQuestions}`;
+            document.getElementById('final-percentage').textContent = `${percentage}% de aciertos`;
+            document.getElementById('correct-answers').textContent = finalScore;
+            document.getElementById('incorrect-answers').textContent = totalQuestions - finalScore;
+            document.getElementById('precision-percentage').textContent = `${percentage}%`;
+            document.getElementById('results-category-icon').textContent = categoryInfo.icon;
+            document.getElementById('results-category-name').textContent = categoryInfo.name;
+            
+            // Actualizar header con colores
+            const resultsHeader = document.getElementById('results-header');
+            resultsHeader.className = `bg-gradient-to-r ${scoreInfo.color} text-white text-center py-8 rounded-t-lg`;
+            
+            // Actualizar botón de jugar de nuevo
+            const playAgainBtn = document.getElementById('play-again-btn');
+            playAgainBtn.className = `w-full bg-gradient-to-r ${categoryInfo.color} text-white text-xl py-6 rounded-lg font-medium hover:opacity-90 transition-all duration-200 btn-scale`;
+            
+            // Generar estrellas
+            generateStars(stars);
+            
+            // Mensaje motivacional
+            document.getElementById('motivational-message').textContent = getMotivationalMessage(percentage);
+            document.getElementById('additional-stats').textContent = getAdditionalStats(percentage);
+        }
+
+        function getScoreInfo(percentage) {
+            if (percentage >= 90) return {
+                emoji: "🏆",
+                title: "¡MAESTRO SUPREMO!",
+                message: "Eres un verdadero experto en esta materia",
+                color: "from-yellow-400 to-orange-500"
+            };
+            if (percentage >= 80) return {
+                emoji: "🌟",
+                title: "¡EXCELENTE!",
+                message: "Tienes conocimientos muy sólidos",
+                color: "from-green-400 to-blue-500"
+            };
+            if (percentage >= 70) return {
+                emoji: "👏",
+                title: "¡MUY BIEN!",
+                message: "Un resultado bastante bueno",
+                color: "from-blue-400 to-purple-500"
+            };
+            if (percentage >= 60) return {
+                emoji: "👍",
+                title: "¡BIEN!",
+                message: "Conoces el tema, pero puedes mejorar",
+                color: "from-purple-400 to-pink-500"
+            };
+            if (percentage >= 50) return {
+                emoji: "😊",
+                title: "APROBADO",
+                message: "Un comienzo decente, sigue practicando",
+                color: "from-pink-400 to-red-500"
+            };
+            return {
+                emoji: "💪",
+                title: "¡SIGUE INTENTANDO!",
+                message: "La práctica hace al maestro",
+                color: "from-gray-400 to-gray-600"
+            };
+        }
+
+        function getStars(percentage) {
+            if (percentage >= 90) return 5;
+            if (percentage >= 80) return 4;
+            if (percentage >= 70) return 3;
+            if (percentage >= 60) return 2;
+            if (percentage >= 50) return 1;
+            return 0;
+        }
+
+        function generateStars(starCount) {
+            const container = document.getElementById('stars-container');
+            container.innerHTML = '';
+            
+            for (let i = 0; i < 5; i++) {
+                const star = document.createElement('span');
+                star.className = i < starCount ? 'text-2xl star-filled' : 'text-2xl star-empty';
+                star.innerHTML = '★';
+                container.appendChild(star);
+            }
+        }
+
+        function getMotivationalMessage(percentage) {
+            if (percentage >= 80) {
+                return "¡Sigue así! Tu conocimiento es impresionante.";
+            } else if (percentage >= 60) {
+                return "¡Buen trabajo! Con un poco más de práctica serás imparable.";
+            } else {
+                return "¡No te rindas! Cada intento te acerca más al dominio total.";
+            }
+        }
+
+        function getAdditionalStats(percentage) {
+            return `¿Sabías que el promedio en esta categoría es del 65%? ${percentage >= 65 ? " ¡Estás por encima!" : " ¡Puedes superarlo!"}`;
+        }
+
+        // Inicialización
+        document.addEventListener('DOMContentLoaded', function() {
+            showCategoryScreen();
+        });
+    </script>
+</body>
+</html>
