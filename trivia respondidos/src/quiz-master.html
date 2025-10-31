@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,75 +8,90 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-        
+
         body {
             font-family: 'Inter', sans-serif;
         }
-        
+
         .gradient-text {
             background: linear-gradient(to right, #7c3aed, #ec4899);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-        
+
         .card-hover {
             transition: all 0.3s ease;
         }
-        
+
         .card-hover:hover {
             transform: scale(1.05);
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
         }
-        
+
         .image-hover {
             transition: transform 0.3s ease;
         }
-        
+
         .card-hover:hover .image-hover {
             transform: scale(1.1);
         }
-        
+
         .timer-bar {
             transition: width 1s linear;
         }
-        
+
         .fade-in {
             animation: fadeIn 0.5s ease-in;
         }
-        
+
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
-        
+
         .pulse-animation {
             animation: pulse 2s infinite;
         }
-        
+
         @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
         }
-        
+
         .star-filled {
             color: #fbbf24;
             fill: currentColor;
         }
-        
+
         .star-empty {
             color: #d1d5db;
         }
-        
+
         .btn-scale:hover {
             transform: scale(1.05);
         }
-        
+
         .progress-bar {
             transition: width 0.3s ease;
         }
     </style>
 </head>
+
 <body class="bg-gray-50">
     <!-- Pantalla de Selección de Categorías -->
     <div id="category-screen" class="min-h-screen bg-gradient-to-br from-pink-100 via-purple-100 to-indigo-100 p-4">
@@ -84,7 +100,7 @@
                 <div class="centered-div">
                     <img src="logo.png" width=70% class="mx-auto">
                 </div>
-                
+
                 <p class="text-xl text-gray-600 mb-2">
                     Pone a prueba tus conocimientos y bardea a todos tu amigxs
                 </p>
@@ -99,10 +115,14 @@
 
             <!-- Opción "Todas las categorías" destacada -->
             <div class="max-w-2xl mx-auto">
-                <div class="card-hover cursor-pointer bg-white rounded-lg shadow-xl border-4 border-purple-200" onclick="selectCategory('todas')">
+                <div class="card-hover cursor-pointer bg-white rounded-lg shadow-xl border-4 border-purple-200"
+                    onclick="selectCategory('todas')">
                     <div class="relative overflow-hidden rounded-t-lg">
-                        <img src="https://images.unsplash.com/photo-1714475575582-5230a87c1d1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2xvcmZ1bCUyMHF1aXolMjB0cml2aWElMjBiYWNrZ3JvdW5kfGVufDF8fHx8MTc1NzY5OTkwN3ww&ixlib=rb-4.1.0&q=80&w=1080" alt="Todas las Categorías" class="w-full h-64 object-cover image-hover">
-                        <div class="absolute inset-0 bg-gradient-to-t from-pink-500 via-purple-500 to-indigo-500 opacity-80"></div>
+                        <img src="https://images.unsplash.com/photo-1714475575582-5230a87c1d1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2xvcmZ1bCUyMHF1aXolMjB0cml2aWElMjBiYWNrZ3JvdW5kfGVufDF8fHx8MTc1NzY5OTkwN3ww&ixlib=rb-4.1.0&q=80&w=1080"
+                            alt="Todas las Categorías" class="w-full h-64 object-cover image-hover">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-pink-500 via-purple-500 to-indigo-500 opacity-80">
+                        </div>
                         <div class="absolute inset-0 flex items-center justify-center">
                             <div class="text-center text-white">
                                 <div class="text-6xl mb-4">🌟</div>
@@ -112,14 +132,16 @@
                                 <p class="text-xl mb-4">
                                     Mezcla todas las categorías para el desafío definitivo
                                 </p>
-                                <span class="inline-block bg-white/90 text-purple-600 text-lg px-4 py-2 rounded-full font-medium">
+                                <span
+                                    class="inline-block bg-white/90 text-purple-600 text-lg px-4 py-2 rounded-full font-medium">
                                     300 preguntas • Máxima dificultad
                                 </span>
                             </div>
                         </div>
                     </div>
                     <div class="p-8 text-center">
-                        <button class="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white text-xl px-8 py-3 rounded-lg font-medium hover:opacity-90 transition-all duration-200 btn-scale">
+                        <button
+                            class="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white text-xl px-8 py-3 rounded-lg font-medium hover:opacity-90 transition-all duration-200 btn-scale">
                             ¡Acepto el Desafío! 🚀
                         </button>
                     </div>
@@ -139,11 +161,12 @@
         <div class="max-w-4xl mx-auto">
             <!-- Header del juego -->
             <div class="flex items-center justify-between mb-6">
-                <button onclick="backToCategories()" class="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
+                <button onclick="backToCategories()"
+                    class="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
                     <span>←</span>
                     Volver
                 </button>
-                
+
                 <div class="flex items-center gap-4">
                     <span class="flex items-center gap-2 px-3 py-1 border border-gray-300 rounded-full text-sm">
                         <span>🎯</span>
@@ -179,7 +202,8 @@
 
             <!-- Tarjeta de pregunta -->
             <div class="bg-white rounded-lg shadow-2xl border-2">
-                <div id="question-header" class="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-6 rounded-t-lg">
+                <div id="question-header"
+                    class="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-6 rounded-t-lg">
                     <h1 class="text-2xl font-medium text-center" id="question-text">
                         ¿Cuál es la capital de Francia?
                     </h1>
@@ -189,12 +213,14 @@
                         <!-- Las opciones se generarán dinámicamente -->
                     </div>
 
-                    <div id="result-container" class="mt-8 p-6 bg-gray-50 rounded-lg border-t-4 border-purple-500 hidden">
+                    <div id="result-container"
+                        class="mt-8 p-6 bg-gray-50 rounded-lg border-t-4 border-purple-500 hidden">
                         <div class="text-center space-y-4">
                             <div id="result-content">
                                 <!-- Contenido del resultado -->
                             </div>
-                            <button onclick="nextQuestion()" id="next-button" class="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-3 rounded-lg font-medium hover:opacity-90 transition-all duration-200">
+                            <button onclick="nextQuestion()" id="next-button"
+                                class="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-3 rounded-lg font-medium hover:opacity-90 transition-all duration-200">
                                 Siguiente Pregunta
                             </button>
                         </div>
@@ -216,12 +242,13 @@
         <div class="max-w-2xl w-full">
             <!-- Tarjeta principal de resultados -->
             <div class="bg-white rounded-lg shadow-2xl border-4 border-white/20 backdrop-blur-sm">
-                <div id="results-header" class="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-center py-8 rounded-t-lg">
+                <div id="results-header"
+                    class="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-center py-8 rounded-t-lg">
                     <div class="text-8xl mb-4" id="results-emoji">🏆</div>
                     <h1 class="text-4xl font-bold mb-2" id="results-title">¡MAESTRO SUPREMO!</h1>
                     <p class="text-xl opacity-90" id="results-message">Eres un verdadero experto en esta materia</p>
                 </div>
-                
+
                 <div class="p-8 text-center space-y-6">
                     <!-- Puntuación principal -->
                     <div class="space-y-4">
@@ -231,17 +258,18 @@
                         <div class="text-2xl text-gray-600" id="final-percentage">
                             80% de aciertos
                         </div>
-                        
+
                         <!-- Estrellas -->
                         <div class="flex justify-center gap-1" id="stars-container">
                             <!-- Las estrellas se generarán dinámicamente -->
                         </div>
-                        
+
                         <!-- Categoría -->
                         <div class="flex items-center justify-center gap-3 mt-6">
                             <span class="text-3xl" id="results-category-icon">🌟</span>
                             <div>
-                                <span class="inline-block border border-gray-300 px-4 py-2 rounded-full text-lg" id="results-category-name">
+                                <span class="inline-block border border-gray-300 px-4 py-2 rounded-full text-lg"
+                                    id="results-category-name">
                                     Todas las Categorías
                                 </span>
                             </div>
@@ -269,18 +297,21 @@
 
                     <!-- Botones de acción -->
                     <div class="space-y-3 pt-4">
-                        <button onclick="playAgain()" id="play-again-btn" class="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xl py-6 rounded-lg font-medium hover:opacity-90 transition-all duration-200 btn-scale">
+                        <button onclick="playAgain()" id="play-again-btn"
+                            class="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xl py-6 rounded-lg font-medium hover:opacity-90 transition-all duration-200 btn-scale">
                             <span class="mr-2">🔄</span>
                             Jugar de Nuevo
                         </button>
-                        
+
                         <div class="grid grid-cols-2 gap-3">
-                            <button onclick="backToCategories()" class="border border-gray-300 text-gray-700 text-lg py-4 rounded-lg font-medium hover:bg-gray-50 transition-colors">
+                            <button onclick="backToCategories()"
+                                class="border border-gray-300 text-gray-700 text-lg py-4 rounded-lg font-medium hover:bg-gray-50 transition-colors">
                                 <span class="mr-2">🏠</span>
                                 Inicio
                             </button>
-                            
-                            <button onclick="backToCategories()" class="border border-gray-300 text-gray-700 text-lg py-4 rounded-lg font-medium hover:bg-gray-50 transition-colors">
+
+                            <button onclick="backToCategories()"
+                                class="border border-gray-300 text-gray-700 text-lg py-4 rounded-lg font-medium hover:bg-gray-50 transition-colors">
                                 <span class="mr-2">🏆</span>
                                 Otras Categorías
                             </button>
@@ -340,12 +371,14 @@
                 icon: '🏛️',
                 image: 'https://images.unsplash.com/photo-1719249527220-42ed1845f0c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaXN0b3J5JTIwYW5jaWVudCUyMGFydGlmYWN0c3xlbnwxfHx8fDE3NTc2MjEwNjh8MA&ixlib=rb-4.1.0&q=80&w=1080'
             },
-            geografia: {
-                name: 'Geografía',
-                color: 'from-green-500 to-teal-500',
-                icon: '🌍',
-                image: 'https://images.unsplash.com/photo-1619469399933-05d6e31688d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b3JsZCUyMG1hcCUyMGdlb2dyYXBoeXxlbnwxfHx8fDE3NTc2OTk5MjB8MA&ixlib=rb-4.1.0&q=80&w=1080'
+
+            deportes: {
+                name: 'Deportes',
+                color: 'from-emerald-500 to-green-500',
+                icon: '⚽',
+                image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
             },
+
             videojuegos: {
                 name: 'Videojuegos',
                 color: 'from-blue-500 to-cyan-500',
@@ -524,57 +557,57 @@
             { id: 149, question: "¿En qué año se produjo la masacre de Tiananmen?", options: ["1988", "1989", "1990", "1991"], correctAnswer: 1, category: "historia" },
             { id: 150, question: "¿Cuál fue la primera guerra mundial televisada?", options: ["Guerra de Corea", "Guerra de Vietnam", "Guerra del Golfo", "Guerra de las Malvinas"], correctAnswer: 2, category: "historia" },
 
-            // GEOGRAFÍA - 50 preguntas
-            { id: 151, question: "¿Cuál es el país más grande del mundo?", options: ["China", "Canadá", "Estados Unidos", "Rusia"], correctAnswer: 3, category: "geografia" },
-            { id: 152, question: "¿Cuál es la capital de Australia?", options: ["Sydney", "Melbourne", "Canberra", "Perth"], correctAnswer: 2, category: "geografia" },
-            { id: 153, question: "¿Cuál es el río más largo del mundo?", options: ["Amazonas", "Nilo", "Yangtsé", "Misisipi"], correctAnswer: 1, category: "geografia" },
-            { id: 154, question: "¿En qué continente se encuentra el desierto del Sahara?", options: ["Asia", "África", "Australia", "América"], correctAnswer: 1, category: "geografia" },
-            { id: 155, question: "¿Cuál es la montaña más alta del mundo?", options: ["K2", "Everest", "Kilimanjaro", "Mont Blanc"], correctAnswer: 1, category: "geografia" },
-            { id: 156, question: "¿Cuántos continentes hay?", options: ["5", "6", "7", "8"], correctAnswer: 2, category: "geografia" },
-            { id: 157, question: "¿Cuál es el océano más grande?", options: ["Atlántico", "Índico", "Ártico", "Pacífico"], correctAnswer: 3, category: "geografia" },
-            { id: 158, question: "¿Cuál es la capital de Brasil?", options: ["São Paulo", "Río de Janeiro", "Brasilia", "Salvador"], correctAnswer: 2, category: "geografia" },
-            { id: 159, question: "¿En qué país se encuentra Machu Picchu?", options: ["Bolivia", "Ecuador", "Perú", "Colombia"], correctAnswer: 2, category: "geografia" },
-            { id: 160, question: "¿Cuál es el país más pequeño del mundo?", options: ["Mónaco", "Vaticano", "San Marino", "Liechtenstein"], correctAnswer: 1, category: "geografia" },
-            { id: 161, question: "¿Cuál es la capital de Japón?", options: ["Osaka", "Kioto", "Tokio", "Hiroshima"], correctAnswer: 2, category: "geografia" },
-            { id: 162, question: "¿En qué país se encuentran las Cataratas del Niágara?", options: ["Solo en Canadá", "Solo en Estados Unidos", "En Canadá y Estados Unidos", "En México"], correctAnswer: 2, category: "geografia" },
-            { id: 163, question: "¿Cuál es el desierto más grande del mundo?", options: ["Sahara", "Gobi", "Kalahari", "Antártida"], correctAnswer: 3, category: "geografia" },
-            { id: 164, question: "¿Cuál es la capital de Canadá?", options: ["Toronto", "Vancouver", "Montreal", "Ottawa"], correctAnswer: 3, category: "geografia" },
-            { id: 165, question: "¿En qué país se encuentra la Torre de Pisa?", options: ["Francia", "España", "Italia", "Grecia"], correctAnswer: 2, category: "geografia" },
-            { id: 166, question: "¿Cuál es el lago más grande del mundo?", options: ["Lago Superior", "Mar Caspio", "Lago Victoria", "Lago Baikal"], correctAnswer: 1, category: "geografia" },
-            { id: 167, question: "¿Cuál es la capital de Egipto?", options: ["Alejandría", "El Cairo", "Luxor", "Asuán"], correctAnswer: 1, category: "geografia" },
-            { id: 168, question: "¿En qué continente se encuentra el río Congo?", options: ["Asia", "América", "África", "Europa"], correctAnswer: 2, category: "geografia" },
-            { id: 169, question: "¿Cuál es la isla más grande del mundo?", options: ["Australia", "Groenlandia", "Nueva Guinea", "Borneo"], correctAnswer: 1, category: "geografia" },
-            { id: 170, question: "¿Cuál es la capital de Rusia?", options: ["San Petersburgo", "Moscú", "Novosibirsk", "Yekaterinburg"], correctAnswer: 1, category: "geografia" },
-            { id: 171, question: "¿En qué país se encuentra el Monte Kilimanjaro?", options: ["Kenia", "Tanzania", "Uganda", "Etiopía"], correctAnswer: 1, category: "geografia" },
-            { id: 172, question: "¿Cuál es el país con más fronteras?", options: ["Rusia", "China", "Brasil", "Alemania"], correctAnswer: 1, category: "geografia" },
-            { id: 173, question: "¿Cuál es la capital de India?", options: ["Mumbai", "Nueva Delhi", "Calcuta", "Chennai"], correctAnswer: 1, category: "geografia" },
-            { id: 174, question: "¿En qué país se encuentra la Gran Muralla?", options: ["Japón", "Corea del Sur", "China", "Mongolia"], correctAnswer: 2, category: "geografia" },
-            { id: 175, question: "¿Cuál es el punto más bajo de la Tierra?", options: ["Mar Muerto", "Valle de la Muerte", "Depresión de Afar", "Fosa de las Marianas"], correctAnswer: 0, category: "geografia" },
-            { id: 176, question: "¿Cuál es la capital de Sudáfrica?", options: ["Johannesburgo", "Ciudad del Cabo", "Pretoria", "Durban"], correctAnswer: 2, category: "geografia" },
-            { id: 177, question: "¿En qué país se encuentran los fiordos más famosos?", options: ["Islandia", "Noruega", "Dinamarca", "Suecia"], correctAnswer: 1, category: "geografia" },
-            { id: 178, question: "¿Cuál es el volcán activo más alto del mundo?", options: ["Etna", "Vesubio", "Ojos del Salado", "Mauna Loa"], correctAnswer: 2, category: "geografia" },
-            { id: 179, question: "¿Cuál es la capital de Argentina?", options: ["Córdoba", "Rosario", "Buenos Aires", "Mendoza"], correctAnswer: 2, category: "geografia" },
-            { id: 180, question: "¿En qué país se encuentra Petra?", options: ["Israel", "Jordania", "Siria", "Líbano"], correctAnswer: 1, category: "geografia" },
-            { id: 181, question: "¿Cuál es el estrecho que separa Europa de África?", options: ["Estrecho de Bering", "Estrecho de Gibraltar", "Estrecho de Magallanes", "Estrecho de Ormuz"], correctAnswer: 1, category: "geografia" },
-            { id: 182, question: "¿Cuál es la capital de México?", options: ["Guadalajara", "Monterrey", "Ciudad de México", "Tijuana"], correctAnswer: 2, category: "geografia" },
-            { id: 183, question: "¿En qué país se encuentra Angkor Wat?", options: ["Tailandia", "Vietnam", "Camboya", "Laos"], correctAnswer: 2, category: "geografia" },
-            { id: 184, question: "¿Cuál es la cadena montañosa más larga del mundo?", options: ["Himalayas", "Andes", "Montañas Rocosas", "Alpes"], correctAnswer: 1, category: "geografia" },
-            { id: 185, question: "¿Cuál es la capital de Chile?", options: ["Valparaíso", "Santiago", "Concepción", "Antofagasta"], correctAnswer: 1, category: "geografia" },
-            { id: 186, question: "¿En qué país se encuentra el Taj Mahal?", options: ["Pakistán", "Bangladesh", "India", "Nepal"], correctAnswer: 2, category: "geografia" },
-            { id: 187, question: "¿Cuál es el país sin costa marítima más grande?", options: ["Mongolia", "Chad", "Kazajistán", "Afganistán"], correctAnswer: 2, category: "geografia" },
-            { id: 188, question: "¿Cuál es la capital de Tailandia?", options: ["Phuket", "Chiang Mai", "Bangkok", "Pattaya"], correctAnswer: 2, category: "geografia" },
-            { id: 189, question: "¿En qué país se encuentra el Coliseo?", options: ["Grecia", "España", "Italia", "Francia"], correctAnswer: 2, category: "geografia" },
-            { id: 190, question: "¿Cuál es la península más grande del mundo?", options: ["Península Ibérica", "Península Arábiga", "Península de Indochina", "Península de Escandinavia"], correctAnswer: 1, category: "geografia" },
-            { id: 191, question: "¿Cuál es la capital de Turquía?", options: ["Estambul", "Ankara", "Izmir", "Antalya"], correctAnswer: 1, category: "geografia" },
-            { id: 192, question: "¿En qué país se encuentra el monte Fuji?", options: ["China", "Corea del Sur", "Japón", "Filipinas"], correctAnswer: 2, category: "geografia" },
-            { id: 193, question: "¿Cuál es el río más caudaloso del mundo?", options: ["Nilo", "Amazonas", "Congo", "Yangtsé"], correctAnswer: 1, category: "geografia" },
-            { id: 194, question: "¿Cuál es la capital de Perú?", options: ["Arequipa", "Trujillo", "Lima", "Cusco"], correctAnswer: 2, category: "geografia" },
-            { id: 195, question: "¿En qué país se encuentra Stonehenge?", options: ["Irlanda", "Escocia", "Inglaterra", "Gales"], correctAnswer: 2, category: "geografia" },
-            { id: 196, question: "¿Cuál es la bahía más grande del mundo?", options: ["Bahía de Hudson", "Bahía de Bengala", "Golfo de México", "Mar Arábigo"], correctAnswer: 1, category: "geografia" },
-            { id: 197, question: "¿Cuál es la capital de Colombia?", options: ["Medellín", "Cali", "Bogotá", "Cartagena"], correctAnswer: 2, category: "geografia" },
-            { id: 198, question: "¿En qué país se encuentra la ciudad de Dubái?", options: ["Arabia Saudí", "Kuwait", "Emiratos Árabes Unidos", "Qatar"], correctAnswer: 2, category: "geografia" },
-            { id: 199, question: "¿Cuál es el canal artificial más famoso del mundo?", options: ["Canal de Suez", "Canal de Panamá", "Canal de Corinto", "Canal de Kiel"], correctAnswer: 1, category: "geografia" },
-            { id: 200, question: "¿Cuál es la capital de Venezuela?", options: ["Maracaibo", "Valencia", "Caracas", "Barquisimeto"], correctAnswer: 2, category: "geografia" },
+            // DEPORTES - 50 preguntas
+            { id: 151, question: "¿Cuántos jugadores tiene un equipo de fútbol en el campo?", options: ["9", "10", "11", "12"], correctAnswer: 2, category: "deportes" },
+            { id: 152, question: "¿En qué año se celebraron los primeros Juegos Olímpicos modernos?", options: ["1892", "1896", "1900", "1904"], correctAnswer: 1, category: "deportes" },
+            { id: 153, question: "¿Cuál es el único país que ha participado en todos los Mundiales de fútbol?", options: ["Argentina", "Alemania", "Brasil", "Italia"], correctAnswer: 2, category: "deportes" },
+            { id: 154, question: "¿Cuántos Grand Slams hay en el tenis?", options: ["3", "4", "5", "6"], correctAnswer: 1, category: "deportes" },
+            { id: 155, question: "¿Quién es el máximo goleador en la historia de los Mundiales de fútbol?", options: ["Pelé", "Ronaldo", "Miroslav Klose", "Lionel Messi"], correctAnswer: 2, category: "deportes" },
+            { id: 156, question: "¿Cuántos puntos vale un touchdown en fútbol americano?", options: ["5", "6", "7", "8"], correctAnswer: 1, category: "deportes" },
+            { id: 157, question: "¿En qué deporte se utiliza un 'birdie'?", options: ["Tenis", "Golf", "Bádminton", "Squash"], correctAnswer: 2, category: "deportes" },
+            { id: 158, question: "¿Cuántos anillos de la NBA tiene Michael Jordan?", options: ["5", "6", "7", "8"], correctAnswer: 1, category: "deportes" },
+            { id: 159, question: "¿Cuál es la distancia de un maratón?", options: ["40.195 km", "41.195 km", "42.195 km", "43.195 km"], correctAnswer: 2, category: "deportes" },
+            { id: 160, question: "¿En qué país se inventó el rugby?", options: ["Australia", "Nueva Zelanda", "Inglaterra", "Sudáfrica"], correctAnswer: 2, category: "deportes" },
+            { id: 161, question: "¿Cuántos sets se necesitan ganar para vencer en un partido de tenis masculino de Grand Slam?", options: ["2", "3", "4", "5"], correctAnswer: 1, category: "deportes" },
+            { id: 162, question: "¿Quién tiene más medallas olímpicas en la historia?", options: ["Usain Bolt", "Michael Phelps", "Simone Biles", "Carl Lewis"], correctAnswer: 1, category: "deportes" },
+            { id: 163, question: "¿Cuántos jugadores hay en un equipo de baloncesto en la cancha?", options: ["4", "5", "6", "7"], correctAnswer: 1, category: "deportes" },
+            { id: 164, question: "¿En qué año Diego Maradona marcó el 'Gol del Siglo'?", options: ["1982", "1986", "1990", "1994"], correctAnswer: 1, category: "deportes" },
+            { id: 165, question: "¿Cuál es el torneo de tenis más antiguo?", options: ["Roland Garros", "US Open", "Wimbledon", "Australian Open"], correctAnswer: 2, category: "deportes" },
+            { id: 166, question: "¿Cuántos puntos vale un tiro libre en baloncesto?", options: ["1", "2", "3", "4"], correctAnswer: 0, category: "deportes" },
+            { id: 167, question: "¿Qué país ha ganado más Copas del Mundo de fútbol?", options: ["Argentina", "Alemania", "Brasil", "Italia"], correctAnswer: 2, category: "deportes" },
+            { id: 168, question: "¿Cuántos rounds tiene una pelea de boxeo profesional típica?", options: ["10", "12", "15", "20"], correctAnswer: 1, category: "deportes" },
+            { id: 169, question: "¿En qué deporte compite Novak Djokovic?", options: ["Tenis", "Bádminton", "Squash", "Tenis de mesa"], correctAnswer: 0, category: "deportes" },
+            { id: 170, question: "¿Cuántos jugadores tiene un equipo de béisbol en el campo?", options: ["8", "9", "10", "11"], correctAnswer: 1, category: "deportes" },
+            { id: 171, question: "¿Quién es el futbolista con más Balones de Oro?", options: ["Cristiano Ronaldo", "Lionel Messi", "Michel Platini", "Johan Cruyff"], correctAnswer: 1, category: "deportes" },
+            { id: 172, question: "¿Cuántos minutos dura un partido de fútbol?", options: ["80", "85", "90", "95"], correctAnswer: 2, category: "deportes" },
+            { id: 173, question: "¿En qué deporte se usa un 'puck'?", options: ["Hockey sobre hielo", "Curling", "Lacrosse", "Polo"], correctAnswer: 0, category: "deportes" },
+            { id: 174, question: "¿Cuántos Grand Slams ha ganado Rafael Nadal?", options: ["20", "21", "22", "23"], correctAnswer: 2, category: "deportes" },
+            { id: 175, question: "¿Qué país organizó el Mundial de fútbol 2018?", options: ["Brasil", "Alemania", "Rusia", "Qatar"], correctAnswer: 2, category: "deportes" },
+            { id: 176, question: "¿Cuántos puntos vale un try en rugby?", options: ["3", "4", "5", "6"], correctAnswer: 2, category: "deportes" },
+            { id: 177, question: "¿Quién es el atleta más rápido del mundo?", options: ["Usain Bolt", "Tyson Gay", "Yohan Blake", "Asafa Powell"], correctAnswer: 0, category: "deportes" },
+            { id: 178, question: "¿Cuántos cuartos tiene un partido de baloncesto NBA?", options: ["2", "3", "4", "5"], correctAnswer: 2, category: "deportes" },
+            { id: 179, question: "¿En qué deporte se compite por la Copa Davis?", options: ["Golf", "Tenis", "Cricket", "Polo"], correctAnswer: 1, category: "deportes" },
+            { id: 180, question: "¿Cuántos strikes necesitas para hacer un strike out en béisbol?", options: ["2", "3", "4", "5"], correctAnswer: 1, category: "deportes" },
+            { id: 181, question: "¿Qué selección ganó la Eurocopa 2020?", options: ["Francia", "Inglaterra", "Italia", "España"], correctAnswer: 2, category: "deportes" },
+            { id: 182, question: "¿Cuántos holes tiene un campo de golf estándar?", options: ["16", "18", "20", "22"], correctAnswer: 1, category: "deportes" },
+            { id: 183, question: "¿Quién es el máximo anotador en la historia de la NBA?", options: ["Michael Jordan", "Kobe Bryant", "LeBron James", "Kareem Abdul-Jabbar"], correctAnswer: 2, category: "deportes" },
+            { id: 184, question: "¿En qué año se celebró el primer Mundial de fútbol?", options: ["1926", "1928", "1930", "1932"], correctAnswer: 2, category: "deportes" },
+            { id: 185, question: "¿Cuántos jugadores tiene un equipo de voleibol en la cancha?", options: ["5", "6", "7", "8"], correctAnswer: 1, category: "deportes" },
+            { id: 186, question: "¿Qué país ha ganado más medallas olímpicas en total?", options: ["China", "Rusia", "Estados Unidos", "Alemania"], correctAnswer: 2, category: "deportes" },
+            { id: 187, question: "¿Cuántos majors de golf existen?", options: ["3", "4", "5", "6"], correctAnswer: 1, category: "deportes" },
+            { id: 188, question: "¿Quién ganó el Mundial de fútbol 2022?", options: ["Francia", "Argentina", "Brasil", "Alemania"], correctAnswer: 1, category: "deportes" },
+            { id: 189, question: "¿Cuántos innings tiene un partido de béisbol?", options: ["7", "8", "9", "10"], correctAnswer: 2, category: "deportes" },
+            { id: 190, question: "¿En qué deporte se usa una raqueta y un volante?", options: ["Tenis", "Squash", "Bádminton", "Tenis de mesa"], correctAnswer: 2, category: "deportes" },
+            { id: 191, question: "¿Cuántos Super Bowls ha ganado Tom Brady?", options: ["5", "6", "7", "8"], correctAnswer: 2, category: "deportes" },
+            { id: 192, question: "¿Qué país inventó el baloncesto?", options: ["Canadá", "Estados Unidos", "Inglaterra", "Francia"], correctAnswer: 1, category: "deportes" },
+            { id: 193, question: "¿Cuántos puntos vale un gol de campo en fútbol americano?", options: ["2", "3", "4", "5"], correctAnswer: 1, category: "deportes" },
+            { id: 194, question: "¿Quién es el tenista con más Grand Slams masculinos?", options: ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Pete Sampras"], correctAnswer: 2, category: "deportes" },
+            { id: 195, question: "¿En qué año se celebraron los Juegos Olímpicos de Barcelona?", options: ["1988", "1992", "1996", "2000"], correctAnswer: 1, category: "deportes" },
+            { id: 196, question: "¿Cuántos jugadores tiene un equipo de hockey sobre hielo en el hielo?", options: ["5", "6", "7", "8"], correctAnswer: 1, category: "deportes" },
+            { id: 197, question: "¿Qué boxeador es conocido como 'The Greatest'?", options: ["Mike Tyson", "Muhammad Ali", "Floyd Mayweather", "Sugar Ray Leonard"], correctAnswer: 1, category: "deportes" },
+            { id: 198, question: "¿Cuántos sets se juegan en un partido de voleibol?", options: ["Al mejor de 3", "Al mejor de 5", "Al mejor de 7", "Siempre 5"], correctAnswer: 1, category: "deportes" },
+            { id: 199, question: "¿En qué deporte se compite por la Copa América?", options: ["Baloncesto", "Fútbol", "Voleibol", "Rugby"], correctAnswer: 1, category: "deportes" },
+            { id: 200, question: "¿Cuántos mundiales de Fórmula 1 ganó Michael Schumacher?", options: ["5", "6", "7", "8"], correctAnswer: 2, category: "deportes" },
 
             // VIDEOJUEGOS - 50 preguntas
             { id: 201, question: "¿Cuál es el videojuego más vendido de todos los tiempos?", options: ["Tetris", "Minecraft", "Grand Theft Auto V", "Super Mario Bros"], correctAnswer: 1, category: "videojuegos" },
@@ -693,11 +726,11 @@
 
         function getQuestionsByCategory(category, limit = 10) {
             let filteredQuestions = questions;
-            
+
             if (category !== 'todas') {
                 filteredQuestions = questions.filter(q => q.category === category);
             }
-            
+
             return shuffleArray(filteredQuestions).slice(0, limit);
         }
 
@@ -711,7 +744,7 @@
             showResult = false;
             timeLeft = 30;
             isTimeUp = false;
-            
+
             showGameScreen();
             loadQuestion();
             startTimer();
@@ -742,7 +775,7 @@
             document.getElementById('game-screen').classList.remove('hidden');
             document.getElementById('results-screen').classList.add('hidden');
             appState = 'playing';
-            
+
             // Aplicar color de fondo según categoría
             const categoryInfo = categories[selectedCategory];
             const gameScreen = document.getElementById('game-screen');
@@ -754,12 +787,12 @@
             document.getElementById('game-screen').classList.add('hidden');
             document.getElementById('results-screen').classList.remove('hidden');
             appState = 'results';
-            
+
             // Aplicar color de fondo según categoría
             const categoryInfo = categories[selectedCategory];
             const resultsScreen = document.getElementById('results-screen');
             resultsScreen.className = `min-h-screen p-4 flex items-center justify-center bg-gradient-to-br ${categoryInfo.color} bg-opacity-30`;
-            
+
             generateResults();
         }
 
@@ -772,7 +805,7 @@
                 const categoryCard = document.createElement('div');
                 categoryCard.className = 'card-hover cursor-pointer bg-white rounded-lg shadow-xl border-2 hover:border-purple-300';
                 categoryCard.onclick = () => selectCategory(key);
-                
+
                 categoryCard.innerHTML = `
                     <div class="relative overflow-hidden rounded-t-lg">
                         <img src="${category.image}" alt="${category.name}" class="w-full h-48 object-cover image-hover">
@@ -795,7 +828,7 @@
                         </button>
                     </div>
                 `;
-                
+
                 grid.appendChild(categoryCard);
             });
         }
@@ -814,17 +847,17 @@
             document.getElementById('question-category').textContent = currentQuestion.category;
             document.getElementById('question-text').textContent = currentQuestion.question;
             document.getElementById('score-display').textContent = `${score}/${currentQuestions.length}`;
-            
+
             // Actualizar progreso
             document.getElementById('progress-bar').style.width = `${progress}%`;
-            
+
             // Actualizar header de pregunta con color de categoría
             const questionHeader = document.getElementById('question-header');
             questionHeader.className = `bg-gradient-to-r ${categoryInfo.color} text-white p-6 rounded-t-lg`;
 
             // Generar opciones
             generateOptions(currentQuestion);
-            
+
             // Ocultar resultado
             document.getElementById('result-container').classList.add('hidden');
         }
@@ -837,14 +870,14 @@
                 const button = document.createElement('button');
                 button.className = 'w-full justify-start h-auto p-6 text-left text-lg transition-all duration-200 hover:scale-105 border border-gray-300 rounded-lg hover:bg-gray-50';
                 button.onclick = () => handleAnswerSelect(index);
-                
+
                 button.innerHTML = `
                     <span class="mr-4 shrink-0 w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-gray-800 inline-flex">
                         ${String.fromCharCode(65 + index)}
                     </span>
                     <span class="flex-1">${option}</span>
                 `;
-                
+
                 container.appendChild(button);
             });
         }
@@ -852,13 +885,13 @@
         // Lógica del juego
         function handleAnswerSelect(answerIndex) {
             if (selectedAnswer !== null || isTimeUp) return;
-            
+
             selectedAnswer = answerIndex;
             showResult = true;
-            
+
             const currentQuestion = currentQuestions[currentQuestionIndex];
             const isCorrect = answerIndex === currentQuestion.correctAnswer;
-            
+
             if (isCorrect) {
                 score++;
                 document.getElementById('score-display').textContent = `${score}/${currentQuestions.length}`;
@@ -866,10 +899,10 @@
 
             // Actualizar botones con colores
             updateOptionsAfterAnswer(answerIndex, currentQuestion.correctAnswer);
-            
+
             // Mostrar resultado
             showQuestionResult(isCorrect, currentQuestion);
-            
+
             // Detener timer
             if (timerInterval) {
                 clearInterval(timerInterval);
@@ -878,10 +911,10 @@
 
         function updateOptionsAfterAnswer(selectedIndex, correctIndex) {
             const buttons = document.getElementById('options-container').children;
-            
+
             Array.from(buttons).forEach((button, index) => {
                 button.onclick = null; // Deshabilitar clicks
-                
+
                 if (index === correctIndex) {
                     button.className = 'w-full justify-start h-auto p-6 text-left text-lg bg-green-500 text-white border-green-500 rounded-lg';
                 } else if (index === selectedIndex && index !== correctIndex) {
@@ -897,7 +930,7 @@
             const content = document.getElementById('result-content');
             const nextButton = document.getElementById('next-button');
             const categoryInfo = categories[selectedCategory];
-            
+
             if (isTimeUp) {
                 content.innerHTML = `
                     <div class="text-orange-600">
@@ -927,10 +960,10 @@
                     </div>
                 `;
             }
-            
+
             nextButton.className = `bg-gradient-to-r ${categoryInfo.color} text-white px-8 py-3 rounded-lg font-medium hover:opacity-90 transition-all duration-200`;
             nextButton.textContent = currentQuestionIndex < currentQuestions.length - 1 ? 'Siguiente Pregunta' : 'Ver Resultados';
-            
+
             container.classList.remove('hidden');
         }
 
@@ -954,12 +987,12 @@
         function startTimer() {
             updateTimerDisplay();
             updateTimeBar();
-            
+
             timerInterval = setInterval(() => {
                 timeLeft--;
                 updateTimerDisplay();
                 updateTimeBar();
-                
+
                 if (timeLeft <= 0) {
                     clearInterval(timerInterval);
                     if (!showResult) {
@@ -973,9 +1006,9 @@
         function updateTimerDisplay() {
             const timerDisplay = document.getElementById('timer-display');
             const timerBadge = document.getElementById('timer-badge');
-            
+
             timerDisplay.textContent = `${timeLeft}s`;
-            
+
             if (timeLeft <= 10) {
                 timerBadge.className = 'flex items-center gap-2 px-3 py-1 bg-red-100 text-red-600 rounded-full text-sm';
             } else if (timeLeft <= 20) {
@@ -988,9 +1021,9 @@
         function updateTimeBar() {
             const timeBar = document.getElementById('time-bar');
             const percentage = (timeLeft / 30) * 100;
-            
+
             timeBar.style.width = `${percentage}%`;
-            
+
             if (timeLeft <= 10) {
                 timeBar.className = 'h-2 rounded-full timer-bar bg-red-500';
             } else if (timeLeft <= 20) {
@@ -1010,10 +1043,10 @@
         function generateResults() {
             const percentage = Math.round((finalScore / totalQuestions) * 100);
             const categoryInfo = categories[selectedCategory];
-            
+
             const scoreInfo = getScoreInfo(percentage);
             const stars = getStars(percentage);
-            
+
             // Actualizar elementos del resultado
             document.getElementById('results-emoji').textContent = scoreInfo.emoji;
             document.getElementById('results-title').textContent = scoreInfo.title;
@@ -1025,18 +1058,18 @@
             document.getElementById('precision-percentage').textContent = `${percentage}%`;
             document.getElementById('results-category-icon').textContent = categoryInfo.icon;
             document.getElementById('results-category-name').textContent = categoryInfo.name;
-            
+
             // Actualizar header con colores
             const resultsHeader = document.getElementById('results-header');
             resultsHeader.className = `bg-gradient-to-r ${scoreInfo.color} text-white text-center py-8 rounded-t-lg`;
-            
+
             // Actualizar botón de jugar de nuevo
             const playAgainBtn = document.getElementById('play-again-btn');
             playAgainBtn.className = `w-full bg-gradient-to-r ${categoryInfo.color} text-white text-xl py-6 rounded-lg font-medium hover:opacity-90 transition-all duration-200 btn-scale`;
-            
+
             // Generar estrellas
             generateStars(stars);
-            
+
             // Mensaje motivacional
             document.getElementById('motivational-message').textContent = getMotivationalMessage(percentage);
             document.getElementById('additional-stats').textContent = getAdditionalStats(percentage);
@@ -1093,7 +1126,7 @@
         function generateStars(starCount) {
             const container = document.getElementById('stars-container');
             container.innerHTML = '';
-            
+
             for (let i = 0; i < 5; i++) {
                 const star = document.createElement('span');
                 star.className = i < starCount ? 'text-2xl star-filled' : 'text-2xl star-empty';
@@ -1117,9 +1150,10 @@
         }
 
         // Inicialización
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             showCategoryScreen();
         });
     </script>
 </body>
+
 </html>

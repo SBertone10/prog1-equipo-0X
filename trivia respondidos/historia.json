@@ -1,0 +1,309 @@
+{
+  "category": "historia",
+  "name": "Historia",
+  "icon": "🏛️",
+  "color": "from-amber-500 to-orange-500",
+  "image": "https://images.unsplash.com/photo-1719249527220-42ed1845f0c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  "questions": [
+    {
+      "id": 101,
+      "question": "¿En qué año comenzó la Segunda Guerra Mundial?",
+      "options": ["1937", "1939", "1941", "1943"],
+      "correct": 1
+    },
+    {
+      "id": 102,
+      "question": "¿Quién fue el primer presidente de Estados Unidos?",
+      "options": ["Thomas Jefferson", "George Washington", "John Adams", "Benjamin Franklin"],
+      "correct": 1
+    },
+    {
+      "id": 103,
+      "question": "¿En qué año cayó el Muro de Berlín?",
+      "options": ["1987", "1989", "1991", "1993"],
+      "correct": 1
+    },
+    {
+      "id": 104,
+      "question": "¿Quién fue el líder de la Revolución Cubana?",
+      "options": ["Che Guevara", "Fidel Castro", "Raúl Castro", "Camilo Cienfuegos"],
+      "correct": 1
+    },
+    {
+      "id": 105,
+      "question": "¿En qué año llegó el hombre a la Luna?",
+      "options": ["1967", "1969", "1971", "1973"],
+      "correct": 1
+    },
+    {
+      "id": 106,
+      "question": "¿Quién fue el emperador de Francia que conquistó gran parte de Europa?",
+      "options": ["Luis XIV", "Napoleón Bonaparte", "Carlos Magno", "Luis XVI"],
+      "correct": 1
+    },
+    {
+      "id": 107,
+      "question": "¿En qué año se descubrió América?",
+      "options": ["1490", "1492", "1494", "1496"],
+      "correct": 1
+    },
+    {
+      "id": 108,
+      "question": "¿Quién fue el líder nazi durante la Segunda Guerra Mundial?",
+      "options": ["Joseph Goebbels", "Heinrich Himmler", "Adolf Hitler", "Hermann Göring"],
+      "correct": 2
+    },
+    {
+      "id": 109,
+      "question": "¿En qué año terminó la Primera Guerra Mundial?",
+      "options": ["1916", "1918", "1920", "1922"],
+      "correct": 1
+    },
+    {
+      "id": 110,
+      "question": "¿Quién fue el faraón más famoso del Antiguo Egipto?",
+      "options": ["Ramsés II", "Tutankamón", "Cleopatra", "Keops"],
+      "correct": 1
+    },
+    {
+      "id": 111,
+      "question": "¿En qué año se firmó la Declaración de Independencia de Estados Unidos?",
+      "options": ["1774", "1776", "1778", "1780"],
+      "correct": 1
+    },
+    {
+      "id": 112,
+      "question": "¿Quién fue el líder de la Unión Soviética durante la Segunda Guerra Mundial?",
+      "options": ["Lenin", "Stalin", "Trotsky", "Jruschov"],
+      "correct": 1
+    },
+    {
+      "id": 113,
+      "question": "¿En qué año comenzó la Revolución Francesa?",
+      "options": ["1787", "1789", "1791", "1793"],
+      "correct": 1
+    },
+    {
+      "id": 114,
+      "question": "¿Quién fue el conquistador español que derrotó al Imperio Azteca?",
+      "options": ["Francisco Pizarro", "Hernán Cortés", "Diego de Almagro", "Pedro de Valdivia"],
+      "correct": 1
+    },
+    {
+      "id": 115,
+      "question": "¿En qué año se fundó Roma?",
+      "options": ["753 a.C.", "509 a.C.", "27 a.C.", "476 d.C."],
+      "correct": 0
+    },
+    {
+      "id": 116,
+      "question": "¿Quién fue el primer emperador romano?",
+      "options": ["Julio César", "Augusto", "Nerón", "Calígula"],
+      "correct": 1
+    },
+    {
+      "id": 117,
+      "question": "¿En qué año se produjo la Revolución Rusa?",
+      "options": ["1915", "1917", "1919", "1921"],
+      "correct": 1
+    },
+    {
+      "id": 118,
+      "question": "¿Quién fue el líder de la independencia de India?",
+      "options": ["Jawaharlal Nehru", "Mahatma Gandhi", "Subhas Chandra Bose", "Sardar Patel"],
+      "correct": 1
+    },
+    {
+      "id": 119,
+      "question": "¿En qué año se produjo el ataque a Pearl Harbor?",
+      "options": ["1939", "1941", "1943", "1945"],
+      "correct": 1
+    },
+    {
+      "id": 120,
+      "question": "¿Quién fue el presidente de Estados Unidos durante la Guerra Civil?",
+      "options": ["Andrew Jackson", "Abraham Lincoln", "Ulysses S. Grant", "James Buchanan"],
+      "correct": 1
+    },
+    {
+      "id": 121,
+      "question": "¿En qué año se disolvió la Unión Soviética?",
+      "options": ["1989", "1991", "1993", "1995"],
+      "correct": 1
+    },
+    {
+      "id": 122,
+      "question": "¿Quién fue el líder de la Alemania Nazi?",
+      "options": ["Adolf Hitler", "Benito Mussolini", "Francisco Franco", "Joseph Stalin"],
+      "correct": 0
+    },
+    {
+      "id": 123,
+      "question": "¿En qué año se produjo la Revolución Industrial?",
+      "options": ["Siglo XVII", "Siglo XVIII", "Siglo XIX", "Siglo XX"],
+      "correct": 1
+    },
+    {
+      "id": 124,
+      "question": "¿Quién fue el conquistador español que derrotó al Imperio Inca?",
+      "options": ["Hernán Cortés", "Francisco Pizarro", "Diego de Almagro", "Vasco Núñez de Balboa"],
+      "correct": 1
+    },
+    {
+      "id": 125,
+      "question": "¿En qué año se produjo la caída del Imperio Romano de Occidente?",
+      "options": ["376 d.C.", "410 d.C.", "476 d.C.", "527 d.C."],
+      "correct": 2
+    },
+    {
+      "id": 126,
+      "question": "¿Quién fue el líder de los mongoles que conquistó gran parte de Asia?",
+      "options": ["Kublai Khan", "Genghis Khan", "Tamerlán", "Atila"],
+      "correct": 1
+    },
+    {
+      "id": 127,
+      "question": "¿En qué año se firmó el Tratado de Versalles?",
+      "options": ["1917", "1919", "1921", "1923"],
+      "correct": 1
+    },
+    {
+      "id": 128,
+      "question": "¿Quién fue el líder de la Revolución Mexicana?",
+      "options": ["Pancho Villa", "Emiliano Zapata", "Francisco I. Madero", "Todos los anteriores"],
+      "correct": 3
+    },
+    {
+      "id": 129,
+      "question": "¿En qué año se produjo la Guerra de los Cien Años?",
+      "options": ["1237-1337", "1337-1453", "1453-1553", "1553-1653"],
+      "correct": 1
+    },
+    {
+      "id": 130,
+      "question": "¿Quién fue el líder de la Reforma Protestante?",
+      "options": ["Juan Calvino", "Martín Lutero", "Enrique VIII", "Juan Knox"],
+      "correct": 1
+    },
+    {
+      "id": 131,
+      "question": "¿En qué año se produjo la Batalla de Waterloo?",
+      "options": ["1813", "1815", "1817", "1819"],
+      "correct": 1
+    },
+    {
+      "id": 132,
+      "question": "¿Quién fue el líder de la independencia de Argentina?",
+      "options": ["José de San Martín", "Simón Bolívar", "Bernardo O'Higgins", "Antonio José de Sucre"],
+      "correct": 0
+    },
+    {
+      "id": 133,
+      "question": "¿En qué año se produjo la Guerra de Independencia de Estados Unidos?",
+      "options": ["1765-1783", "1775-1783", "1785-1793", "1795-1803"],
+      "correct": 1
+    },
+    {
+      "id": 134,
+      "question": "¿Quién fue el líder de la independencia de Venezuela?",
+      "options": ["José de San Martín", "Simón Bolívar", "Antonio José de Sucre", "Francisco de Miranda"],
+      "correct": 1
+    },
+    {
+      "id": 135,
+      "question": "¿En qué año se produjo la Revolución China?",
+      "options": ["1947", "1949", "1951", "1953"],
+      "correct": 1
+    },
+    {
+      "id": 136,
+      "question": "¿Quién fue el líder de la Revolución China?",
+      "options": ["Chiang Kai-shek", "Mao Zedong", "Deng Xiaoping", "Zhou Enlai"],
+      "correct": 1
+    },
+    {
+      "id": 137,
+      "question": "¿En qué año se produjo la Guerra de Corea?",
+      "options": ["1948-1951", "1950-1953", "1952-1955", "1954-1957"],
+      "correct": 1
+    },
+    {
+      "id": 138,
+      "question": "¿Quién fue el líder de los derechos civiles en Estados Unidos?",
+      "options": ["Malcolm X", "Martin Luther King Jr.", "Rosa Parks", "Jesse Jackson"],
+      "correct": 1
+    },
+    {
+      "id": 139,
+      "question": "¿En qué año se produjo la Guerra de Vietnam?",
+      "options": ["1955-1975", "1960-1975", "1965-1975", "1970-1975"],
+      "correct": 0
+    },
+    {
+      "id": 140,
+      "question": "¿Quién fue el líder de Sudáfrica que luchó contra el apartheid?",
+      "options": ["Desmond Tutu", "Nelson Mandela", "Steve Biko", "Oliver Tambo"],
+      "correct": 1
+    },
+    {
+      "id": 141,
+      "question": "¿En qué año se produjo la Revolución Iraní?",
+      "options": ["1977", "1979", "1981", "1983"],
+      "correct": 1
+    },
+    {
+      "id": 142,
+      "question": "¿Quién fue el líder de la Revolución Iraní?",
+      "options": ["Mohammad Reza Pahlavi", "Ayatolá Jomeini", "Ali Jamenei", "Mahmoud Ahmadinejad"],
+      "correct": 1
+    },
+    {
+      "id": 143,
+      "question": "¿En qué año se produjo la Guerra del Golfo?",
+      "options": ["1989-1990", "1990-1991", "1991-1992", "1992-1993"],
+      "correct": 1
+    },
+    {
+      "id": 144,
+      "question": "¿Quién fue el presidente de Estados Unidos durante la Guerra del Golfo?",
+      "options": ["Ronald Reagan", "George H. W. Bush", "Bill Clinton", "George W. Bush"],
+      "correct": 1
+    },
+    {
+      "id": 145,
+      "question": "¿En qué año se produjo el 11 de septiembre?",
+      "options": ["1999", "2001", "2003", "2005"],
+      "correct": 1
+    },
+    {
+      "id": 146,
+      "question": "¿Quién fue el presidente de Estados Unidos durante el 11 de septiembre?",
+      "options": ["Bill Clinton", "George W. Bush", "Barack Obama", "Donald Trump"],
+      "correct": 1
+    },
+    {
+      "id": 147,
+      "question": "¿En qué año se produjo la Primavera Árabe?",
+      "options": ["2009", "2011", "2013", "2015"],
+      "correct": 1
+    },
+    {
+      "id": 148,
+      "question": "¿Quién fue el líder de la Unión Soviética durante la Guerra Fría?",
+      "options": ["Lenin", "Stalin", "Jruschov", "Todos los anteriores"],
+      "correct": 3
+    },
+    {
+      "id": 149,
+      "question": "¿En qué año se produjo la Crisis de los Misiles de Cuba?",
+      "options": ["1960", "1962", "1964", "1966"],
+      "correct": 1
+    },
+    {
+      "id": 150,
+      "question": "¿Quién fue el presidente de Estados Unidos durante la Crisis de los Misiles de Cuba?",
+      "options": ["Dwight D. Eisenhower", "John F. Kennedy", "Lyndon B. Johnson", "Richard Nixon"],
+      "correct": 1
+    }
+  ]
+}

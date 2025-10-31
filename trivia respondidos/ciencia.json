@@ -1,0 +1,309 @@
+{
+  "category": "ciencia",
+  "name": "Ciencia",
+  "icon": "🔬",
+  "color": "from-violet-500 to-purple-500",
+  "image": "https://images.unsplash.com/photo-1614308457932-e16d85c5d053?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  "questions": [
+    {
+      "id": 251,
+      "question": "¿Cuál es el elemento químico más abundante en el universo?",
+      "options": ["Oxígeno", "Carbono", "Hidrógeno", "Helio"],
+      "correct": 2
+    },
+    {
+      "id": 252,
+      "question": "¿Cuántos planetas hay en el sistema solar?",
+      "options": ["7", "8", "9", "10"],
+      "correct": 1
+    },
+    {
+      "id": 253,
+      "question": "¿Qué científico propuso la teoría de la relatividad?",
+      "options": ["Isaac Newton", "Albert Einstein", "Stephen Hawking", "Niels Bohr"],
+      "correct": 1
+    },
+    {
+      "id": 254,
+      "question": "¿Cuál es la velocidad de la luz en el vacío?",
+      "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"],
+      "correct": 0
+    },
+    {
+      "id": 255,
+      "question": "¿Qué gas respiramos principalmente?",
+      "options": ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Hidrógeno"],
+      "correct": 1
+    },
+    {
+      "id": 256,
+      "question": "¿Cuál es el órgano más grande del cuerpo humano?",
+      "options": ["Hígado", "Cerebro", "Piel", "Corazón"],
+      "correct": 2
+    },
+    {
+      "id": 257,
+      "question": "¿Qué científico descubrió la penicilina?",
+      "options": ["Louis Pasteur", "Alexander Fleming", "Marie Curie", "Robert Koch"],
+      "correct": 1
+    },
+    {
+      "id": 258,
+      "question": "¿Cuántos huesos tiene el cuerpo humano adulto?",
+      "options": ["186", "206", "226", "246"],
+      "correct": 1
+    },
+    {
+      "id": 259,
+      "question": "¿Qué planeta es conocido como el planeta rojo?",
+      "options": ["Venus", "Marte", "Júpiter", "Saturno"],
+      "correct": 1
+    },
+    {
+      "id": 260,
+      "question": "¿Cuál es la fórmula química del agua?",
+      "options": ["H2O", "CO2", "O2", "H2O2"],
+      "correct": 0
+    },
+    {
+      "id": 261,
+      "question": "¿Qué científico propuso las leyes del movimiento?",
+      "options": ["Galileo Galilei", "Isaac Newton", "Johannes Kepler", "Albert Einstein"],
+      "correct": 1
+    },
+    {
+      "id": 262,
+      "question": "¿Cuál es el planeta más grande del sistema solar?",
+      "options": ["Saturno", "Júpiter", "Urano", "Neptuno"],
+      "correct": 1
+    },
+    {
+      "id": 263,
+      "question": "¿Qué tipo de animal es una ballena?",
+      "options": ["Pez", "Mamífero", "Reptil", "Anfibio"],
+      "correct": 1
+    },
+    {
+      "id": 264,
+      "question": "¿Cuál es la unidad básica de la vida?",
+      "options": ["Átomo", "Molécula", "Célula", "Tejido"],
+      "correct": 2
+    },
+    {
+      "id": 265,
+      "question": "¿Qué científico desarrolló la teoría de la evolución?",
+      "options": ["Charles Darwin", "Gregor Mendel", "Jean-Baptiste Lamarck", "Alfred Wallace"],
+      "correct": 0
+    },
+    {
+      "id": 266,
+      "question": "¿Cuántos cromosomas tiene una célula humana normal?",
+      "options": ["23", "46", "92", "184"],
+      "correct": 1
+    },
+    {
+      "id": 267,
+      "question": "¿Qué gas producen las plantas durante la fotosíntesis?",
+      "options": ["Dióxido de carbono", "Oxígeno", "Nitrógeno", "Hidrógeno"],
+      "correct": 1
+    },
+    {
+      "id": 268,
+      "question": "¿Cuál es el metal más abundante en la corteza terrestre?",
+      "options": ["Hierro", "Cobre", "Aluminio", "Oro"],
+      "correct": 2
+    },
+    {
+      "id": 269,
+      "question": "¿Qué científico descubrió la radioactividad?",
+      "options": ["Marie Curie", "Henri Becquerel", "Ernest Rutherford", "Niels Bohr"],
+      "correct": 1
+    },
+    {
+      "id": 270,
+      "question": "¿Cuál es la temperatura de ebullición del agua a nivel del mar?",
+      "options": ["90°C", "100°C", "110°C", "120°C"],
+      "correct": 1
+    },
+    {
+      "id": 271,
+      "question": "¿Qué partícula subatómica tiene carga negativa?",
+      "options": ["Protón", "Neutrón", "Electrón", "Positrón"],
+      "correct": 2
+    },
+    {
+      "id": 272,
+      "question": "¿Cuál es el planeta más cercano al Sol?",
+      "options": ["Venus", "Mercurio", "Tierra", "Marte"],
+      "correct": 1
+    },
+    {
+      "id": 273,
+      "question": "¿Qué científico propuso el modelo atómico planetario?",
+      "options": ["John Dalton", "J.J. Thomson", "Ernest Rutherford", "Niels Bohr"],
+      "correct": 2
+    },
+    {
+      "id": 274,
+      "question": "¿Cuántos dientes tiene un adulto humano?",
+      "options": ["28", "32", "36", "40"],
+      "correct": 1
+    },
+    {
+      "id": 275,
+      "question": "¿Qué tipo de energía produce el Sol?",
+      "options": ["Química", "Nuclear", "Eléctrica", "Mecánica"],
+      "correct": 1
+    },
+    {
+      "id": 276,
+      "question": "¿Cuál es el símbolo químico del oro?",
+      "options": ["Go", "Au", "Ag", "Or"],
+      "correct": 1
+    },
+    {
+      "id": 277,
+      "question": "¿Qué científico descubrió las leyes de la herencia?",
+      "options": ["Charles Darwin", "Gregor Mendel", "Louis Pasteur", "Robert Hooke"],
+      "correct": 1
+    },
+    {
+      "id": 278,
+      "question": "¿Cuál es la galaxia más cercana a la Vía Láctea?",
+      "options": ["Andrómeda", "Triángulo", "Sombrero", "Remolino"],
+      "correct": 0
+    },
+    {
+      "id": 279,
+      "question": "¿Qué tipo de sangre es el donante universal?",
+      "options": ["A+", "B+", "AB+", "O-"],
+      "correct": 3
+    },
+    {
+      "id": 280,
+      "question": "¿Cuál es la fuerza que mantiene a los planetas en órbita?",
+      "options": ["Electromagnética", "Nuclear fuerte", "Gravitacional", "Nuclear débil"],
+      "correct": 2
+    },
+    {
+      "id": 281,
+      "question": "¿Qué científico inventó la bombilla eléctrica?",
+      "options": ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Benjamin Franklin"],
+      "correct": 1
+    },
+    {
+      "id": 282,
+      "question": "¿Cuántos átomos de hidrógeno hay en una molécula de agua?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 1
+    },
+    {
+      "id": 283,
+      "question": "¿Qué planeta tiene los anillos más visibles?",
+      "options": ["Júpiter", "Saturno", "Urano", "Neptuno"],
+      "correct": 1
+    },
+    {
+      "id": 284,
+      "question": "¿Cuál es el proceso por el cual las plantas producen alimento?",
+      "options": ["Respiración", "Fotosíntesis", "Fermentación", "Digestión"],
+      "correct": 1
+    },
+    {
+      "id": 285,
+      "question": "¿Qué científico propuso la tabla periódica?",
+      "options": ["Antoine Lavoisier", "Dmitri Mendeléyev", "John Dalton", "Robert Boyle"],
+      "correct": 1
+    },
+    {
+      "id": 286,
+      "question": "¿Cuál es el hueso más largo del cuerpo humano?",
+      "options": ["Húmero", "Tibia", "Fémur", "Radio"],
+      "correct": 2
+    },
+    {
+      "id": 287,
+      "question": "¿Qué tipo de roca se forma por enfriamiento del magma?",
+      "options": ["Sedimentaria", "Metamórfica", "Ígnea", "Calcárea"],
+      "correct": 2
+    },
+    {
+      "id": 288,
+      "question": "¿Cuál es el símbolo químico de la plata?",
+      "options": ["Pl", "Ag", "Si", "Pt"],
+      "correct": 1
+    },
+    {
+      "id": 289,
+      "question": "¿Qué científico descubrió los rayos X?",
+      "options": ["Wilhelm Röntgen", "Marie Curie", "Henri Becquerel", "Ernest Rutherford"],
+      "correct": 0
+    },
+    {
+      "id": 290,
+      "question": "¿Cuántos litros de sangre tiene aproximadamente un adulto?",
+      "options": ["3-4", "5-6", "7-8", "9-10"],
+      "correct": 1
+    },
+    {
+      "id": 291,
+      "question": "¿Qué planeta es conocido como el gigante gaseoso?",
+      "options": ["Marte", "Júpiter", "Venus", "Mercurio"],
+      "correct": 1
+    },
+    {
+      "id": 292,
+      "question": "¿Cuál es la partícula más pequeña de un elemento?",
+      "options": ["Molécula", "Átomo", "Electrón", "Protón"],
+      "correct": 1
+    },
+    {
+      "id": 293,
+      "question": "¿Qué científico propuso el principio de incertidumbre?",
+      "options": ["Niels Bohr", "Werner Heisenberg", "Erwin Schrödinger", "Max Planck"],
+      "correct": 1
+    },
+    {
+      "id": 294,
+      "question": "¿Cuál es el pH del agua pura?",
+      "options": ["5", "7", "9", "11"],
+      "correct": 1
+    },
+    {
+      "id": 295,
+      "question": "¿Qué tipo de animal es un pingüino?",
+      "options": ["Mamífero", "Ave", "Reptil", "Pez"],
+      "correct": 1
+    },
+    {
+      "id": 296,
+      "question": "¿Cuál es la estrella más cercana a la Tierra?",
+      "options": ["Próxima Centauri", "Sirio", "El Sol", "Alpha Centauri"],
+      "correct": 2
+    },
+    {
+      "id": 297,
+      "question": "¿Qué científico descubrió la estructura del ADN?",
+      "options": ["Watson y Crick", "Rosalind Franklin", "Linus Pauling", "Todos contribuyeron"],
+      "correct": 3
+    },
+    {
+      "id": 298,
+      "question": "¿Cuántos sentidos tiene el ser humano tradicionalmente?",
+      "options": ["4", "5", "6", "7"],
+      "correct": 1
+    },
+    {
+      "id": 299,
+      "question": "¿Qué gas es responsable del efecto invernadero?",
+      "options": ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Hidrógeno"],
+      "correct": 2
+    },
+    {
+      "id": 300,
+      "question": "¿Cuál es la unidad de medida de la fuerza?",
+      "options": ["Joule", "Newton", "Watt", "Pascal"],
+      "correct": 1
+    }
+  ]
+}

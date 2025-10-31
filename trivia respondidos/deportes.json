@@ -1,0 +1,309 @@
+{
+  "category": "deportes",
+  "name": "Deportes",
+  "icon": "⚽",
+  "color": "from-emerald-500 to-green-500",
+  "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  "questions": [
+    {
+      "id": 151,
+      "question": "¿Cuántos jugadores tiene un equipo de fútbol en el campo?",
+      "options": ["9", "10", "11", "12"],
+      "correct": 2
+    },
+    {
+      "id": 152,
+      "question": "¿En qué año se celebró el primer Mundial de Fútbol?",
+      "options": ["1928", "1930", "1932", "1934"],
+      "correct": 1
+    },
+    {
+      "id": 153,
+      "question": "¿Quién tiene más Balones de Oro?",
+      "options": ["Cristiano Ronaldo", "Lionel Messi", "Michel Platini", "Johan Cruyff"],
+      "correct": 1
+    },
+    {
+      "id": 154,
+      "question": "¿Cuántos Grand Slams hay en el tenis?",
+      "options": ["3", "4", "5", "6"],
+      "correct": 1
+    },
+    {
+      "id": 155,
+      "question": "¿En qué deporte se utiliza un 'birdie'?",
+      "options": ["Golf", "Bádminton", "Tenis", "Squash"],
+      "correct": 1
+    },
+    {
+      "id": 156,
+      "question": "¿Cuántos puntos vale un touchdown en fútbol americano?",
+      "options": ["5", "6", "7", "8"],
+      "correct": 1
+    },
+    {
+      "id": 157,
+      "question": "¿Quién es el máximo goleador en la historia de los Mundiales?",
+      "options": ["Pelé", "Ronaldo", "Miroslav Klose", "Gerd Müller"],
+      "correct": 2
+    },
+    {
+      "id": 158,
+      "question": "¿En qué año se celebraron los primeros Juegos Olímpicos modernos?",
+      "options": ["1892", "1896", "1900", "1904"],
+      "correct": 1
+    },
+    {
+      "id": 159,
+      "question": "¿Cuántos jugadores tiene un equipo de baloncesto en la cancha?",
+      "options": ["4", "5", "6", "7"],
+      "correct": 1
+    },
+    {
+      "id": 160,
+      "question": "¿Quién tiene más títulos de Grand Slam en tenis masculino?",
+      "options": ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Pete Sampras"],
+      "correct": 2
+    },
+    {
+      "id": 161,
+      "question": "¿En qué deporte se utiliza un 'puck'?",
+      "options": ["Hockey sobre hielo", "Curling", "Lacrosse", "Polo"],
+      "correct": 0
+    },
+    {
+      "id": 162,
+      "question": "¿Cuántos sets se necesitan ganar para vencer en un partido de tenis masculino de Grand Slam?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 1
+    },
+    {
+      "id": 163,
+      "question": "¿Quién es el máximo anotador en la historia de la NBA?",
+      "options": ["Michael Jordan", "Kobe Bryant", "LeBron James", "Kareem Abdul-Jabbar"],
+      "correct": 2
+    },
+    {
+      "id": 164,
+      "question": "¿En qué país se originó el rugby?",
+      "options": ["Australia", "Nueva Zelanda", "Inglaterra", "Sudáfrica"],
+      "correct": 2
+    },
+    {
+      "id": 165,
+      "question": "¿Cuántos anillos de campeonato ganó Michael Jordan con los Chicago Bulls?",
+      "options": ["4", "5", "6", "7"],
+      "correct": 2
+    },
+    {
+      "id": 166,
+      "question": "¿En qué deporte compite Usain Bolt?",
+      "options": ["Natación", "Atletismo", "Ciclismo", "Triatlón"],
+      "correct": 1
+    },
+    {
+      "id": 167,
+      "question": "¿Cuántos jugadores tiene un equipo de voleibol en la cancha?",
+      "options": ["5", "6", "7", "8"],
+      "correct": 1
+    },
+    {
+      "id": 168,
+      "question": "¿Quién ganó más Copas del Mundo de Fútbol?",
+      "options": ["Alemania", "Argentina", "Brasil", "Italia"],
+      "correct": 2
+    },
+    {
+      "id": 169,
+      "question": "¿En qué año se celebraron los Juegos Olímpicos de Barcelona?",
+      "options": ["1988", "1992", "1996", "2000"],
+      "correct": 1
+    },
+    {
+      "id": 170,
+      "question": "¿Cuántos majors de golf existen?",
+      "options": ["3", "4", "5", "6"],
+      "correct": 1
+    },
+    {
+      "id": 171,
+      "question": "¿Quién es conocido como 'El Rey' del fútbol?",
+      "options": ["Diego Maradona", "Pelé", "Johan Cruyff", "Alfredo Di Stéfano"],
+      "correct": 1
+    },
+    {
+      "id": 172,
+      "question": "¿En qué deporte se utiliza una raqueta y una pelota amarilla?",
+      "options": ["Squash", "Tenis", "Bádminton", "Pádel"],
+      "correct": 1
+    },
+    {
+      "id": 173,
+      "question": "¿Cuántos puntos vale un triple en baloncesto?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 1
+    },
+    {
+      "id": 174,
+      "question": "¿Quién es el nadador con más medallas olímpicas?",
+      "options": ["Mark Spitz", "Michael Phelps", "Ryan Lochte", "Ian Thorpe"],
+      "correct": 1
+    },
+    {
+      "id": 175,
+      "question": "¿En qué país se celebró el Mundial de Fútbol 2014?",
+      "options": ["Argentina", "Brasil", "Chile", "Uruguay"],
+      "correct": 1
+    },
+    {
+      "id": 176,
+      "question": "¿Cuántos rounds tiene una pelea de boxeo profesional típica?",
+      "options": ["10", "12", "15", "20"],
+      "correct": 1
+    },
+    {
+      "id": 177,
+      "question": "¿Quién es el tenista con más títulos de Roland Garros?",
+      "options": ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Björn Borg"],
+      "correct": 1
+    },
+    {
+      "id": 178,
+      "question": "¿En qué deporte se utiliza un 'ace'?",
+      "options": ["Golf", "Tenis", "Béisbol", "Todos los anteriores"],
+      "correct": 3
+    },
+    {
+      "id": 179,
+      "question": "¿Cuántos jugadores tiene un equipo de béisbol en el campo?",
+      "options": ["8", "9", "10", "11"],
+      "correct": 1
+    },
+    {
+      "id": 180,
+      "question": "¿Quién es el futbolista con más goles en la historia?",
+      "options": ["Pelé", "Cristiano Ronaldo", "Lionel Messi", "Romário"],
+      "correct": 1
+    },
+    {
+      "id": 181,
+      "question": "¿En qué año se celebró el Mundial de Fútbol en Sudáfrica?",
+      "options": ["2006", "2010", "2014", "2018"],
+      "correct": 1
+    },
+    {
+      "id": 182,
+      "question": "¿Cuántos Grand Prix hay en una temporada de Fórmula 1 aproximadamente?",
+      "options": ["15-17", "18-20", "21-23", "24-26"],
+      "correct": 2
+    },
+    {
+      "id": 183,
+      "question": "¿Quién es el piloto con más campeonatos de Fórmula 1?",
+      "options": ["Michael Schumacher", "Lewis Hamilton", "Ayrton Senna", "Empate entre A y B"],
+      "correct": 3
+    },
+    {
+      "id": 184,
+      "question": "¿En qué deporte se utiliza un 'slam dunk'?",
+      "options": ["Voleibol", "Baloncesto", "Balonmano", "Waterpolo"],
+      "correct": 1
+    },
+    {
+      "id": 185,
+      "question": "¿Cuántos jugadores tiene un equipo de rugby en el campo?",
+      "options": ["13", "15", "17", "19"],
+      "correct": 1
+    },
+    {
+      "id": 186,
+      "question": "¿Quién ganó el Mundial de Fútbol 2018?",
+      "options": ["Alemania", "Francia", "Croacia", "Brasil"],
+      "correct": 1
+    },
+    {
+      "id": 187,
+      "question": "¿En qué deporte compite Simone Biles?",
+      "options": ["Natación", "Gimnasia", "Atletismo", "Patinaje"],
+      "correct": 1
+    },
+    {
+      "id": 188,
+      "question": "¿Cuántos innings tiene un partido de béisbol?",
+      "options": ["7", "9", "11", "13"],
+      "correct": 1
+    },
+    {
+      "id": 189,
+      "question": "¿Quién es el golfista con más majors?",
+      "options": ["Tiger Woods", "Jack Nicklaus", "Arnold Palmer", "Gary Player"],
+      "correct": 1
+    },
+    {
+      "id": 190,
+      "question": "¿En qué año se celebraron los Juegos Olímpicos de Tokio (primera vez)?",
+      "options": ["1960", "1964", "1968", "1972"],
+      "correct": 1
+    },
+    {
+      "id": 191,
+      "question": "¿Cuántos puntos vale un gol de campo en fútbol americano?",
+      "options": ["1", "2", "3", "6"],
+      "correct": 2
+    },
+    {
+      "id": 192,
+      "question": "¿Quién es el boxeador conocido como 'The Greatest'?",
+      "options": ["Mike Tyson", "Muhammad Ali", "Floyd Mayweather", "Sugar Ray Leonard"],
+      "correct": 1
+    },
+    {
+      "id": 193,
+      "question": "¿En qué deporte se utiliza un 'home run'?",
+      "options": ["Cricket", "Béisbol", "Softball", "B y C"],
+      "correct": 3
+    },
+    {
+      "id": 194,
+      "question": "¿Cuántos jugadores tiene un equipo de hockey sobre hielo en la pista?",
+      "options": ["5", "6", "7", "8"],
+      "correct": 1
+    },
+    {
+      "id": 195,
+      "question": "¿Quién ganó más títulos de la NBA?",
+      "options": ["Los Angeles Lakers", "Boston Celtics", "Chicago Bulls", "Golden State Warriors"],
+      "correct": 1
+    },
+    {
+      "id": 196,
+      "question": "¿En qué país se originó el judo?",
+      "options": ["China", "Corea", "Japón", "Tailandia"],
+      "correct": 2
+    },
+    {
+      "id": 197,
+      "question": "¿Cuántos Grand Slams ganó Serena Williams?",
+      "options": ["21", "23", "25", "27"],
+      "correct": 1
+    },
+    {
+      "id": 198,
+      "question": "¿Quién es el ciclista con más Tours de Francia?",
+      "options": ["Miguel Induráin", "Eddy Merckx", "Lance Armstrong", "Chris Froome"],
+      "correct": 1
+    },
+    {
+      "id": 199,
+      "question": "¿En qué deporte se utiliza un 'strike'?",
+      "options": ["Bolos", "Béisbol", "Cricket", "Todos los anteriores"],
+      "correct": 3
+    },
+    {
+      "id": 200,
+      "question": "¿Cuántos sets se juegan en un partido de voleibol?",
+      "options": ["Al mejor de 3", "Al mejor de 5", "Al mejor de 7", "Depende de la competición"],
+      "correct": 3
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "category": "cine",
+  "name": "Cine",
+  "icon": "🎬",
+  "color": "from-red-500 to-pink-500",
+  "image": "https://images.unsplash.com/photo-1524712245354-2c4e5e7121c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Quién dirigió la película 'Pulp Fiction'?",
+      "options": ["Quentin Tarantino", "Martin Scorsese", "Steven Spielberg", "Christopher Nolan"],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "¿En qué año se estrenó 'El Padrino'?",
+      "options": ["1970", "1972", "1974", "1976"],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "¿Qué actor interpretó a Jack Dawson en 'Titanic'?",
+      "options": ["Brad Pitt", "Johnny Depp", "Leonardo DiCaprio", "Tom Cruise"],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál es la película más taquillera de todos los tiempos (sin ajustar por inflación)?",
+      "options": ["Titanic", "Avatar", "Avengers: Endgame", "Star Wars"],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "question": "¿Quién ganó el Oscar a Mejor Actor por 'Joker' en 2020?",
+      "options": ["Heath Ledger", "Joaquin Phoenix", "Jared Leto", "Jack Nicholson"],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "question": "¿En qué película aparece la frase 'Que la fuerza te acompañe'?",
+      "options": ["Star Trek", "Star Wars", "Guardianes de la Galaxia", "Interstellar"],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "question": "¿Qué director es conocido por películas como 'Inception' y 'The Dark Knight'?",
+      "options": ["James Cameron", "Christopher Nolan", "Ridley Scott", "Denis Villeneuve"],
+      "correct": 1
+    },
+    {
+      "id": 8,
+      "question": "¿Cuántos Oscars ganó 'El Señor de los Anillos: El Retorno del Rey'?",
+      "options": ["9", "11", "13", "15"],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "question": "¿Qué actriz interpretó a Hermione Granger en Harry Potter?",
+      "options": ["Emma Stone", "Emma Watson", "Emma Roberts", "Emily Blunt"],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "question": "¿En qué año se estrenó la primera película de 'Jurassic Park'?",
+      "options": ["1991", "1993", "1995", "1997"],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "question": "¿Quién dirigió 'Forrest Gump'?",
+      "options": ["Robert Zemeckis", "Ron Howard", "Frank Darabont", "Peter Jackson"],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "¿Qué película ganó el Oscar a Mejor Película en 2020?",
+      "options": ["1917", "Joker", "Parasite", "Once Upon a Time in Hollywood"],
+      "correct": 2
+    },
+    {
+      "id": 13,
+      "question": "¿Cuál es el nombre real de 'Iron Man'?",
+      "options": ["Bruce Wayne", "Tony Stark", "Peter Parker", "Steve Rogers"],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "question": "¿Qué actor interpretó a Vito Corleone en 'El Padrino'?",
+      "options": ["Al Pacino", "Robert De Niro", "Marlon Brando", "James Caan"],
+      "correct": 2
+    },
+    {
+      "id": 15,
+      "question": "¿En qué película aparece el personaje de Hannibal Lecter por primera vez?",
+      "options": ["El Silencio de los Inocentes", "Manhunter", "Hannibal", "Red Dragon"],
+      "correct": 1
+    },
+    {
+      "id": 16,
+      "question": "¿Quién compuso la banda sonora de 'Star Wars'?",
+      "options": ["Hans Zimmer", "John Williams", "Ennio Morricone", "Howard Shore"],
+      "correct": 1
+    },
+    {
+      "id": 17,
+      "question": "¿Qué película de Pixar fue la primera en ganar el Oscar a Mejor Película Animada?",
+      "options": ["Toy Story", "Monsters Inc.", "Finding Nemo", "The Incredibles"],
+      "correct": 2
+    },
+    {
+      "id": 18,
+      "question": "¿En qué año se estrenó 'Matrix'?",
+      "options": ["1997", "1999", "2001", "2003"],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "question": "¿Quién interpretó a Clarice Starling en 'El Silencio de los Inocentes'?",
+      "options": ["Meryl Streep", "Jodie Foster", "Glenn Close", "Sigourney Weaver"],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "question": "¿Qué director es conocido por sus películas de suspense como 'Psicosis' y 'Los Pájaros'?",
+      "options": ["Alfred Hitchcock", "Stanley Kubrick", "Brian De Palma", "David Fincher"],
+      "correct": 0
+    },
+    {
+      "id": 21,
+      "question": "¿Cuál es la película más larga nominada al Oscar a Mejor Película?",
+      "options": ["Lo que el viento se llevó", "Lawrence de Arabia", "Ben-Hur", "Cleopatra"],
+      "correct": 3
+    },
+    {
+      "id": 22,
+      "question": "¿Qué actor interpretó a Wolverine en las películas de X-Men?",
+      "options": ["Ryan Reynolds", "Hugh Jackman", "Chris Hemsworth", "Christian Bale"],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "question": "¿En qué película aparece la frase 'Yo soy tu padre'?",
+      "options": [
+        "Star Wars: Una Nueva Esperanza",
+        "Star Wars: El Imperio Contraataca",
+        "Star Wars: El Retorno del Jedi",
+        "Star Wars: La Amenaza Fantasma"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 24,
+      "question": "¿Quién dirigió 'Gladiator'?",
+      "options": ["Ridley Scott", "James Cameron", "Peter Jackson", "Mel Gibson"],
+      "correct": 0
+    },
+    {
+      "id": 25,
+      "question": "¿Qué película de terror fue dirigida por Stanley Kubrick?",
+      "options": ["El Exorcista", "El Resplandor", "Psicosis", "Halloween"],
+      "correct": 1
+    },
+    {
+      "id": 26,
+      "question": "¿Cuántas películas de 'Harry Potter' se estrenaron en total?",
+      "options": ["7", "8", "9", "10"],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "question": "¿Qué actriz ganó el Oscar por 'La La Land'?",
+      "options": ["Emma Stone", "Jennifer Lawrence", "Natalie Portman", "Amy Adams"],
+      "correct": 0
+    },
+    {
+      "id": 28,
+      "question": "¿En qué película Tom Hanks interpreta a un náufrago?",
+      "options": ["Náufrago", "Apolo 13", "Forrest Gump", "Salvando al Soldado Ryan"],
+      "correct": 0
+    },
+    {
+      "id": 29,
+      "question": "¿Quién dirigió 'E.T. el Extraterrestre'?",
+      "options": ["George Lucas", "Steven Spielberg", "James Cameron", "Robert Zemeckis"],
+      "correct": 1
+    },
+    {
+      "id": 30,
+      "question": "¿Qué película ganó el primer Oscar a Mejor Película Animada?",
+      "options": ["Toy Story", "Shrek", "Monsters Inc.", "Finding Nemo"],
+      "correct": 1
+    },
+    {
+      "id": 31,
+      "question": "¿En qué año se estrenó 'Volver al Futuro'?",
+      "options": ["1983", "1985", "1987", "1989"],
+      "correct": 1
+    },
+    {
+      "id": 32,
+      "question": "¿Quién interpretó a Aragorn en 'El Señor de los Anillos'?",
+      "options": ["Orlando Bloom", "Viggo Mortensen", "Sean Bean", "Elijah Wood"],
+      "correct": 1
+    },
+    {
+      "id": 33,
+      "question": "¿Qué película de Quentin Tarantino transcurre principalmente en un teatro?",
+      "options": ["Kill Bill", "Bastardos sin Gloria", "Django sin Cadenas", "Los 8 más Odiados"],
+      "correct": 1
+    },
+    {
+      "id": 34,
+      "question": "¿Cuál es el nombre del robot en 'El Gigante de Hierro'?",
+      "options": ["Iron Giant", "Big Robot", "Metal Man", "Steel Titan"],
+      "correct": 0
+    },
+    {
+      "id": 35,
+      "question": "¿Qué actor interpretó a Batman en 'The Dark Knight'?",
+      "options": ["Ben Affleck", "Christian Bale", "Michael Keaton", "George Clooney"],
+      "correct": 1
+    },
+    {
+      "id": 36,
+      "question": "¿En qué película aparece el personaje de Tyler Durden?",
+      "options": ["American Psycho", "El Club de la Pelea", "Seven", "Zodiac"],
+      "correct": 1
+    },
+    {
+      "id": 37,
+      "question": "¿Quién dirigió 'Tiburón'?",
+      "options": ["Steven Spielberg", "George Lucas", "Francis Ford Coppola", "Martin Scorsese"],
+      "correct": 0
+    },
+    {
+      "id": 38,
+      "question": "¿Qué película de Disney fue la primera en ser nominada al Oscar a Mejor Película?",
+      "options": ["Blancanieves", "La Bella y la Bestia", "El Rey León", "Aladdin"],
+      "correct": 1
+    },
+    {
+      "id": 39,
+      "question": "¿En qué año se estrenó 'Toy Story'?",
+      "options": ["1993", "1995", "1997", "1999"],
+      "correct": 1
+    },
+    {
+      "id": 40,
+      "question": "¿Quién interpretó a Maximus en 'Gladiator'?",
+      "options": ["Russell Crowe", "Gerard Butler", "Brad Pitt", "Tom Hardy"],
+      "correct": 0
+    },
+    {
+      "id": 41,
+      "question": "¿Qué película de terror presenta a un muñeco llamado Chucky?",
+      "options": ["Annabelle", "Muñeco Diabólico", "Saw", "El Conjuro"],
+      "correct": 1
+    },
+    {
+      "id": 42,
+      "question": "¿Cuál es el nombre del parque en 'Jurassic Park'?",
+      "options": ["Dinosaur World", "Jurassic Park", "Isla Nublar", "Prehistoric Land"],
+      "correct": 1
+    },
+    {
+      "id": 43,
+      "question": "¿Quién dirigió 'Interstellar'?",
+      "options": ["Denis Villeneuve", "Christopher Nolan", "Ridley Scott", "James Cameron"],
+      "correct": 1
+    },
+    {
+      "id": 44,
+      "question": "¿Qué actriz interpretó a Katniss Everdeen en 'Los Juegos del Hambre'?",
+      "options": ["Emma Watson", "Jennifer Lawrence", "Kristen Stewart", "Shailene Woodley"],
+      "correct": 1
+    },
+    {
+      "id": 45,
+      "question": "¿En qué película aparece el personaje de Darth Vader?",
+      "options": ["Star Trek", "Star Wars", "Guardianes de la Galaxia", "Dune"],
+      "correct": 1
+    },
+    {
+      "id": 46,
+      "question": "¿Quién compuso la banda sonora de 'El Rey León'?",
+      "options": ["Alan Menken", "Hans Zimmer", "John Williams", "Danny Elfman"],
+      "correct": 1
+    },
+    {
+      "id": 47,
+      "question": "¿Qué película de Marvel fue la primera del Universo Cinematográfico?",
+      "options": ["Iron Man", "El Increíble Hulk", "Thor", "Capitán América"],
+      "correct": 0
+    },
+    {
+      "id": 48,
+      "question": "¿En qué año se estrenó 'Casablanca'?",
+      "options": ["1940", "1942", "1944", "1946"],
+      "correct": 1
+    },
+    {
+      "id": 49,
+      "question": "¿Quién interpretó a Gollum en 'El Señor de los Anillos'?",
+      "options": ["Ian McKellen", "Andy Serkis", "Elijah Wood", "Sean Astin"],
+      "correct": 1
+    },
+    {
+      "id": 50,
+      "question": "¿Qué director es conocido por películas como 'Amelie' y 'La Invención de Hugo'?",
+      "options": ["Jean-Pierre Jeunet", "Luc Besson", "François Truffaut", "Jean-Luc Godard"],
+      "correct": 0
+    }
+  ]
+}

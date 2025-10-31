@@ -1,0 +1,309 @@
+{
+  "category": "musica",
+  "name": "Música",
+  "icon": "🎵",
+  "color": "from-purple-500 to-indigo-500",
+  "image": "https://images.unsplash.com/photo-1539692397242-335cd88cf0a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  "questions": [
+    {
+      "id": 51,
+      "question": "¿Quién es conocido como 'El Rey del Pop'?",
+      "options": ["Elvis Presley", "Michael Jackson", "Prince", "Freddie Mercury"],
+      "correct": 1
+    },
+    {
+      "id": 52,
+      "question": "¿Qué banda británica lanzó el álbum 'Abbey Road'?",
+      "options": ["The Rolling Stones", "The Beatles", "Led Zeppelin", "Pink Floyd"],
+      "correct": 1
+    },
+    {
+      "id": 53,
+      "question": "¿En qué año murió Kurt Cobain?",
+      "options": ["1992", "1994", "1996", "1998"],
+      "correct": 1
+    },
+    {
+      "id": 54,
+      "question": "¿Quién cantó 'Bohemian Rhapsody'?",
+      "options": ["Queen", "The Who", "Deep Purple", "AC/DC"],
+      "correct": 0
+    },
+    {
+      "id": 55,
+      "question": "¿Cuál es el nombre real de Bono, vocalista de U2?",
+      "options": ["Paul Hewson", "David Evans", "Adam Clayton", "Larry Mullen"],
+      "correct": 0
+    },
+    {
+      "id": 56,
+      "question": "¿Qué instrumento tocaba Jimi Hendrix?",
+      "options": ["Batería", "Bajo", "Guitarra", "Piano"],
+      "correct": 2
+    },
+    {
+      "id": 57,
+      "question": "¿Quién compuso 'Las Cuatro Estaciones'?",
+      "options": ["Mozart", "Beethoven", "Vivaldi", "Bach"],
+      "correct": 2
+    },
+    {
+      "id": 58,
+      "question": "¿En qué ciudad nació el jazz?",
+      "options": ["Chicago", "Nueva York", "Nueva Orleans", "Memphis"],
+      "correct": 2
+    },
+    {
+      "id": 59,
+      "question": "¿Qué cantante es conocida como 'La Reina del Soul'?",
+      "options": ["Diana Ross", "Aretha Franklin", "Tina Turner", "Whitney Houston"],
+      "correct": 1
+    },
+    {
+      "id": 60,
+      "question": "¿Cuál es el álbum más vendido de todos los tiempos?",
+      "options": ["Back in Black", "The Dark Side of the Moon", "Thriller", "The Wall"],
+      "correct": 2
+    },
+    {
+      "id": 61,
+      "question": "¿Quién fue el guitarrista de Nirvana?",
+      "options": ["Dave Grohl", "Kurt Cobain", "Krist Novoselic", "Pat Smear"],
+      "correct": 1
+    },
+    {
+      "id": 62,
+      "question": "¿Qué banda lanzó el álbum 'The Dark Side of the Moon'?",
+      "options": ["Led Zeppelin", "Pink Floyd", "The Doors", "Genesis"],
+      "correct": 1
+    },
+    {
+      "id": 63,
+      "question": "¿En qué año se separaron The Beatles?",
+      "options": ["1968", "1970", "1972", "1974"],
+      "correct": 1
+    },
+    {
+      "id": 64,
+      "question": "¿Quién cantó 'Like a Rolling Stone'?",
+      "options": ["Bob Dylan", "Bruce Springsteen", "Neil Young", "Leonard Cohen"],
+      "correct": 0
+    },
+    {
+      "id": 65,
+      "question": "¿Qué instrumento es el protagonista en un concierto de piano?",
+      "options": ["Violín", "Piano", "Flauta", "Trompeta"],
+      "correct": 1
+    },
+    {
+      "id": 66,
+      "question": "¿Quién es el vocalista de Coldplay?",
+      "options": ["Thom Yorke", "Chris Martin", "Brandon Flowers", "Matt Bellamy"],
+      "correct": 1
+    },
+    {
+      "id": 67,
+      "question": "¿Qué banda lanzó 'Stairway to Heaven'?",
+      "options": ["Deep Purple", "Led Zeppelin", "Black Sabbath", "Aerosmith"],
+      "correct": 1
+    },
+    {
+      "id": 68,
+      "question": "¿En qué década surgió el movimiento punk?",
+      "options": ["1960s", "1970s", "1980s", "1990s"],
+      "correct": 1
+    },
+    {
+      "id": 69,
+      "question": "¿Quién compuso la 'Novena Sinfonía'?",
+      "options": ["Mozart", "Beethoven", "Bach", "Brahms"],
+      "correct": 1
+    },
+    {
+      "id": 70,
+      "question": "¿Qué cantante es conocida por la canción 'Rolling in the Deep'?",
+      "options": ["Adele", "Amy Winehouse", "Florence Welch", "Lana Del Rey"],
+      "correct": 0
+    },
+    {
+      "id": 71,
+      "question": "¿Cuál es el nombre real de Elton John?",
+      "options": ["Reginald Dwight", "David Jones", "Gordon Sumner", "Farrokh Bulsara"],
+      "correct": 0
+    },
+    {
+      "id": 72,
+      "question": "¿Qué banda lanzó 'Hotel California'?",
+      "options": ["The Doors", "Eagles", "Fleetwood Mac", "America"],
+      "correct": 1
+    },
+    {
+      "id": 73,
+      "question": "¿Quién fue el baterista de The Beatles?",
+      "options": ["Pete Best", "Ringo Starr", "Keith Moon", "Charlie Watts"],
+      "correct": 1
+    },
+    {
+      "id": 74,
+      "question": "¿En qué año se celebró el festival de Woodstock?",
+      "options": ["1967", "1969", "1971", "1973"],
+      "correct": 1
+    },
+    {
+      "id": 75,
+      "question": "¿Quién cantó 'Imagine'?",
+      "options": ["Paul McCartney", "John Lennon", "George Harrison", "Bob Dylan"],
+      "correct": 1
+    },
+    {
+      "id": 76,
+      "question": "¿Qué género musical se originó en Jamaica?",
+      "options": ["Salsa", "Reggae", "Samba", "Calypso"],
+      "correct": 1
+    },
+    {
+      "id": 77,
+      "question": "¿Quién es conocido como 'El Rey del Rock and Roll'?",
+      "options": ["Chuck Berry", "Elvis Presley", "Little Richard", "Jerry Lee Lewis"],
+      "correct": 1
+    },
+    {
+      "id": 78,
+      "question": "¿Qué banda lanzó 'Smells Like Teen Spirit'?",
+      "options": ["Pearl Jam", "Soundgarden", "Nirvana", "Alice in Chains"],
+      "correct": 2
+    },
+    {
+      "id": 79,
+      "question": "¿Cuántas cuerdas tiene una guitarra estándar?",
+      "options": ["4", "5", "6", "7"],
+      "correct": 2
+    },
+    {
+      "id": 80,
+      "question": "¿Quién cantó 'Purple Rain'?",
+      "options": ["Prince", "Michael Jackson", "Stevie Wonder", "Marvin Gaye"],
+      "correct": 0
+    },
+    {
+      "id": 81,
+      "question": "¿Qué instrumento tocaba Miles Davis?",
+      "options": ["Saxofón", "Trompeta", "Piano", "Contrabajo"],
+      "correct": 1
+    },
+    {
+      "id": 82,
+      "question": "¿En qué ciudad nació el hip hop?",
+      "options": ["Los Ángeles", "Chicago", "Nueva York", "Detroit"],
+      "correct": 2
+    },
+    {
+      "id": 83,
+      "question": "¿Quién es la vocalista de No Doubt?",
+      "options": ["Gwen Stefani", "Shirley Manson", "Courtney Love", "Alanis Morissette"],
+      "correct": 0
+    },
+    {
+      "id": 84,
+      "question": "¿Qué banda lanzó 'Back in Black'?",
+      "options": ["Metallica", "AC/DC", "Iron Maiden", "Judas Priest"],
+      "correct": 1
+    },
+    {
+      "id": 85,
+      "question": "¿Quién compuso 'El Lago de los Cisnes'?",
+      "options": ["Tchaikovsky", "Stravinsky", "Prokofiev", "Rachmaninoff"],
+      "correct": 0
+    },
+    {
+      "id": 86,
+      "question": "¿En qué año murió Elvis Presley?",
+      "options": ["1975", "1977", "1979", "1981"],
+      "correct": 1
+    },
+    {
+      "id": 87,
+      "question": "¿Quién cantó 'Respect'?",
+      "options": ["Etta James", "Aretha Franklin", "Nina Simone", "Billie Holiday"],
+      "correct": 1
+    },
+    {
+      "id": 88,
+      "question": "¿Qué banda lanzó 'Paranoid'?",
+      "options": ["Led Zeppelin", "Deep Purple", "Black Sabbath", "Judas Priest"],
+      "correct": 2
+    },
+    {
+      "id": 89,
+      "question": "¿Cuál es el nombre real de Sting?",
+      "options": ["Gordon Sumner", "Stuart Copeland", "Andy Summers", "Stewart Copeland"],
+      "correct": 0
+    },
+    {
+      "id": 90,
+      "question": "¿Quién es el vocalista de Radiohead?",
+      "options": ["Thom Yorke", "Chris Martin", "Eddie Vedder", "Michael Stipe"],
+      "correct": 0
+    },
+    {
+      "id": 91,
+      "question": "¿Qué banda lanzó 'Nevermind'?",
+      "options": ["Pearl Jam", "Nirvana", "Soundgarden", "Stone Temple Pilots"],
+      "correct": 1
+    },
+    {
+      "id": 92,
+      "question": "¿En qué año se lanzó 'Thriller' de Michael Jackson?",
+      "options": ["1980", "1982", "1984", "1986"],
+      "correct": 1
+    },
+    {
+      "id": 93,
+      "question": "¿Quién cantó 'What's Going On'?",
+      "options": ["Stevie Wonder", "Marvin Gaye", "Curtis Mayfield", "Al Green"],
+      "correct": 1
+    },
+    {
+      "id": 94,
+      "question": "¿Qué instrumento tocaba Charlie Parker?",
+      "options": ["Trompeta", "Saxofón", "Piano", "Contrabajo"],
+      "correct": 1
+    },
+    {
+      "id": 95,
+      "question": "¿Quién es conocido como 'El Padrino del Soul'?",
+      "options": ["James Brown", "Otis Redding", "Sam Cooke", "Ray Charles"],
+      "correct": 0
+    },
+    {
+      "id": 96,
+      "question": "¿Qué banda lanzó 'London Calling'?",
+      "options": ["Sex Pistols", "The Clash", "The Ramones", "The Damned"],
+      "correct": 1
+    },
+    {
+      "id": 97,
+      "question": "¿En qué década surgió el grunge?",
+      "options": ["1970s", "1980s", "1990s", "2000s"],
+      "correct": 2
+    },
+    {
+      "id": 98,
+      "question": "¿Quién cantó 'Hallelujah'?",
+      "options": ["Bob Dylan", "Leonard Cohen", "Neil Young", "Tom Waits"],
+      "correct": 1
+    },
+    {
+      "id": 99,
+      "question": "¿Qué banda lanzó 'OK Computer'?",
+      "options": ["Radiohead", "Blur", "Oasis", "Pulp"],
+      "correct": 0
+    },
+    {
+      "id": 100,
+      "question": "¿Cuántas teclas tiene un piano estándar?",
+      "options": ["76", "88", "96", "104"],
+      "correct": 1
+    }
+  ]
+}

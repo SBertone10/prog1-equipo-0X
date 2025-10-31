@@ -1,0 +1,309 @@
+{
+  "category": "videojuegos",
+  "name": "Videojuegos",
+  "icon": "🎮",
+  "color": "from-blue-500 to-cyan-500",
+  "image": "https://images.unsplash.com/photo-1655976796204-308e6f3deaa8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  "questions": [
+    {
+      "id": 201,
+      "question": "¿Quién es el personaje principal de 'The Legend of Zelda'?",
+      "options": ["Zelda", "Link", "Ganondorf", "Epona"],
+      "correct": 1
+    },
+    {
+      "id": 202,
+      "question": "¿En qué año se lanzó el primer 'Super Mario Bros'?",
+      "options": ["1983", "1985", "1987", "1989"],
+      "correct": 1
+    },
+    {
+      "id": 203,
+      "question": "¿Qué empresa creó 'Minecraft'?",
+      "options": ["Microsoft", "Mojang", "Sony", "Nintendo"],
+      "correct": 1
+    },
+    {
+      "id": 204,
+      "question": "¿Cuál es el nombre del protagonista de 'Half-Life'?",
+      "options": ["Gordon Freeman", "John Freeman", "Barney Calhoun", "Adrian Shephard"],
+      "correct": 0
+    },
+    {
+      "id": 205,
+      "question": "¿En qué año se lanzó 'The Last of Us'?",
+      "options": ["2011", "2013", "2015", "2017"],
+      "correct": 1
+    },
+    {
+      "id": 206,
+      "question": "¿Qué consola lanzó Nintendo en 2017?",
+      "options": ["Wii U", "Nintendo Switch", "Nintendo 3DS", "Nintendo DS"],
+      "correct": 1
+    },
+    {
+      "id": 207,
+      "question": "¿Cuál es el nombre del protagonista de 'God of War'?",
+      "options": ["Zeus", "Kratos", "Ares", "Hades"],
+      "correct": 1
+    },
+    {
+      "id": 208,
+      "question": "¿En qué año se lanzó 'Grand Theft Auto V'?",
+      "options": ["2011", "2013", "2015", "2017"],
+      "correct": 1
+    },
+    {
+      "id": 209,
+      "question": "¿Qué empresa desarrolló 'The Witcher 3'?",
+      "options": ["Bethesda", "CD Projekt Red", "BioWare", "Ubisoft"],
+      "correct": 1
+    },
+    {
+      "id": 210,
+      "question": "¿Cuál es el nombre del protagonista de 'Metal Gear Solid'?",
+      "options": ["Big Boss", "Solid Snake", "Liquid Snake", "Raiden"],
+      "correct": 1
+    },
+    {
+      "id": 211,
+      "question": "¿En qué año se lanzó la primera PlayStation?",
+      "options": ["1992", "1994", "1996", "1998"],
+      "correct": 1
+    },
+    {
+      "id": 212,
+      "question": "¿Qué empresa creó 'Fortnite'?",
+      "options": ["Epic Games", "Activision", "EA", "Ubisoft"],
+      "correct": 0
+    },
+    {
+      "id": 213,
+      "question": "¿Cuál es el nombre del protagonista de 'Assassin's Creed II'?",
+      "options": ["Altaïr", "Ezio", "Connor", "Edward"],
+      "correct": 1
+    },
+    {
+      "id": 214,
+      "question": "¿En qué año se lanzó 'Pokémon Red y Blue'?",
+      "options": ["1994", "1996", "1998", "2000"],
+      "correct": 1
+    },
+    {
+      "id": 215,
+      "question": "¿Qué consola lanzó Sony en 2020?",
+      "options": ["PlayStation 4", "PlayStation 5", "PlayStation Vita", "PlayStation Portable"],
+      "correct": 1
+    },
+    {
+      "id": 216,
+      "question": "¿Cuál es el nombre del protagonista de 'Halo'?",
+      "options": ["Master Chief", "Arbiter", "Cortana", "Sergeant Johnson"],
+      "correct": 0
+    },
+    {
+      "id": 217,
+      "question": "¿En qué año se lanzó 'The Elder Scrolls V: Skyrim'?",
+      "options": ["2009", "2011", "2013", "2015"],
+      "correct": 1
+    },
+    {
+      "id": 218,
+      "question": "¿Qué empresa desarrolló 'Dark Souls'?",
+      "options": ["FromSoftware", "Capcom", "Square Enix", "Konami"],
+      "correct": 0
+    },
+    {
+      "id": 219,
+      "question": "¿Cuál es el nombre del protagonista de 'Uncharted'?",
+      "options": ["Nathan Drake", "Victor Sullivan", "Sam Drake", "Rafe Adler"],
+      "correct": 0
+    },
+    {
+      "id": 220,
+      "question": "¿En qué año se lanzó 'Overwatch'?",
+      "options": ["2014", "2016", "2018", "2020"],
+      "correct": 1
+    },
+    {
+      "id": 221,
+      "question": "¿Qué empresa creó 'League of Legends'?",
+      "options": ["Blizzard", "Riot Games", "Valve", "Epic Games"],
+      "correct": 1
+    },
+    {
+      "id": 222,
+      "question": "¿Cuál es el nombre del protagonista de 'Red Dead Redemption 2'?",
+      "options": ["John Marston", "Arthur Morgan", "Dutch van der Linde", "Micah Bell"],
+      "correct": 1
+    },
+    {
+      "id": 223,
+      "question": "¿En qué año se lanzó 'World of Warcraft'?",
+      "options": ["2002", "2004", "2006", "2008"],
+      "correct": 1
+    },
+    {
+      "id": 224,
+      "question": "¿Qué consola lanzó Microsoft en 2001?",
+      "options": ["Xbox", "Xbox 360", "Xbox One", "Xbox Series X"],
+      "correct": 0
+    },
+    {
+      "id": 225,
+      "question": "¿Cuál es el nombre del protagonista de 'Resident Evil 2'?",
+      "options": ["Chris Redfield", "Jill Valentine", "Leon Kennedy", "Claire Redfield"],
+      "correct": 2
+    },
+    {
+      "id": 226,
+      "question": "¿En qué año se lanzó 'Counter-Strike'?",
+      "options": ["1998", "2000", "2002", "2004"],
+      "correct": 1
+    },
+    {
+      "id": 227,
+      "question": "¿Qué empresa desarrolló 'Fallout 4'?",
+      "options": ["Obsidian", "Bethesda", "BioWare", "CD Projekt Red"],
+      "correct": 1
+    },
+    {
+      "id": 228,
+      "question": "¿Cuál es el nombre del protagonista de 'Final Fantasy VII'?",
+      "options": ["Squall", "Cloud", "Tidus", "Zidane"],
+      "correct": 1
+    },
+    {
+      "id": 229,
+      "question": "¿En qué año se lanzó 'Doom'?",
+      "options": ["1991", "1993", "1995", "1997"],
+      "correct": 1
+    },
+    {
+      "id": 230,
+      "question": "¿Qué empresa creó 'Sonic the Hedgehog'?",
+      "options": ["Nintendo", "Sega", "Capcom", "Konami"],
+      "correct": 1
+    },
+    {
+      "id": 231,
+      "question": "¿Cuál es el nombre del protagonista de 'Bioshock'?",
+      "options": ["Jack", "Andrew Ryan", "Atlas", "Big Daddy"],
+      "correct": 0
+    },
+    {
+      "id": 232,
+      "question": "¿En qué año se lanzó 'Portal'?",
+      "options": ["2005", "2007", "2009", "2011"],
+      "correct": 1
+    },
+    {
+      "id": 233,
+      "question": "¿Qué empresa desarrolló 'Bloodborne'?",
+      "options": ["FromSoftware", "Capcom", "Square Enix", "Konami"],
+      "correct": 0
+    },
+    {
+      "id": 234,
+      "question": "¿Cuál es el nombre del protagonista de 'Mass Effect'?",
+      "options": ["Commander Shepard", "Garrus", "Liara", "Tali"],
+      "correct": 0
+    },
+    {
+      "id": 235,
+      "question": "¿En qué año se lanzó 'Street Fighter II'?",
+      "options": ["1989", "1991", "1993", "1995"],
+      "correct": 1
+    },
+    {
+      "id": 236,
+      "question": "¿Qué empresa creó 'Dota 2'?",
+      "options": ["Blizzard", "Riot Games", "Valve", "Epic Games"],
+      "correct": 2
+    },
+    {
+      "id": 237,
+      "question": "¿Cuál es el nombre del protagonista de 'Tomb Raider'?",
+      "options": ["Lara Croft", "Nathan Drake", "Indiana Jones", "Aloy"],
+      "correct": 0
+    },
+    {
+      "id": 238,
+      "question": "¿En qué año se lanzó 'Tetris'?",
+      "options": ["1982", "1984", "1986", "1988"],
+      "correct": 1
+    },
+    {
+      "id": 239,
+      "question": "¿Qué empresa desarrolló 'Horizon Zero Dawn'?",
+      "options": ["Naughty Dog", "Guerrilla Games", "Sucker Punch", "Insomniac Games"],
+      "correct": 1
+    },
+    {
+      "id": 240,
+      "question": "¿Cuál es el nombre del protagonista de 'Devil May Cry'?",
+      "options": ["Nero", "Vergil", "Dante", "V"],
+      "correct": 2
+    },
+    {
+      "id": 241,
+      "question": "¿En qué año se lanzó 'Pac-Man'?",
+      "options": ["1978", "1980", "1982", "1984"],
+      "correct": 1
+    },
+    {
+      "id": 242,
+      "question": "¿Qué empresa creó 'Apex Legends'?",
+      "options": ["Respawn Entertainment", "EA", "Activision", "Ubisoft"],
+      "correct": 0
+    },
+    {
+      "id": 243,
+      "question": "¿Cuál es el nombre del protagonista de 'Sekiro'?",
+      "options": ["Wolf", "Sekiro", "Shinobi", "Lobo"],
+      "correct": 0
+    },
+    {
+      "id": 244,
+      "question": "¿En qué año se lanzó 'Mortal Kombat'?",
+      "options": ["1990", "1992", "1994", "1996"],
+      "correct": 1
+    },
+    {
+      "id": 245,
+      "question": "¿Qué empresa desarrolló 'Cuphead'?",
+      "options": ["Studio MDHR", "Team Cherry", "Supergiant Games", "Motion Twin"],
+      "correct": 0
+    },
+    {
+      "id": 246,
+      "question": "¿Cuál es el nombre del protagonista de 'Persona 5'?",
+      "options": ["Joker", "Yu Narukami", "Makoto Yuki", "Ren Amamiya"],
+      "correct": 0
+    },
+    {
+      "id": 247,
+      "question": "¿En qué año se lanzó 'Chrono Trigger'?",
+      "options": ["1993", "1995", "1997", "1999"],
+      "correct": 1
+    },
+    {
+      "id": 248,
+      "question": "¿Qué empresa creó 'Rocket League'?",
+      "options": ["Psyonix", "Epic Games", "EA", "Activision"],
+      "correct": 0
+    },
+    {
+      "id": 249,
+      "question": "¿Cuál es el nombre del protagonista de 'Hollow Knight'?",
+      "options": ["The Knight", "Hornet", "The Hollow Knight", "Quirrel"],
+      "correct": 0
+    },
+    {
+      "id": 250,
+      "question": "¿En qué año se lanzó 'Super Smash Bros'?",
+      "options": ["1997", "1999", "2001", "2003"],
+      "correct": 1
+    }
+  ]
+}
