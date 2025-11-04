@@ -1,0 +1,1276 @@
+[
+  {
+    "id": 1,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Por qué película ganó Leonardo DiCaprio su primer Oscar a Mejor Actor?",
+    "opciones": ["El Lobo de Wall Street", "Titanic", "El Renacido", "Diamante de Sangre"],
+    "respuestaCorrecta": "El Renacido"
+  },
+  {
+    "id": 2,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por la película *La Forma del Agua*?",
+    "opciones": ["Christopher Nolan", "Guillermo del Toro", "Alfonso Cuarón", "Alejandro G. Iñárritu"],
+    "respuestaCorrecta": "Guillermo del Toro"
+  },
+  {
+    "id": 3,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la única película de Studio Ghibli que ha ganado el Oscar a Mejor Película de Animación?",
+    "opciones": ["La Princesa Mononoke", "El Viaje de Chihiro", "El Castillo Ambulante", "Ponyo"],
+    "respuestaCorrecta": "El Viaje de Chihiro"
+  },
+  {
+    "id": 4,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película ganó el premio de la Academia a Mejor Película en 1994?",
+    "opciones": ["Pulp Fiction", "Cadena Perpetua", "Forrest Gump", "Cuatro Bodas y un Funeral"],
+    "respuestaCorrecta": "Forrest Gump"
+  },
+  {
+    "id": 5,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz tiene el récord de más premios Oscar ganados (4 estatuillas)?",
+    "opciones": ["Meryl Streep", "Ingrid Bergman", "Cate Blanchett", "Katharine Hepburn"],
+    "respuestaCorrecta": "Katharine Hepburn"
+  },
+  {
+    "id": 6,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director tiene el récord de más nominaciones al Oscar a Mejor Director (12 nominaciones)?",
+    "opciones": ["Steven Spielberg", "Martin Scorsese", "William Wyler", "Billy Wilder"],
+    "respuestaCorrecta": "William Wyler"
+  },
+  {
+    "id": 7,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál fue la primera película en ganar 11 premios Oscar, incluyendo Mejor Película?",
+    "opciones": ["Ben-Hur", "Titanic", "El Señor de los Anillos: El Retorno del Rey", "Lo que el viento se llevó"],
+    "respuestaCorrecta": "Ben-Hur"
+  },
+  {
+    "id": 8,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Dallas Buyers Club*?",
+    "opciones": ["Matthew McConaughey", "Leonardo DiCaprio", "Christian Bale", "Eddie Redmayne"],
+    "respuestaCorrecta": "Matthew McConaughey"
+  },
+  {
+    "id": 9,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *Birdman* y *El Renacido* consecutivamente?",
+    "opciones": ["Alfonso Cuarón", "Alejandro G. Iñárritu", "Ang Lee", "Damien Chazelle"],
+    "respuestaCorrecta": "Alejandro G. Iñárritu"
+  },
+  {
+    "id": 10,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Martin Scorsese le valió su único Oscar a Mejor Director?",
+    "opciones": ["Taxi Driver", "Toro Salvaje", "Infiltrados (The Departed)", "El Lobo de Wall Street"],
+    "respuestaCorrecta": "Infiltrados (The Departed)"
+  },
+  {
+    "id": 11,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película ganó el Oscar a Mejor Película en 2020 (por la ceremonia de 2019)?",
+    "opciones": ["1917", "Parásitos", "Joker", "Érase una vez en Hollywood"],
+    "respuestaCorrecta": "Parásitos"
+  },
+  {
+    "id": 12,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor de Reparto por *El Caballero Oscuro* (póstumo)?",
+    "opciones": ["Heath Ledger", "Michael Caine", "Tom Hardy", "Christian Bale"],
+    "respuestaCorrecta": "Heath Ledger"
+  },
+  {
+    "id": 13,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por las películas *Pulp Fiction* y *Kill Bill*?",
+    "opciones": ["Christopher Nolan", "Quentin Tarantino", "Wes Anderson", "Joel Coen"],
+    "respuestaCorrecta": "Quentin Tarantino"
+  },
+  {
+    "id": 14,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, junto con *Titanic* y *Ben-Hur*, comparte el récord de 11 premios Oscar?",
+    "opciones": ["Lo que el viento se llevó", "West Side Story", "El Señor de los Anillos: El Retorno del Rey", "Gigi"],
+    "respuestaCorrecta": "El Señor de los Anillos: El Retorno del Rey"
+  },
+  {
+    "id": 15,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz por interpretar a Edith Piaf en *La Vie en Rose*?",
+    "opciones": ["Kate Winslet", "Marion Cotillard", "Julianne Moore", "Nicole Kidman"],
+    "respuestaCorrecta": "Marion Cotillard"
+  },
+  {
+    "id": 16,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *Salvar al Soldado Ryan*?",
+    "opciones": ["James Cameron", "Clint Eastwood", "Steven Spielberg", "Peter Jackson"],
+    "respuestaCorrecta": "Steven Spielberg"
+  },
+  {
+    "id": 17,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Alfred Hitchcock ganó el Oscar a Mejor Película (única de su carrera)?",
+    "opciones": ["Vértigo", "Psicosis", "Rebeca", "La Ventana Indiscreta"],
+    "respuestaCorrecta": "Rebeca"
+  },
+  {
+    "id": 18,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Quién tiene el récord de más Oscars ganados en la historia (26 estatuillas, en varias categorías)?",
+    "opciones": ["John Ford", "Walt Disney", "Steven Spielberg", "Edith Head"],
+    "respuestaCorrecta": "Walt Disney"
+  },
+  {
+    "id": 19,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz por *Monster's Ball* (siendo la primera afroamericana en lograrlo)?",
+    "opciones": ["Viola Davis", "Halle Berry", "Octavia Spencer", "Whoopi Goldberg"],
+    "respuestaCorrecta": "Halle Berry"
+  },
+  {
+    "id": 20,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es famoso por la regla de 'no más de dos horas' para sus películas (ej. *El Origen*, *Interestelar*)?",
+    "opciones": ["Denis Villeneuve", "Christopher Nolan", "James Cameron", "Ridley Scott"],
+    "respuestaCorrecta": "Christopher Nolan"
+  },
+  {
+    "id": 21,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Stanley Kubrick es conocida por su uso de música clásica y efectos visuales vanguardistas?",
+    "opciones": ["La Naranja Mecánica", "2001: Una Odisea del Espacio", "Dr. Strangelove", "Senderos de Gloria"],
+    "respuestaCorrecta": "2001: Una Odisea del Espacio"
+  },
+  {
+    "id": 22,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Forrest Gump* y *Philadelphia* consecutivamente?",
+    "opciones": ["Dustin Hoffman", "Daniel Day-Lewis", "Tom Hanks", "Jack Nicholson"],
+    "respuestaCorrecta": "Tom Hanks"
+  },
+  {
+    "id": 23,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *El Padrino* y *El Padrino II*?",
+    "opciones": ["Francis Ford Coppola", "Martin Scorsese", "Brian De Palma", "George Lucas"],
+    "respuestaCorrecta": "Francis Ford Coppola"
+  },
+  {
+    "id": 24,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director español ganó el Oscar a Mejor Director por *Hable con ella*?",
+    "opciones": ["Luis Buñuel", "Juan Antonio Bayona", "Pedro Almodóvar", "Alejandro Amenábar"],
+    "respuestaCorrecta": "Pedro Almodóvar"
+  },
+  {
+    "id": 25,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Quentin Tarantino le valió el Oscar a Mejor Guion Original, pero no Mejor Película?",
+    "opciones": ["Reservoir Dogs", "Pulp Fiction", "Kill Bill", "Érase una vez en Hollywood"],
+    "respuestaCorrecta": "Pulp Fiction"
+  },
+  {
+    "id": 26,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la película ganadora del Oscar que narra la historia ficticia de Mozart y Salieri?",
+    "opciones": ["Farinelli", "Amadeus", "Impromptu", "Copying Beethoven"],
+    "respuestaCorrecta": "Amadeus"
+  },
+  {
+    "id": 27,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *La lista de Schindler*?",
+    "opciones": ["Woody Allen", "Stanley Kubrick", "Steven Spielberg", "Clint Eastwood"],
+    "respuestaCorrecta": "Steven Spielberg"
+  },
+  {
+    "id": 28,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz por *La La Land*?",
+    "opciones": ["Natalie Portman", "Emma Stone", "Isabelle Huppert", "Ruth Negga"],
+    "respuestaCorrecta": "Emma Stone"
+  },
+  {
+    "id": 29,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película ganó el Oscar a Mejor Película en la ceremonia donde Will Smith abofeteó a Chris Rock (2022)?",
+    "opciones": ["Belfast", "Dune", "CODA", "El Poder del Perro"],
+    "respuestaCorrecta": "CODA"
+  },
+  {
+    "id": 30,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Gladiador*?",
+    "opciones": ["Tom Cruise", "Javier Bardem", "Russell Crowe", "Geoffrey Rush"],
+    "respuestaCorrecta": "Russell Crowe"
+  },
+  {
+    "id": 31,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director mexicano es conocido por películas como *Amores Perros* y *Babel*?",
+    "opciones": ["Alfonso Cuarón", "Guillermo del Toro", "Alejandro G. Iñárritu", "Robert Rodriguez"],
+    "respuestaCorrecta": "Alejandro G. Iñárritu"
+  },
+  {
+    "id": 32,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál fue la primera película de habla no inglesa en ganar el Oscar a Mejor Película?",
+    "opciones": ["Roma", "El Viaje de Chihiro", "Parásitos", "La vida es bella"],
+    "respuestaCorrecta": "Parásitos"
+  },
+  {
+    "id": 33,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *Roma* y *Gravity*?",
+    "opciones": ["Guillermo del Toro", "Alfonso Cuarón", "Alejandro G. Iñárritu", "Pedro Almodóvar"],
+    "respuestaCorrecta": "Alfonso Cuarón"
+  },
+  {
+    "id": 34,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz de Reparto por *Vicky Cristina Barcelona*?",
+    "opciones": ["Cate Blanchett", "Penélope Cruz", "Judi Dench", "Amy Adams"],
+    "respuestaCorrecta": "Penélope Cruz"
+  },
+  {
+    "id": 35,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por la saga *Star Wars* y cofundador de Pixar?",
+    "opciones": ["Steven Spielberg", "James Cameron", "George Lucas", "Ron Howard"],
+    "respuestaCorrecta": "George Lucas"
+  },
+  {
+    "id": 36,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Clint Eastwood le valió el Oscar a Mejor Película y Mejor Director?",
+    "opciones": ["Mystic River", "Gran Torino", "Million Dollar Baby", "Unforgiven"],
+    "respuestaCorrecta": "Unforgiven"
+  },
+  {
+    "id": 37,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Quién es el único director que ha ganado tres veces el Oscar a Mejor Director?",
+    "opciones": ["Billy Wilder", "John Ford", "William Wyler", "Frank Capra"],
+    "respuestaCorrecta": "John Ford"
+  },
+  {
+    "id": 38,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Capote*?",
+    "opciones": ["Jamie Foxx", "Forest Whitaker", "Philip Seymour Hoffman", "Jeff Bridges"],
+    "respuestaCorrecta": "Philip Seymour Hoffman"
+  },
+  {
+    "id": 39,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Bong Joon-ho, ganó Mejor Película y Mejor Director en 2020?",
+    "opciones": ["The Host", "Mother", "Parásitos", "Memories of Murder"],
+    "respuestaCorrecta": "Parásitos"
+  },
+  {
+    "id": 40,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Ridley Scott ganó el Oscar a Mejor Película?",
+    "opciones": ["Blade Runner", "Gladiador", "Thelma & Louise", "Marte"],
+    "respuestaCorrecta": "Gladiador"
+  },
+  {
+    "id": 41,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la canción de Eminem que ganó el Oscar a Mejor Canción Original?",
+    "opciones": ["My Name Is", "Lose Yourself", "Stan", "Not Afraid"],
+    "respuestaCorrecta": "Lose Yourself"
+  },
+  {
+    "id": 42,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *En busca de la felicidad*?",
+    "opciones": ["Jamie Foxx", "Will Smith", "Leonardo DiCaprio", "Forest Whitaker"],
+    "respuestaCorrecta": "Forest Whitaker"
+  },
+  {
+    "id": 43,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *No es país para viejos* (junto a su hermano)?",
+    "opciones": ["David Fincher", "Los Hermanos Coen", "Gus Van Sant", "Paul Thomas Anderson"],
+    "respuestaCorrecta": "Los Hermanos Coen"
+  },
+  {
+    "id": 44,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Peter Jackson comparte el récord de 11 Oscars con *Titanic* y *Ben-Hur*?",
+    "opciones": ["Las Dos Torres", "La Comunidad del Anillo", "El Retorno del Rey", "King Kong"],
+    "respuestaCorrecta": "El Retorno del Rey"
+  },
+  {
+    "id": 45,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz por *El silencio de los corderos*?",
+    "opciones": ["Jodie Foster", "Meryl Streep", "Julianne Moore", "Susan Sarandon"],
+    "respuestaCorrecta": "Jodie Foster"
+  },
+  {
+    "id": 46,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *Danza con Lobos*?",
+    "opciones": ["Kevin Costner", "Warren Beatty", "Oliver Stone", "Martin Scorsese"],
+    "respuestaCorrecta": "Kevin Costner"
+  },
+  {
+    "id": 47,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Woody Allen ganó el Oscar a Mejor Película?",
+    "opciones": ["Manhattan", "Annie Hall", "Midnight in Paris", "Hannah y sus hermanas"],
+    "respuestaCorrecta": "Annie Hall"
+  },
+  {
+    "id": 48,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Quién tiene el récord de más nominaciones a los Oscar como actriz (21 nominaciones)?",
+    "opciones": ["Cate Blanchett", "Meryl Streep", "Bette Davis", "Judi Dench"],
+    "respuestaCorrecta": "Meryl Streep"
+  },
+  {
+    "id": 49,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Damien Chazelle, ganó 6 Oscars incluyendo Mejor Director?",
+    "opciones": ["Whiplash", "La La Land", "First Man", "Babylon"],
+    "respuestaCorrecta": "La La Land"
+  },
+  {
+    "id": 50,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *There Will Be Blood*?",
+    "opciones": ["Daniel Day-Lewis", "George Clooney", "Johnny Depp", "Denzel Washington"],
+    "respuestaCorrecta": "Daniel Day-Lewis"
+  },
+  {
+    "id": 51,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por películas como *El Sexto Sentido* y *Señales*?",
+    "opciones": ["Guillermo del Toro", "M. Night Shyamalan", "Denis Villeneuve", "Darren Aronofsky"],
+    "respuestaCorrecta": "M. Night Shyamalan"
+  },
+  {
+    "id": 52,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál fue la primera película de Marvel en ganar un premio Oscar (Mejor Diseño de Vestuario)?",
+    "opciones": ["Iron Man", "Black Panther", "The Avengers", "Guardianes de la Galaxia"],
+    "respuestaCorrecta": "Black Panther"
+  },
+  {
+    "id": 53,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *Slumdog Millionaire*?",
+    "opciones": ["Danny Boyle", "Ang Lee", "Stephen Daldry", "Guy Ritchie"],
+    "respuestaCorrecta": "Danny Boyle"
+  },
+  {
+    "id": 54,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz por *Erin Brockovich*?",
+    "opciones": ["Reese Witherspoon", "Nicole Kidman", "Julia Roberts", "Halle Berry"],
+    "respuestaCorrecta": "Julia Roberts"
+  },
+  {
+    "id": 55,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por las películas *Tiburón* y *E.T.*?",
+    "opciones": ["George Lucas", "Steven Spielberg", "Francis Ford Coppola", "Woody Allen"],
+    "respuestaCorrecta": "Steven Spielberg"
+  },
+  {
+    "id": 56,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de James Cameron ganó 11 premios Oscar, incluyendo Mejor Película?",
+    "opciones": ["Avatar", "Aliens", "Terminator 2", "Titanic"],
+    "respuestaCorrecta": "Titanic"
+  },
+  {
+    "id": 57,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Quién es la única mujer que ha ganado dos veces el Oscar a Mejor Directora?",
+    "opciones": ["Greta Gerwig", "Chloé Zhao", "Kathryn Bigelow", "Jane Campion"],
+    "respuestaCorrecta": "Chloé Zhao"
+  },
+  {
+    "id": 58,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *El Pianista*?",
+    "opciones": ["Jack Nicholson", "Adrien Brody", "Daniel Day-Lewis", "Russell Crowe"],
+    "respuestaCorrecta": "Adrien Brody"
+  },
+  {
+    "id": 59,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Joel y Ethan Coen, ganó Mejor Película y Mejor Director en 2008?",
+    "opciones": ["Fargo", "No es país para viejos", "A Serious Man", "True Grit"],
+    "respuestaCorrecta": "No es país para viejos"
+  },
+  {
+    "id": 60,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de David Fincher es conocida por su giro final sobre la identidad del asesino?",
+    "opciones": ["Seven", "El Club de la Lucha", "Zodiac", "Sospechosos habituales"],
+    "respuestaCorrecta": "Sospechosos habituales"
+  },
+  {
+    "id": 61,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la famosa serie de televisión sobre una familia disfuncional de superhéroes?",
+    "opciones": ["Daredevil", "The Umbrella Academy", "Doom Patrol", "The Boys"],
+    "respuestaCorrecta": "The Umbrella Academy"
+  },
+  {
+    "id": 62,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor de Reparto por *Capitán Phillips*?",
+    "opciones": ["Barkhad Abdi", "Jared Leto", "Michael Fassbender", "Jonah Hill"],
+    "respuestaCorrecta": "Jared Leto"
+  },
+  {
+    "id": 63,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *Brokeback Mountain*?",
+    "opciones": ["Clint Eastwood", "Steven Spielberg", "Ang Lee", "Peter Jackson"],
+    "respuestaCorrecta": "Ang Lee"
+  },
+  {
+    "id": 64,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz por *Million Dollar Baby*?",
+    "opciones": ["Annette Bening", "Hilary Swank", "Kate Winslet", "Julianne Moore"],
+    "respuestaCorrecta": "Hilary Swank"
+  },
+  {
+    "id": 65,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por el uso de la cámara lenta y la violencia estilizada (ej. *The Matrix*)?",
+    "opciones": ["Hermanos Wachowski", "Quentin Tarantino", "Zack Snyder", "Michael Bay"],
+    "respuestaCorrecta": "Hermanos Wachowski"
+  },
+  {
+    "id": 66,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Peter Jackson fue la primera en ganar el Oscar a Mejor Película (y 11 estatuillas)?",
+    "opciones": ["La Comunidad del Anillo", "Las Dos Torres", "El Retorno del Rey", "King Kong"],
+    "respuestaCorrecta": "El Retorno del Rey"
+  },
+  {
+    "id": 67,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Quién es el director de la película *Pulp Fiction*?",
+    "opciones": ["Martin Scorsese", "Steven Spielberg", "Quentin Tarantino", "Guy Ritchie"],
+    "respuestaCorrecta": "Quentin Tarantino"
+  },
+  {
+    "id": 68,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Gandhi*?",
+    "opciones": ["Daniel Day-Lewis", "Ben Kingsley", "Dustin Hoffman", "Robert De Niro"],
+    "respuestaCorrecta": "Ben Kingsley"
+  },
+  {
+    "id": 69,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Alfonso Cuarón, ganó Mejor Director y Mejor Fotografía en 2014?",
+    "opciones": ["Children of Men", "Harry Potter y el prisionero de Azkaban", "Gravity", "Roma"],
+    "respuestaCorrecta": "Gravity"
+  },
+  {
+    "id": 70,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Bong Joon-ho ganó el Oscar a Mejor Película Internacional antes de *Parásitos*?",
+    "opciones": ["Mother", "Memories of Murder", "Okja", "Ninguna"],
+    "respuestaCorrecta": "Ninguna"
+  },
+  {
+    "id": 71,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la serie de televisión sobre un profesor de química que se convierte en fabricante de metanfetamina?",
+    "opciones": ["Ozark", "The Wire", "Breaking Bad", "Fargo"],
+    "respuestaCorrecta": "Breaking Bad"
+  },
+  {
+    "id": 72,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *The Artist*?",
+    "opciones": ["Michel Hazanavicius", "Ang Lee", "Martin Scorsese", "Woody Allen"],
+    "respuestaCorrecta": "Michel Hazanavicius"
+  },
+  {
+    "id": 73,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Alejandro Amenábar ganó el Oscar a Mejor Película de Habla No Inglesa?",
+    "opciones": ["Tesis", "Abre los ojos", "Mar adentro", "Los Otros"],
+    "respuestaCorrecta": "Mar adentro"
+  },
+  {
+    "id": 74,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz de Reparto por *El Vencedor* (The Fighter)?",
+    "opciones": ["Melissa Leo", "Amy Adams", "Helena Bonham Carter", "Hailee Steinfeld"],
+    "respuestaCorrecta": "Melissa Leo"
+  },
+  {
+    "id": 75,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por las películas *La naranja mecánica* y *El resplandor*?",
+    "opciones": ["David Fincher", "Stanley Kubrick", "Orson Welles", "Federico Fellini"],
+    "respuestaCorrecta": "Stanley Kubrick"
+  },
+  {
+    "id": 76,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Steven Spielberg ganó el Oscar a Mejor Película en 1993?",
+    "opciones": ["E.T. el Extraterrestre", "Salvar al Soldado Ryan", "La lista de Schindler", "Tiburón"],
+    "respuestaCorrecta": "La lista de Schindler"
+  },
+  {
+    "id": 77,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por las películas *Vértigo* y *Psicosis*?",
+    "opciones": ["Orson Welles", "Billy Wilder", "Alfred Hitchcock", "Fritz Lang"],
+    "respuestaCorrecta": "Alfred Hitchcock"
+  },
+  {
+    "id": 78,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Raging Bull* (Toro Salvaje)?",
+    "opciones": ["Al Pacino", "Robert De Niro", "Jack Nicholson", "Dustin Hoffman"],
+    "respuestaCorrecta": "Robert De Niro"
+  },
+  {
+    "id": 79,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Peter Weir, ganó 4 Oscars incluyendo Mejor Película?",
+    "opciones": ["El Club de los Poetas Muertos", "Master and Commander", "Witness", "La Sociedad de los Poetas Muertos"],
+    "respuestaCorrecta": "La Sociedad de los Poetas Muertos"
+  },
+  {
+    "id": 80,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por películas mudas como *El Chico* y *Tiempos Modernos*?",
+    "opciones": ["Buster Keaton", "Charles Chaplin", "Harold Lloyd", "Max Linder"],
+    "respuestaCorrecta": "Charles Chaplin"
+  },
+  {
+    "id": 81,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la serie de televisión sobre un grupo de amigos que viven en un apartamento en Nueva York (The gang)?",
+    "opciones": ["Seinfeld", "Friends", "How I Met Your Mother", "Cheers"],
+    "respuestaCorrecta": "Friends"
+  },
+  {
+    "id": 82,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *The Hurt Locker* (siendo la primera mujer en lograrlo)?",
+    "opciones": ["Sofia Coppola", "Chloé Zhao", "Kathryn Bigelow", "Jane Campion"],
+    "respuestaCorrecta": "Kathryn Bigelow"
+  },
+  {
+    "id": 83,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Quentin Tarantino le valió un Oscar a Mejor Guion Original por segunda vez?",
+    "opciones": ["Kill Bill", "Django Desencadenado", "Inglourious Basterds", "The Hateful Eight"],
+    "respuestaCorrecta": "Django Desencadenado"
+  },
+  {
+    "id": 84,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz por *Black Swan*?",
+    "opciones": ["Mila Kunis", "Natalie Portman", "Annette Bening", "Nicole Kidman"],
+    "respuestaCorrecta": "Natalie Portman"
+  },
+  {
+    "id": 85,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por el uso de tomas largas y complejas (ej. *Hijos de los hombres*, *Birdman*)?",
+    "opciones": ["Denis Villeneuve", "Alfonso Cuarón", "Christopher Nolan", "Alejandro G. Iñárritu"],
+    "respuestaCorrecta": "Alfonso Cuarón"
+  },
+  {
+    "id": 86,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Tom Hooper, ganó 4 Oscars incluyendo Mejor Película?",
+    "opciones": ["Los Miserables", "El Discurso del Rey", "La chica danesa", "Cats"],
+    "respuestaCorrecta": "El Discurso del Rey"
+  },
+  {
+    "id": 87,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Quién es el director de la película *La lista de Schindler*?",
+    "opciones": ["Oliver Stone", "Martin Scorsese", "Steven Spielberg", "Ridley Scott"],
+    "respuestaCorrecta": "Steven Spielberg"
+  },
+  {
+    "id": 88,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Gambito de Dama* (Serie)?",
+    "opciones": ["No aplica", "Colin Firth", "Tom Hanks", "Anthony Hopkins"],
+    "respuestaCorrecta": "No aplica"
+  },
+  {
+    "id": 89,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Danny Boyle, ganó 8 Oscars incluyendo Mejor Película?",
+    "opciones": ["Trainspotting", "28 Días Después", "Slumdog Millionaire", "Steve Jobs"],
+    "respuestaCorrecta": "Slumdog Millionaire"
+  },
+  {
+    "id": 90,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por películas como *El Silencio de los Corderos* y *Philadelphia*?",
+    "opciones": ["Jonathan Demme", "Steven Spielberg", "Ron Howard", "Robert Zemeckis"],
+    "respuestaCorrecta": "Jonathan Demme"
+  },
+  {
+    "id": 91,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la serie de televisión sobre un grupo de estudiantes de secundaria que resuelven misterios sobrenaturales?",
+    "opciones": ["Dark", "Stranger Things", "The OA", "Black Mirror"],
+    "respuestaCorrecta": "Stranger Things"
+  },
+  {
+    "id": 92,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *Million Dollar Baby*?",
+    "opciones": ["Clint Eastwood", "Martin Scorsese", "Steven Spielberg", "Ang Lee"],
+    "respuestaCorrecta": "Clint Eastwood"
+  },
+  {
+    "id": 93,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Guillermo del Toro ganó el Oscar a Mejor Película Internacional?",
+    "opciones": ["El Laberinto del Fauno", "Cronos", "La Forma del Agua", "Mimic"],
+    "respuestaCorrecta": "El Laberinto del Fauno"
+  },
+  {
+    "id": 94,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz de Reparto por *Monster*?",
+    "opciones": ["Julianne Moore", "Charlize Theron", "Renée Zellweger", "Cate Blanchett"],
+    "respuestaCorrecta": "Renée Zellweger"
+  },
+  {
+    "id": 95,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por las películas *El Ciudadano Kane* y *Sed de Mal*?",
+    "opciones": ["Alfred Hitchcock", "Billy Wilder", "Orson Welles", "Fritz Lang"],
+    "respuestaCorrecta": "Orson Welles"
+  },
+  {
+    "id": 96,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Oliver Stone ganó 8 Oscars, incluyendo Mejor Película y Mejor Director?",
+    "opciones": ["Nacido el 4 de Julio", "Wall Street", "Platoon", "JFK"],
+    "respuestaCorrecta": "Platoon"
+  },
+  {
+    "id": 97,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *Billy Elliot* (Serie)?",
+    "opciones": ["Stephen Daldry", "Ang Lee", "Danny Boyle", "Ninguno"],
+    "respuestaCorrecta": "Ninguno"
+  },
+  {
+    "id": 98,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Ray*?",
+    "opciones": ["Jamie Foxx", "Will Smith", "Forest Whitaker", "Denzel Washington"],
+    "respuestaCorrecta": "Jamie Foxx"
+  },
+  {
+    "id": 99,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Peter Jackson, ganó 11 Oscars y se llevó todos los premios a los que estaba nominada?",
+    "opciones": ["La Comunidad del Anillo", "Las Dos Torres", "El Retorno del Rey", "King Kong"],
+    "respuestaCorrecta": "El Retorno del Rey"
+  },
+  {
+    "id": 100,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por películas como *Interstellar* y *Dunkerque*?",
+    "opciones": ["Denis Villeneuve", "Ridley Scott", "Christopher Nolan", "Alfonso Cuarón"],
+    "respuestaCorrecta": "Christopher Nolan"
+  },
+  {
+    "id": 101,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la serie de televisión sobre dos policías de Luisiana que investigan un extraño caso?",
+    "opciones": ["Fargo", "True Detective", "Mindhunter", "Ozark"],
+    "respuestaCorrecta": "True Detective"
+  },
+  {
+    "id": 102,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor de Reparto por *El Padrino*?",
+    "opciones": ["Al Pacino", "James Caan", "Robert De Niro", "Marlon Brando"],
+    "respuestaCorrecta": "No aplica (Brando ganó Mejor Actor; Al Pacino y James Caan fueron nominados a Reparto)"
+  },
+  {
+    "id": 103,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *El Paciente Inglés*?",
+    "opciones": ["Anthony Minghella", "Steven Spielberg", "James Cameron", "Ang Lee"],
+    "respuestaCorrecta": "Anthony Minghella"
+  },
+  {
+    "id": 104,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz por *Monster* (interpretando a Aileen Wuornos)?",
+    "opciones": ["Nicole Kidman", "Julianne Moore", "Charlize Theron", "Naomi Watts"],
+    "respuestaCorrecta": "Charlize Theron"
+  },
+  {
+    "id": 105,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por el uso del 'tiempo bala' (bullet time) en *The Matrix*?",
+    "opciones": ["Hermanos Coen", "Hermanos Wachowski", "Hermanos Scott", "Hermanos Hughes"],
+    "respuestaCorrecta": "Hermanos Wachowski"
+  },
+  {
+    "id": 106,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Milos Forman ganó 8 Oscars, incluyendo Mejor Película y Mejor Director?",
+    "opciones": ["Alguien voló sobre el nido del cuco", "Amadeus", "Larry Flynt", "Ragtime"],
+    "respuestaCorrecta": "Amadeus"
+  },
+  {
+    "id": 107,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Quién es el director de la película *La La Land*?",
+    "opciones": ["Barry Jenkins", "Damien Chazelle", "Kenneth Lonergan", "Mel Gibson"],
+    "respuestaCorrecta": "Damien Chazelle"
+  },
+  {
+    "id": 108,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Lincoln*?",
+    "opciones": ["Denzel Washington", "Joaquin Phoenix", "Daniel Day-Lewis", "Ben Affleck"],
+    "respuestaCorrecta": "Daniel Day-Lewis"
+  },
+  {
+    "id": 109,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Alfonso Cuarón, ganó el Oscar a Mejor Fotografía (por Emmanuel Lubezki)?",
+    "opciones": ["Y tu mamá también", "Hijos de los hombres", "Gravity", "Roma"],
+    "respuestaCorrecta": "Gravity"
+  },
+  {
+    "id": 110,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por películas como *Gladiador* y *Alien: El octavo pasajero*?",
+    "opciones": ["George Lucas", "Ridley Scott", "James Cameron", "Steven Spielberg"],
+    "respuestaCorrecta": "Ridley Scott"
+  },
+  {
+    "id": 111,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la serie de televisión sobre un grupo de adolescentes de los años 80 que luchan contra criaturas de otra dimensión?",
+    "opciones": ["Dark", "The Umbrella Academy", "Stranger Things", "Riverdale"],
+    "respuestaCorrecta": "Stranger Things"
+  },
+  {
+    "id": 112,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *Cisne Negro*?",
+    "opciones": ["Darren Aronofsky", "David Fincher", "Tom Hooper", "Christopher Nolan"],
+    "respuestaCorrecta": "Darren Aronofsky"
+  },
+  {
+    "id": 113,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Ang Lee ganó el Oscar a Mejor Director por segunda vez?",
+    "opciones": ["Tigre y Dragón", "Brokeback Mountain", "La vida de Pi", "Hulk"],
+    "respuestaCorrecta": "La vida de Pi"
+  },
+  {
+    "id": 114,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz por *Erin Brockovich* (interpretando a Erin Brockovich)?",
+    "opciones": ["Halle Berry", "Julia Roberts", "Sandra Bullock", "Meryl Streep"],
+    "respuestaCorrecta": "Julia Roberts"
+  },
+  {
+    "id": 115,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por su técnica de 'method acting' en dirección (ej. *El Padrino*)?",
+    "opciones": ["Martin Scorsese", "Stanley Kubrick", "Francis Ford Coppola", "Sidney Lumet"],
+    "respuestaCorrecta": "Francis Ford Coppola"
+  },
+  {
+    "id": 116,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Steven Spielberg ganó el Oscar a Mejor Película en 1998?",
+    "opciones": ["Salvar al Soldado Ryan", "E.T. el Extraterrestre", "La lista de Schindler", "Munich"],
+    "respuestaCorrecta": "Salvar al Soldado Ryan"
+  },
+  {
+    "id": 117,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Quién es el director de la película *El Gran Lebowski*?",
+    "opciones": ["Quentin Tarantino", "Hermanos Coen", "Steven Soderbergh", "Paul Thomas Anderson"],
+    "respuestaCorrecta": "Hermanos Coen"
+  },
+  {
+    "id": 118,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Gángster Americano*?",
+    "opciones": ["Will Smith", "Denzel Washington", "Leonardo DiCaprio", "Jamie Foxx"],
+    "respuestaCorrecta": "Denzel Washington"
+  },
+  {
+    "id": 119,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por George Miller, ganó 6 Oscars pero perdió Mejor Película ante *Spotlight*?",
+    "opciones": ["Happy Feet", "Babe", "Mad Max: Furia en la carretera", "Lorenzo's Oil"],
+    "respuestaCorrecta": "Mad Max: Furia en la carretera"
+  },
+  {
+    "id": 120,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por las películas *Tiempos Modernos* y *El Gran Dictador*?",
+    "opciones": ["Buster Keaton", "Charles Chaplin", "Harold Lloyd", "Max Linder"],
+    "respuestaCorrecta": "Charles Chaplin"
+  },
+  {
+    "id": 121,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la serie de televisión sobre un magnate de los medios de comunicación y su familia en guerra por el control?",
+    "opciones": ["House of Cards", "Succession", "Billions", "Yellowstone"],
+    "respuestaCorrecta": "Succession"
+  },
+  {
+    "id": 122,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *Bailando con Lobos*?",
+    "opciones": ["Kevin Costner", "Warren Beatty", "Oliver Stone", "Martin Scorsese"],
+    "respuestaCorrecta": "Kevin Costner"
+  },
+  {
+    "id": 123,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de los Hermanos Coen ganó el Oscar a Mejor Película?",
+    "opciones": ["El Gran Lebowski", "Fargo", "No es país para viejos", "A Serious Man"],
+    "respuestaCorrecta": "No es país para viejos"
+  },
+  {
+    "id": 124,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz de Reparto por *West Side Story* (2021)?",
+    "opciones": ["Ariana DeBose", "Kirsten Dunst", "Jessie Buckley", "Aunjanue Ellis"],
+    "respuestaCorrecta": "Ariana DeBose"
+  },
+  {
+    "id": 125,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por el uso de la cámara en mano y diálogos rápidos (ej. *El Padrino*)?",
+    "opciones": ["Stanley Kubrick", "Francis Ford Coppola", "Martin Scorsese", "Brian De Palma"],
+    "respuestaCorrecta": "Francis Ford Coppola"
+  },
+  {
+    "id": 126,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Guillermo del Toro ganó el Oscar a Mejor Película?",
+    "opciones": ["El Laberinto del Fauno", "La Cumbre Escarlata", "La Forma del Agua", "Titanes del Pacífico"],
+    "respuestaCorrecta": "La Forma del Agua"
+  },
+  {
+    "id": 127,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Quién es el director de la película *Inception* (El Origen)?",
+    "opciones": ["Denis Villeneuve", "Ridley Scott", "Christopher Nolan", "Steven Spielberg"],
+    "respuestaCorrecta": "Christopher Nolan"
+  },
+  {
+    "id": 128,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Un viaje a ciegas*?",
+    "opciones": ["Jamie Foxx", "Ray Charles", "Al Pacino", "No aplica"],
+    "respuestaCorrecta": "No aplica"
+  },
+  {
+    "id": 129,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Ang Lee, ganó 4 Oscars incluyendo Mejor Director?",
+    "opciones": ["Tigre y Dragón", "Brokeback Mountain", "La vida de Pi", "Hulk"],
+    "respuestaCorrecta": "La vida de Pi"
+  },
+  {
+    "id": 130,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por películas como *Million Dollar Baby* y *Sin Perdón* (Unforgiven)?",
+    "opciones": ["Clint Eastwood", "Martin Scorsese", "Steven Spielberg", "Ridley Scott"],
+    "respuestaCorrecta": "Clint Eastwood"
+  },
+  {
+    "id": 131,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la serie de televisión sobre un grupo de abogados que trabajan en un bufete de defensa criminal en Boston?",
+    "opciones": ["Law & Order", "The Practice", "Ally McBeal", "Boston Legal"],
+    "respuestaCorrecta": "Boston Legal"
+  },
+  {
+    "id": 132,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *Gigi* (1958)?",
+    "opciones": ["Vicente Minnelli", "William Wyler", "George Cukor", "David Lean"],
+    "respuestaCorrecta": "Vicente Minnelli"
+  },
+  {
+    "id": 133,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Christopher Nolan fue la primera en ganar un Oscar (Mejor Edición de Sonido)?",
+    "opciones": ["El Caballero Oscuro", "El Origen", "Dunkerque", "Interestelar"],
+    "respuestaCorrecta": "El Caballero Oscuro"
+  },
+  {
+    "id": 134,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz por *Blue Jasmine*?",
+    "opciones": ["Amy Adams", "Cate Blanchett", "Sandra Bullock", "Judi Dench"],
+    "respuestaCorrecta": "Cate Blanchett"
+  },
+  {
+    "id": 135,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por el uso de la música rock clásica en sus bandas sonoras (ej. *Reservoir Dogs*, *Pulp Fiction*)?",
+    "opciones": ["Martin Scorsese", "Quentin Tarantino", "Wes Anderson", "Guy Ritchie"],
+    "respuestaCorrecta": "Quentin Tarantino"
+  },
+  {
+    "id": 136,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Peter Jackson, ganó el Oscar a Mejor Película Extranjera?",
+    "opciones": ["El Retorno del Rey", "King Kong", "Criaturas celestiales", "Ninguna"],
+    "respuestaCorrecta": "Ninguna"
+  },
+  {
+    "id": 137,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Quién es el director de la película *Psicosis*?",
+    "opciones": ["Billy Wilder", "Alfred Hitchcock", "Orson Welles", "Fritz Lang"],
+    "respuestaCorrecta": "Alfred Hitchcock"
+  },
+  {
+    "id": 138,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *El Discurso del Rey*?",
+    "opciones": ["Jesse Eisenberg", "Colin Firth", "Jeff Bridges", "James Franco"],
+    "respuestaCorrecta": "Colin Firth"
+  },
+  {
+    "id": 139,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Tom Hooper, ganó 4 Oscars incluyendo Mejor Película?",
+    "opciones": ["Los Miserables", "El Discurso del Rey", "La chica danesa", "Cats"],
+    "respuestaCorrecta": "El Discurso del Rey"
+  },
+  {
+    "id": 140,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por películas como *El Cabo del Miedo* y *El Rey de la Comedia*?",
+    "opciones": ["Francis Ford Coppola", "Martin Scorsese", "Brian De Palma", "Woody Allen"],
+    "respuestaCorrecta": "Martin Scorsese"
+  },
+  {
+    "id": 141,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la serie de televisión sobre un detective de Nueva York con un pasado problemático?",
+    "opciones": ["Law & Order", "NYPD Blue", "Blue Bloods", "Elementary"],
+    "respuestaCorrecta": "NYPD Blue"
+  },
+  {
+    "id": 142,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *Forrest Gump*?",
+    "opciones": ["Steven Spielberg", "Robert Zemeckis", "Quentin Tarantino", "Oliver Stone"],
+    "respuestaCorrecta": "Robert Zemeckis"
+  },
+  {
+    "id": 143,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Damien Chazelle ganó 3 Oscars, incluyendo Mejor Actor de Reparto (J.K. Simmons)?",
+    "opciones": ["La La Land", "Whiplash", "First Man", "Babylon"],
+    "respuestaCorrecta": "Whiplash"
+  },
+  {
+    "id": 144,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz por *La Dama de Hierro*?",
+    "opciones": ["Cate Blanchett", "Meryl Streep", "Sandra Bullock", "Julianne Moore"],
+    "respuestaCorrecta": "Meryl Streep"
+  },
+  {
+    "id": 145,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por películas como *Terminator 2* y *Avatar*?",
+    "opciones": ["Steven Spielberg", "Ridley Scott", "James Cameron", "George Lucas"],
+    "respuestaCorrecta": "James Cameron"
+  },
+  {
+    "id": 146,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Ridley Scott, ganó 5 Oscars, incluyendo Mejor Película?",
+    "opciones": ["Alien: El octavo pasajero", "Blade Runner", "Gladiador", "Marte"],
+    "respuestaCorrecta": "Gladiador"
+  },
+  {
+    "id": 147,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Quién es el director de la película *El Resplandor*?",
+    "opciones": ["Alfred Hitchcock", "Stanley Kubrick", "Orson Welles", "David Fincher"],
+    "respuestaCorrecta": "Stanley Kubrick"
+  },
+  {
+    "id": 148,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Día de entrenamiento* (Training Day)?",
+    "opciones": ["Will Smith", "Denzel Washington", "Jamie Foxx", "Forest Whitaker"],
+    "respuestaCorrecta": "Denzel Washington"
+  },
+  {
+    "id": 149,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Alfonso Cuarón, ganó el Oscar a Mejor Película de Habla No Inglesa?",
+    "opciones": ["Hijos de los hombres", "Y tu mamá también", "Gravity", "Roma"],
+    "respuestaCorrecta": "Roma"
+  },
+  {
+    "id": 150,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por el uso de la técnica de 'slow-motion' y el surrealismo (ej. *El Laberinto del Fauno*)?",
+    "opciones": ["Pedro Almodóvar", "Guillermo del Toro", "Alfonso Cuarón", "Alejandro G. Iñárritu"],
+    "respuestaCorrecta": "Guillermo del Toro"
+  },
+  {
+    "id": 151,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la serie de televisión sobre una familia criminal irlandesa en Birmingham, Inglaterra?",
+    "opciones": ["Gangs of London", "Peaky Blinders", "Boardwalk Empire", "Taboo"],
+    "respuestaCorrecta": "Peaky Blinders"
+  },
+  {
+    "id": 152,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *El Padrino III*?",
+    "opciones": ["Francis Ford Coppola", "Martin Scorsese", "Steven Spielberg", "No aplica"],
+    "respuestaCorrecta": "No aplica"
+  },
+  {
+    "id": 153,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Alfonso Cuarón fue nominada al Oscar a Mejor Película?",
+    "opciones": ["Hijos de los hombres", "Y tu mamá también", "Gravity", "Todas"],
+    "respuestaCorrecta": "Todas"
+  },
+  {
+    "id": 154,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz de Reparto por *Los Miserables*?",
+    "opciones": ["Anne Hathaway", "Helena Bonham Carter", "Amanda Seyfried", "Jennifer Hudson"],
+    "respuestaCorrecta": "Anne Hathaway"
+  },
+  {
+    "id": 155,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por la trilogía 'Dollars' (El bueno, el feo y el malo, etc.)?",
+    "opciones": ["Sergio Leone", "Federico Fellini", "Ingmar Bergman", "Akira Kurosawa"],
+    "respuestaCorrecta": "Sergio Leone"
+  },
+  {
+    "id": 156,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Kathryn Bigelow, ganó 6 Oscars incluyendo Mejor Película?",
+    "opciones": ["Zero Dark Thirty", "The Hurt Locker", "Detroit", "K-19"],
+    "respuestaCorrecta": "The Hurt Locker"
+  },
+  {
+    "id": 157,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Quién es el director de la película *A Clockwork Orange* (La Naranja Mecánica)?",
+    "opciones": ["David Fincher", "Stanley Kubrick", "Orson Welles", "Alfred Hitchcock"],
+    "respuestaCorrecta": "Stanley Kubrick"
+  },
+  {
+    "id": 158,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Mi pie izquierdo*?",
+    "opciones": ["Tom Hanks", "Daniel Day-Lewis", "Dustin Hoffman", "Jack Nicholson"],
+    "respuestaCorrecta": "Daniel Day-Lewis"
+  },
+  {
+    "id": 159,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Steven Soderbergh, ganó 4 Oscars incluyendo Mejor Director?",
+    "opciones": ["Traffic", "Erin Brockovich", "Ocean's Eleven", "Magic Mike"],
+    "respuestaCorrecta": "Traffic"
+  },
+  {
+    "id": 160,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por el uso de la narración no lineal y diálogos ingeniosos (ej. *Pulp Fiction*)?",
+    "opciones": ["Quentin Tarantino", "Martin Scorsese", "Steven Spielberg", "Woody Allen"],
+    "respuestaCorrecta": "Quentin Tarantino"
+  },
+  {
+    "id": 161,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la serie de televisión sobre un agente de FBI que investiga asesinos en serie en los años 70?",
+    "opciones": ["The Wire", "Mindhunter", "True Detective", "Ozark"],
+    "respuestaCorrecta": "Mindhunter"
+  },
+  {
+    "id": 162,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *El Aviador*?",
+    "opciones": ["Steven Spielberg", "Martin Scorsese", "Clint Eastwood", "Ridley Scott"],
+    "respuestaCorrecta": "Martin Scorsese"
+  },
+  {
+    "id": 163,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Barry Jenkins ganó el Oscar a Mejor Película?",
+    "opciones": ["If Beale Street Could Talk", "Moonlight", "The Underground Railroad", "Ninguna"],
+    "respuestaCorrecta": "Moonlight"
+  },
+  {
+    "id": 164,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz de Reparto por *Fences*?",
+    "opciones": ["Viola Davis", "Naomi Harris", "Octavia Spencer", "Nicole Kidman"],
+    "respuestaCorrecta": "Viola Davis"
+  },
+  {
+    "id": 165,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por las películas *La Ventana Indiscreta* y *Con la muerte en los talones*?",
+    "opciones": ["Billy Wilder", "Alfred Hitchcock", "Orson Welles", "Cecil B. DeMille"],
+    "respuestaCorrecta": "Alfred Hitchcock"
+  },
+  {
+    "id": 166,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Woody Allen ganó 3 Oscars, incluyendo Mejor Película?",
+    "opciones": ["Manhattan", "Annie Hall", "Midnight in Paris", "Hannah y sus hermanas"],
+    "respuestaCorrecta": "Annie Hall"
+  },
+  {
+    "id": 167,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Quién es el director de la película *Tiburón*?",
+    "opciones": ["George Lucas", "Steven Spielberg", "Francis Ford Coppola", "Woody Allen"],
+    "respuestaCorrecta": "Steven Spielberg"
+  },
+  {
+    "id": 168,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Dallas Buyers Club*?",
+    "opciones": ["Chiwetel Ejiofor", "Matthew McConaughey", "Christian Bale", "Leonardo DiCaprio"],
+    "respuestaCorrecta": "Matthew McConaughey"
+  },
+  {
+    "id": 169,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Ron Howard, ganó 4 Oscars incluyendo Mejor Película?",
+    "opciones": ["Apollo 13", "Una Mente Brillante", "Frost/Nixon", "Cinderella Man"],
+    "respuestaCorrecta": "Una Mente Brillante"
+  },
+  {
+    "id": 170,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por la saga *Indiana Jones*?",
+    "opciones": ["George Lucas", "Steven Spielberg", "Francis Ford Coppola", "Woody Allen"],
+    "respuestaCorrecta": "Steven Spielberg"
+  },
+  {
+    "id": 171,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la serie de televisión sobre un político corrupto y su esposa que se alían para vengarse?",
+    "opciones": ["The West Wing", "House of Cards", "Scandal", "Veep"],
+    "respuestaCorrecta": "House of Cards"
+  },
+  {
+    "id": 172,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *Cisne Negro*?",
+    "opciones": ["Darren Aronofsky", "David Fincher", "Tom Hooper", "Christopher Nolan"],
+    "respuestaCorrecta": "Darren Aronofsky"
+  },
+  {
+    "id": 173,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película de Guillermo del Toro ganó el Oscar a Mejor Película Internacional?",
+    "opciones": ["El Laberinto del Fauno", "Cronos", "La Forma del Agua", "Mimic"],
+    "respuestaCorrecta": "El Laberinto del Fauno"
+  },
+  {
+    "id": 174,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz de Reparto por *La La Land*?",
+    "opciones": ["Emma Stone", "Viola Davis", "Octavia Spencer", "Michelle Williams"],
+    "respuestaCorrecta": "Emma Stone"
+  },
+  {
+    "id": 175,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por la trilogía ' Dollars' (El bueno, el feo y el malo, etc.)?",
+    "opciones": ["Sergio Leone", "Federico Fellini", "Ingmar Bergman", "Akira Kurosawa"],
+    "respuestaCorrecta": "Sergio Leone"
+  },
+  {
+    "id": 176,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Peter Jackson, ganó 11 Oscars y se llevó todos los premios a los que estaba nominada?",
+    "opciones": ["La Comunidad del Anillo", "Las Dos Torres", "El Retorno del Rey", "King Kong"],
+    "respuestaCorrecta": "El Retorno del Rey"
+  },
+  {
+    "id": 177,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Quién es el director de la película *2001: Una Odisea del Espacio*?",
+    "opciones": ["George Lucas", "Stanley Kubrick", "Steven Spielberg", "Ridley Scott"],
+    "respuestaCorrecta": "Stanley Kubrick"
+  },
+  {
+    "id": 178,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué actor ganó el Oscar a Mejor Actor por *Dallas Buyers Club*?",
+    "opciones": ["Matthew McConaughey", "Christian Bale", "Leonardo DiCaprio", "Chiwetel Ejiofor"],
+    "respuestaCorrecta": "Matthew McConaughey"
+  },
+  {
+    "id": 179,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué película, dirigida por Tom Hooper, ganó 4 Oscars incluyendo Mejor Película?",
+    "opciones": ["Los Miserables", "El Discurso del Rey", "La chica danesa", "Cats"],
+    "respuestaCorrecta": "El Discurso del Rey"
+  },
+  {
+    "id": 180,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director es conocido por películas como *El Cabo del Miedo* y *Toro Salvaje*?",
+    "opciones": ["Francis Ford Coppola", "Martin Scorsese", "Brian De Palma", "Woody Allen"],
+    "respuestaCorrecta": "Martin Scorsese"
+  },
+  {
+    "id": 181,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Cuál es la serie de televisión sobre una mujer en sus 30s que vive en Londres y rompe la cuarta pared?",
+    "opciones": ["Girls", "Fleabag", "Insecure", "Broad City"],
+    "respuestaCorrecta": "Fleabag"
+  },
+  {
+    "id": 182,
+    "categoria": "Peliculas o Series",
+    "pregunta": "¿Qué director ganó el Oscar a Mejor Director por *El Padrino*?",
+    "opciones": ["Martin Scorsese", "Francis Ford Coppola", "Stanley Kubrick", "Brian De Palma"],
+    "respuestaCorrecta": "Francis Ford Coppola"
+  }
+]

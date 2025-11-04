@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 1,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué personaje era originalmente conocido como 'Jumpman'?",
+    "opciones": ["Sonic", "Pac-Man", "Mario", "Link"],
+    "respuestaCorrecta": "Mario"
+  },
+  {
+    "id": 2,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál de estas consolas fue lanzada primero?",
+    "opciones": ["PlayStation 2", "Xbox", "Nintendo 64", "Sega Dreamcast"],
+    "respuestaCorrecta": "Nintendo 64"
+  },
+  {
+    "id": 3,
+    "categoria": "Videojuegos",
+    "pregunta": "¿En qué juego aparece la espada maestra (Master Sword)?",
+    "opciones": ["Final Fantasy", "The Witcher", "The Legend of Zelda", "Dark Souls"],
+    "respuestaCorrecta": "The Legend of Zelda"
+  },
+  {
+    "id": 4,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Quién es el protagonista principal de la saga *Halo*?",
+    "opciones": ["Kratos", "Comandante Shepard", "Master Chief", "Marcus Fenix"],
+    "respuestaCorrecta": "Master Chief"
+  },
+  {
+    "id": 5,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es la ciudad ficticia principal en la serie de videojuegos *Grand Theft Auto V*?",
+    "opciones": ["Liberty City", "Vice City", "Los Santos", "San Fierro"],
+    "respuestaCorrecta": "Los Santos"
+  },
+  {
+    "id": 6,
+    "categoria": "Videojuegos",
+    "pregunta": "¿En qué año se lanzó la consola original Nintendo Entertainment System (NES)?",
+    "opciones": ["1983", "1985", "1987", "1990"],
+    "respuestaCorrecta": "1983"
+  },
+  {
+    "id": 7,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista de *Metal Gear Solid*?",
+    "opciones": ["Big Boss", "Raiden", "Solid Snake", "Kazuhira Miller"],
+    "respuestaCorrecta": "Solid Snake"
+  },
+  {
+    "id": 8,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cómo se llama el villano principal en la saga de *Sonic the Hedgehog*?",
+    "opciones": ["Tails", "Shadow", "Dr. Eggman (Robotnik)", "Knuckles"],
+    "respuestaCorrecta": "Dr. Eggman (Robotnik)"
+  },
+  {
+    "id": 9,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué compañía creó la franquicia *Pokémon*?",
+    "opciones": ["Nintendo", "Game Freak", "The Pokémon Company", "Bandai Namco"],
+    "respuestaCorrecta": "Game Freak"
+  },
+  {
+    "id": 10,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el título del primer juego de la serie *Final Fantasy*?",
+    "opciones": ["Final Fantasy II", "Final Fantasy I", "Final Fantasy Tactics", "Final Fantasy Crystal Chronicles"],
+    "respuestaCorrecta": "Final Fantasy I"
+  },
+  {
+    "id": 11,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué famoso fontanero tiene un hermano llamado Luigi?",
+    "opciones": ["Wario", "Mario", "Toad", "Bowser"],
+    "respuestaCorrecta": "Mario"
+  },
+  {
+    "id": 12,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del planeta en el que se desarrolla la mayor parte de la saga *Mass Effect*?",
+    "opciones": ["Tierra", "Cygni", "Shepard", "Ninguno, es una galaxia"],
+    "respuestaCorrecta": "Ninguno, es una galaxia"
+  },
+  {
+    "id": 13,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Nintendo fue la primera en usar CD/DVD?",
+    "opciones": ["Nintendo 64", "GameCube", "Wii", "Nintendo Switch"],
+    "respuestaCorrecta": "GameCube"
+  },
+  {
+    "id": 14,
+    "categoria": "Videojuegos",
+    "pregunta": "¿De qué estudio de desarrollo es el juego *The Last of Us*?",
+    "opciones": ["Rockstar Games", "Capcom", "Naughty Dog", "Ubisoft"],
+    "respuestaCorrecta": "Naughty Dog"
+  },
+  {
+    "id": 15,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *God of War*?",
+    "opciones": ["Zeus", "Ares", "Kratos", "Hercules"],
+    "respuestaCorrecta": "Kratos"
+  },
+  {
+    "id": 16,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego populariza la frase 'Do a barrel roll!'?",
+    "opciones": ["F-Zero", "Star Fox", "Metroid", "Pilotwings"],
+    "respuestaCorrecta": "Star Fox"
+  },
+  {
+    "id": 17,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de la saga *Assassin's Creed* original?",
+    "opciones": ["Ezio Auditore", "Altaïr Ibn-La'Ahad", "Edward Kenway", "Bayek"],
+    "respuestaCorrecta": "Altaïr Ibn-La'Ahad"
+  },
+  {
+    "id": 18,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Sony fue la primera en introducir el DualShock (joysticks analógicos)?",
+    "opciones": ["PlayStation 1", "PlayStation 2", "PlayStation Portable", "PlayStation 3"],
+    "respuestaCorrecta": "PlayStation 1"
+  },
+  {
+    "id": 19,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es la profesión de Lara Croft?",
+    "opciones": ["Historiadora", "Arqueóloga", "Botánica", "Antropóloga"],
+    "respuestaCorrecta": "Arqueóloga"
+  },
+  {
+    "id": 20,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego se basa en bloques y se caracteriza por su mundo abierto y construcción?",
+    "opciones": ["Terraria", "Fortnite", "Minecraft", "Roblox"],
+    "respuestaCorrecta": "Minecraft"
+  },
+  {
+    "id": 21,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué compañía lanzó la consola Xbox original?",
+    "opciones": ["Sony", "Nintendo", "Microsoft", "Sega"],
+    "respuestaCorrecta": "Microsoft"
+  },
+  {
+    "id": 22,
+    "categoria": "Videojuegos",
+    "pregunta": "¿De qué juego es el icónico personaje 'Cloud Strife'?",
+    "opciones": ["Final Fantasy VII", "Final Fantasy X", "Dragon Quest", "Kingdom Hearts"],
+    "respuestaCorrecta": "Final Fantasy VII"
+  },
+  {
+    "id": 23,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué instrumento toca Link en *The Legend of Zelda: Ocarina of Time*?",
+    "opciones": ["Flauta", "Guitarra", "Ocarina", "Arpa"],
+    "respuestaCorrecta": "Ocarina"
+  },
+  {
+    "id": 24,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del primer jefe en *Super Mario Bros* de NES?",
+    "opciones": ["Koopa Troopa", "Goomba", "Bowser", "Hammer Bro"],
+    "respuestaCorrecta": "Bowser"
+  },
+  {
+    "id": 25,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de lucha introdujo el movimiento 'Hadouken'?",
+    "opciones": ["Mortal Kombat", "Tekken", "Street Fighter", "Killer Instinct"],
+    "respuestaCorrecta": "Street Fighter"
+  },
+  {
+    "id": 26,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del mundo donde habitan los personajes de *World of Warcraft*?",
+    "opciones": ["Eorzea", "Azeroth", "Tamriel", "Golarion"],
+    "respuestaCorrecta": "Azeroth"
+  },
+  {
+    "id": 27,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Nintendo se centra en atrapar criaturas llamadas 'Pocket Monsters'?",
+    "opciones": ["Digimon", "Yo-kai Watch", "Pokémon", "Monster Hunter"],
+    "respuestaCorrecta": "Pokémon"
+  },
+  {
+    "id": 28,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola popularizó el uso del control por movimiento?",
+    "opciones": ["PlayStation 3", "Xbox 360", "Nintendo Wii", "Dreamcast"],
+    "respuestaCorrecta": "Nintendo Wii"
+  },
+  {
+    "id": 29,
+    "categoria": "Videojuegos",
+    "pregunta": "¿En qué juego de terror debes sobrevivir en una mansión llena de zombies y misterios?",
+    "opciones": ["Silent Hill", "Dead Space", "Resident Evil", "Amnesia"],
+    "respuestaCorrecta": "Resident Evil"
+  },
+  {
+    "id": 30,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué personaje de *Metroid* usa un traje de poder blindado?",
+    "opciones": ["Kirby", "Samus Aran", "Captain Falcon", "Fox McCloud"],
+    "respuestaCorrecta": "Samus Aran"
+  },
+  {
+    "id": 31,
+    "categoria": "Videojuegos",
+    "pregunta": "¿De qué saga de videojuegos proviene el personaje de 'Ezio Auditore da Firenze'?",
+    "opciones": ["Uncharted", "The Witcher", "Assassin's Creed", "Prince of Persia"],
+    "respuestaCorrecta": "Assassin's Creed"
+  },
+  {
+    "id": 32,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál fue la primera consola de videojuegos en vender más de 100 millones de unidades?",
+    "opciones": ["NES", "PlayStation 1", "Game Boy", "PlayStation 2"],
+    "respuestaCorrecta": "PlayStation 2"
+  },
+  {
+    "id": 33,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué género de juego representa *Dota 2* y *League of Legends*?",
+    "opciones": ["RTS", "MMORPG", "MOBA", "Battle Royale"],
+    "respuestaCorrecta": "MOBA"
+  },
+  {
+    "id": 34,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué personaje es el líder del equipo Delta Squad en *Gears of War*?",
+    "opciones": ["Baird", "Cole", "Dominic Santiago", "Marcus Fenix"],
+    "respuestaCorrecta": "Marcus Fenix"
+  },
+  {
+    "id": 35,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es la franquicia de carreras de karts más vendida de Nintendo?",
+    "opciones": ["F-Zero", "Diddy Kong Racing", "Mario Kart", "Excitebike"],
+    "respuestaCorrecta": "Mario Kart"
+  },
+  {
+    "id": 36,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué compañía creó la consola PlayStation?",
+    "opciones": ["Sony", "Microsoft", "Nintendo", "Sega"],
+    "respuestaCorrecta": "Sony"
+  },
+  {
+    "id": 37,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego presenta al personaje 'Pac-Man'?",
+    "opciones": ["Donkey Kong", "Space Invaders", "Pac-Man", "Asteroids"],
+    "respuestaCorrecta": "Pac-Man"
+  },
+  {
+    "id": 38,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cómo se llama el dragón que secuestra a la Princesa Peach?",
+    "opciones": ["Kamek", "Wario", "Bowser", "Yoshi"],
+    "respuestaCorrecta": "Bowser"
+  },
+  {
+    "id": 39,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de 2017 fue desarrollado por Nintendo y se centra en el mundo de Hyrule?",
+    "opciones": ["Super Mario Odyssey", "Xenoblade Chronicles 2", "The Legend of Zelda: Breath of the Wild", "Splatoon 2"],
+    "respuestaCorrecta": "The Legend of Zelda: Breath of the Wild"
+  },
+  {
+    "id": 40,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué popular juego de PC de los años 90 se considera pionero de los FPS (First Person Shooter)?",
+    "opciones": ["Half-Life", "Quake", "Doom", "Duke Nukem 3D"],
+    "respuestaCorrecta": "Doom"
+  },
+  {
+    "id": 41,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre de la consola portátil más vendida de la historia?",
+    "opciones": ["Nintendo Switch", "PlayStation Portable (PSP)", "Nintendo DS", "Game Boy"],
+    "respuestaCorrecta": "Nintendo DS"
+  },
+  {
+    "id": 42,
+    "categoria": "Videojuegos",
+    "pregunta": "¿En qué juego de terror y supervivencia aparece el personaje de 'Leon S. Kennedy'?",
+    "opciones": ["Silent Hill 2", "The Evil Within", "Resident Evil 2", "Dead Rising"],
+    "respuestaCorrecta": "Resident Evil 2"
+  },
+  {
+    "id": 43,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué saga de juegos está ambientada en un mundo post-apocalíptico lleno de bandidos y criaturas mutantes?",
+    "opciones": ["The Elder Scrolls", "Borderlands", "Fallout", "Metro"],
+    "respuestaCorrecta": "Fallout"
+  },
+  {
+    "id": 44,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué compañía creó la saga *Call of Duty*?",
+    "opciones": ["EA Games", "Activision", "Ubisoft", "Take-Two Interactive"],
+    "respuestaCorrecta": "Activision"
+  },
+  {
+    "id": 45,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del caballo de Link en *The Legend of Zelda*?",
+    "opciones": ["Epona", "Agro", "Shadowmere", "Roach"],
+    "respuestaCorrecta": "Epona"
+  },
+  {
+    "id": 46,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Nintendo fue la primera en ofrecer gráficos 3D?",
+    "opciones": ["NES", "SNES", "Nintendo 64", "GameCube"],
+    "respuestaCorrecta": "Nintendo 64"
+  },
+  {
+    "id": 47,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego se caracteriza por tener una cámara fija y control de tanque en sus inicios?",
+    "opciones": ["Silent Hill", "Resident Evil", "Alone in the Dark", "Fatal Frame"],
+    "respuestaCorrecta": "Resident Evil"
+  },
+  {
+    "id": 48,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cómo se llama el personaje que te acompaña en *Portal 2* y es conocido por su humor negro?",
+    "opciones": ["Cave Johnson", "Wheatley", "GLaDOS", "Chell"],
+    "respuestaCorrecta": "GLaDOS"
+  },
+  {
+    "id": 49,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué videojuego popularizó el género Battle Royale a nivel mundial?",
+    "opciones": ["PUBG: Battlegrounds", "Apex Legends", "Fortnite", "Call of Duty: Warzone"],
+    "respuestaCorrecta": "PUBG: Battlegrounds"
+  },
+  {
+    "id": 50,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de lucha de 1991 introdujo los 'combos' al género?",
+    "opciones": ["Street Fighter II", "Mortal Kombat", "Tekken", "Fatal Fury"],
+    "respuestaCorrecta": "Street Fighter II"
+  },
+  {
+    "id": 51,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué estudio de desarrollo creó *Cyberpunk 2077*?",
+    "opciones": ["Bethesda", "CD Projekt Red", "BioWare", "Square Enix"],
+    "respuestaCorrecta": "CD Projekt Red"
+  },
+  {
+    "id": 52,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola fue el resultado de la fallida colaboración entre Nintendo y Sony?",
+    "opciones": ["Nintendo 64", "PlayStation 1", "Sega Saturn", "Neo Geo"],
+    "respuestaCorrecta": "PlayStation 1"
+  },
+  {
+    "id": 53,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *BioShock Infinite*?",
+    "opciones": ["Jack", "Booker DeWitt", "Elizabeth", "Atlas"],
+    "respuestaCorrecta": "Booker DeWitt"
+  },
+  {
+    "id": 54,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de simulación de vida de Electronic Arts permite crear y controlar personas virtuales?",
+    "opciones": ["SimCity", "Zoo Tycoon", "The Sims", "RollerCoaster Tycoon"],
+    "respuestaCorrecta": "The Sims"
+  },
+  {
+    "id": 55,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del planeta en el que se desarrolla la saga *Metroid*?",
+    "opciones": ["Zebes", "Ceres", "Talon IV", "No tiene nombre fijo"],
+    "respuestaCorrecta": "Zebes"
+  },
+  {
+    "id": 56,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál fue la primera consola de Nintendo en usar cartuchos ROM?",
+    "opciones": ["Nintendo 64", "GameCube", "Famicom (NES)", "SNES"],
+    "respuestaCorrecta": "Famicom (NES)"
+  },
+  {
+    "id": 57,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego popularizó el género de plataformas con desplazamiento lateral (side-scrolling)?",
+    "opciones": ["Pac-Man", "Donkey Kong", "Super Mario Bros.", "Space Invaders"],
+    "respuestaCorrecta": "Super Mario Bros."
+  },
+  {
+    "id": 58,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cómo se llama el artefacto mágico que permite viajar en el tiempo en *The Legend of Zelda: Ocarina of Time*?",
+    "opciones": ["Flauta", "Ocarina del Tiempo", "Máscara de Majora", "Espada Maestra"],
+    "respuestaCorrecta": "Ocarina del Tiempo"
+  },
+  {
+    "id": 59,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Bethesda se desarrolla en el mundo de Tamriel?",
+    "opciones": ["Fallout", "Doom", "Starfield", "The Elder Scrolls"],
+    "respuestaCorrecta": "The Elder Scrolls"
+  },
+  {
+    "id": 60,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de 2013 se considera un referente del género de supervivencia y crafting?",
+    "opciones": ["DayZ", "Rust", "Don't Starve", "The Forest"],
+    "respuestaCorrecta": "The Last of Us"
+  },
+  {
+    "id": 61,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de la 8ª generación fue la última lanzada (2017)?",
+    "opciones": ["PlayStation 4", "Xbox One", "Nintendo Switch", "Wii U"],
+    "respuestaCorrecta": "Nintendo Switch"
+  },
+  {
+    "id": 62,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *Uncharted*?",
+    "opciones": ["Lara Croft", "Nathan Drake", "Joel Miller", "Master Chief"],
+    "respuestaCorrecta": "Nathan Drake"
+  },
+  {
+    "id": 63,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué tipo de arma utiliza el personaje de Mega Man en su brazo?",
+    "opciones": ["Espada láser", "Cañón", "Látigo", "Bumerán"],
+    "respuestaCorrecta": "Cañón"
+  },
+  {
+    "id": 64,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué popular juego de 2018 introdujo un vasto mundo abierto en la Grecia antigua?",
+    "opciones": ["God of War", "Assassin's Creed Odyssey", "Red Dead Redemption 2", "Horizon Zero Dawn"],
+    "respuestaCorrecta": "Assassin's Creed Odyssey"
+  },
+  {
+    "id": 65,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego se caracteriza por coleccionar 'Shine Sprites' y tener a Mario limpiando islas?",
+    "opciones": ["Super Mario 64", "Super Mario Galaxy", "Super Mario Sunshine", "Super Mario Bros. 3"],
+    "respuestaCorrecta": "Super Mario Sunshine"
+  },
+  {
+    "id": 66,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué compañía creó la consola Sega Genesis (Mega Drive)?",
+    "opciones": ["Nintendo", "Atari", "Sega", "SNK"],
+    "respuestaCorrecta": "Sega"
+  },
+  {
+    "id": 67,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de rol post-apocalíptico de Bethesda tiene lugar principalmente en Washington D.C. (la Capital Wasteland)?",
+    "opciones": ["Fallout 3", "Fallout 4", "The Elder Scrolls IV", "Skyrim"],
+    "respuestaCorrecta": "Fallout 3"
+  },
+  {
+    "id": 68,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cómo se llama el protagonista principal de *The Witcher*?",
+    "opciones": ["Ciri", "Yennefer", "Geralt de Rivia", "Jaskier"],
+    "respuestaCorrecta": "Geralt de Rivia"
+  },
+  {
+    "id": 69,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de lucha utiliza un sistema de combate basado en la realidad y artes marciales mixtas?",
+    "opciones": ["Street Fighter", "Tekken", "Mortal Kombat", "UFC Undisputed"],
+    "respuestaCorrecta": "Tekken"
+  },
+  {
+    "id": 70,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué género representa el juego *StarCraft*?",
+    "opciones": ["MMORPG", "RTS (Estrategia en tiempo real)", "FPS", "Survival Horror"],
+    "respuestaCorrecta": "RTS (Estrategia en tiempo real)"
+  },
+  {
+    "id": 71,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos fue la primera en introducir el almacenamiento de juegos en cartuchos?",
+    "opciones": ["Magnavox Odyssey", "Atari 2600", "ColecoVision", "NES"],
+    "respuestaCorrecta": "Magnavox Odyssey"
+  },
+  {
+    "id": 72,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *Red Dead Redemption*?",
+    "opciones": ["Arthur Morgan", "Dutch van der Linde", "John Marston", "Micah Bell"],
+    "respuestaCorrecta": "John Marston"
+  },
+  {
+    "id": 73,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué saga de juegos se desarrolla en la ciudad ficticia de Raccoon City?",
+    "opciones": ["Silent Hill", "Dead Space", "Resident Evil", "Alan Wake"],
+    "respuestaCorrecta": "Resident Evil"
+  },
+  {
+    "id": 74,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Rockstar se desarrolla principalmente en la ciudad de Los Santos?",
+    "opciones": ["Grand Theft Auto: San Andreas", "Grand Theft Auto IV", "Grand Theft Auto V", "Red Dead Redemption 2"],
+    "respuestaCorrecta": "Grand Theft Auto V"
+  },
+  {
+    "id": 75,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué es un 'Speedrun'?",
+    "opciones": ["Completar un juego lentamente", "Completar un juego lo más rápido posible", "Jugar solo el modo multijugador", "Buscar todos los secretos del juego"],
+    "respuestaCorrecta": "Completar un juego lo más rápido posible"
+  },
+  {
+    "id": 76,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola se hizo famosa por tener un accesorio llamado 'Power Glove'?",
+    "opciones": ["Sega Genesis", "NES", "Atari 7800", "TurboGrafx-16"],
+    "respuestaCorrecta": "NES"
+  },
+  {
+    "id": 77,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del principal enemigo en la saga *The Legend of Zelda*?",
+    "opciones": ["Ganondorf", "Skull Kid", "Majora", "Zant"],
+    "respuestaCorrecta": "Ganondorf"
+  },
+  {
+    "id": 78,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de rol occidental de 2011 está ambientado en la región de Skyrim?",
+    "opciones": ["Fallout: New Vegas", "The Elder Scrolls V: Skyrim", "Dragon Age: Origins", "Mass Effect 3"],
+    "respuestaCorrecta": "The Elder Scrolls V: Skyrim"
+  },
+  {
+    "id": 79,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego fue desarrollado por Telltale Games y se centra en las decisiones morales?",
+    "opciones": ["Life Is Strange", "Detroit: Become Human", "The Walking Dead", "Heavy Rain"],
+    "respuestaCorrecta": "The Walking Dead"
+  },
+  {
+    "id": 80,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de simulación de vuelo y combate está basado en la Segunda Guerra Mundial?",
+    "opciones": ["Ace Combat", "War Thunder", "Microsoft Flight Simulator", "IL-2 Sturmovik"],
+    "respuestaCorrecta": "IL-2 Sturmovik"
+  },
+  {
+    "id": 81,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué compañía creó la consola Neo Geo?",
+    "opciones": ["Capcom", "SNK", "Konami", "Taito"],
+    "respuestaCorrecta": "SNK"
+  },
+  {
+    "id": 82,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *Silent Hill 2*?",
+    "opciones": ["Harry Mason", "James Sunderland", "Heather Mason", "Travis Grady"],
+    "respuestaCorrecta": "James Sunderland"
+  },
+  {
+    "id": 83,
+    "categoria": "Videojuegos",
+    "pregunta": "¿De qué saga de juegos proviene el personaje de 'Sam Fisher'?",
+    "opciones": ["Splinter Cell", "Rainbow Six", "Ghost Recon", "Metal Gear Solid"],
+    "respuestaCorrecta": "Splinter Cell"
+  },
+  {
+    "id": 84,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de lucha tiene un sistema de 'Fatalities' (movimientos de remate brutales)?",
+    "opciones": ["Street Fighter", "Tekken", "Mortal Kombat", "Soulcalibur"],
+    "respuestaCorrecta": "Mortal Kombat"
+  },
+  {
+    "id": 85,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el juego de mesa más popular adaptado a videojuegos, basado en la guerra y la colonización?",
+    "opciones": ["Monopoly", "Risk", "Catan", "Ajedrez"],
+    "respuestaCorrecta": "Risk"
+  },
+  {
+    "id": 86,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Microsoft fue la primera en usar DVD-ROM?",
+    "opciones": ["Xbox original", "Xbox 360", "Xbox One", "Xbox Series X"],
+    "respuestaCorrecta": "Xbox original"
+  },
+  {
+    "id": 87,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Nintendo presenta a criaturas llamadas 'Pikmin'?",
+    "opciones": ["Animal Crossing", "Kirby", "Pikmin", "Yoshi's Island"],
+    "respuestaCorrecta": "Pikmin"
+  },
+  {
+    "id": 88,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *Metal Gear Solid V: The Phantom Pain*?",
+    "opciones": ["Liquid Snake", "Solidus Snake", "Venom Snake", "Raiden"],
+    "respuestaCorrecta": "Venom Snake"
+  },
+  {
+    "id": 89,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego popularizó la mecánica de 'viaje en el tiempo' y el DeLorean?",
+    "opciones": ["GTA V", "Saints Row", "Need for Speed", "Back to the Future: The Game"],
+    "respuestaCorrecta": "Back to the Future: The Game"
+  },
+  {
+    "id": 90,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué género representa el juego *Doom* de 1993?",
+    "opciones": ["RPG", "FPS (First Person Shooter)", "Plataformas", "Aventura Gráfica"],
+    "respuestaCorrecta": "FPS (First Person Shooter)"
+  },
+  {
+    "id": 91,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *Horizon Zero Dawn*?",
+    "opciones": ["Ellie", "Aloy", "Kratos", "Geralt"],
+    "respuestaCorrecta": "Aloy"
+  },
+  {
+    "id": 92,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Sega fue la última lanzada antes de convertirse solo en desarrolladora de software?",
+    "opciones": ["Sega Saturn", "Mega Drive", "Dreamcast", "Master System"],
+    "respuestaCorrecta": "Dreamcast"
+  },
+  {
+    "id": 93,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de ritmo permite tocar instrumentos musicales de plástico?",
+    "opciones": ["Dance Dance Revolution", "Guitar Hero", "Rock Band", "Beat Saber"],
+    "respuestaCorrecta": "Guitar Hero"
+  },
+  {
+    "id": 94,
+    "categoria": "Videojuegos",
+    "pregunta": "¿En qué juego de rol japonés aparece la criatura 'Chocobo'?",
+    "opciones": ["Dragon Quest", "Persona", "Final Fantasy", "Kingdom Hearts"],
+    "respuestaCorrecta": "Final Fantasy"
+  },
+  {
+    "id": 95,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del caballo de Arthur Morgan en *Red Dead Redemption 2*?",
+    "opciones": ["Shadowmere", "Epona", "Agro", "No tiene nombre fijo"],
+    "respuestaCorrecta": "No tiene nombre fijo"
+  },
+  {
+    "id": 96,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de Nintendo introdujo el 'Touch Screen' (pantalla táctil) como característica principal?",
+    "opciones": ["Game Boy Advance", "Nintendo DS", "Wii U", "Nintendo Switch"],
+    "respuestaCorrecta": "Nintendo DS"
+  },
+  {
+    "id": 97,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de simulación de vida de Nintendo permite pescar, cazar bichos y decorar una casa?",
+    "opciones": ["Harvest Moon", "Stardew Valley", "Animal Crossing", "The Sims"],
+    "respuestaCorrecta": "Animal Crossing"
+  },
+  {
+    "id": 98,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre de la inteligencia artificial maligna en la saga *Halo*?",
+    "opciones": ["Cortana", "Mjolnir", "The Gravemind", "The Covenant"],
+    "respuestaCorrecta": "The Gravemind"
+  },
+  {
+    "id": 99,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué famoso personaje de videojuegos es un erizo azul rápido?",
+    "opciones": ["Crash Bandicoot", "Spyro", "Sonic", "Tails"],
+    "respuestaCorrecta": "Sonic"
+  },
+  {
+    "id": 100,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de terror psicológico se desarrolla en el pueblo homónimo cubierto de niebla?",
+    "opciones": ["Resident Evil", "Fatal Frame", "Silent Hill", "Outlast"],
+    "respuestaCorrecta": "Silent Hill"
+  },
+  {
+    "id": 101,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es la compañía japonesa que creó *Pac-Man*?",
+    "opciones": ["Sega", "Nintendo", "Namco", "Capcom"],
+    "respuestaCorrecta": "Namco"
+  },
+  {
+    "id": 102,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos es conocida por la luz azul que indica el estado del disco?",
+    "opciones": ["PlayStation 3", "Xbox 360", "PlayStation 4", "Nintendo Wii"],
+    "respuestaCorrecta": "PlayStation 4"
+  },
+  {
+    "id": 103,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego popularizó la frase 'The cake is a lie' (El pastel es una mentira)?",
+    "opciones": ["Half-Life", "Portal", "BioShock", "Borderlands"],
+    "respuestaCorrecta": "Portal"
+  },
+  {
+    "id": 104,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué estudio de desarrollo creó *The Elder Scrolls* y *Fallout*?",
+    "opciones": ["BioWare", "Obsidian Entertainment", "Bethesda Game Studios", "CD Projekt Red"],
+    "respuestaCorrecta": "Bethesda Game Studios"
+  },
+  {
+    "id": 105,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *Tomb Raider*?",
+    "opciones": ["Nathan Drake", "Ellie", "Lara Croft", "Samus Aran"],
+    "respuestaCorrecta": "Lara Croft"
+  },
+  {
+    "id": 106,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Sony fue la primera en usar el formato Blu-ray?",
+    "opciones": ["PlayStation 2", "PlayStation 3", "PlayStation 4", "PlayStation 5"],
+    "respuestaCorrecta": "PlayStation 3"
+  },
+  {
+    "id": 107,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de lucha de 1997 fue el primero en usar gráficos 3D totalmente renderizados?",
+    "opciones": ["Tekken", "Virtua Fighter", "Mortal Kombat 4", "Soulcalibur"],
+    "respuestaCorrecta": "Tekken"
+  },
+  {
+    "id": 108,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del perro que te acompaña en *Fallout 4*?",
+    "opciones": ["Dogmeat", "Rex", "Riley", "Rush"],
+    "respuestaCorrecta": "Dogmeat"
+  },
+  {
+    "id": 109,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Rockstar se desarrolla principalmente en el Lejano Oeste?",
+    "opciones": ["GTA IV", "Bully", "Red Dead Redemption", "Max Payne 3"],
+    "respuestaCorrecta": "Red Dead Redemption"
+  },
+  {
+    "id": 110,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del mundo ficticio en el que se desarrolla *Dragon Age*?",
+    "opciones": ["Azeroth", "Thedas", "Middle-earth", "Westeros"],
+    "respuestaCorrecta": "Thedas"
+  },
+  {
+    "id": 111,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Nintendo introdujo los 'Joy-Cons'?",
+    "opciones": ["Wii", "Wii U", "Nintendo 3DS", "Nintendo Switch"],
+    "respuestaCorrecta": "Nintendo Switch"
+  },
+  {
+    "id": 112,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista de *Half-Life*?",
+    "opciones": ["Alyx Vance", "Dr. Wallace Breen", "Gordon Freeman", "G-Man"],
+    "respuestaCorrecta": "Gordon Freeman"
+  },
+  {
+    "id": 113,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué saga de juegos de lucha está basada en la mitología nórdica?",
+    "opciones": ["God of War", "Bayonetta", "Devil May Cry", "Asura's Wrath"],
+    "respuestaCorrecta": "God of War"
+  },
+  {
+    "id": 114,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de 2018 de Rockstar Games es la precuela de *Red Dead Redemption*?",
+    "opciones": ["Red Dead Revolver", "Red Dead Redemption 2", "Grand Theft Auto V", "Bully"],
+    "respuestaCorrecta": "Red Dead Redemption 2"
+  },
+  {
+    "id": 115,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de plataformas tiene como protagonista a un marsupial naranja?",
+    "opciones": ["Banjo-Kazooie", "Spyro the Dragon", "Crash Bandicoot", "Sly Cooper"],
+    "respuestaCorrecta": "Crash Bandicoot"
+  },
+  {
+    "id": 116,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál fue el primer juego de la franquicia *Pokémon* lanzado en Japón?",
+    "opciones": ["Pokémon Yellow", "Pokémon Blue", "Pokémon Red and Green", "Pokémon Gold and Silver"],
+    "respuestaCorrecta": "Pokémon Red and Green"
+  },
+  {
+    "id": 117,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué personaje de *The Legend of Zelda* es conocido por su sabiduría?",
+    "opciones": ["Link", "Ganon", "Zelda", "Impa"],
+    "respuestaCorrecta": "Zelda"
+  },
+  {
+    "id": 118,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de rol masivo en línea (MMORPG) es conocido por el mundo de Eorzea?",
+    "opciones": ["World of Warcraft", "Guild Wars 2", "Final Fantasy XIV", "The Elder Scrolls Online"],
+    "respuestaCorrecta": "Final Fantasy XIV"
+  },
+  {
+    "id": 119,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Valve popularizó el género MOBA (Multiplayer Online Battle Arena)?",
+    "opciones": ["Team Fortress 2", "Counter-Strike", "Dota 2", "Left 4 Dead"],
+    "respuestaCorrecta": "Dota 2"
+  },
+  {
+    "id": 120,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de disparos se caracteriza por tener clases de personajes como Scout y Heavy?",
+    "opciones": ["Call of Duty", "Overwatch", "Team Fortress 2", "Battlefield"],
+    "respuestaCorrecta": "Team Fortress 2"
+  },
+  {
+    "id": 121,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del planeta natal de Samus Aran?",
+    "opciones": ["Zebes", "Ceres", "K-2L", "La Tierra"],
+    "respuestaCorrecta": "K-2L"
+  },
+  {
+    "id": 122,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Sega fue la primera en usar el formato CD-ROM?",
+    "opciones": ["Master System", "Mega Drive (con Mega-CD)", "Sega Saturn", "Dreamcast"],
+    "respuestaCorrecta": "Mega Drive (con Mega-CD)"
+  },
+  {
+    "id": 123,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de lucha se caracteriza por los personajes de Jin Kazama y Heihachi Mishima?",
+    "opciones": ["Street Fighter", "Mortal Kombat", "Tekken", "Dead or Alive"],
+    "respuestaCorrecta": "Tekken"
+  },
+  {
+    "id": 124,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de simulación de vuelo militar es conocido por su realismo extremo?",
+    "opciones": ["Ace Combat", "War Thunder", "DCS World", "Flight Simulator"],
+    "respuestaCorrecta": "DCS World"
+  },
+  {
+    "id": 125,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *Grand Theft Auto: San Andreas*?",
+    "opciones": ["Tommy Vercetti", "Claude Speed", "Carl 'CJ' Johnson", "Niko Bellic"],
+    "respuestaCorrecta": "Carl 'CJ' Johnson"
+  },
+  {
+    "id": 126,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Nintendo fue el primero en incluir el modo multijugador local de 4 jugadores con pantalla dividida?",
+    "opciones": ["Super Mario Kart", "Super Smash Bros. 64", "GoldenEye 007", "Mario Party"],
+    "respuestaCorrecta": "GoldenEye 007"
+  },
+  {
+    "id": 127,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué Pokémon es conocido como el 'Dragón Fantasma'?",
+    "opciones": ["Dialga", "Palkia", "Giratina", "Arceus"],
+    "respuestaCorrecta": "Giratina"
+  },
+  {
+    "id": 128,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de 2020 de Nintendo se centra en la vida isleña y la interacción con vecinos animales?",
+    "opciones": ["Pokémon Scarlet", "Kirby and the Forgotten Land", "Animal Crossing: New Horizons", "Splatoon 3"],
+    "respuestaCorrecta": "Animal Crossing: New Horizons"
+  },
+  {
+    "id": 129,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué famoso personaje de videojuegos se caracteriza por saltar con una máscara de Aku Aku?",
+    "opciones": ["Spyro", "Crash Bandicoot", "Donkey Kong", "Banjo"],
+    "respuestaCorrecta": "Crash Bandicoot"
+  },
+  {
+    "id": 130,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del planeta en el que se desarrolla la saga *Star Wars Jedi: Fallen Order* y *Survivor*?",
+    "opciones": ["Coruscant", "Kashyyyk", "Zeffo (entre otros)", "Tatooine"],
+    "respuestaCorrecta": "Zeffo (entre otros)"
+  },
+  {
+    "id": 131,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Sony introdujo el 'DualSense Controller' con gatillos adaptativos?",
+    "opciones": ["PlayStation 4 Pro", "PlayStation 5", "PlayStation VR", "PlayStation 3"],
+    "respuestaCorrecta": "PlayStation 5"
+  },
+  {
+    "id": 132,
+    "categoria": "Videojuegos",
+    "pregunta": "¿De qué juego de terror y supervivencia proviene el personaje de 'Pyramid Head'?",
+    "opciones": ["Resident Evil 7", "Silent Hill 2", "Fatal Frame", "Outlast"],
+    "respuestaCorrecta": "Silent Hill 2"
+  },
+  {
+    "id": 133,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de estrategia por turnos te permite liderar una civilización a través de la historia?",
+    "opciones": ["Age of Empires", "StarCraft", "Civilization", "Crusader Kings"],
+    "respuestaCorrecta": "Civilization"
+  },
+  {
+    "id": 134,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *Death Stranding*?",
+    "opciones": ["Sam Porter Bridges", "Clifford Unger", "Fragile", "Higgs Monaghan"],
+    "respuestaCorrecta": "Sam Porter Bridges"
+  },
+  {
+    "id": 135,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de lucha permite a los personajes romper su propia armadura para infligir más daño?",
+    "opciones": ["Tekken 7", "Street Fighter V", "Soulcalibur VI", "Killer Instinct"],
+    "respuestaCorrecta": "Soulcalibur VI"
+  },
+  {
+    "id": 136,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola fue el primer intento de Microsoft en la 7ª generación de consolas?",
+    "opciones": ["Xbox original", "Xbox 360", "Xbox One", "Xbox Series X"],
+    "respuestaCorrecta": "Xbox 360"
+  },
+  {
+    "id": 137,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego popularizó el uso de 'Shouts' y el combate con dragones en un mundo nórdico?",
+    "opciones": ["The Witcher 3", "Dragon Age", "The Elder Scrolls V: Skyrim", "Fable"],
+    "respuestaCorrecta": "The Elder Scrolls V: Skyrim"
+  },
+  {
+    "id": 138,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cómo se llama el villano principal en la saga de *Crash Bandicoot*?",
+    "opciones": ["Neo Cortex", "Tiny Tiger", "Uka Uka", "Dr. Nitrus Brio"],
+    "respuestaCorrecta": "Neo Cortex"
+  },
+  {
+    "id": 139,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de 2017 se caracteriza por tener una cámara cambiante que se fija a la espalda de Mario?",
+    "opciones": ["Super Mario Bros. U", "Super Mario Odyssey", "Super Mario Galaxy", "New Super Mario Bros. Wii"],
+    "respuestaCorrecta": "Super Mario Odyssey"
+  },
+  {
+    "id": 140,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Rockstar se desarrolla principalmente en la ciudad de Vice City?",
+    "opciones": ["GTA III", "GTA Vice City", "GTA San Andreas", "GTA V"],
+    "respuestaCorrecta": "GTA Vice City"
+  },
+  {
+    "id": 141,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es la unidad de medida utilizada en el juego *Pokémon* para la altura y el peso de los Pokémon?",
+    "opciones": ["Metros y Kilogramos", "Pies y Libras", "Píxeles y Bytes", "Gigas y Megas"],
+    "respuestaCorrecta": "Metros y Kilogramos"
+  },
+  {
+    "id": 142,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Nintendo fue un fracaso comercial y es considerada su peor consola de sobremesa?",
+    "opciones": ["Wii", "GameCube", "Nintendo 64", "Wii U"],
+    "respuestaCorrecta": "Wii U"
+  },
+  {
+    "id": 143,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego popularizó el concepto de 'QTE' (Quick Time Events) intensos en cinemáticas?",
+    "opciones": ["God of War", "Metal Gear Solid", "Shenmue", "Resident Evil 4"],
+    "respuestaCorrecta": "Shenmue"
+  },
+  {
+    "id": 144,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué género representa el juego *Civilization*?",
+    "opciones": ["RTS", "Estrategia por turnos (4X)", "FPS", "RPG"],
+    "respuestaCorrecta": "Estrategia por turnos (4X)"
+  },
+  {
+    "id": 145,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del planeta natal de Ratchet en la saga *Ratchet & Clank*?",
+    "opciones": ["Veldin", "Kerwan", "Rilgar", "Novalis"],
+    "respuestaCorrecta": "Veldin"
+  },
+  {
+    "id": 146,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola fue la primera en usar el control 'Dual Analog' (con dos joysticks) de Sony?",
+    "opciones": ["PlayStation 1", "PlayStation 2", "PlayStation 3", "PlayStation Portable"],
+    "respuestaCorrecta": "PlayStation 1"
+  },
+  {
+    "id": 147,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de lucha introdujo los 'fatalities' (remates) por primera vez?",
+    "opciones": ["Street Fighter", "Mortal Kombat", "Tekken", "Killer Instinct"],
+    "respuestaCorrecta": "Mortal Kombat"
+  },
+  {
+    "id": "148",
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cómo se llama el sistema operativo de la consola Xbox One?",
+    "opciones": ["Windows 8", "Windows 10", "Xbox OS", "Microsoft DOS"],
+    "respuestaCorrecta": "Xbox OS"
+  },
+  {
+    "id": 149,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Nintendo se centra en la aventura de un joven Link a través de un mundo de sueños?",
+    "opciones": ["A Link to the Past", "Ocarina of Time", "Link's Awakening", "Twilight Princess"],
+    "respuestaCorrecta": "Link's Awakening"
+  },
+  {
+    "id": 150,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *Deus Ex*?",
+    "opciones": ["J.C. Denton", "Adam Jensen", "Alex Vance", "Agent 47"],
+    "respuestaCorrecta": "J.C. Denton"
+  },
+  {
+    "id": 151,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Sega es conocida por su accesorio '32X'?",
+    "opciones": ["Sega Master System", "Sega Mega Drive (Genesis)", "Sega Saturn", "Sega Dreamcast"],
+    "respuestaCorrecta": "Sega Mega Drive (Genesis)"
+  },
+  {
+    "id": 152,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de 2015 de CD Projekt Red se basa en una serie de libros de fantasía oscura?",
+    "opciones": ["Cyberpunk 2077", "The Witcher 3: Wild Hunt", "Dragon Age: Inquisition", "Skyrim"],
+    "respuestaCorrecta": "The Witcher 3: Wild Hunt"
+  },
+  {
+    "id": 153,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de rol japonés se caracteriza por los personajes de Tidus y Yuna?",
+    "opciones": ["Final Fantasy VII", "Final Fantasy VIII", "Final Fantasy X", "Kingdom Hearts"],
+    "respuestaCorrecta": "Final Fantasy X"
+  },
+  {
+    "id": 154,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Nintendo fue la primera en usar almacenamiento en tarjetas SD?",
+    "opciones": ["GameCube", "Wii", "Nintendo DS", "Nintendo Switch"],
+    "respuestaCorrecta": "Wii"
+  },
+  {
+    "id": 155,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Capcom popularizó la mecánica de 'esquivar' rodando?",
+    "opciones": ["Street Fighter", "Mega Man", "Devil May Cry", "Monster Hunter"],
+    "respuestaCorrecta": "Monster Hunter"
+  },
+  {
+    "id": 156,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *Assassin's Creed IV: Black Flag*?",
+    "opciones": ["Ezio Auditore", "Ratonhnhaké:ton", "Edward Kenway", "Haytham Kenway"],
+    "respuestaCorrecta": "Edward Kenway"
+  },
+  {
+    "id": 157,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de lucha se caracteriza por los personajes de Ryu y Ken?",
+    "opciones": ["Mortal Kombat", "Tekken", "Street Fighter", "Dead or Alive"],
+    "respuestaCorrecta": "Street Fighter"
+  },
+  {
+    "id": 158,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del mundo ficticio en el que se desarrolla *Final Fantasy XV*?",
+    "opciones": ["Eos", "Gaia", "Ivalice", "Vana'diel"],
+    "respuestaCorrecta": "Eos"
+  },
+  {
+    "id": 159,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de estrategia te permite gestionar una colonia en un planeta desconocido?",
+    "opciones": ["SimCity", "Cities: Skylines", "RimWorld", "The Sims"],
+    "respuestaCorrecta": "RimWorld"
+  },
+  {
+    "id": 160,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué famoso personaje de videojuegos es un dinosaurio verde que acompaña a Mario?",
+    "opciones": ["Toad", "Bowser Jr.", "Yoshi", "Waluigi"],
+    "respuestaCorrecta": "Yoshi"
+  },
+  {
+    "id": 161,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *Gears of War 2*?",
+    "opciones": ["Baird", "Cole", "Dominic Santiago", "Marcus Fenix"],
+    "respuestaCorrecta": "Marcus Fenix"
+  },
+  {
+    "id": 162,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego popularizó el concepto de 'Sandbox' con total libertad de acción en un mundo abierto 3D?",
+    "opciones": ["The Elder Scrolls III", "Grand Theft Auto III", "Mafia", "Driver"],
+    "respuestaCorrecta": "Grand Theft Auto III"
+  },
+  {
+    "id": 163,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Nintendo fue el primero en usar el accesorio 'Zapper' (pistola de luz)?",
+    "opciones": ["Duck Hunt", "Super Mario Bros.", "Hogan's Alley", "Wild Gunman"],
+    "respuestaCorrecta": "Duck Hunt"
+  },
+  {
+    "id": 164,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del dragón que aparece en la saga *Spyro the Dragon*?",
+    "opciones": ["Ignitus", "Cynder", "Spyro", "Sparx"],
+    "respuestaCorrecta": "Spyro"
+  },
+  {
+    "id": 165,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Rockstar se desarrolla principalmente en la ciudad ficticia de Liberty City?",
+    "opciones": ["GTA Vice City", "GTA San Andreas", "GTA IV", "Bully"],
+    "respuestaCorrecta": "GTA IV"
+  },
+  {
+    "id": 166,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de rol oriental (JRPG) es conocido por el sistema de 'materias'?",
+    "opciones": ["Final Fantasy VI", "Final Fantasy VII", "Chrono Trigger", "Persona 5"],
+    "respuestaCorrecta": "Final Fantasy VII"
+  },
+  {
+    "id": 167,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Blizzard Entertainment popularizó el género MOBA?",
+    "opciones": ["World of Warcraft", "StarCraft II", "Heroes of the Storm", "Diablo III"],
+    "respuestaCorrecta": "Heroes of the Storm"
+  },
+  {
+    "id": 168,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del planeta natal de Master Chief?",
+    "opciones": ["Reach", "Tierra", "Harvest", "Eridanus II"],
+    "respuestaCorrecta": "Eridanus II"
+  },
+  {
+    "id": 169,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de lucha de Nintendo combina personajes de varias franquicias en combates caóticos?",
+    "opciones": ["Mario Kart", "Mario Party", "Super Smash Bros.", "Kirby Air Ride"],
+    "respuestaCorrecta": "Super Smash Bros."
+  },
+  {
+    "id": 170,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de Sony fue la primera en introducir el almacenamiento de juegos en Memory Stick?",
+    "opciones": ["PlayStation 1", "PlayStation 2", "PlayStation Portable (PSP)", "PlayStation Vita"],
+    "respuestaCorrecta": "PlayStation Portable (PSP)"
+  },
+  {
+    "id": 171,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de 2018 se caracteriza por los personajes de Ellie y Joel?",
+    "opciones": ["The Last of Us Part II", "Uncharted 4", "Detroit: Become Human", "God of War"],
+    "respuestaCorrecta": "The Last of Us Part II"
+  },
+  {
+    "id": 172,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre de la corporación farmacéutica malvada en *Resident Evil*?",
+    "opciones": ["Umbrella Corporation", "Blue Umbrella", "Tricell", "Neo-Umbrella"],
+    "respuestaCorrecta": "Umbrella Corporation"
+  },
+  {
+    "id": 173,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de simulación de vuelo militar se caracteriza por un alto nivel de detalle en aviones y misiones históricas?",
+    "opciones": ["Ace Combat 7", "DCS World", "War Thunder", "Microsoft Flight Simulator"],
+    "respuestaCorrecta": "DCS World"
+  },
+  {
+    "id": 174,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué saga de juegos de rol de Bethesda se desarrolla en la región de Cyrodiil?",
+    "opciones": ["Fallout 3", "The Elder Scrolls IV: Oblivion", "Skyrim", "Morrowind"],
+    "respuestaCorrecta": "The Elder Scrolls IV: Oblivion"
+  },
+  {
+    "id": 175,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *Final Fantasy X*?",
+    "opciones": ["Zidane", "Tidus", "Squall", "Cloud"],
+    "respuestaCorrecta": "Tidus"
+  },
+  {
+    "id": 176,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Sega fue la primera en usar el formato de cartucho ROM?",
+    "opciones": ["Master System", "Mega Drive", "Sega Saturn", "Dreamcast"],
+    "respuestaCorrecta": "Master System"
+  },
+  {
+    "id": 177,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de ritmo se caracteriza por usar una alfombra de baile?",
+    "opciones": ["Guitar Hero", "Just Dance", "Dance Dance Revolution (DDR)", "Beat Saber"],
+    "respuestaCorrecta": "Dance Dance Revolution (DDR)"
+  },
+  {
+    "id": 178,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cómo se llama el villano principal de la saga *Sonic the Hedgehog*?",
+    "opciones": ["Dr. Robotnik", "Knuckles", "Shadow", "Metal Sonic"],
+    "respuestaCorrecta": "Dr. Robotnik"
+  },
+  {
+    "id": 179,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de plataformas de 1996 introdujo el uso de un sombrero mágico para capturar enemigos?",
+    "opciones": ["Super Mario 64", "Super Mario Sunshine", "Super Mario Odyssey", "Yoshi's Island"],
+    "respuestaCorrecta": "Super Mario 64"
+  },
+  {
+    "id": 180,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del planeta natal de Kratos en *God of War*?",
+    "opciones": ["Midgard", "Sparta (Grecia)", "Asgard", "Olympus"],
+    "respuestaCorrecta": "Sparta (Grecia)"
+  },
+  {
+    "id": 181,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Nintendo introdujo el 'Gamepad' con segunda pantalla?",
+    "opciones": ["Nintendo 3DS", "Nintendo Switch", "Wii U", "GameCube"],
+    "respuestaCorrecta": "Wii U"
+  },
+  {
+    "id": 182,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *Watch Dogs*?",
+    "opciones": ["Marcus Holloway", "Aiden Pearce", "Wrench", "Clara Lille"],
+    "respuestaCorrecta": "Aiden Pearce"
+  },
+  {
+    "id": 183,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué saga de juegos de lucha fue la primera en introducir el uso de escenarios destructibles?",
+    "opciones": ["Street Fighter", "Mortal Kombat", "Tekken", "Dead or Alive"],
+    "respuestaCorrecta": "Mortal Kombat"
+  },
+  {
+    "id": 184,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego popularizó la frase 'It's dangerous to go alone!' (Es peligroso ir solo)?",
+    "opciones": ["Final Fantasy", "The Legend of Zelda", "Dragon Quest", "Metroid"],
+    "respuestaCorrecta": "The Legend of Zelda"
+  },
+  {
+    "id": 185,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del mundo ficticio en el que se desarrolla *The Legend of Zelda*?",
+    "opciones": ["Hyrule", "Kanto", "Aeterna", "Termina"],
+    "respuestaCorrecta": "Hyrule"
+  },
+  {
+    "id": 186,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de la 6ª generación fue la primera en usar DVD-ROM?",
+    "opciones": ["Sega Dreamcast", "PlayStation 2", "Xbox", "Nintendo GameCube"],
+    "respuestaCorrecta": "PlayStation 2"
+  },
+  {
+    "id": 187,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de simulación de vida de Nintendo permite construir una isla desde cero (terraforming)?",
+    "opciones": ["Animal Crossing: New Leaf", "Animal Crossing: New Horizons", "Stardew Valley", "The Sims 4"],
+    "respuestaCorrecta": "Animal Crossing: New Horizons"
+  },
+  {
+    "id": 188,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cómo se llama el antagonista principal de *The Legend of Zelda: Ocarina of Time*?",
+    "opciones": ["Vaati", "Zant", "Ganon", "Majoras Mask"],
+    "respuestaCorrecta": "Ganon"
+  },
+  {
+    "id": 189,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Valve popularizó el género 'Hero Shooter'?",
+    "opciones": ["Counter-Strike", "Team Fortress 2", "Dota 2", "Half-Life 2"],
+    "respuestaCorrecta": "Team Fortress 2"
+  },
+  {
+    "id": 190,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de simulación de vuelo es conocido por su extrema fidelidad de pilotaje de aviones de pasajeros?",
+    "opciones": ["Ace Combat", "War Thunder", "Microsoft Flight Simulator", "IL-2 Sturmovik"],
+    "respuestaCorrecta": "Microsoft Flight Simulator"
+  },
+  {
+    "id": 191,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del protagonista principal de *Mafia II*?",
+    "opciones": ["Tommy Angelo", "Vito Scaletta", "Lincoln Clay", "Joe Barbaro"],
+    "respuestaCorrecta": "Vito Scaletta"
+  },
+  {
+    "id": 192,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Sega es conocida por el juego *Sonic the Hedgehog*?",
+    "opciones": ["Master System", "Mega Drive (Genesis)", "Sega Saturn", "Dreamcast"],
+    "respuestaCorrecta": "Mega Drive (Genesis)"
+  },
+  {
+    "id": 193,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de lucha se caracteriza por los personajes de Scorpion y Sub-Zero?",
+    "opciones": ["Street Fighter", "Tekken", "Mortal Kombat", "Killer Instinct"],
+    "respuestaCorrecta": "Mortal Kombat"
+  },
+  {
+    "id": 194,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego popularizó el uso de 'Shouts' y el combate con dragones en un mundo nórdico?",
+    "opciones": ["The Witcher 3", "Dragon Age", "The Elder Scrolls V: Skyrim", "Fable"],
+    "respuestaCorrecta": "The Elder Scrolls V: Skyrim"
+  },
+  {
+    "id": 195,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el nombre del planeta natal de Master Chief?",
+    "opciones": ["Reach", "Tierra", "Harvest", "Eridanus II"],
+    "respuestaCorrecta": "Eridanus II"
+  },
+  {
+    "id": 196,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola de videojuegos de Nintendo introdujo los 'Joy-Cons'?",
+    "opciones": ["Wii", "Wii U", "Nintendo 3DS", "Nintendo Switch"],
+    "respuestaCorrecta": "Nintendo Switch"
+  },
+  {
+    "id": "197",
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de simulación de vida de Electronic Arts permite crear y controlar personas virtuales?",
+    "opciones": ["SimCity", "Zoo Tycoon", "The Sims", "RollerCoaster Tycoon"],
+    "respuestaCorrecta": "The Sims"
+  },
+  {
+    "id": 198,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de Rockstar se desarrolla principalmente en la ciudad de Los Santos?",
+    "opciones": ["Grand Theft Auto: San Andreas", "Grand Theft Auto IV", "Grand Theft Auto V", "Red Dead Redemption 2"],
+    "respuestaCorrecta": "Grand Theft Auto V"
+  },
+  {
+    "id": 199,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de terror y supervivencia aparece el personaje de 'Leon S. Kennedy'?",
+    "opciones": ["Silent Hill 2", "The Evil Within", "Resident Evil 2", "Dead Rising"],
+    "respuestaCorrecta": "Resident Evil 2"
+  },
+  {
+    "id": 200,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué famoso personaje de videojuegos es un erizo azul rápido?",
+    "opciones": ["Crash Bandicoot", "Spyro", "Sonic", "Tails"],
+    "respuestaCorrecta": "Sonic"
+  }
+]

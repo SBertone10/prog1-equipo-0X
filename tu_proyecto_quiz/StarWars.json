@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 201,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al Emperador Palpatine (Darth Sidious) en las precuelas y la trilogía original?",
+    "opciones": ["Ian McDiarmid", "Christopher Lee", "Peter Cushing", "Frank Oz"],
+    "respuestaCorrecta": "Ian McDiarmid"
+  },
+  {
+    "id": 202,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el planeta natal de Yoda?",
+    "opciones": ["Dagobah", "Kashyyyk", "Endor", "Se desconoce"],
+    "respuestaCorrecta": "Se desconoce"
+  },
+  {
+    "id": 203,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre de la especie alienígena que creó a los clones?",
+    "opciones": ["Mandalorianos", "Gungans", "Geonosianos", "Kaminoanos"],
+    "respuestaCorrecta": "Kaminoanos"
+  },
+  {
+    "id": 204,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del asteroide en *El Imperio Contraataca* que resulta ser un animal gigante?",
+    "opciones": ["Exogorth", "Sarlacc", "Rancor", "Mynock"],
+    "respuestaCorrecta": "Exogorth"
+  },
+  {
+    "id": 205,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién es la hermana de Luke Skywalker?",
+    "opciones": ["Padmé Amidala", "Shmi Skywalker", "Leia Organa", "Jaina Solo"],
+    "respuestaCorrecta": "Leia Organa"
+  },
+  {
+    "id": 206,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué color de sable de luz es tradicionalmente asociado a los Jedi que favorecen la Fuerza sobre el combate?",
+    "opciones": ["Azul", "Verde", "Morado", "Amarillo"],
+    "respuestaCorrecta": "Verde"
+  },
+  {
+    "id": 207,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó a Jango Fett?",
+    "opciones": ["Daniel Logan", "Temuera Morrison", "Jeremy Bulloch", "Boba Fett"],
+    "respuestaCorrecta": "Temuera Morrison"
+  },
+  {
+    "id": 208,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del cazarrecompensas que congela a Han Solo en carbonita?",
+    "opciones": ["Bossk", "Dengar", "IG-88", "Boba Fett"],
+    "respuestaCorrecta": "Boba Fett"
+  },
+  {
+    "id": 209,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta volcánico donde Anakin Skywalker se enfrenta a Obi-Wan Kenobi?",
+    "opciones": ["Sullust", "Geonosis", "Kamino", "Mustafar"],
+    "respuestaCorrecta": "Mustafar"
+  },
+  {
+    "id": 210,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién dice la famosa frase: 'Que la Fuerza te acompañe' (May the Force be with you)?",
+    "opciones": ["Luke Skywalker", "Darth Vader", "Han Solo", "Obi-Wan Kenobi"],
+    "respuestaCorrecta": "Obi-Wan Kenobi"
+  },
+  {
+    "id": 211,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó a Lando Calrissian en la trilogía original?",
+    "opciones": ["Donald Glover", "Billy Dee Williams", "Forest Whitaker", "Samuel L. Jackson"],
+    "respuestaCorrecta": "Billy Dee Williams"
+  },
+  {
+    "id": 212,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del personaje principal de la serie *The Mandalorian*?",
+    "opciones": ["Grogu", "Boba Fett", "Din Djarin", "Cara Dune"],
+    "respuestaCorrecta": "Din Djarin"
+  },
+  {
+    "id": 213,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué tipo de nave espacial es el Ala-X?",
+    "opciones": ["Carguero ligero", "Caza estelar", "Bombardero", "Destructor Estelar"],
+    "respuestaCorrecta": "Caza estelar"
+  },
+  {
+    "id": 214,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué objeto oculta la Princesa Leia dentro de R2-D2 en *Una Nueva Esperanza*?",
+    "opciones": ["Un sable de luz", "Un mapa estelar", "Planos de la Estrella de la Muerte", "Un mensaje de auxilio"],
+    "respuestaCorrecta": "Planos de la Estrella de la Muerte"
+  },
+  {
+    "id": 215,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el título del Episodio IV de la saga?",
+    "opciones": ["La Amenaza Fantasma", "Una Nueva Esperanza", "El Imperio Contraataca", "El Retorno del Jedi"],
+    "respuestaCorrecta": "Una Nueva Esperanza"
+  },
+  {
+    "id": 216,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué color de sable de luz lleva Rey en el final de *El Ascenso de Skywalker*?",
+    "opciones": ["Azul", "Verde", "Rojo", "Amarillo"],
+    "respuestaCorrecta": "Amarillo"
+  },
+  {
+    "id": 217,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién era el maestro Jedi de Anakin Skywalker?",
+    "opciones": ["Mace Windu", "Yoda", "Qui-Gon Jinn", "Obi-Wan Kenobi"],
+    "respuestaCorrecta": "Obi-Wan Kenobi"
+  },
+  {
+    "id": 218,
+    "categoria": "Star Wars",
+    "pregunta": "¿En qué película Padmé Amidala es reina?",
+    "opciones": ["El Ataque de los Clones", "La Venganza de los Sith", "La Amenaza Fantasma", "Rogue One"],
+    "respuestaCorrecta": "La Amenaza Fantasma"
+  },
+  {
+    "id": 219,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta de hielo donde se desarrolla el primer acto de *El Imperio Contraataca*?",
+    "opciones": ["Bespin", "Hoth", "Dagobah", "Kashyyyk"],
+    "respuestaCorrecta": "Hoth"
+  },
+  {
+    "id": 220,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del hijo de Han Solo y Leia Organa?",
+    "opciones": ["Jacen Solo", "Anakin Solo", "Ben Solo", "Kylo Ren"],
+    "respuestaCorrecta": "Ben Solo"
+  },
+  {
+    "id": 221,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué raza alienígena es Jar Jar Binks?",
+    "opciones": ["Ewok", "Gungan", "Jawa", "Rodiano"],
+    "respuestaCorrecta": "Gungan"
+  },
+  {
+    "id": 222,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cómo se llama el droide astromecánico en la nueva trilogía (Episodios VII-IX)?",
+    "opciones": ["R2-D2", "BB-8", "K-2SO", "C-3PO"],
+    "respuestaCorrecta": "BB-8"
+  },
+  {
+    "id": 223,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál fue el apodo de Ahsoka Tano dado por Anakin Skywalker?",
+    "opciones": ["Rata", "Pequeña", "Shorty", "Snips"],
+    "respuestaCorrecta": "Snips"
+  },
+  {
+    "id": 224,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cómo se llama el artefacto central que provee energía a la Estrella de la Muerte?",
+    "opciones": ["El Núcleo Estelar", "Cristal Kyber", "Reactor de Hipercombustible", "Motor de Hiperpropulsión"],
+    "respuestaCorrecta": "Cristal Kyber"
+  },
+  {
+    "id": 225,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al joven Anakin Skywalker en *La Amenaza Fantasma*?",
+    "opciones": ["Jake Lloyd", "Hayden Christensen", "Anakin Solo", "Ewan McGregor"],
+    "respuestaCorrecta": "Jake Lloyd"
+  },
+  {
+    "id": 226,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién fue el Maestro Jedi que se sacrificó en *La Amenaza Fantasma*?",
+    "opciones": ["Obi-Wan Kenobi", "Mace Windu", "Yoda", "Qui-Gon Jinn"],
+    "respuestaCorrecta": "Qui-Gon Jinn"
+  },
+  {
+    "id": 227,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta forestal donde tiene lugar la Batalla de Endor?",
+    "opciones": ["Yavin IV", "Felucia", "Endor", "Dantooine"],
+    "respuestaCorrecta": "Endor"
+  },
+  {
+    "id": 228,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del bar en Mos Eisley donde Han Solo conoce a Luke y Obi-Wan?",
+    "opciones": ["Cantina Chalmun", "El Templo Jedi", "El Palacio de Jabba", "El Mercado de Tatooine"],
+    "respuestaCorrecta": "Cantina Chalmun"
+  },
+  {
+    "id": 229,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué le dice Han Solo a Leia justo antes de ser congelado en carbonita?",
+    "opciones": ["Lo sé", "Te amo", "Volveré", "Que la Fuerza te acompañe"],
+    "respuestaCorrecta": "Lo sé"
+  },
+  {
+    "id": 230,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del actor que dio voz a Darth Vader en inglés?",
+    "opciones": ["David Prowse", "Hayden Christensen", "James Earl Jones", "Alec Guinness"],
+    "respuestaCorrecta": "James Earl Jones"
+  },
+  {
+    "id": 231,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del primer Destructor Estelar que aparece en *Una Nueva Esperanza*?",
+    "opciones": ["Ejecutor", "Tantive IV", "Devastador", "Devastator"],
+    "respuestaCorrecta": "Devastator"
+  },
+  {
+    "id": 232,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué planeta es destruido por la Estrella de la Muerte en *Una Nueva Esperanza*?",
+    "opciones": ["Coruscant", "Hoth", "Alderaan", "Bespin"],
+    "respuestaCorrecta": "Alderaan"
+  },
+  {
+    "id": 233,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién es el personaje conocido como 'Baby Yoda' o 'El Niño'?",
+    "opciones": ["Yaddle", "Grogu", "Boba Fett", "Din Djarin"],
+    "respuestaCorrecta": "Grogu"
+  },
+  {
+    "id": 234,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al joven Obi-Wan Kenobi en las precuelas?",
+    "opciones": ["Alec Guinness", "Hayden Christensen", "Ewan McGregor", "Liam Neeson"],
+    "respuestaCorrecta": "Ewan McGregor"
+  },
+  {
+    "id": 235,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta hogar de la raza Wookiee?",
+    "opciones": ["Endor", "Hoth", "Kashyyyk", "Dagobah"],
+    "respuestaCorrecta": "Kashyyyk"
+  },
+  {
+    "id": 236,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué personaje aparece por primera vez en la pantalla en *El Imperio Contraataca* y se convierte en aliado de Han Solo?",
+    "opciones": ["Jabba el Hutt", "Boba Fett", "Lando Calrissian", "Yoda"],
+    "respuestaCorrecta": "Lando Calrissian"
+  },
+  {
+    "id": 237,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué color de sable de luz suele llevar Darth Vader?",
+    "opciones": ["Azul", "Verde", "Morado", "Rojo"],
+    "respuestaCorrecta": "Rojo"
+  },
+  {
+    "id": 238,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del droide de la Primera Orden que contiene un mapa de la ubicación de Luke Skywalker?",
+    "opciones": ["R2-D2", "BB-8", "C-3PO", "K-2SO"],
+    "respuestaCorrecta": "BB-8"
+  },
+  {
+    "id": 239,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre de la especie alienígena que se comunica a través de silbidos y vive en Tatooine?",
+    "opciones": ["Jawas", "Tusken Raiders", "Wookies", "Ewoks"],
+    "respuestaCorrecta": "Jawas"
+  },
+  {
+    "id": 240,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el título del Episodio V de la saga?",
+    "opciones": ["La Amenaza Fantasma", "Una Nueva Esperanza", "El Imperio Contraataca", "El Retorno del Jedi"],
+    "respuestaCorrecta": "El Imperio Contraataca"
+  },
+  {
+    "id": 241,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué personaje es revelado como un Lord Sith en *La Venganza de los Sith*?",
+    "opciones": ["Darth Maul", "Conde Dooku", "Mace Windu", "Palpatine"],
+    "respuestaCorrecta": "Palpatine"
+  },
+  {
+    "id": 242,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta pantanoso donde se exilió Yoda?",
+    "opciones": ["Kashyyyk", "Endor", "Dagobah", "Yavin IV"],
+    "respuestaCorrecta": "Dagobah"
+  },
+  {
+    "id": 243,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre de la nave espacial del cazarrecompensas Boba Fett?",
+    "opciones": ["Razor Crest", "Firespray (Slave I)", "Halcón Milenario", "Tantive IV"],
+    "respuestaCorrecta": "Firespray (Slave I)"
+  },
+  {
+    "id": 244,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué es un 'Midicloriano'?",
+    "opciones": ["Un tipo de cristal Kyber", "Una nave espacial", "Un organismo microscópico sensible a la Fuerza", "Una unidad de medida de hipervelocidad"],
+    "respuestaCorrecta": "Un organismo microscópico sensible a la Fuerza"
+  },
+  {
+    "id": 245,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al joven Han Solo en la película *Solo: Una historia de Star Wars*?",
+    "opciones": ["Harrison Ford", "Alden Ehrenreich", "Donald Glover", "Taron Egerton"],
+    "respuestaCorrecta": "Alden Ehrenreich"
+  },
+  {
+    "id": 246,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién es el personaje conocido como 'Snoke' en la nueva trilogía?",
+    "opciones": ["Un clon", "Un Lord Sith", "Líder Supremo de la Primera Orden", "Un Jedi Oscuro"],
+    "respuestaCorrecta": "Líder Supremo de la Primera Orden"
+  },
+  {
+    "id": 247,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta desértico donde se estrella Poe Dameron en *El Despertar de la Fuerza*?",
+    "opciones": ["Tatooine", "Jakku", "Crait", "Pasaana"],
+    "respuestaCorrecta": "Jakku"
+  },
+  {
+    "id": 248,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó a Kylo Ren?",
+    "opciones": ["Domhnall Gleeson", "John Boyega", "Oscar Isaac", "Adam Driver"],
+    "respuestaCorrecta": "Adam Driver"
+  },
+  {
+    "id": 249,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué color de sable de luz lleva el joven Anakin Skywalker?",
+    "opciones": ["Verde", "Rojo", "Azul", "Morado"],
+    "respuestaCorrecta": "Azul"
+  },
+  {
+    "id": 250,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cómo se llama el droide de protocolo dorado en toda la saga?",
+    "opciones": ["R2-D2", "C-3PO", "BB-8", "K-2SO"],
+    "respuestaCorrecta": "C-3PO"
+  },
+  {
+    "id": 251,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre de la arma principal de la Estrella de la Muerte?",
+    "opciones": ["Rayo tractor", "Superláser", "Misiles de protones", "Cañón bláster"],
+    "respuestaCorrecta": "Superláser"
+  },
+  {
+    "id": 252,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó a Qui-Gon Jinn?",
+    "opciones": ["Ewan McGregor", "Liam Neeson", "Hayden Christensen", "Mark Hamill"],
+    "respuestaCorrecta": "Liam Neeson"
+  },
+  {
+    "id": 253,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta hogar de Jabba el Hutt?",
+    "opciones": ["Bespin", "Tatooine", "Hoth", "Endor"],
+    "respuestaCorrecta": "Tatooine"
+  },
+  {
+    "id": 254,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién es la madre de Luke y Leia?",
+    "opciones": ["Shmi Skywalker", "Mon Mothma", "Padmé Amidala", "Mara Jade"],
+    "respuestaCorrecta": "Padmé Amidala"
+  },
+  {
+    "id": 255,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó a Moff Tarkin en *Una Nueva Esperanza*?",
+    "opciones": ["Alec Guinness", "Peter Cushing", "Ian McDiarmid", "Jeremy Bulloch"],
+    "respuestaCorrecta": "Peter Cushing"
+  },
+  {
+    "id": 256,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre de la organización criminal liderada por Jabba el Hutt?",
+    "opciones": ["El Imperio", "La Primera Orden", "El Cartel Hutt", "El Sol Negro"],
+    "respuestaCorrecta": "El Cartel Hutt"
+  },
+  {
+    "id": 257,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del personaje que dice '¡Es una trampa!' (It's a trap!)?",
+    "opciones": ["Lando Calrissian", "Chewbacca", "Almirante Ackbar", "Han Solo"],
+    "respuestaCorrecta": "Almirante Ackbar"
+  },
+  {
+    "id": 258,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué perdió Darth Maul en su duelo contra Obi-Wan Kenobi en *La Amenaza Fantasma*?",
+    "opciones": ["Su mano derecha", "Su cabeza", "Sus piernas", "Su sable de luz"],
+    "respuestaCorrecta": "Sus piernas"
+  },
+  {
+    "id": 259,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta de la ciudad flotante Bespin?",
+    "opciones": ["Dagobah", "Bespin", "Hoth", "Mustafar"],
+    "respuestaCorrecta": "Bespin"
+  },
+  {
+    "id": 260,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el título del Episodio VI de la saga?",
+    "opciones": ["La Amenaza Fantasma", "Una Nueva Esperanza", "El Imperio Contraataca", "El Retorno del Jedi"],
+    "respuestaCorrecta": "El Retorno del Jedi"
+  },
+  {
+    "id": 261,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué personaje es revelado como un Sith en *La Amenaza Fantasma*?",
+    "opciones": ["Conde Dooku", "Palpatine", "Darth Maul", "Mace Windu"],
+    "respuestaCorrecta": "Darth Maul"
+  },
+  {
+    "id": 262,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta donde se reúnen los Jedi al final de las Guerras Clon?",
+    "opciones": ["Coruscant", "Dagobah", "Yavin IV", "Temple"],
+    "respuestaCorrecta": "Coruscant"
+  },
+  {
+    "id": 263,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al General Hux en la nueva trilogía?",
+    "opciones": ["Adam Driver", "John Boyega", "Domhnall Gleeson", "Oscar Isaac"],
+    "respuestaCorrecta": "Domhnall Gleeson"
+  },
+  {
+    "id": 264,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué tipo de nave espacial es el TIE Fighter?",
+    "opciones": ["Carguero ligero", "Caza estelar", "Bombardero", "Transporte"],
+    "respuestaCorrecta": "Caza estelar"
+  },
+  {
+    "id": 265,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el título del Episodio I de la saga?",
+    "opciones": ["Una Nueva Esperanza", "El Ataque de los Clones", "La Amenaza Fantasma", "La Venganza de los Sith"],
+    "respuestaCorrecta": "La Amenaza Fantasma"
+  },
+  {
+    "id": 266,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué color de sable de luz lleva Luke Skywalker después de construir uno nuevo en *El Retorno del Jedi*?",
+    "opciones": ["Azul", "Rojo", "Verde", "Amarillo"],
+    "respuestaCorrecta": "Verde"
+  },
+  {
+    "id": 267,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién era el maestro Jedi de Qui-Gon Jinn?",
+    "opciones": ["Yoda", "Obi-Wan Kenobi", "Conde Dooku", "Mace Windu"],
+    "respuestaCorrecta": "Conde Dooku"
+  },
+  {
+    "id": 268,
+    "categoria": "Star Wars",
+    "pregunta": "¿En qué película Padmé Amidala muere?",
+    "opciones": ["El Ataque de los Clones", "La Venganza de los Sith", "La Amenaza Fantasma", "Rogue One"],
+    "respuestaCorrecta": "La Venganza de los Sith"
+  },
+  {
+    "id": 269,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta natal de Chewbacca?",
+    "opciones": ["Endor", "Hoth", "Kashyyyk", "Dagobah"],
+    "respuestaCorrecta": "Kashyyyk"
+  },
+  {
+    "id": 270,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del actor que interpretó a Finn en la nueva trilogía?",
+    "opciones": ["Adam Driver", "Oscar Isaac", "John Boyega", "Domhnall Gleeson"],
+    "respuestaCorrecta": "John Boyega"
+  },
+  {
+    "id": 271,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué raza alienígena es conocida por gritar 'Utinni!' y coleccionar chatarra?",
+    "opciones": ["Ewoks", "Gungans", "Jawas", "Tusken Raiders"],
+    "respuestaCorrecta": "Jawas"
+  },
+  {
+    "id": 272,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cómo se llama el droide astromecánico que acompaña a Poe Dameron en la nueva trilogía?",
+    "opciones": ["R2-D2", "BB-8", "C-3PO", "K-2SO"],
+    "respuestaCorrecta": "BB-8"
+  },
+  {
+    "id": 273,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué es un 'Wampa'?",
+    "opciones": ["Un droide de combate", "Una criatura de hielo de Hoth", "Una nave espacial", "Un nativo de Endor"],
+    "respuestaCorrecta": "Una criatura de hielo de Hoth"
+  },
+  {
+    "id": 274,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del arma que utiliza Boba Fett?",
+    "opciones": ["Pistola bláster", "Rifle bláster EE-3", "Sable de luz", "Carabina bláster"],
+    "respuestaCorrecta": "Rifle bláster EE-3"
+  },
+  {
+    "id": 275,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al joven Boba Fett en *El Ataque de los Clones*?",
+    "opciones": ["Temuera Morrison", "Daniel Logan", "Jeremy Bulloch", "Boba Fett"],
+    "respuestaCorrecta": "Daniel Logan"
+  },
+  {
+    "id": 276,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién es el padre de Boba Fett?",
+    "opciones": ["Darth Vader", "Obi-Wan Kenobi", "Jango Fett", "Conde Dooku"],
+    "respuestaCorrecta": "Jango Fett"
+  },
+  {
+    "id": 277,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el planeta natal de Han Solo?",
+    "opciones": ["Corellia", "Tatooine", "Coruscant", "Kessel"],
+    "respuestaCorrecta": "Corellia"
+  },
+  {
+    "id": 278,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué fue el 'Protocolo 66'?",
+    "opciones": ["El plan para destruir la Estrella de la Muerte", "La orden de purga de los Jedi", "El plan de escape de Hoth", "La tregua con los Wookiees"],
+    "respuestaCorrecta": "La orden de purga de los Jedi"
+  },
+  {
+    "id": 279,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al Capitán Phasma en la nueva trilogía?",
+    "opciones": ["Gwendoline Christie", "Andy Serkis", "Lupita Nyong'o", "Laura Dern"],
+    "respuestaCorrecta": "Gwendoline Christie"
+  },
+  {
+    "id": 280,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta desértico donde Rey comienza su viaje en *El Despertar de la Fuerza*?",
+    "opciones": ["Tatooine", "Jakku", "Pasaana", "Jedha"],
+    "respuestaCorrecta": "Jakku"
+  },
+  {
+    "id": 281,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué color de sable de luz lleva Rey?",
+    "opciones": ["Azul", "Rojo", "Verde", "Azul y luego amarillo"],
+    "respuestaCorrecta": "Azul y luego amarillo"
+  },
+  {
+    "id": 282,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién era el maestro Jedi de la Princesa Leia?",
+    "opciones": ["Yoda", "Luke Skywalker", "Obi-Wan Kenobi", "No tuvo un maestro formal"],
+    "respuestaCorrecta": "Luke Skywalker"
+  },
+  {
+    "id": 283,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta de bosque y montañas en *El Retorno del Jedi* donde viven los Ewoks?",
+    "opciones": ["Yavin IV", "Felucia", "Endor", "Dantooine"],
+    "respuestaCorrecta": "Endor"
+  },
+  {
+    "id": 284,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del actor que interpretó a Poe Dameron en la nueva trilogía?",
+    "opciones": ["Adam Driver", "John Boyega", "Oscar Isaac", "Domhnall Gleeson"],
+    "respuestaCorrecta": "Oscar Isaac"
+  },
+  {
+    "id": 285,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué personaje es conocido por decir 'Tengo un mal presentimiento sobre esto' (I have a bad feeling about this)?",
+    "opciones": ["Luke Skywalker", "Darth Vader", "Han Solo", "C-3PO"],
+    "respuestaCorrecta": "Han Solo"
+  },
+  {
+    "id": 286,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del líder de la Alianza Rebelde que planea el ataque a la Estrella de la Muerte?",
+    "opciones": ["Bail Organa", "Mon Mothma", "Almirante Ackbar", "General Dodonna"],
+    "respuestaCorrecta": "General Dodonna"
+  },
+  {
+    "id": 287,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué raza alienígena es conocida por usar lanzas y vivir en Endor?",
+    "opciones": ["Wookiees", "Gungans", "Ewoks", "Jawas"],
+    "respuestaCorrecta": "Ewoks"
+  },
+  {
+    "id": 288,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del personaje que traiciona a Han Solo en Bespin?",
+    "opciones": ["Boba Fett", "Lando Calrissian", "Chewbacca", "Darth Vader"],
+    "respuestaCorrecta": "Lando Calrissian"
+  },
+  {
+    "id": 289,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al Capitán Cassian Andor en *Rogue One*?",
+    "opciones": ["Riz Ahmed", "Diego Luna", "Forest Whitaker", "Ben Mendelsohn"],
+    "respuestaCorrecta": "Diego Luna"
+  },
+  {
+    "id": 290,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del droide de seguridad Imperial reprogramado en *Rogue One*?",
+    "opciones": ["R2-D2", "C-3PO", "BB-8", "K-2SO"],
+    "respuestaCorrecta": "K-2SO"
+  },
+  {
+    "id": 291,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué es un 'Star Destroyer'?",
+    "opciones": ["Un caza estelar pequeño", "Una nave capital de guerra Imperial", "Una base espacial rebelde", "Un planeta artificial"],
+    "respuestaCorrecta": "Una nave capital de guerra Imperial"
+  },
+  {
+    "id": 292,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién era el maestro Jedi de Count Dooku (Darth Tyranus)?",
+    "opciones": ["Yoda", "Obi-Wan Kenobi", "Qui-Gon Jinn", "Darth Sidious"],
+    "respuestaCorrecta": "Yoda"
+  },
+  {
+    "id": 293,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta helado donde se encuentra el Templo Jedi al final de *El Despertar de la Fuerza*?",
+    "opciones": ["Ahch-To", "Dagobah", "Hoth", "Crait"],
+    "respuestaCorrecta": "Ahch-To"
+  },
+  {
+    "id": 294,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del personaje que traiciona a Anakin Skywalker y lo reporta a Palpatine?",
+    "opciones": ["Mace Windu", "Padmé Amidala", "Conde Dooku", "Chancellor Palpatine"],
+    "respuestaCorrecta": "Mace Windu"
+  },
+  {
+    "id": 295,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó a General Grievous (voz y captura de movimiento)?",
+    "opciones": ["Matthew Wood", "Andy Serkis", "Anthony Daniels", "Temuera Morrison"],
+    "respuestaCorrecta": "Matthew Wood"
+  },
+  {
+    "id": 296,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el título del Episodio II de la saga?",
+    "opciones": ["La Amenaza Fantasma", "El Ataque de los Clones", "La Venganza de los Sith", "Una Nueva Esperanza"],
+    "respuestaCorrecta": "El Ataque de los Clones"
+  },
+  {
+    "id": 297,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué personaje es conocido por la frase 'Tengo un mal presentimiento sobre esto'?",
+    "opciones": ["Luke Skywalker", "Princesa Leia", "Han Solo", "Chewbacca"],
+    "respuestaCorrecta": "Han Solo"
+  },
+  {
+    "id": 298,
+    "categoria": "Star Wars",
+    "pregunta": "¿En qué película se encuentra por primera vez la Alianza Rebelde en la base de Hoth?",
+    "opciones": ["Una Nueva Esperanza", "El Imperio Contraataca", "El Retorno del Jedi", "Rogue One"],
+    "respuestaCorrecta": "El Imperio Contraataca"
+  },
+  {
+    "id": 299,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del arma que utiliza Chewbacca?",
+    "opciones": ["Rifle bláster", "Arco wookiee", "Vibro-espada", "Sable de luz"],
+    "respuestaCorrecta": "Arco wookiee"
+  },
+  {
+    "id": 300,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del actor que interpretó a C-3PO en todas las películas principales?",
+    "opciones": ["Kenny Baker", "Anthony Daniels", "Peter Mayhew", "Frank Oz"],
+    "respuestaCorrecta": "Anthony Daniels"
+  },
+  {
+    "id": 301,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es la famosa frase que dice el Emperador Palpatine cuando ordena la ejecución de los Jedi?",
+    "opciones": ["Ejecuten la orden 66", "¡Acabad con ellos!", "El Imperio os necesita", "Que la Fuerza os castigue"],
+    "respuestaCorrecta": "Ejecuten la orden 66"
+  },
+  {
+    "id": 302,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué tipo de nave espacial es el Ala-Y?",
+    "opciones": ["Caza estelar", "Bombardero", "Transporte", "Destructor Estelar"],
+    "respuestaCorrecta": "Bombardero"
+  },
+  {
+    "id": 303,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del droide que acompaña a Jyn Erso en *Rogue One*?",
+    "opciones": ["R2-D2", "C-3PO", "BB-8", "K-2SO"],
+    "respuestaCorrecta": "K-2SO"
+  },
+  {
+    "id": 304,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué perdió Anakin Skywalker en su duelo contra Conde Dooku en *El Ataque de los Clones*?",
+    "opciones": ["Su mano izquierda", "Su mano derecha", "Sus piernas", "Su sable de luz"],
+    "respuestaCorrecta": "Su mano derecha"
+  },
+  {
+    "id": 305,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al Capitán Rex en *The Clone Wars* (voz)?",
+    "opciones": ["Dee Bradley Baker", "Matt Lanter", "James Arnold Taylor", "Ashley Eckstein"],
+    "respuestaCorrecta": "Dee Bradley Baker"
+  },
+  {
+    "id": 306,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién es el actor que interpretó a Luke Skywalker en la trilogía original?",
+    "opciones": ["Harrison Ford", "Alec Guinness", "Mark Hamill", "Adam Driver"],
+    "respuestaCorrecta": "Mark Hamill"
+  },
+  {
+    "id": 307,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre de la capital del planeta Naboo?",
+    "opciones": ["Mos Espa", "Otoh Gunga", "Theed", "Tipoca City"],
+    "respuestaCorrecta": "Theed"
+  },
+  {
+    "id": 308,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó a Qui-Gon Jinn en *La Amenaza Fantasma*?",
+    "opciones": ["Ewan McGregor", "Liam Neeson", "Hayden Christensen", "Alec Guinness"],
+    "respuestaCorrecta": "Liam Neeson"
+  },
+  {
+    "id": 309,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta donde se encuentran los Jedi y los Sith en *La Venganza de los Sith*?",
+    "opciones": ["Kashyyyk", "Coruscant", "Utapau", "Mustafar"],
+    "respuestaCorrecta": "Coruscant"
+  },
+  {
+    "id": 310,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué color de sable de luz es usado generalmente por los Sith?",
+    "opciones": ["Azul", "Verde", "Amarillo", "Rojo"],
+    "respuestaCorrecta": "Rojo"
+  },
+  {
+    "id": 311,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué fue la 'Purga Jedi'?",
+    "opciones": ["Un ritual Sith", "La eliminación de la Orden Jedi por el Imperio", "Una batalla civil", "Una tregua de paz"],
+    "respuestaCorrecta": "La eliminación de la Orden Jedi por el Imperio"
+  },
+  {
+    "id": 312,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué personaje es el líder supremo de la Primera Orden antes de Kylo Ren?",
+    "opciones": ["Emperador Palpatine", "General Hux", "Snoke", "Capitán Phasma"],
+    "respuestaCorrecta": "Snoke"
+  },
+  {
+    "id": 313,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta desértico donde Rey vive al inicio de *El Despertar de la Fuerza*?",
+    "opciones": ["Tatooine", "Jakku", "Crait", "Pasaana"],
+    "respuestaCorrecta": "Jakku"
+  },
+  {
+    "id": 314,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó a Han Solo en la trilogía original?",
+    "opciones": ["Mark Hamill", "Harrison Ford", "Billy Dee Williams", "Alec Guinness"],
+    "respuestaCorrecta": "Harrison Ford"
+  },
+  {
+    "id": 315,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién es el piloto de la Resistencia que lidera las escuadras de Ala-X en la nueva trilogía?",
+    "opciones": ["Finn", "Lando Calrissian", "Poe Dameron", "Holdo"],
+    "respuestaCorrecta": "Poe Dameron"
+  },
+  {
+    "id": 316,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué especie es Jabba el Hutt?",
+    "opciones": ["Rodiano", "Twi'lek", "Hutt", "Gungan"],
+    "respuestaCorrecta": "Hutt"
+  },
+  {
+    "id": 317,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué color de sable de luz es usado por Mace Windu?",
+    "opciones": ["Azul", "Verde", "Morado", "Rojo"],
+    "respuestaCorrecta": "Morado"
+  },
+  {
+    "id": 318,
+    "categoria": "Star Wars",
+    "pregunta": "¿En qué película el Emperador Palpatine muere (por primera vez)?",
+    "opciones": ["Una Nueva Esperanza", "El Imperio Contraataca", "El Retorno del Jedi", "La Venganza de los Sith"],
+    "respuestaCorrecta": "El Retorno del Jedi"
+  },
+  {
+    "id": 319,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta donde se encuentran los Jedi y los Sith en *La Amenaza Fantasma*?",
+    "opciones": ["Naboo", "Tatooine", "Coruscant", "Geonosis"],
+    "respuestaCorrecta": "Naboo"
+  },
+  {
+    "id": 320,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del actor que interpretó a Yoda (voz y marioneta)?",
+    "opciones": ["Frank Oz", "Kenny Baker", "Anthony Daniels", "Peter Mayhew"],
+    "respuestaCorrecta": "Frank Oz"
+  },
+  {
+    "id": 321,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es la famosa nave espacial de Han Solo?",
+    "opciones": ["Ala-X", "Destructor Estelar", "Halcón Milenario", "Caza TIE"],
+    "respuestaCorrecta": "Halcón Milenario"
+  },
+  {
+    "id": 322,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué tipo de nave espacial es el Ala-A?",
+    "opciones": ["Caza estelar rápido", "Bombardero", "Transporte", "Destructor Estelar"],
+    "respuestaCorrecta": "Caza estelar rápido"
+  },
+  {
+    "id": 323,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del actor que interpretó a Darth Vader en *La Venganza de los Sith* (sin máscara)?",
+    "opciones": ["David Prowse", "James Earl Jones", "Sebastian Shaw", "Hayden Christensen"],
+    "respuestaCorrecta": "Hayden Christensen"
+  },
+  {
+    "id": 324,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué es un 'Bacta Tank'?",
+    "opciones": ["Una nave espacial médica", "Un tanque de curación", "Una bebida en la cantina", "Un dispositivo de comunicación"],
+    "respuestaCorrecta": "Un tanque de curación"
+  },
+  {
+    "id": 325,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién era el maestro Jedi de Jyn Erso?",
+    "opciones": ["Chirrut Îmwe", "Saw Gerrera", "Baze Malbus", "No tuvo un maestro Jedi"],
+    "respuestaCorrecta": "No tuvo un maestro Jedi"
+  },
+  {
+    "id": 326,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué personaje es conocido por la frase 'Hazlo o no lo hagas, pero no lo intentes'?",
+    "opciones": ["Luke Skywalker", "Obi-Wan Kenobi", "Yoda", "Qui-Gon Jinn"],
+    "respuestaCorrecta": "Yoda"
+  },
+  {
+    "id": 327,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta hogar de la raza Gungan?",
+    "opciones": ["Tatooine", "Naboo", "Coruscant", "Kashyyyk"],
+    "respuestaCorrecta": "Naboo"
+  },
+  {
+    "id": 328,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al Conde Dooku (Darth Tyranus)?",
+    "opciones": ["Ian McDiarmid", "Christopher Lee", "Peter Cushing", "Frank Oz"],
+    "respuestaCorrecta": "Christopher Lee"
+  },
+  {
+    "id": 329,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta de sal donde se desarrolla la batalla final de *Los Últimos Jedi*?",
+    "opciones": ["Jakku", "Hoth", "Crait", "Ahch-To"],
+    "respuestaCorrecta": "Crait"
+  },
+  {
+    "id": 330,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el título del Episodio III de la saga?",
+    "opciones": ["La Amenaza Fantasma", "El Ataque de los Clones", "La Venganza de los Sith", "Una Nueva Esperanza"],
+    "respuestaCorrecta": "La Venganza de los Sith"
+  },
+  {
+    "id": 331,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué personaje es conocido por el apodo 'Padawan'?",
+    "opciones": ["Un Maestro Jedi", "Un Caballero Jedi", "Un aprendiz Jedi", "Un Lord Sith"],
+    "respuestaCorrecta": "Un aprendiz Jedi"
+  },
+  {
+    "id": 332,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del droide de la Resistencia que ayuda a Finn y Poe en *El Despertar de la Fuerza*?",
+    "opciones": ["R2-D2", "BB-8", "C-3PO", "K-2SO"],
+    "respuestaCorrecta": "BB-8"
+  },
+  {
+    "id": 333,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó a Bail Organa?",
+    "opciones": ["Jimmy Smits", "Harrison Ford", "Mark Hamill", "Ewan McGregor"],
+    "respuestaCorrecta": "Jimmy Smits"
+  },
+  {
+    "id": 334,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del villano principal de *La Amenaza Fantasma*?",
+    "opciones": ["Darth Vader", "Darth Sidious", "Conde Dooku", "Darth Maul"],
+    "respuestaCorrecta": "Darth Maul"
+  },
+  {
+    "id": 335,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién es el general del Imperio conocido por decir 'No estoy sintiendo nada' (I have a bad feeling about this)?",
+    "opciones": ["Grand Moff Tarkin", "General Veers", "General Tagge", "No aplica, es Han Solo"],
+    "respuestaCorrecta": "No aplica, es Han Solo"
+  },
+  {
+    "id": 336,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué tipo de arma utiliza un Destructor Estelar?",
+    "opciones": ["Caza TIE", "Turboláser", "Sable de luz", "Misiles de protones"],
+    "respuestaCorrecta": "Turboláser"
+  },
+  {
+    "id": 337,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta de arena y chatarra donde Rey es encontrada?",
+    "opciones": ["Tatooine", "Jakku", "Crait", "Jedha"],
+    "respuestaCorrecta": "Jakku"
+  },
+  {
+    "id": 338,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actriz interpretó a Padmé Amidala?",
+    "opciones": ["Kiera Knightley", "Natalie Portman", "Daisy Ridley", "Felicity Jones"],
+    "respuestaCorrecta": "Natalie Portman"
+  },
+  {
+    "id": 339,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del personaje que traiciona a Han Solo en Bespin?",
+    "opciones": ["Bossk", "Boba Fett", "Lando Calrissian", "Darth Vader"],
+    "respuestaCorrecta": "Lando Calrissian"
+  },
+  {
+    "id": 340,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del actor que interpretó a Chewbacca en la trilogía original?",
+    "opciones": ["Peter Mayhew", "Joonas Suotamo", "Anthony Daniels", "Frank Oz"],
+    "respuestaCorrecta": "Peter Mayhew"
+  },
+  {
+    "id": 341,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta donde se encuentra la ciudad de las nubes (Cloud City)?",
+    "opciones": ["Bespin", "Dagobah", "Hoth", "Endor"],
+    "respuestaCorrecta": "Bespin"
+  },
+  {
+    "id": 342,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué tipo de nave espacial es el Ala-B?",
+    "opciones": ["Caza estelar rápido", "Bombardero pesado", "Transporte", "Destructor Estelar"],
+    "respuestaCorrecta": "Bombardero pesado"
+  },
+  {
+    "id": 343,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del arma principal de la Estrella de la Muerte?",
+    "opciones": ["Rayo tractor", "Superláser", "Misiles de protones", "Cañón bláster"],
+    "respuestaCorrecta": "Superláser"
+  },
+  {
+    "id": 344,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué es un 'Jawa'?",
+    "opciones": ["Un Jedi Oscuro", "Una criatura de Endor", "Un carroñero de Tatooine", "Un habitante de Naboo"],
+    "respuestaCorrecta": "Un carroñero de Tatooine"
+  },
+  {
+    "id": 345,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién era el maestro Jedi de Kylo Ren?",
+    "opciones": ["Yoda", "Luke Skywalker", "Leia Organa", "Han Solo"],
+    "respuestaCorrecta": "Luke Skywalker"
+  },
+  {
+    "id": 346,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué personaje dice la famosa frase: 'Siento una perturbación en la Fuerza'?",
+    "opciones": ["Luke Skywalker", "Princesa Leia", "Obi-Wan Kenobi", "Darth Vader"],
+    "respuestaCorrecta": "Obi-Wan Kenobi"
+  },
+  {
+    "id": 347,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta donde se encuentra el Templo Jedi en las precuelas?",
+    "opciones": ["Dagobah", "Yavin IV", "Coruscant", "Ahch-To"],
+    "respuestaCorrecta": "Coruscant"
+  },
+  {
+    "id": 348,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al Capitán Poe Dameron en la nueva trilogía?",
+    "opciones": ["Adam Driver", "John Boyega", "Oscar Isaac", "Domhnall Gleeson"],
+    "respuestaCorrecta": "Oscar Isaac"
+  },
+  {
+    "id": 349,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del villano principal de *El Ataque de los Clones*?",
+    "opciones": ["Darth Maul", "Darth Sidious", "Conde Dooku", "General Grievous"],
+    "respuestaCorrecta": "Conde Dooku"
+  },
+  {
+    "id": 350,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el título del Episodio VII de la saga?",
+    "opciones": ["El Despertar de la Fuerza", "Los Últimos Jedi", "El Ascenso de Skywalker", "Rogue One"],
+    "respuestaCorrecta": "El Despertar de la Fuerza"
+  },
+  {
+    "id": 351,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué tipo de arma utiliza un Stormtrooper?",
+    "opciones": ["Sable de luz", "Rifle bláster", "Arco wookiee", "Pistola sónica"],
+    "respuestaCorrecta": "Rifle bláster"
+  },
+  {
+    "id": 352,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del droide de la Primera Orden que contiene un mapa de la ubicación de Luke Skywalker?",
+    "opciones": ["R2-D2", "BB-8", "C-3PO", "K-2SO"],
+    "respuestaCorrecta": "BB-8"
+  },
+  {
+    "id": 353,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué perdió Luke Skywalker en su duelo contra Darth Vader en *El Imperio Contraataca*?",
+    "opciones": ["Su mano derecha", "Su pierna izquierda", "Su sable de luz", "Su fe en la República"],
+    "respuestaCorrecta": "Su mano derecha"
+  },
+  {
+    "id": 354,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta volcánico donde se encuentra el Templo Sith de Mustafar?",
+    "opciones": ["Geonosis", "Kamino", "Mustafar", "Utapau"],
+    "respuestaCorrecta": "Mustafar"
+  },
+  {
+    "id": 355,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién era el maestro Jedi de Qui-Gon Jinn?",
+    "opciones": ["Mace Windu", "Yoda", "Conde Dooku", "Obi-Wan Kenobi"],
+    "respuestaCorrecta": "Conde Dooku"
+  },
+  {
+    "id": 356,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al Almirante Ackbar (voz y marioneta)?",
+    "opciones": ["Erik Bauersfeld", "Peter Mayhew", "Frank Oz", "Tim Rose"],
+    "respuestaCorrecta": "Erik Bauersfeld"
+  },
+  {
+    "id": 357,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta natal de la Princesa Leia (destruido en *Una Nueva Esperanza*)?",
+    "opciones": ["Coruscant", "Hoth", "Alderaan", "Bespin"],
+    "respuestaCorrecta": "Alderaan"
+  },
+  {
+    "id": 358,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó a Kylo Ren en la nueva trilogía?",
+    "opciones": ["Domhnall Gleeson", "John Boyega", "Oscar Isaac", "Adam Driver"],
+    "respuestaCorrecta": "Adam Driver"
+  },
+  {
+    "id": 359,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del droide de protocolo que no es dorado, sino negro y rojo, en *Rogue One*?",
+    "opciones": ["R4-P17", "C1-10P (Chopper)", "BB-8", "K-2SO"],
+    "respuestaCorrecta": "K-2SO"
+  },
+  {
+    "id": 360,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el título del Episodio VIII de la saga?",
+    "opciones": ["El Despertar de la Fuerza", "Los Últimos Jedi", "El Ascenso de Skywalker", "Rogue One"],
+    "respuestaCorrecta": "Los Últimos Jedi"
+  },
+  {
+    "id": 361,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué tipo de arma utiliza un Stormtrooper de la Primera Orden?",
+    "opciones": ["Rifle bláster F-11D", "Sable de luz", "Arco wookiee", "Pistola sónica"],
+    "respuestaCorrecta": "Rifle bláster F-11D"
+  },
+  {
+    "id": 362,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del maestro Jedi que se exilió en Dagobah?",
+    "opciones": ["Obi-Wan Kenobi", "Qui-Gon Jinn", "Yoda", "Mace Windu"],
+    "respuestaCorrecta": "Yoda"
+  },
+  {
+    "id": 363,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actriz interpretó a Rey en la nueva trilogía?",
+    "opciones": ["Felicity Jones", "Daisy Ridley", "Carrie Fisher", "Lupita Nyong'o"],
+    "respuestaCorrecta": "Daisy Ridley"
+  },
+  {
+    "id": 364,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta donde se estrellan Poe Dameron y Finn en *El Despertar de la Fuerza*?",
+    "opciones": ["Tatooine", "Jakku", "Crait", "Pasaana"],
+    "respuestaCorrecta": "Jakku"
+  },
+  {
+    "id": 365,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién es el personaje conocido como el 'Cazarrecompensas Mandaloriano' en *The Mandalorian*?",
+    "opciones": ["Boba Fett", "Din Djarin", "Jango Fett", "Moff Gideon"],
+    "respuestaCorrecta": "Din Djarin"
+  },
+  {
+    "id": 366,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué tipo de sable de luz lleva Rey en *El Ascenso de Skywalker* (su sable final)?",
+    "opciones": ["Doble hoja", "Azul", "Verde", "Amarillo"],
+    "respuestaCorrecta": "Amarillo"
+  },
+  {
+    "id": 367,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién era el maestro Jedi de Jyn Erso?",
+    "opciones": ["Chirrut Îmwe", "Saw Gerrera", "Baze Malbus", "No tuvo un maestro Jedi"],
+    "respuestaCorrecta": "No tuvo un maestro Jedi"
+  },
+  {
+    "id": 368,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta de la ciudad flotante Bespin?",
+    "opciones": ["Dagobah", "Bespin", "Hoth", "Mustafar"],
+    "respuestaCorrecta": "Bespin"
+  },
+  {
+    "id": 369,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué fue la 'Orden 66'?",
+    "opciones": ["La orden de purga de los Jedi", "El plan de escape de Hoth", "La tregua con los Wookiees", "La destrucción de Alderaan"],
+    "respuestaCorrecta": "La orden de purga de los Jedi"
+  },
+  {
+    "id": 370,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el título del Episodio IX de la saga?",
+    "opciones": ["El Despertar de la Fuerza", "Los Últimos Jedi", "El Ascenso de Skywalker", "Rogue One"],
+    "respuestaCorrecta": "El Ascenso de Skywalker"
+  },
+  {
+    "id": 371,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué personaje es el líder de la Resistencia en la nueva trilogía?",
+    "opciones": ["Luke Skywalker", "Han Solo", "General Leia Organa", "Poe Dameron"],
+    "respuestaCorrecta": "General Leia Organa"
+  },
+  {
+    "id": 372,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del droide de la Resistencia que ayuda a Finn y Poe en *El Despertar de la Fuerza*?",
+    "opciones": ["R2-D2", "BB-8", "C-3PO", "K-2SO"],
+    "respuestaCorrecta": "BB-8"
+  },
+  {
+    "id": 373,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al Capitán Cassian Andor en *Rogue One*?",
+    "opciones": ["Riz Ahmed", "Diego Luna", "Forest Whitaker", "Ben Mendelsohn"],
+    "respuestaCorrecta": "Diego Luna"
+  },
+  {
+    "id": 374,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del droide de seguridad Imperial reprogramado en *Rogue One*?",
+    "opciones": ["R2-D2", "C-3PO", "BB-8", "K-2SO"],
+    "respuestaCorrecta": "K-2SO"
+  },
+  {
+    "id": 375,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué tipo de sable de luz lleva Kylo Ren?",
+    "opciones": ["Doble hoja", "Azul", "Crossguard (empuñadura cruzada)", "Morado"],
+    "respuestaCorrecta": "Crossguard (empuñadura cruzada)"
+  },
+  {
+    "id": 376,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién es el maestro Jedi que se exilió en Dagobah?",
+    "opciones": ["Obi-Wan Kenobi", "Qui-Gon Jinn", "Yoda", "Mace Windu"],
+    "respuestaCorrecta": "Yoda"
+  },
+  {
+    "id": 377,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actriz interpretó a Rey en la nueva trilogía?",
+    "opciones": ["Felicity Jones", "Daisy Ridley", "Carrie Fisher", "Lupita Nyong'o"],
+    "respuestaCorrecta": "Daisy Ridley"
+  },
+  {
+    "id": 378,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta de sal donde se desarrolla la batalla final de *Los Últimos Jedi*?",
+    "opciones": ["Jakku", "Hoth", "Crait", "Ahch-To"],
+    "respuestaCorrecta": "Crait"
+  },
+  {
+    "id": 379,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del actor que interpretó a Finn en la nueva trilogía?",
+    "opciones": ["Adam Driver", "Oscar Isaac", "John Boyega", "Domhnall Gleeson"],
+    "respuestaCorrecta": "John Boyega"
+  },
+  {
+    "id": 380,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué personaje es conocido por decir 'No, yo soy tu padre'?",
+    "opciones": ["Luke Skywalker", "Darth Vader", "Han Solo", "Palpatine"],
+    "respuestaCorrecta": "Darth Vader"
+  },
+  {
+    "id": 381,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué tipo de nave espacial es el Caza TIE?",
+    "opciones": ["Carguero ligero", "Caza estelar", "Bombardero", "Destructor Estelar"],
+    "respuestaCorrecta": "Caza estelar"
+  },
+  {
+    "id": 382,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta volcánico donde Anakin se convierte en Darth Vader?",
+    "opciones": ["Kamino", "Geonosis", "Mustafar", "Utapau"],
+    "respuestaCorrecta": "Mustafar"
+  },
+  {
+    "id": 383,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué perdió Luke Skywalker en su duelo contra Darth Vader en *El Imperio Contraataca*?",
+    "opciones": ["Su mano derecha", "Su pierna izquierda", "Su sable de luz", "Su fe en la República"],
+    "respuestaCorrecta": "Su mano derecha"
+  },
+  {
+    "id": 384,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del droide astromecánico que acompaña a Anakin Skywalker?",
+    "opciones": ["BB-8", "R2-D2", "C-3PO", "K-2SO"],
+    "respuestaCorrecta": "R2-D2"
+  },
+  {
+    "id": 385,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién era el maestro Jedi de Jyn Erso?",
+    "opciones": ["Chirrut Îmwe", "Saw Gerrera", "Baze Malbus", "No tuvo un maestro Jedi"],
+    "respuestaCorrecta": "No tuvo un maestro Jedi"
+  },
+  {
+    "id": 386,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al Emperador Palpatine (Darth Sidious)?",
+    "opciones": ["Ian McDiarmid", "Christopher Lee", "Peter Cushing", "Frank Oz"],
+    "respuestaCorrecta": "Ian McDiarmid"
+  },
+  {
+    "id": 387,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta natal de Chewbacca?",
+    "opciones": ["Endor", "Hoth", "Kashyyyk", "Dagobah"],
+    "respuestaCorrecta": "Kashyyyk"
+  },
+  {
+    "id": 388,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó a Lando Calrissian en la trilogía original?",
+    "opciones": ["Donald Glover", "Billy Dee Williams", "Forest Whitaker", "Samuel L. Jackson"],
+    "respuestaCorrecta": "Billy Dee Williams"
+  },
+  {
+    "id": 389,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del cazarrecompensas que congela a Han Solo en carbonita?",
+    "opciones": ["Bossk", "Dengar", "IG-88", "Boba Fett"],
+    "respuestaCorrecta": "Boba Fett"
+  },
+  {
+    "id": 390,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta desértico donde Rey es encontrada?",
+    "opciones": ["Tatooine", "Jakku", "Crait", "Pasaana"],
+    "respuestaCorrecta": "Jakku"
+  },
+  {
+    "id": 391,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué tipo de arma utiliza un Stormtrooper?",
+    "opciones": ["Sable de luz", "Rifle bláster", "Arco wookiee", "Pistola sónica"],
+    "respuestaCorrecta": "Rifle bláster"
+  },
+  {
+    "id": 392,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta de hielo donde se esconde la Alianza Rebelde en *El Imperio Contraataca*?",
+    "opciones": ["Dagobah", "Bespin", "Hoth", "Kashyyyk"],
+    "respuestaCorrecta": "Hoth"
+  },
+  {
+    "id": 393,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó a Han Solo en la trilogía original?",
+    "opciones": ["Mark Hamill", "Harrison Ford", "Billy Dee Williams", "Alec Guinness"],
+    "respuestaCorrecta": "Harrison Ford"
+  },
+  {
+    "id": 394,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del arma principal de la Estrella de la Muerte?",
+    "opciones": ["Rayo tractor", "Superláser", "Misiles de protones", "Cañón bláster"],
+    "respuestaCorrecta": "Superláser"
+  },
+  {
+    "id": 395,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó al joven Anakin Skywalker en *La Amenaza Fantasma*?",
+    "opciones": ["Jake Lloyd", "Hayden Christensen", "Anakin Solo", "Ewan McGregor"],
+    "respuestaCorrecta": "Jake Lloyd"
+  },
+  {
+    "id": 396,
+    "categoria": "Star Wars",
+    "pregunta": "¿Quién era el maestro Jedi de Obi-Wan Kenobi?",
+    "opciones": ["Yoda", "Mace Windu", "Qui-Gon Jinn", "Ki-Adi-Mundi"],
+    "respuestaCorrecta": "Qui-Gon Jinn"
+  },
+  {
+    "id": 397,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del planeta forestal donde tiene lugar la Batalla de Endor?",
+    "opciones": ["Yavin IV", "Felucia", "Endor", "Dantooine"],
+    "respuestaCorrecta": "Endor"
+  },
+  {
+    "id": 398,
+    "categoria": "Star Wars",
+    "pregunta": "¿Cuál es el nombre del bar en Mos Eisley donde Han Solo conoce a Luke y Obi-Wan?",
+    "opciones": ["Cantina Chalmun", "El Templo Jedi", "El Palacio de Jabba", "El Mercado de Tatooine"],
+    "respuestaCorrecta": "Cantina Chalmun"
+  },
+  {
+    "id": 399,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué le dice Han Solo a Leia justo antes de ser congelado en carbonita?",
+    "opciones": ["Lo sé", "Te amo", "Volveré", "Que la Fuerza te acompañe"],
+    "respuestaCorrecta": "Lo sé"
+  },
+  {
+    "id": 400,
+    "categoria": "Star Wars",
+    "pregunta": "¿Qué actor interpretó a C-3PO en todas las películas principales?",
+    "opciones": ["Kenny Baker", "Anthony Daniels", "Peter Mayhew", "Frank Oz"],
+    "respuestaCorrecta": "Anthony Daniels"
+  }
+]

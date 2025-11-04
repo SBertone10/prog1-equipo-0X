@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 1,
+    "categoria": "Música",
+    "pregunta": "¿Qué artista es conocida como la 'Reina del Pop'?",
+    "opciones": ["Britney Spears", "Beyoncé", "Lady Gaga", "Madonna"],
+    "respuestaCorrecta": "Madonna"
+  },
+  {
+    "id": 2,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda lanzó la canción exitosa 'Bohemian Rhapsody'?",
+    "opciones": ["The Beatles", "The Rolling Stones", "Queen", "Led Zeppelin"],
+    "respuestaCorrecta": "Queen"
+  },
+  {
+    "id": 3,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical se originó en Jamaica en los años 60?",
+    "opciones": ["Jazz", "Salsa", "Reggae", "Cumbia"],
+    "respuestaCorrecta": "Reggae"
+  },
+  {
+    "id": 4,
+    "categoria": "Música",
+    "pregunta": "¿Quién compuso la famosa 'Sinfonía N.º 5', conocida por su motivo de cuatro notas?",
+    "opciones": ["Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Johann Sebastian Bach", "Frédéric Chopin"],
+    "respuestaCorrecta": "Ludwig van Beethoven"
+  },
+  {
+    "id": 5,
+    "categoria": "Música",
+    "pregunta": "¿Qué vocalista de renombre logró que 'Someone Like You' se mantuviera cinco semanas en el número 1 del Reino Unido?",
+    "opciones": ["Dua Lipa", "Rihanna", "Adele", "Sia"],
+    "respuestaCorrecta": "Adele"
+  },
+  {
+    "id": 6,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso grupo de K-pop que incluye a los miembros J-Hope, Suga y Jungkook?",
+    "opciones": ["BLACKPINK", "EXO", "Twice", "BTS"],
+    "respuestaCorrecta": "BTS"
+  },
+  {
+    "id": 7,
+    "categoria": "Música",
+    "pregunta": "¿Qué artista es conocida por los álbumes '1989' y 'Reputation'?",
+    "opciones": ["Ariana Grande", "Katy Perry", "Rihanna", "Taylor Swift"],
+    "respuestaCorrecta": "Taylor Swift"
+  },
+  {
+    "id": 8,
+    "categoria": "Música",
+    "pregunta": "¿Quién fue el cantante principal de la banda Queen?",
+    "opciones": ["Brian May", "Roger Taylor", "Freddie Mercury", "John Deacon"],
+    "respuestaCorrecta": "Freddie Mercury"
+  },
+  {
+    "id": 9,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento musical se conoce como la 'Reina de los Instrumentos'?",
+    "opciones": ["Violín", "Guitarra", "Órgano", "Piano"],
+    "respuestaCorrecta": "Órgano"
+  },
+  {
+    "id": 10,
+    "categoria": "Música",
+    "pregunta": "¿Cómo se llama el género musical que se caracteriza por la improvisación y se originó en la comunidad afroamericana de Nueva Orleans?",
+    "opciones": ["Blues", "Góspel", "Jazz", "Ragtime"],
+    "respuestaCorrecta": "Jazz"
+  },
+  {
+    "id": 11,
+    "categoria": "Música",
+    "pregunta": "¿Qué rapero popular lanzó el álbum 'The Marshall Mathers LP'?",
+    "opciones": ["Jay-Z", "Dr. Dre", "Eminem", "Snoop Dogg"],
+    "respuestaCorrecta": "Eminem"
+  },
+  {
+    "id": 12,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Stairway to Heaven'?",
+    "opciones": ["Deep Purple", "Led Zeppelin", "Black Sabbath", "The Who"],
+    "respuestaCorrecta": "Led Zeppelin"
+  },
+  {
+    "id": 13,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es la capital musical de Estados Unidos?",
+    "opciones": ["Los Ángeles", "Nueva York", "Nashville", "Memphis"],
+    "respuestaCorrecta": "Nashville"
+  },
+  {
+    "id": 14,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante protagonizó el videoclip 'Thriller'?",
+    "opciones": ["Prince", "Madonna", "Michael Jackson", "George Michael"],
+    "respuestaCorrecta": "Michael Jackson"
+  },
+  {
+    "id": 15,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso guitarrista es conocido como 'Slowhand'?",
+    "opciones": ["Jimi Hendrix", "Eric Clapton", "Jimmy Page", "Jeff Beck"],
+    "respuestaCorrecta": "Eric Clapton"
+  },
+  {
+    "id": 16,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento toca Yo-Yo Ma?",
+    "opciones": ["Violín", "Viola", "Contrabajo", "Violonchelo"],
+    "respuestaCorrecta": "Violonchelo"
+  },
+  {
+    "id": 17,
+    "categoria": "Música",
+    "pregunta": "¿Qué subgénero del rock surgió en Seattle a finales de los 80/principios de los 90?",
+    "opciones": ["Punk Rock", "Glam Metal", "Grunge", "Heavy Metal"],
+    "respuestaCorrecta": "Grunge"
+  },
+  {
+    "id": 18,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el título de la ópera más famosa de Georges Bizet?",
+    "opciones": ["La Traviata", "Aida", "Carmen", "Madama Butterfly"],
+    "respuestaCorrecta": "Carmen"
+  },
+  {
+    "id": 19,
+    "categoria": "Música",
+    "pregunta": "¿Quién es conocido como 'El Rey del Rock and Roll'?",
+    "opciones": ["Chuck Berry", "Little Richard", "Elvis Presley", "Jerry Lee Lewis"],
+    "respuestaCorrecta": "Elvis Presley"
+  },
+  {
+    "id": 20,
+    "categoria": "Música",
+    "pregunta": "¿De qué país es originario el tango?",
+    "opciones": ["España", "Brasil", "Argentina", "México"],
+    "respuestaCorrecta": "Argentina"
+  },
+  {
+    "id": 21,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de los 80 es reconocida por Guinness World Records como la artista femenina más vendida de todos los tiempos?",
+    "opciones": ["Tina Turner", "Whitney Houston", "Madonna", "Cher"],
+    "respuestaCorrecta": "Madonna"
+  },
+  {
+    "id": 22,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda inglesa lanzó el álbum 'The Dark Side of the Moon'?",
+    "opciones": ["The Who", "Pink Floyd", "Led Zeppelin", "Genesis"],
+    "respuestaCorrecta": "Pink Floyd"
+  },
+  {
+    "id": 23,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es la función principal de un director de orquesta?",
+    "opciones": ["Tocar el primer violín", "Componer la música", "Vender entradas", "Coordinar a los músicos y marcar el tiempo"],
+    "respuestaCorrecta": "Coordinar a los músicos y marcar el tiempo"
+  },
+  {
+    "id": 24,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el instrumento de cuerda más grande de la orquesta sinfónica?",
+    "opciones": ["Violonchelo", "Arpa", "Contrabajo", "Viola"],
+    "respuestaCorrecta": "Contrabajo"
+  },
+  {
+    "id": 25,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante es conocido por el apodo 'El Sol de México'?",
+    "opciones": ["Julio Iglesias", "Enrique Iglesias", "Luis Miguel", "Chayanne"],
+    "respuestaCorrecta": "Luis Miguel"
+  },
+  {
+    "id": 26,
+    "categoria": "Música",
+    "pregunta": "¿Cómo se llama el trofeo que se otorga en la industria musical estadounidense a los mayores logros?",
+    "opciones": ["Oscar", "Emmy", "Tony", "Grammy"],
+    "respuestaCorrecta": "Grammy"
+  },
+  {
+    "id": 27,
+    "categoria": "Música",
+    "pregunta": "¿Qué artista popular lanzó el álbum 'Bad' en 1987?",
+    "opciones": ["Prince", "Madonna", "Michael Jackson", "George Michael"],
+    "respuestaCorrecta": "Michael Jackson"
+  },
+  {
+    "id": 28,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Smells Like Teen Spirit'?",
+    "opciones": ["Pearl Jam", "Soundgarden", "Nirvana", "Alice in Chains"],
+    "respuestaCorrecta": "Nirvana"
+  },
+  {
+    "id": 29,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso caballo de ajedrez musical de Queen?",
+    "opciones": ["The Queen's Gambit", "The Show Must Go On", "The Chessman", "Killer Queen"],
+    "respuestaCorrecta": "Killer Queen"
+  },
+  {
+    "id": 30,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de los 90 ganó fama con la canción '...Baby One More Time'?",
+    "opciones": ["Christina Aguilera", "Jessica Simpson", "Britney Spears", "Mandy Moore"],
+    "respuestaCorrecta": "Britney Spears"
+  },
+  {
+    "id": 31,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del compositor del himno de la alegría (basado en la 9ª Sinfonía)?",
+    "opciones": ["Franz Schubert", "Richard Wagner", "Ludwig van Beethoven", "Johann Strauss II"],
+    "respuestaCorrecta": "Ludwig van Beethoven"
+  },
+  {
+    "id": 32,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso grupo de Liverpool protagonizó la 'Invasión Británica' en Estados Unidos en los 60?",
+    "opciones": ["The Rolling Stones", "The Kinks", "The Beatles", "The Who"],
+    "respuestaCorrecta": "The Beatles"
+  },
+  {
+    "id": 33,
+    "categoria": "Música",
+    "pregunta": "¿Qué país ganó el Festival de la Canción de Eurovisión en 2024?",
+    "opciones": ["Italia", "Suiza", "Croacia", "Ucrania"],
+    "respuestaCorrecta": "Suiza"
+  },
+  {
+    "id": 34,
+    "categoria": "Música",
+    "pregunta": "¿Qué rapera estadounidense es conocida por sus alter egos como 'Roman Zolanski'?",
+    "opciones": ["Cardi B", "Nicki Minaj", "Megan Thee Stallion", "Doja Cat"],
+    "respuestaCorrecta": "Nicki Minaj"
+  },
+  {
+    "id": 35,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda lanzó el icónico álbum 'Nevermind' con una portada de bebé nadando?",
+    "opciones": ["Pearl Jam", "Nirvana", "Smashing Pumpkins", "Green Day"],
+    "respuestaCorrecta": "Nirvana"
+  },
+  {
+    "id": 36,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento principal toca Stevie Wonder?",
+    "opciones": ["Guitarra eléctrica", "Batería", "Piano/Teclado", "Saxofón"],
+    "respuestaCorrecta": "Piano/Teclado"
+  },
+  {
+    "id": 37,
+    "categoria": "Música",
+    "pregunta": "¿Cómo se llama el género musical que fusiona ritmos afrocubanos y jazz?",
+    "opciones": ["Bossa Nova", "Mambo", "Salsa", "Latin Jazz"],
+    "respuestaCorrecta": "Latin Jazz"
+  },
+  {
+    "id": 38,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre de la famosa cantante conocida como 'La Voz'?",
+    "opciones": ["Céline Dion", "Mariah Carey", "Whitney Houston", "Aretha Franklin"],
+    "respuestaCorrecta": "Whitney Houston"
+  },
+  {
+    "id": 39,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock argentina es famosa por su álbum 'Canción Animal'?",
+    "opciones": ["Soda Stereo", "Patricio Rey y sus Redonditos de Ricota", "Divididos", "Los Fabulosos Cadillacs"],
+    "respuestaCorrecta": "Soda Stereo"
+  },
+  {
+    "id": 40,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso DJ sueco conocido por canciones como 'Wake Me Up'?",
+    "opciones": ["Martin Garrix", "Calvin Harris", "Avicii", "Kygo"],
+    "respuestaCorrecta": "Avicii"
+  },
+  {
+    "id": 41,
+    "categoria": "Música",
+    "pregunta": "¿Qué artista tiene el récord de más premios Grammy ganados por cualquier artista?",
+    "opciones": ["Michael Jackson", "Beyoncé", "Georg Solti", "Paul McCartney"],
+    "respuestaCorrecta": "Georg Solti"
+  },
+  {
+    "id": 42,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Hotel California'?",
+    "opciones": ["The Beatles", "The Rolling Stones", "Eagles", "Fleetwood Mac"],
+    "respuestaCorrecta": "Eagles"
+  },
+  {
+    "id": 43,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso ballet compuesto por Piotr Ilich Chaikovski?",
+    "opciones": ["Romeo y Julieta", "El Pájaro de Fuego", "El Lago de los Cisnes", "La Consagración de la Primavera"],
+    "respuestaCorrecta": "El Lago de los Cisnes"
+  },
+  {
+    "id": 44,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de ópera italiano es conocido por su voz de tenor?",
+    "opciones": ["Plácido Domingo", "Luciano Pavarotti", "Andrea Bocelli", "Enrico Caruso"],
+    "respuestaCorrecta": "Luciano Pavarotti"
+  },
+  {
+    "id": 45,
+    "categoria": "Música",
+    "pregunta": "¿Quién es conocido como 'El Padrino del Soul'?",
+    "opciones": ["Otis Redding", "Marvin Gaye", "James Brown", "Ray Charles"],
+    "respuestaCorrecta": "James Brown"
+  },
+  {
+    "id": 46,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del álbum de David Bowie conocido por introducir el personaje de 'Ziggy Stardust'?",
+    "opciones": ["Hunky Dory", "Low", "The Rise and Fall of Ziggy Stardust and the Spiders from Mars", "Aladdin Sane"],
+    "respuestaCorrecta": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars"
+  },
+  {
+    "id": 47,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical se caracteriza por tener un ritmo sincopado y ser precursor del jazz?",
+    "opciones": ["Swing", "Boogie-woogie", "Ragtime", "Bebop"],
+    "respuestaCorrecta": "Ragtime"
+  },
+  {
+    "id": 48,
+    "categoria": "Música",
+    "pregunta": "¿Qué famosa banda de rock australiana tiene a Angus Young como guitarrista principal?",
+    "opciones": ["INXS", "Midnight Oil", "AC/DC", "Crowded House"],
+    "respuestaCorrecta": "AC/DC"
+  },
+  {
+    "id": 49,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del cantante principal de la banda U2?",
+    "opciones": ["The Edge", "Larry Mullen Jr.", "Adam Clayton", "Bono"],
+    "respuestaCorrecta": "Bono"
+  },
+  {
+    "id": 50,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante popular lanzó el álbum 'Lemonade' en 2016?",
+    "opciones": ["Rihanna", "Adele", "Beyoncé", "Lady Gaga"],
+    "respuestaCorrecta": "Beyoncé"
+  },
+  {
+    "id": 51,
+    "categoria": "Música",
+    "pregunta": "¿Quién compuso 'Las Cuatro Estaciones'?",
+    "opciones": ["Johann Sebastian Bach", "Antonio Vivaldi", "Franz Joseph Haydn", "George Frideric Handel"],
+    "respuestaCorrecta": "Antonio Vivaldi"
+  },
+  {
+    "id": 52,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Livin' on a Prayer'?",
+    "opciones": ["Guns N' Roses", "Bon Jovi", "Aerosmith", "Def Leppard"],
+    "respuestaCorrecta": "Bon Jovi"
+  },
+  {
+    "id": 53,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del instrumento de viento-madera que utiliza una doble lengüeta?",
+    "opciones": ["Clarinete", "Flauta", "Oboe", "Saxofón"],
+    "respuestaCorrecta": "Oboe"
+  },
+  {
+    "id": 54,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de country es conocida por el éxito 'Jolene'?",
+    "opciones": ["Reba McEntire", "Carrie Underwood", "Dolly Parton", "Shania Twain"],
+    "respuestaCorrecta": "Dolly Parton"
+  },
+  {
+    "id": 55,
+    "categoria": "Música",
+    "pregunta": "¿Qué famosa cantante de pop latina es conocida por sus movimientos de cadera y el éxito 'Hips Don't Lie'?",
+    "opciones": ["Thalía", "Jennifer Lopez", "Gloria Estefan", "Shakira"],
+    "respuestaCorrecta": "Shakira"
+  },
+  {
+    "id": 56,
+    "categoria": "Música",
+    "pregunta": "¿Quién es conocido como 'El Rey del Pop'?",
+    "opciones": ["Prince", "Elton John", "George Michael", "Michael Jackson"],
+    "respuestaCorrecta": "Michael Jackson"
+  },
+  {
+    "id": 57,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical se caracteriza por la repetición de frases cortas y el uso de sintetizadores y cajas de ritmos?",
+    "opciones": ["Folk", "Reggaeton", "Techno", "Hip Hop"],
+    "respuestaCorrecta": "Techno"
+  },
+  {
+    "id": 58,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock lanzó el álbum 'Master of Puppets'?",
+    "opciones": ["Slayer", "Megadeth", "Metallica", "Anthrax"],
+    "respuestaCorrecta": "Metallica"
+  },
+  {
+    "id": 59,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebró en 1969?",
+    "opciones": ["Lollapalooza", "Coachella", "Woodstock", "Glastonbury"],
+    "respuestaCorrecta": "Woodstock"
+  },
+  {
+    "id": 60,
+    "categoria": "Música",
+    "pregunta": "¿Qué dúo musical lanzó la canción 'Uptown Funk' en colaboración con Bruno Mars?",
+    "opciones": ["The Chainsmokers", "Daft Punk", "Mark Ronson", "Disclosure"],
+    "respuestaCorrecta": "Mark Ronson"
+  },
+  {
+    "id": 61,
+    "categoria": "Música",
+    "pregunta": "¿Qué compositor es considerado el 'Padre de la Música'? (clásica)",
+    "opciones": ["Mozart", "Beethoven", "Bach", "Haydn"],
+    "respuestaCorrecta": "Bach"
+  },
+  {
+    "id": 62,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Sweet Child o' Mine'?",
+    "opciones": ["Aerosmith", "Motley Crue", "Guns N' Roses", "Bon Jovi"],
+    "respuestaCorrecta": "Guns N' Roses"
+  },
+  {
+    "id": 63,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento de percusión se toca con un pedal para producir un ritmo constante?",
+    "opciones": ["Caja", "Platillo", "Bombo", "Hi-hat"],
+    "respuestaCorrecta": "Bombo"
+  },
+  {
+    "id": 64,
+    "categoria": "Música",
+    "pregunta": "¿Qué artista femenina ganó el Grammy al Álbum del Año en 2024 con *Midnights*?",
+    "opciones": ["Olivia Rodrigo", "SZA", "Lana Del Rey", "Taylor Swift"],
+    "respuestaCorrecta": "Taylor Swift"
+  },
+  {
+    "id": 65,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de la década de 1950 fue conocido como 'El Rey'?",
+    "opciones": ["Frank Sinatra", "Buddy Holly", "Elvis Presley", "Nat King Cole"],
+    "respuestaCorrecta": "Elvis Presley"
+  },
+  {
+    "id": 66,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso músico de jazz conocido por tocar la trompeta con mejillas hinchadas?",
+    "opciones": ["Miles Davis", "Louis Armstrong", "Dizzy Gillespie", "Thelonious Monk"],
+    "respuestaCorrecta": "Dizzy Gillespie"
+  },
+  {
+    "id": 67,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical se caracteriza por la repetición de un 'break' de batería?",
+    "opciones": ["House", "Dubstep", "Drum and Bass", "Jungle"],
+    "respuestaCorrecta": "Jungle"
+  },
+  {
+    "id": 68,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Don't Stop Believin''?",
+    "opciones": ["Foreigner", "Journey", "Boston", "Survivor"],
+    "respuestaCorrecta": "Journey"
+  },
+  {
+    "id": 69,
+    "categoria": "Música",
+    "pregunta": "¿Quién es el artista que tiene el récord de más entradas vendidas para conciertos en la historia?",
+    "opciones": ["Madonna", "Ed Sheeran", "The Beatles", "U2"],
+    "respuestaCorrecta": "Ed Sheeran"
+  },
+  {
+    "id": 70,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del álbum de Nirvana con el bebé nadando en la portada?",
+    "opciones": ["In Utero", "Bleach", "Nevermind", "MTV Unplugged in New York"],
+    "respuestaCorrecta": "Nevermind"
+  },
+  {
+    "id": 71,
+    "categoria": "Música",
+    "pregunta": "¿Qué compositor es conocido por la ópera 'El Barbero de Sevilla'?",
+    "opciones": ["Giuseppe Verdi", "Giacomo Puccini", "Gioachino Rossini", "Vincenzo Bellini"],
+    "respuestaCorrecta": "Gioachino Rossini"
+  },
+  {
+    "id": 72,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso grupo de pop lanzó el éxito 'Dancing Queen'?",
+    "opciones": ["Fleetwood Mac", "Bee Gees", "ABBA", "The Carpenters"],
+    "respuestaCorrecta": "ABBA"
+  },
+  {
+    "id": 73,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del instrumento de teclado que produce sonido al golpear cuerdas con martillos?",
+    "opciones": ["Clavicordio", "Órgano", "Clavecín", "Piano"],
+    "respuestaCorrecta": "Piano"
+  },
+  {
+    "id": 74,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de los 90/2000 es conocida por su 'whistle register' (registro de silbido) y el éxito 'Hero'?",
+    "opciones": ["Whitney Houston", "Toni Braxton", "Céline Dion", "Mariah Carey"],
+    "respuestaCorrecta": "Mariah Carey"
+  },
+  {
+    "id": 75,
+    "categoria": "Música",
+    "pregunta": "¿Quién es conocido como 'El Rey del Reggaeton'?",
+    "opciones": ["Bad Bunny", "J Balvin", "Daddy Yankee", "Nicky Jam"],
+    "respuestaCorrecta": "Daddy Yankee"
+  },
+  {
+    "id": 76,
+    "categoria": "Música",
+    "pregunta": "¿Qué álbum de The Beatles se caracteriza por su portada que simula un pase de cebra?",
+    "opciones": ["Sgt. Pepper's Lonely Hearts Club Band", "Revolver", "Abbey Road", "Let It Be"],
+    "respuestaCorrecta": "Abbey Road"
+  },
+  {
+    "id": 77,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el género musical que se originó en Chicago y se caracteriza por el uso de sintetizadores y cajas de ritmos?",
+    "opciones": ["Trance", "Dubstep", "House", "Techno"],
+    "respuestaCorrecta": "House"
+  },
+  {
+    "id": 78,
+    "categoria": "Música",
+    "pregunta": "¿Qué famosa banda de rock tenía a Kurt Cobain como líder, vocalista y guitarrista?",
+    "opciones": ["Foo Fighters", "Pearl Jam", "Soundgarden", "Nirvana"],
+    "respuestaCorrecta": "Nirvana"
+  },
+  {
+    "id": 79,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical se caracteriza por la rapidez y el uso de un doble pedal de batería?",
+    "opciones": ["Heavy Metal", "Thrash Metal", "Death Metal", "Power Metal"],
+    "respuestaCorrecta": "Thrash Metal"
+  },
+  {
+    "id": 80,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de pop lanzó la canción 'Like a Prayer' en 1989?",
+    "opciones": ["Tina Turner", "Janet Jackson", "Kylie Minogue", "Madonna"],
+    "respuestaCorrecta": "Madonna"
+  },
+  {
+    "id": 81,
+    "categoria": "Música",
+    "pregunta": "¿Quién es considerado el 'Padre del Blues'?",
+    "opciones": ["Muddy Waters", "B.B. King", "W.C. Handy", "Robert Johnson"],
+    "respuestaCorrecta": "W.C. Handy"
+  },
+  {
+    "id": 82,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento utiliza un arco para frotar las cuerdas?",
+    "opciones": ["Guitarra", "Arpa", "Violín", "Mandolina"],
+    "respuestaCorrecta": "Violín"
+  },
+  {
+    "id": 83,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es la ópera de Mozart sobre un aventurero seductor?",
+    "opciones": ["Las bodas de Fígaro", "La flauta mágica", "Don Giovanni", "Così fan tutte"],
+    "respuestaCorrecta": "Don Giovanni"
+  },
+  {
+    "id": 84,
+    "categoria": "Música",
+    "pregunta": "¿Qué artista grabó el álbum 'Back to Black' en 2006?",
+    "opciones": ["Duffy", "Joss Stone", "Adele", "Amy Winehouse"],
+    "respuestaCorrecta": "Amy Winehouse"
+  },
+  {
+    "id": 85,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante es conocida como 'La Diva del Bronx'?",
+    "opciones": ["Christina Aguilera", "Mariah Carey", "Jennifer Lopez", "Gloria Estefan"],
+    "respuestaCorrecta": "Jennifer Lopez"
+  },
+  {
+    "id": 86,
+    "categoria": "Música",
+    "pregunta": "¿Qué popular rapero lanzó el álbum 'To Pimp a Butterfly' en 2015?",
+    "opciones": ["Kanye West", "Drake", "Kendrick Lamar", "J. Cole"],
+    "respuestaCorrecta": "Kendrick Lamar"
+  },
+  {
+    "id": 87,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Thunderstruck'?",
+    "opciones": ["Deep Purple", "Led Zeppelin", "AC/DC", "Guns N' Roses"],
+    "respuestaCorrecta": "AC/DC"
+  },
+  {
+    "id": 88,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del álbum de Michael Jackson que incluye los éxitos 'Smooth Criminal' y 'Man in the Mirror'?",
+    "opciones": ["Thriller", "Bad", "Dangerous", "Off the Wall"],
+    "respuestaCorrecta": "Bad"
+  },
+  {
+    "id": 89,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de pop lanzó la canción 'Oops!... I Did It Again'?",
+    "opciones": ["Jessica Simpson", "Christina Aguilera", "Mandy Moore", "Britney Spears"],
+    "respuestaCorrecta": "Britney Spears"
+  },
+  {
+    "id": 90,
+    "categoria": "Música",
+    "pregunta": "¿Qué compositor es conocido por la ópera 'Madame Butterfly'?",
+    "opciones": ["Giuseppe Verdi", "Giacomo Puccini", "Richard Wagner", "Gioachino Rossini"],
+    "respuestaCorrecta": "Giacomo Puccini"
+  },
+  {
+    "id": 91,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el género musical de baile que tiene un tempo lento y se caracteriza por ser sensual y melancólico?",
+    "opciones": ["Foxtrot", "Tango", "Vals", "Quickstep"],
+    "respuestaCorrecta": "Tango"
+  },
+  {
+    "id": 92,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento utiliza un pistón para cambiar las notas?",
+    "opciones": ["Trompeta", "Trombón", "Clarinete", "Oboe"],
+    "respuestaCorrecta": "Trompeta"
+  },
+  {
+    "id": 93,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso grupo de pop lanzó el éxito 'Waterloo' con el que ganaron Eurovisión?",
+    "opciones": ["Boney M", "Village People", "ABBA", "The Carpenters"],
+    "respuestaCorrecta": "ABBA"
+  },
+  {
+    "id": 94,
+    "categoria": "Música",
+    "pregunta": "¿Qué rapero lanzó el álbum 'The Blueprint' en 2001?",
+    "opciones": ["Nas", "Eminem", "Jay-Z", "50 Cent"],
+    "respuestaCorrecta": "Jay-Z"
+  },
+  {
+    "id": 95,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical surgió de la música góspel, blues y R&B en los años 50?",
+    "opciones": ["Disco", "Funk", "Rock and Roll", "Soul"],
+    "respuestaCorrecta": "Rock and Roll"
+  },
+  {
+    "id": 96,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Smoke on the Water'?",
+    "opciones": ["Led Zeppelin", "Deep Purple", "Black Sabbath", "Iron Maiden"],
+    "respuestaCorrecta": "Deep Purple"
+  },
+  {
+    "id": 97,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso director de orquesta conocido por su larga etapa en la Filarmónica de Berlín?",
+    "opciones": ["Leonard Bernstein", "Herbert von Karajan", "Gustavo Dudamel", "Arturo Toscanini"],
+    "respuestaCorrecta": "Herbert von Karajan"
+  },
+  {
+    "id": 98,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante es conocida como 'La Reina de la Salsa'?",
+    "opciones": ["Celia Cruz", "La Lupe", "Olga Tañón", "Gloria Estefan"],
+    "respuestaCorrecta": "Celia Cruz"
+  },
+  {
+    "id": 99,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento utiliza un fuelle para producir sonido?",
+    "opciones": ["Guitarra", "Armónica", "Acordeón", "Ukelele"],
+    "respuestaCorrecta": "Acordeón"
+  },
+  {
+    "id": 100,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del álbum de Pink Floyd conocido por tener un cerdo volador en su portada?",
+    "opciones": ["The Dark Side of the Moon", "Wish You Were Here", "Animals", "The Wall"],
+    "respuestaCorrecta": "Animals"
+  },
+  {
+    "id": 101,
+    "categoria": "Música",
+    "pregunta": "¿Quién compuso 'El Mesías', que incluye el famoso coro 'Aleluya'?",
+    "opciones": ["Johann Sebastian Bach", "George Frideric Handel", "Antonio Vivaldi", "Franz Joseph Haydn"],
+    "respuestaCorrecta": "George Frideric Handel"
+  },
+  {
+    "id": 102,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock es famosa por la canción 'Imagine'?",
+    "opciones": ["The Beatles", "The Rolling Stones", "The Who", "John Lennon (solista)"],
+    "respuestaCorrecta": "John Lennon (solista)"
+  },
+  {
+    "id": 103,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del instrumento de viento-metal que tiene un mecanismo de válvula deslizante?",
+    "opciones": ["Trompeta", "Tuba", "Trombón", "Corno francés"],
+    "respuestaCorrecta": "Trombón"
+  },
+  {
+    "id": 104,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante es conocido como 'El Bardo de Bob'?",
+    "opciones": ["Elvis Presley", "Frank Sinatra", "Bob Dylan", "Paul Simon"],
+    "respuestaCorrecta": "Bob Dylan"
+  },
+  {
+    "id": 105,
+    "categoria": "Música",
+    "pregunta": "¿Qué artista lanzó la canción 'Rolling in the Deep'?",
+    "opciones": ["Dua Lipa", "Beyoncé", "Adele", "Rihanna"],
+    "respuestaCorrecta": "Adele"
+  },
+  {
+    "id": 106,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso guitarrista se hizo mundialmente famoso por tocar la guitarra con los dientes y quemarla en el escenario?",
+    "opciones": ["Eric Clapton", "Jimi Hendrix", "Keith Richards", "Jimmy Page"],
+    "respuestaCorrecta": "Jimi Hendrix"
+  },
+  {
+    "id": 107,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical se originó a partir del Blues y el Jazz y se caracteriza por un ritmo potente y repetitivo?",
+    "opciones": ["Country", "Folk", "Rhythm and Blues (R&B)", "Góspel"],
+    "respuestaCorrecta": "Rhythm and Blues (R&B)"
+  },
+  {
+    "id": 108,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock lanzó el álbum 'Appetite for Destruction'?",
+    "opciones": ["Motley Crue", "Bon Jovi", "Guns N' Roses", "Skid Row"],
+    "respuestaCorrecta": "Guns N' Roses"
+  },
+  {
+    "id": 109,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en Indio, California, anualmente?",
+    "opciones": ["Lollapalooza", "Glastonbury", "Coachella", "Reading Festival"],
+    "respuestaCorrecta": "Coachella"
+  },
+  {
+    "id": 110,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de pop es conocida por el éxito 'Single Ladies (Put a Ring on It)'?",
+    "opciones": ["Rihanna", "Madonna", "Beyoncé", "Lady Gaga"],
+    "respuestaCorrecta": "Beyoncé"
+  },
+  {
+    "id": 111,
+    "categoria": "Música",
+    "pregunta": "¿Quién compuso la famosa ópera 'La Traviata'?",
+    "opciones": ["Giacomo Puccini", "Giuseppe Verdi", "Gioachino Rossini", "Vincenzo Bellini"],
+    "respuestaCorrecta": "Giuseppe Verdi"
+  },
+  {
+    "id": 112,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso grupo de pop lanzó el éxito 'Gimme! Gimme! Gimme!'?",
+    "opciones": ["Boney M", "Village People", "ABBA", "Baccara"],
+    "respuestaCorrecta": "ABBA"
+  },
+  {
+    "id": 113,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del instrumento de cuerda que se toca con un teclado y tiene un sonido metálico?",
+    "opciones": ["Clavicordio", "Celesta", "Clavecín", "Marimba"],
+    "respuestaCorrecta": "Celesta"
+  },
+  {
+    "id": 114,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante popular lanzó el álbum 'Future Nostalgia' en 2020?",
+    "opciones": ["Ariana Grande", "Katy Perry", "Dua Lipa", "Taylor Swift"],
+    "respuestaCorrecta": "Dua Lipa"
+  },
+  {
+    "id": 115,
+    "categoria": "Música",
+    "pregunta": "¿Quién es conocido como 'El Rey de la Música Country'?",
+    "opciones": ["Johnny Cash", "Hank Williams", "Garth Brooks", "George Strait"],
+    "respuestaCorrecta": "George Strait"
+  },
+  {
+    "id": 116,
+    "categoria": "Música",
+    "pregunta": "¿Qué rapero lanzó el álbum 'Donda' en 2021?",
+    "opciones": ["Drake", "Eminem", "Kanye West", "Travis Scott"],
+    "respuestaCorrecta": "Kanye West"
+  },
+  {
+    "id": 117,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Another Brick in the Wall'?",
+    "opciones": ["Led Zeppelin", "The Who", "Pink Floyd", "Deep Purple"],
+    "respuestaCorrecta": "Pink Floyd"
+  },
+  {
+    "id": 118,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del cantante principal de la banda The Rolling Stones?",
+    "opciones": ["Keith Richards", "Mick Jagger", "Ronnie Wood", "Charlie Watts"],
+    "respuestaCorrecta": "Mick Jagger"
+  },
+  {
+    "id": 119,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical se caracteriza por la rapidez y el uso de letras sobre temas sociales y políticos?",
+    "opciones": ["Pop", "Reggae", "Punk Rock", "Folk"],
+    "respuestaCorrecta": "Punk Rock"
+  },
+  {
+    "id": 120,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso festival de música se celebra anualmente en Pilton, Inglaterra?",
+    "opciones": ["Reading Festival", "Isle of Wight Festival", "Glastonbury Festival", "Download Festival"],
+    "respuestaCorrecta": "Glastonbury Festival"
+  },
+  {
+    "id": 121,
+    "categoria": "Música",
+    "pregunta": "¿Quién compuso la famosa marcha nupcial utilizada en bodas (de *El sueño de una noche de verano*)?",
+    "opciones": ["Richard Wagner", "Felix Mendelssohn", "Wolfgang Amadeus Mozart", "Franz Liszt"],
+    "respuestaCorrecta": "Felix Mendelssohn"
+  },
+  {
+    "id": 122,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento se utiliza para tocar el 'pizzicato'?",
+    "opciones": ["Instrumentos de viento", "Instrumentos de cuerda frotada", "Instrumentos de percusión", "Instrumentos de teclado"],
+    "respuestaCorrecta": "Instrumentos de cuerda frotada"
+  },
+  {
+    "id": 123,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso grupo de pop lanzó el éxito 'I Want You Back' en 1969?",
+    "opciones": ["Jackson 5", "The Temptations", "The Supremes", "The Commodores"],
+    "respuestaCorrecta": "Jackson 5"
+  },
+  {
+    "id": 124,
+    "categoria": "Música",
+    "pregunta": "¿Qué rapero es conocido por la canción 'Lose Yourself'?",
+    "opciones": ["Jay-Z", "50 Cent", "Eminem", "Kendrick Lamar"],
+    "respuestaCorrecta": "Eminem"
+  },
+  {
+    "id": 125,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical es una fusión de jazz, funk y rock con ritmos complejos?",
+    "opciones": ["Ska", "Reggae", "Fusion Jazz", "Bebop"],
+    "respuestaCorrecta": "Fusion Jazz"
+  },
+  {
+    "id": 126,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Back in Black'?",
+    "opciones": ["Led Zeppelin", "AC/DC", "Guns N' Roses", "Deep Purple"],
+    "respuestaCorrecta": "AC/DC"
+  },
+  {
+    "id": 127,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso músico de jazz conocido por tocar el saxofón tenor y su álbum 'A Love Supreme'?",
+    "opciones": ["Charlie Parker", "John Coltrane", "Miles Davis", "Duke Ellington"],
+    "respuestaCorrecta": "John Coltrane"
+  },
+  {
+    "id": 128,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante es conocida como 'La Reina del Soul'?",
+    "opciones": ["Tina Turner", "Diana Ross", "Aretha Franklin", "Etta James"],
+    "respuestaCorrecta": "Aretha Franklin"
+  },
+  {
+    "id": 129,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento de viento-metal tiene un sonido grave y se utiliza en la banda de jazz?",
+    "opciones": ["Trompeta", "Trombón", "Tuba", "Corno francés"],
+    "respuestaCorrecta": "Tuba"
+  },
+  {
+    "id": 130,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de pop lanzó el álbum 'The Fame Monster'?",
+    "opciones": ["Katy Perry", "Rihanna", "Lady Gaga", "Beyoncé"],
+    "respuestaCorrecta": "Lady Gaga"
+  },
+  {
+    "id": 131,
+    "categoria": "Música",
+    "pregunta": "¿Quién compuso la famosa obra 'Claro de Luna'?",
+    "opciones": ["Frédéric Chopin", "Claude Debussy", "Ludwig van Beethoven", "Franz Liszt"],
+    "respuestaCorrecta": "Ludwig van Beethoven"
+  },
+  {
+    "id": 132,
+    "categoria": "Música",
+    "pregunta": "¿Qué famosa banda de rock tenía a Jim Morrison como vocalista?",
+    "opciones": ["The Rolling Stones", "The Doors", "Led Zeppelin", "Jimi Hendrix Experience"],
+    "respuestaCorrecta": "The Doors"
+  },
+  {
+    "id": 133,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del instrumento de viento-madera con el sonido más alto de la orquesta?",
+    "opciones": ["Clarinete", "Flautín (Piccolo)", "Oboe", "Fagot"],
+    "respuestaCorrecta": "Flautín (Piccolo)"
+  },
+  {
+    "id": 134,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante popular lanzó el éxito 'Umbrella'?",
+    "opciones": ["Beyoncé", "Lady Gaga", "Rihanna", "Katy Perry"],
+    "respuestaCorrecta": "Rihanna"
+  },
+  {
+    "id": 135,
+    "categoria": "Música",
+    "pregunta": "¿Quién es conocido como 'El Rey del Mambo'?",
+    "opciones": ["Tito Puente", "Pérez Prado", "Machito", "Mario Bauzá"],
+    "respuestaCorrecta": "Pérez Prado"
+  },
+  {
+    "id": 136,
+    "categoria": "Música",
+    "pregunta": "¿Qué rapero popular lanzó el álbum 'good kid, m.A.A.d city'?",
+    "opciones": ["Drake", "Eminem", "Kendrick Lamar", "J. Cole"],
+    "respuestaCorrecta": "Kendrick Lamar"
+  },
+  {
+    "id": 137,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Layla'?",
+    "opciones": ["The Rolling Stones", "The Yardbirds", "Cream (Eric Clapton)", "Derek and the Dominos"],
+    "respuestaCorrecta": "Derek and the Dominos"
+  },
+  {
+    "id": 138,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso DJ francés conocido por canciones como 'Titanium'?",
+    "opciones": ["Afrojack", "David Guetta", "Tiësto", "Armin van Buuren"],
+    "respuestaCorrecta": "David Guetta"
+  },
+  {
+    "id": 139,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical surgió en los años 70 y se caracteriza por un ritmo bailable y orquestaciones con cuerdas?",
+    "opciones": ["Funk", "Soul", "Disco", "R&B"],
+    "respuestaCorrecta": "Disco"
+  },
+  {
+    "id": 140,
+    "categoria": "Música",
+    "pregunta": "¿Qué famosa cantante de pop latina es conocida por el éxito 'Ojos Así'?",
+    "opciones": ["Thalía", "Paulina Rubio", "Shakira", "Gloria Trevi"],
+    "respuestaCorrecta": "Shakira"
+  },
+  {
+    "id": 141,
+    "categoria": "Música",
+    "pregunta": "¿Quién compuso la famosa obra 'Requiem' incompleta?",
+    "opciones": ["Ludwig van Beethoven", "Franz Schubert", "Wolfgang Amadeus Mozart", "Joseph Haydn"],
+    "respuestaCorrecta": "Wolfgang Amadeus Mozart"
+  },
+  {
+    "id": 142,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento es esencial en el género Rockabilly?",
+    "opciones": ["Sintetizador", "Violín", "Contrabajo (Slap Bass)", "Flauta"],
+    "respuestaCorrecta": "Contrabajo (Slap Bass)"
+  },
+  {
+    "id": 143,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso grupo de pop lanzó el éxito 'Take a Chance on Me'?",
+    "opciones": ["Boney M", "Village People", "ABBA", "Baccara"],
+    "respuestaCorrecta": "ABBA"
+  },
+  {
+    "id": 144,
+    "categoria": "Música",
+    "pregunta": "¿Qué rapero lanzó el álbum 'The College Dropout' en 2004?",
+    "opciones": ["Jay-Z", "Eminem", "Kanye West", "Nas"],
+    "respuestaCorrecta": "Kanye West"
+  },
+  {
+    "id": 145,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso guitarrista de rock se unió a The Yardbirds y luego formó Led Zeppelin?",
+    "opciones": ["Jeff Beck", "Eric Clapton", "Jimmy Page", "Keith Richards"],
+    "respuestaCorrecta": "Jimmy Page"
+  },
+  {
+    "id": 146,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de pop lanzó el álbum 'Born This Way' en 2011?",
+    "opciones": ["Rihanna", "Katy Perry", "Lady Gaga", "Taylor Swift"],
+    "respuestaCorrecta": "Lady Gaga"
+  },
+  {
+    "id": 147,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical se caracteriza por la tristeza y la melancolía, con el uso de 'blue notes'?",
+    "opciones": ["Góspel", "Folk", "Blues", "Soul"],
+    "respuestaCorrecta": "Blues"
+  },
+  {
+    "id": 148,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock lanzó el álbum 'Highway to Hell'?",
+    "opciones": ["Guns N' Roses", "AC/DC", "Deep Purple", "Led Zeppelin"],
+    "respuestaCorrecta": "AC/DC"
+  },
+  {
+    "id": 149,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso músico de jazz conocido por tocar el saxofón alto y ser pionero del Bebop?",
+    "opciones": ["Miles Davis", "John Coltrane", "Charlie Parker", "Dizzy Gillespie"],
+    "respuestaCorrecta": "Charlie Parker"
+  },
+  {
+    "id": 150,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de pop lanzó el éxito 'Don't Start Now' en 2019?",
+    "opciones": ["Ariana Grande", "Dua Lipa", "Billie Eilish", "Camila Cabello"],
+    "respuestaCorrecta": "Dua Lipa"
+  },
+  {
+    "id": 151,
+    "categoria": "Música",
+    "pregunta": "¿Quién es conocido como 'El Rey de los Valses'?",
+    "opciones": ["Johann Sebastian Bach", "Wolfgang Amadeus Mozart", "Johann Strauss II", "Frédéric Chopin"],
+    "respuestaCorrecta": "Johann Strauss II"
+  },
+  {
+    "id": 152,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso grupo de pop lanzó el éxito 'I Got You Babe'?",
+    "opciones": ["Sonny & Cher", "The Mamas & The Papas", "The Beatles", "The Supremes"],
+    "respuestaCorrecta": "Sonny & Cher"
+  },
+  {
+    "id": 153,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del instrumento de percusión que tiene un cuerpo de madera hueco y se toca con baquetas de goma o fieltro?",
+    "opciones": ["Xilófono", "Marimba", "Vibráfono", "Campanas tubulares"],
+    "respuestaCorrecta": "Marimba"
+  },
+  {
+    "id": 154,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante popular lanzó el álbum '21' en 2011?",
+    "opciones": ["Beyoncé", "Rihanna", "Taylor Swift", "Adele"],
+    "respuestaCorrecta": "Adele"
+  },
+  {
+    "id": 155,
+    "categoria": "Música",
+    "pregunta": "¿Quién es conocido como 'El Rey del Blues Eléctrico'?",
+    "opciones": ["B.B. King", "Muddy Waters", "Robert Johnson", "Eric Clapton"],
+    "respuestaCorrecta": "B.B. King"
+  },
+  {
+    "id": 156,
+    "categoria": "Música",
+    "pregunta": "¿Qué rapero lanzó el álbum 'Views' en 2016?",
+    "opciones": ["Kendrick Lamar", "J. Cole", "Drake", "Travis Scott"],
+    "respuestaCorrecta": "Drake"
+  },
+  {
+    "id": 157,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Free Bird'?",
+    "opciones": ["Deep Purple", "Lynyrd Skynyrd", "The Allman Brothers Band", "ZZ Top"],
+    "respuestaCorrecta": "Lynyrd Skynyrd"
+  },
+  {
+    "id": 158,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso músico de jazz conocido por tocar el piano y su estilo Bebop?",
+    "opciones": ["Duke Ellington", "Count Basie", "Thelonious Monk", "Chick Corea"],
+    "respuestaCorrecta": "Thelonious Monk"
+  },
+  {
+    "id": 159,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical se caracteriza por tener influencias de la música latina, pop y EDM?",
+    "opciones": ["Trap", "Reggaeton", "Bachata", "Salsa"],
+    "respuestaCorrecta": "Reggaeton"
+  },
+  {
+    "id": 160,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso grupo de pop lanzó el éxito 'Mamma Mia'?",
+    "opciones": ["Boney M", "Village People", "ABBA", "Baccara"],
+    "respuestaCorrecta": "ABBA"
+  },
+  {
+    "id": 161,
+    "categoria": "Música",
+    "pregunta": "¿Quién compuso la famosa obra 'Para Elisa'?",
+    "opciones": ["Frédéric Chopin", "Claude Debussy", "Ludwig van Beethoven", "Franz Liszt"],
+    "respuestaCorrecta": "Ludwig van Beethoven"
+  },
+  {
+    "id": 162,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento musical se conoce como la 'Voz Humana' de la orquesta?",
+    "opciones": ["Oboe", "Fagot", "Violonchelo", "Clarinete"],
+    "respuestaCorrecta": "Violonchelo"
+  },
+  {
+    "id": 163,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de los 90 es conocida por el éxito 'Genie in a Bottle'?",
+    "opciones": ["Britney Spears", "Mandy Moore", "Christina Aguilera", "Jessica Simpson"],
+    "respuestaCorrecta": "Christina Aguilera"
+  },
+  {
+    "id": 164,
+    "categoria": "Música",
+    "pregunta": "¿Qué rapero lanzó el álbum 'The Eminem Show' en 2002?",
+    "opciones": ["50 Cent", "Jay-Z", "Eminem", "Dr. Dre"],
+    "respuestaCorrecta": "Eminem"
+  },
+  {
+    "id": 165,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso guitarrista de rock se unió a The Yardbirds y luego formó Cream?",
+    "opciones": ["Jeff Beck", "Eric Clapton", "Jimmy Page", "Keith Richards"],
+    "respuestaCorrecta": "Eric Clapton"
+  },
+  {
+    "id": 166,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de pop lanzó el álbum 'Teenage Dream' en 2010?",
+    "opciones": ["Lady Gaga", "Rihanna", "Katy Perry", "Beyoncé"],
+    "respuestaCorrecta": "Katy Perry"
+  },
+  {
+    "id": 167,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical se caracteriza por la fusión de pop y música tradicional coreana?",
+    "opciones": ["J-Pop", "C-Pop", "K-Pop", "T-Pop"],
+    "respuestaCorrecta": "K-Pop"
+  },
+  {
+    "id": 168,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock lanzó el álbum 'In Utero'?",
+    "opciones": ["Pearl Jam", "Soundgarden", "Nirvana", "Alice in Chains"],
+    "respuestaCorrecta": "Nirvana"
+  },
+  {
+    "id": 169,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso músico de jazz conocido por tocar la trompeta y ser pionero del Cool Jazz?",
+    "opciones": ["Dizzy Gillespie", "Louis Armstrong", "Miles Davis", "Charlie Parker"],
+    "respuestaCorrecta": "Miles Davis"
+  },
+  {
+    "id": 170,
+    "categoria": "Música",
+    "pregunta": "¿Qué famosa cantante de pop latina es conocida por el éxito 'La Isla Bonita'?",
+    "opciones": ["Shakira", "Gloria Estefan", "Thalía", "Madonna"],
+    "respuestaCorrecta": "Madonna"
+  },
+  {
+    "id": 171,
+    "categoria": "Música",
+    "pregunta": "¿Quién compuso 'El Anillo del Nibelungo', una serie de cuatro óperas épicas?",
+    "opciones": ["Giuseppe Verdi", "Richard Wagner", "Wolfgang Amadeus Mozart", "Giacomo Puccini"],
+    "respuestaCorrecta": "Richard Wagner"
+  },
+  {
+    "id": 172,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso grupo de pop lanzó el éxito 'Voulez-Vous'?",
+    "opciones": ["Boney M", "Village People", "ABBA", "Baccara"],
+    "respuestaCorrecta": "ABBA"
+  },
+  {
+    "id": 173,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del instrumento de percusión que consiste en una serie de barras de metal afinadas y se toca con mazos?",
+    "opciones": ["Marimba", "Xilófono", "Vibráfono", "Campanas tubulares"],
+    "respuestaCorrecta": "Vibráfono"
+  },
+  {
+    "id": 174,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante popular lanzó el álbum 'Purpose' en 2015?",
+    "opciones": ["Justin Timberlake", "Justin Bieber", "Ed Sheeran", "Bruno Mars"],
+    "respuestaCorrecta": "Justin Bieber"
+  },
+  {
+    "id": 175,
+    "categoria": "Música",
+    "pregunta": "¿Quién es conocido como 'El Rey del Blues del Delta'?",
+    "opciones": ["Muddy Waters", "B.B. King", "Robert Johnson", "John Lee Hooker"],
+    "respuestaCorrecta": "Robert Johnson"
+  },
+  {
+    "id": 176,
+    "categoria": "Música",
+    "pregunta": "¿Qué rapero lanzó el álbum 'Take Care' en 2011?",
+    "opciones": ["Kendrick Lamar", "J. Cole", "Drake", "Travis Scott"],
+    "respuestaCorrecta": "Drake"
+  },
+  {
+    "id": 177,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Whole Lotta Love'?",
+    "opciones": ["Deep Purple", "The Who", "Led Zeppelin", "Black Sabbath"],
+    "respuestaCorrecta": "Led Zeppelin"
+  },
+  {
+    "id": 178,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso músico de jazz conocido por tocar la trompeta y ser pionero del Jazz Modal?",
+    "opciones": ["Dizzy Gillespie", "Louis Armstrong", "Miles Davis", "Charlie Parker"],
+    "respuestaCorrecta": "Miles Davis"
+  },
+  {
+    "id": 179,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical se caracteriza por la fusión de rock y ritmos latinos, popularizado por Carlos Santana?",
+    "opciones": ["Salsa Rock", "Latin Jazz", "Rock Latino", "Ska"],
+    "respuestaCorrecta": "Rock Latino"
+  },
+  {
+    "id": 180,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso grupo de pop lanzó el éxito 'I Will Survive'?",
+    "opciones": ["Gloria Gaynor", "Donna Summer", "Village People", "ABBA"],
+    "respuestaCorrecta": "Gloria Gaynor"
+  },
+  {
+    "id": 181,
+    "categoria": "Música",
+    "pregunta": "¿Quién compuso la famosa 'Pequeña Serenata Nocturna' (Eine kleine Nachtmusik)?",
+    "opciones": ["Ludwig van Beethoven", "Franz Schubert", "Wolfgang Amadeus Mozart", "Joseph Haydn"],
+    "respuestaCorrecta": "Wolfgang Amadeus Mozart"
+  },
+  {
+    "id": 182,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento se utiliza para tocar el 'arpeggio'?",
+    "opciones": ["Instrumentos de viento", "Instrumentos de cuerda pulsada", "Instrumentos de percusión", "Instrumentos de teclado"],
+    "respuestaCorrecta": "Instrumentos de cuerda pulsada"
+  },
+  {
+    "id": 183,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de los 90 es conocida por el éxito 'Torn'?",
+    "opciones": ["Alanis Morissette", "Tori Amos", "Natalie Imbruglia", "Fiona Apple"],
+    "respuestaCorrecta": "Natalie Imbruglia"
+  },
+  {
+    "id": 184,
+    "categoria": "Música",
+    "pregunta": "¿Qué rapero lanzó el álbum 'Illmatic' en 1994?",
+    "opciones": ["The Notorious B.I.G.", "Tupac Shakur", "Nas", "Dr. Dre"],
+    "respuestaCorrecta": "Nas"
+  },
+  {
+    "id": 185,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical se caracteriza por la fusión de jazz y rock con elementos de música india?",
+    "opciones": ["World Music", "Jazz Fusión", "Raga Rock", "Acid Jazz"],
+    "respuestaCorrecta": "Raga Rock"
+  },
+  {
+    "id": 186,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Imagine'?",
+    "opciones": ["The Beatles", "The Rolling Stones", "The Who", "John Lennon (solista)"],
+    "respuestaCorrecta": "John Lennon (solista)"
+  },
+  {
+    "id": 187,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso músico de jazz conocido por tocar la trompeta y ser uno de los pioneros del Swing?",
+    "opciones": ["Dizzy Gillespie", "Louis Armstrong", "Miles Davis", "Charlie Parker"],
+    "respuestaCorrecta": "Louis Armstrong"
+  },
+  {
+    "id": 188,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante es conocida como 'La Reina de la Música Disco'?",
+    "opciones": ["Gloria Gaynor", "Donna Summer", "Tina Turner", "Diana Ross"],
+    "respuestaCorrecta": "Donna Summer"
+  },
+  {
+    "id": 189,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento de cuerda se utiliza en la música hawaiana y se toca pulsando las cuerdas?",
+    "opciones": ["Guitarra", "Mandolina", "Ukelele", "Banjo"],
+    "respuestaCorrecta": "Ukelele"
+  },
+  {
+    "id": 190,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante de pop lanzó el álbum 'FutureSex/LoveSounds'?",
+    "opciones": ["Usher", "Justin Timberlake", "Bruno Mars", "The Weeknd"],
+    "respuestaCorrecta": "Justin Timberlake"
+  },
+  {
+    "id": 191,
+    "categoria": "Música",
+    "pregunta": "¿Quién compuso la famosa obra 'El Bolero'?",
+    "opciones": ["Claude Debussy", "Maurice Ravel", "Erik Satie", "Igor Stravinsky"],
+    "respuestaCorrecta": "Maurice Ravel"
+  },
+  {
+    "id": 192,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso grupo de pop lanzó el éxito 'Bohemian Rhapsody'?",
+    "opciones": ["The Beatles", "The Rolling Stones", "Queen", "Led Zeppelin"],
+    "respuestaCorrecta": "Queen"
+  },
+  {
+    "id": 193,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del instrumento de viento-metal que tiene un sonido agudo y brillante?",
+    "opciones": ["Trombón", "Tuba", "Trompeta", "Corno francés"],
+    "respuestaCorrecta": "Trompeta"
+  },
+  {
+    "id": 194,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante popular lanzó el álbum 'The Way We Were'?",
+    "opciones": ["Barbra Streisand", "Céline Dion", "Whitney Houston", "Mariah Carey"],
+    "respuestaCorrecta": "Barbra Streisand"
+  },
+  {
+    "id": 195,
+    "categoria": "Música",
+    "pregunta": "¿Quién es conocido como 'El Príncipe de la Canción'?",
+    "opciones": ["Raphael", "José José", "Camilo Sesto", "Juan Gabriel"],
+    "respuestaCorrecta": "José José"
+  },
+  {
+    "id": 196,
+    "categoria": "Música",
+    "pregunta": "¿Qué rapero lanzó el álbum 'The Chronic' en 1992?",
+    "opciones": ["Snoop Dogg", "Dr. Dre", "Ice Cube", "Eazy-E"],
+    "respuestaCorrecta": "Dr. Dre"
+  },
+  {
+    "id": 197,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de rock se hizo famosa por la canción 'Highway Star'?",
+    "opciones": ["Deep Purple", "Led Zeppelin", "Black Sabbath", "Iron Maiden"],
+    "respuestaCorrecta": "Deep Purple"
+  },
+  {
+    "id": 198,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es el nombre del famoso músico de jazz conocido por tocar el saxofón y su álbum 'Kind of Blue'?",
+    "opciones": ["John Coltrane", "Miles Davis", "Charlie Parker", "Dizzy Gillespie"],
+    "respuestaCorrecta": "Miles Davis"
+  },
+  {
+    "id": 199,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical se caracteriza por la fusión de pop y música tradicional japonesa?",
+    "opciones": ["K-Pop", "C-Pop", "J-Pop", "T-Pop"],
+    "respuestaCorrecta": "J-Pop"
+  },
+  {
+    "id": 200,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso grupo de pop lanzó el éxito 'Take Me Out'?",
+    "opciones": ["Franz Ferdinand", "Arctic Monkeys", "The Strokes", "The Killers"],
+    "respuestaCorrecta": "Franz Ferdinand"
+  }
+]

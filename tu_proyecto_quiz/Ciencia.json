@@ -1,0 +1,2103 @@
+[
+  {
+    "id": 1,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el elemento químico más abundante en el universo?",
+    "opciones": ["Oxígeno", "Hidrógeno", "Carbono", "Hierro"],
+    "respuestaCorrecta": "Hidrógeno"
+  },
+  {
+    "id": 2,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta es conocido como 'el planeta rojo'?",
+    "opciones": ["Venus", "Marte", "Júpiter", "Saturno"],
+    "respuestaCorrecta": "Marte"
+  },
+  {
+    "id": 3,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué partícula subatómica tiene carga positiva?",
+    "opciones": ["Electrón", "Neutrón", "Protón", "Fotón"],
+    "respuestaCorrecta": "Protón"
+  },
+  {
+    "id": 4,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico formuló la teoría de la relatividad?",
+    "opciones": ["Isaac Newton", "Albert Einstein", "Stephen Hawking", "Niels Bohr"],
+    "respuestaCorrecta": "Albert Einstein"
+  },
+  {
+    "id": 5,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas necesitan las plantas para realizar la fotosíntesis?",
+    "opciones": ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Hidrógeno"],
+    "respuestaCorrecta": "Dióxido de carbono"
+  },
+  {
+    "id": 6,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la unidad básica de la herencia en los seres vivos?",
+    "opciones": ["Cromosoma", "Gen", "ADN", "Proteína"],
+    "respuestaCorrecta": "Gen"
+  },
+  {
+    "id": 7,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de sangre es considerado el donante universal?",
+    "opciones": ["A+", "B-", "AB+", "O-"],
+    "respuestaCorrecta": "O-"
+  },
+  {
+    "id": 8,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene anillos visibles desde la Tierra?",
+    "opciones": ["Júpiter", "Saturno", "Urano", "Neptuno"],
+    "respuestaCorrecta": "Saturno"
+  },
+  {
+    "id": 9,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué instrumento se utiliza para medir la presión atmosférica?",
+    "opciones": ["Termómetro", "Barómetro", "Hidrómetro", "Anemómetro"],
+    "respuestaCorrecta": "Barómetro"
+  },
+  {
+    "id": 10,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué vitamina se produce cuando la piel se expone al sol?",
+    "opciones": ["Vitamina A", "Vitamina C", "Vitamina D", "Vitamina E"],
+    "respuestaCorrecta": "Vitamina D"
+  },
+  {
+    "id": 11,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué órgano del cuerpo humano produce insulina?",
+    "opciones": ["Hígado", "Páncreas", "Riñón", "Estómago"],
+    "respuestaCorrecta": "Páncreas"
+  },
+  {
+    "id": 12,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas es responsable del efecto invernadero?",
+    "opciones": ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Helio"],
+    "respuestaCorrecta": "Dióxido de carbono"
+  },
+  {
+    "id": 13,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico descubrió la penicilina?",
+    "opciones": ["Louis Pasteur", "Alexander Fleming", "Robert Koch", "Marie Curie"],
+    "respuestaCorrecta": "Alexander Fleming"
+  },
+  {
+    "id": 14,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta es el más grande del sistema solar?",
+    "opciones": ["Saturno", "Júpiter", "Neptuno", "Urano"],
+    "respuestaCorrecta": "Júpiter"
+  },
+  {
+    "id": 15,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento químico tiene el símbolo 'Au'?",
+    "opciones": ["Plata", "Oro", "Aluminio", "Argón"],
+    "respuestaCorrecta": "Oro"
+  },
+  {
+    "id": 16,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de onda se utiliza en los hornos microondas?",
+    "opciones": ["Ondas de radio", "Microondas", "Rayos X", "Rayos ultravioleta"],
+    "respuestaCorrecta": "Microondas"
+  },
+  {
+    "id": 17,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene más lunas?",
+    "opciones": ["Júpiter", "Saturno", "Urano", "Neptuno"],
+    "respuestaCorrecta": "Saturno"
+  },
+  {
+    "id": 18,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas liberan las plantas durante la fotosíntesis?",
+    "opciones": ["Dióxido de carbono", "Oxígeno", "Nitrógeno", "Hidrógeno"],
+    "respuestaCorrecta": "Oxígeno"
+  },
+  {
+    "id": 19,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué partícula subatómica no tiene carga eléctrica?",
+    "opciones": ["Protón", "Electrón", "Neutrón", "Positrón"],
+    "respuestaCorrecta": "Neutrón"
+  },
+  {
+    "id": 20,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué enfermedad es causada por la deficiencia de vitamina C?",
+    "opciones": ["Raquitismo", "Escorbuto", "Anemia", "Beri-beri"],
+    "respuestaCorrecta": "Escorbuto"
+  },
+  {
+    "id": 21,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico propuso la teoría heliocéntrica?",
+    "opciones": ["Galileo Galilei", "Nicolás Copérnico", "Isaac Newton", "Johannes Kepler"],
+    "respuestaCorrecta": "Nicolás Copérnico"
+  },
+  {
+    "id": 22,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas utilizan los buceadores en sus tanques?",
+    "opciones": ["Oxígeno puro", "Aire comprimido", "Helio", "Hidrógeno"],
+    "respuestaCorrecta": "Aire comprimido"
+  },
+  {
+    "id": 23,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué órgano del cuerpo humano bombea sangre?",
+    "opciones": ["Pulmón", "Hígado", "Corazón", "Cerebro"],
+    "respuestaCorrecta": "Corazón"
+  },
+  {
+    "id": 24,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene el día más largo?",
+    "opciones": ["Venus", "Mercurio", "Júpiter", "Marte"],
+    "respuestaCorrecta": "Venus"
+  },
+  {
+    "id": 25,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento químico es esencial para la formación de los huesos?",
+    "opciones": ["Hierro", "Calcio", "Potasio", "Sodio"],
+    "respuestaCorrecta": "Calcio"
+  },
+  {
+    "id": 26,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de energía utiliza un panel solar?",
+    "opciones": ["Energía eólica", "Energía solar", "Energía geotérmica", "Energía hidroeléctrica"],
+    "respuestaCorrecta": "Energía solar"
+  },
+  {
+    "id": 27,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta es el más cercano al Sol?",
+    "opciones": ["Venus", "Mercurio", "Marte", "Tierra"],
+    "respuestaCorrecta": "Mercurio"
+  },
+  {
+    "id": 28,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas constituye la mayor parte de la atmósfera terrestre?",
+    "opciones": ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Argón"],
+    "respuestaCorrecta": "Nitrógeno"
+  },
+  {
+    "id": 29,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico formuló las leyes del movimiento?",
+    "opciones": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Stephen Hawking"],
+    "respuestaCorrecta": "Isaac Newton"
+  },
+  {
+    "id": 30,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué vitamina se encuentra principalmente en los cítricos?",
+    "opciones": ["Vitamina A", "Vitamina B12", "Vitamina C", "Vitamina D"],
+    "respuestaCorrecta": "Vitamina C"
+  },
+  {
+    "id": 31,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta es conocido por sus grandes tormentas de polvo?",
+    "opciones": ["Venus", "Marte", "Júpiter", "Saturno"],
+    "respuestaCorrecta": "Marte"
+  },
+  {
+    "id": 32,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento químico tiene el símbolo 'Fe'?",
+    "opciones": ["Flúor", "Fósforo", "Hierro", "Francio"],
+    "respuestaCorrecta": "Hierro"
+  },
+  {
+    "id": 33,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de lente se utiliza para corregir la miopía?",
+    "opciones": ["Lente convexa", "Lente cóncava", "Lente plana", "Lente bifocal"],
+    "respuestaCorrecta": "Lente cóncava"
+  },
+  {
+    "id": 34,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene las temperaturas más extremas?",
+    "opciones": ["Mercurio", "Venus", "Marte", "Júpiter"],
+    "respuestaCorrecta": "Mercurio"
+  },
+  {
+    "id": 35,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas es el principal componente del sol?",
+    "opciones": ["Helio", "Hidrógeno", "Oxígeno", "Nitrógeno"],
+    "respuestaCorrecta": "Hidrógeno"
+  },
+  {
+    "id": 36,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico descubrió la circulación sanguínea?",
+    "opciones": ["William Harvey", "Louis Pasteur", "Robert Hooke", "Anton van Leeuwenhoek"],
+    "respuestaCorrecta": "William Harvey"
+  },
+  {
+    "id": 37,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene el año más largo?",
+    "opciones": ["Júpiter", "Saturno", "Urano", "Neptuno"],
+    "respuestaCorrecta": "Neptuno"
+  },
+  {
+    "id": 38,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento químico es líquido a temperatura ambiente?",
+    "opciones": ["Bromo", "Mercurio", "Cesio", "Galio"],
+    "respuestaCorrecta": "Mercurio"
+  },
+  {
+    "id": 39,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de energía se produce en las centrales nucleares?",
+    "opciones": ["Energía térmica", "Energía nuclear", "Energía cinética", "Energía potencial"],
+    "respuestaCorrecta": "Energía nuclear"
+  },
+  {
+    "id": 40,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta es el más denso del sistema solar?",
+    "opciones": ["Tierra", "Mercurio", "Venus", "Marte"],
+    "respuestaCorrecta": "Tierra"
+  },
+  {
+    "id": 41,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas se utiliza en los globos para que floten?",
+    "opciones": ["Hidrógeno", "Helio", "Oxígeno", "Nitrógeno"],
+    "respuestaCorrecta": "Helio"
+  },
+  {
+    "id": 42,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico desarrolló la tabla periódica?",
+    "opciones": ["Dmitri Mendeléyev", "Marie Curie", "John Dalton", "Antoine Lavoisier"],
+    "respuestaCorrecta": "Dmitri Mendeléyev"
+  },
+  {
+    "id": 43,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué vitamina es importante para la coagulación de la sangre?",
+    "opciones": ["Vitamina A", "Vitamina C", "Vitamina D", "Vitamina K"],
+    "respuestaCorrecta": "Vitamina K"
+  },
+  {
+    "id": 44,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene el campo magnético más fuerte?",
+    "opciones": ["Tierra", "Júpiter", "Saturno", "Urano"],
+    "respuestaCorrecta": "Júpiter"
+  },
+  {
+    "id": 45,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento químico tiene el símbolo 'Na'?",
+    "opciones": ["Níquel", "Neón", "Sodio", "Nitrógeno"],
+    "respuestaCorrecta": "Sodio"
+  },
+  {
+    "id": 46,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de onda se utiliza en las radiografías?",
+    "opciones": ["Ondas de radio", "Microondas", "Rayos X", "Rayos gamma"],
+    "respuestaCorrecta": "Rayos X"
+  },
+  {
+    "id": 47,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene la gravedad superficial más similar a la Tierra?",
+    "opciones": ["Venus", "Marte", "Mercurio", "Luna"],
+    "respuestaCorrecta": "Venus"
+  },
+  {
+    "id": 48,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas es emitido por los volcanes?",
+    "opciones": ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Helio"],
+    "respuestaCorrecta": "Dióxido de carbono"
+  },
+  {
+    "id": 49,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico descubrió los rayos X?",
+    "opciones": ["Wilhelm Röntgen", "Marie Curie", "Henri Becquerel", "Max Planck"],
+    "respuestaCorrecta": "Wilhelm Röntgen"
+  },
+  {
+    "id": 50,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué vitamina se conoce como 'la vitamina del sol'?",
+    "opciones": ["Vitamina A", "Vitamina B12", "Vitamina C", "Vitamina D"],
+    "respuestaCorrecta": "Vitamina D"
+  },
+  {
+    "id": 51,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué órgano del cuerpo humano es responsable de filtrar la sangre?",
+    "opciones": ["Hígado", "Páncreas", "Riñón", "Bazo"],
+    "respuestaCorrecta": "Riñón"
+  },
+  {
+    "id": 52,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene el nombre del dios romano del mar?",
+    "opciones": ["Urano", "Neptuno", "Júpiter", "Plutón"],
+    "respuestaCorrecta": "Neptuno"
+  },
+  {
+    "id": 53,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento químico es esencial para la respiración celular?",
+    "opciones": ["Nitrógeno", "Oxígeno", "Hidrógeno", "Carbono"],
+    "respuestaCorrecta": "Oxígeno"
+  },
+  {
+    "id": 54,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de reproducción no requiere la unión de gametos?",
+    "opciones": ["Sexual", "Asexual", "Vegetativa", "Esporulación"],
+    "respuestaCorrecta": "Asexual"
+  },
+  {
+    "id": 55,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué capa de la atmósfera contiene la capa de ozono?",
+    "opciones": ["Troposfera", "Estratosfera", "Mesosfera", "Termosfera"],
+    "respuestaCorrecta": "Estratosfera"
+  },
+  {
+    "id": 56,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico propuso la teoría de la evolución por selección natural?",
+    "opciones": ["Charles Darwin", "Gregor Mendel", "Alfred Wallace", "Jean-Baptiste Lamarck"],
+    "respuestaCorrecta": "Charles Darwin"
+  },
+  {
+    "id": 57,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene una gran mancha roja?",
+    "opciones": ["Saturno", "Júpiter", "Marte", "Venus"],
+    "respuestaCorrecta": "Júpiter"
+  },
+  {
+    "id": 58,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento químico tiene el número atómico 1?",
+    "opciones": ["Helio", "Hidrógeno", "Litio", "Oxígeno"],
+    "respuestaCorrecta": "Hidrógeno"
+  },
+  {
+    "id": 59,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de célula sanguírea transporta oxígeno?",
+    "opciones": ["Plaquetas", "Glóbulos blancos", "Glóbulos rojos", "Linfocitos"],
+    "respuestaCorrecta": "Glóbulos rojos"
+  },
+  {
+    "id": 60,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene una rotación retrógrada?",
+    "opciones": ["Marte", "Venus", "Mercurio", "Urano"],
+    "respuestaCorrecta": "Venus"
+  },
+  {
+    "id": 61,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas es conocido como 'gas de la risa'?",
+    "opciones": ["Óxido nitroso", "Dióxido de carbono", "Helio", "Metano"],
+    "respuestaCorrecta": "Óxido nitroso"
+  },
+  {
+    "id": 62,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico descubrió la radiactividad?",
+    "opciones": ["Marie Curie", "Henri Becquerel", "Wilhelm Röntgen", "Ernest Rutherford"],
+    "respuestaCorrecta": "Henri Becquerel"
+  },
+  {
+    "id": 63,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta es conocido por sus impresionantes auroras?",
+    "opciones": ["Júpiter", "Saturno", "Urano", "Todos los anteriores"],
+    "respuestaCorrecta": "Todos los anteriores"
+  },
+  {
+    "id": 64,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento químico es el más reactivo?",
+    "opciones": ["Flúor", "Cloro", "Sodio", "Potasio"],
+    "respuestaCorrecta": "Flúor"
+  },
+  {
+    "id": 65,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de enlace químico comparte electrones?",
+    "opciones": ["Iónico", "Covalente", "Metálico", "Dipolo-dipolo"],
+    "respuestaCorrecta": "Covalente"
+  },
+  {
+    "id": 66,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene la órbita más excéntrica?",
+    "opciones": ["Mercurio", "Venus", "Marte", "Plutón"],
+    "respuestaCorrecta": "Mercurio"
+  },
+  {
+    "id": 67,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas es producido por la descomposición de materia orgánica?",
+    "opciones": ["Oxígeno", "Metano", "Helio", "Argón"],
+    "respuestaCorrecta": "Metano"
+  },
+  {
+    "id": 68,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico formuló la ley de la gravitación universal?",
+    "opciones": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Johannes Kepler"],
+    "respuestaCorrecta": "Isaac Newton"
+  },
+  {
+    "id": 69,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene la atmósfera más densa?",
+    "opciones": ["Tierra", "Venus", "Marte", "Júpiter"],
+    "respuestaCorrecta": "Venus"
+  },
+  {
+    "id": 70,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento químico tiene el símbolo 'Ag'?",
+    "opciones": ["Oro", "Plata", "Argón", "Mercurio"],
+    "respuestaCorrecta": "Plata"
+  },
+  {
+    "id": 71,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de microorganismo causa la malaria?",
+    "opciones": ["Bacteria", "Virus", "Protozoo", "Hongo"],
+    "respuestaCorrecta": "Protozoo"
+  },
+  {
+    "id": 72,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta fue descubierto mediante cálculos matemáticos?",
+    "opciones": ["Urano", "Neptuno", "Plutón", "Júpiter"],
+    "respuestaCorrecta": "Neptuno"
+  },
+  {
+    "id": 73,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas noble se utiliza en las luces de neón?",
+    "opciones": ["Helio", "Neón", "Argón", "Kriptón"],
+    "respuestaCorrecta": "Neón"
+  },
+  {
+    "id": 74,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico propuso el modelo atómico nuclear?",
+    "opciones": ["John Dalton", "J.J. Thomson", "Ernest Rutherford", "Niels Bohr"],
+    "respuestaCorrecta": "Ernest Rutherford"
+  },
+  {
+    "id": 75,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene el mayor campo gravitacional?",
+    "opciones": ["Tierra", "Júpiter", "Saturno", "Neptuno"],
+    "respuestaCorrecta": "Júpiter"
+  },
+  {
+    "id": 76,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento químico es el principal componente del diamante?",
+    "opciones": ["Silicio", "Carbono", "Oxígeno", "Calcio"],
+    "respuestaCorrecta": "Carbono"
+  },
+  {
+    "id": 77,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de célula tiene la capacidad de diferenciarse?",
+    "opciones": ["Neurona", "Célula madre", "Eritrocito", "Célula muscular"],
+    "respuestaCorrecta": "Célula madre"
+  },
+  {
+    "id": 78,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene los vientos más rápidos del sistema solar?",
+    "opciones": ["Júpiter", "Saturno", "Urano", "Neptuno"],
+    "respuestaCorrecta": "Neptuno"
+  },
+  {
+    "id": 79,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas es esencial para la combustión?",
+    "opciones": ["Nitrógeno", "Oxígeno", "Dióxido de carbono", "Hidrógeno"],
+    "respuestaCorrecta": "Oxígeno"
+  },
+  {
+    "id": 80,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico descubrió el electrón?",
+    "opciones": ["Ernest Rutherford", "J.J. Thomson", "James Chadwick", "Niels Bohr"],
+    "respuestaCorrecta": "J.J. Thomson"
+  },
+  {
+    "id": 81,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene la inclinación axial más extrema?",
+    "opciones": ["Venus", "Urano", "Neptuno", "Marte"],
+    "respuestaCorrecta": "Urano"
+  },
+  {
+    "id": 82,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento químico es el más abundante en la corteza terrestre?",
+    "opciones": ["Hierro", "Oxígeno", "Silicio", "Aluminio"],
+    "respuestaCorrecta": "Oxígeno"
+  },
+  {
+    "id": 83,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de energía almacena una batería?",
+    "opciones": ["Energía cinética", "Energía potencial", "Energía química", "Energía térmica"],
+    "respuestaCorrecta": "Energía química"
+  },
+  {
+    "id": 84,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene la mayor diferencia de temperatura entre día y noche?",
+    "opciones": ["Mercurio", "Venus", "Marte", "Luna"],
+    "respuestaCorrecta": "Mercurio"
+  },
+  {
+    "id": 85,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas se utiliza en la refrigeración?",
+    "opciones": ["Helio", "Neón", "Freón", "Argón"],
+    "respuestaCorrecta": "Freón"
+  },
+  {
+    "id": 86,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico propuso el principio de incertidumbre?",
+    "opciones": ["Albert Einstein", "Werner Heisenberg", "Erwin Schrödinger", "Max Planck"],
+    "respuestaCorrecta": "Werner Heisenberg"
+  },
+  {
+    "id": 87,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene la superficie más antigua?",
+    "opciones": ["Tierra", "Marte", "Mercurio", "Venus"],
+    "respuestaCorrecta": "Mercurio"
+  },
+  {
+    "id": 88,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento químico es esencial para la formación de la clorofila?",
+    "opciones": ["Hierro", "Magnesio", "Calcio", "Potasio"],
+    "respuestaCorrecta": "Magnesio"
+  },
+  {
+    "id": 89,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de lente se utiliza en los telescopios?",
+    "opciones": ["Lente convexa", "Lente cóncava", "Lente plana", "Lente divergente"],
+    "respuestaCorrecta": "Lente convexa"
+  },
+  {
+    "id": 90,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene la mayor velocidad orbital?",
+    "opciones": ["Mercurio", "Venus", "Tierra", "Marte"],
+    "respuestaCorrecta": "Mercurio"
+  },
+  {
+    "id": 91,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas es conocido como 'gas de los pantanos'?",
+    "opciones": ["Metano", "Dióxido de carbono", "Sulfuro de hidrógeno", "Óxido nitroso"],
+    "respuestaCorrecta": "Metano"
+  },
+  {
+    "id": 92,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico descubrió la ley de la palanca?",
+    "opciones": ["Arquímedes", "Isaac Newton", "Galileo Galilei", "Leonardo da Vinci"],
+    "respuestaCorrecta": "Arquímedes"
+  },
+  {
+    "id": 93,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene la mayor cantidad de dióxido de carbono en su atmósfera?",
+    "opciones": ["Tierra", "Venus", "Marte", "Júpiter"],
+    "respuestaCorrecta": "Venus"
+  },
+  {
+    "id": 94,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento químico tiene el símbolo 'Pb'?",
+    "opciones": ["Platino", "Plomo", "Paladio", "Potasio"],
+    "respuestaCorrecta": "Plomo"
+  },
+  {
+    "id": 95,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de simetría tienen los equinodermos?",
+    "opciones": ["Bilateral", "Radial", "Asimétrica", "Pentámera"],
+    "respuestaCorrecta": "Radial"
+  },
+  {
+    "id": 96,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene la menor densidad?",
+    "opciones": ["Saturno", "Júpiter", "Urano", "Neptuno"],
+    "respuestaCorrecta": "Saturno"
+  },
+  {
+    "id": 97,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas se utiliza en los extintores de incendios?",
+    "opciones": ["Dióxido de carbono", "Nitrógeno", "Helio", "Argón"],
+    "respuestaCorrecta": "Dióxido de carbono"
+  },
+  {
+    "id": 98,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico propuso la teoría del Big Bang?",
+    "opciones": ["Albert Einstein", "Edwin Hubble", "Georges Lemaître", "Stephen Hawking"],
+    "respuestaCorrecta": "Georges Lemaître"
+  },
+  {
+    "id": 99,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene la mayor cantidad de agua?",
+    "opciones": ["Tierra", "Marte", "Europa", "Ganímedes"],
+    "respuestaCorrecta": "Tierra"
+  },
+  {
+    "id": 100,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento químico es el más pesado que se produce naturalmente?",
+    "opciones": ["Uranio", "Plutonio", "Oro", "Plomo"],
+    "respuestaCorrecta": "Uranio"
+  },
+
+  {
+    "id": 31,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el proceso por el cual el agua cambia de estado líquido a gaseoso?",
+    "opciones": ["Condensación", "Sublimación", "Evaporación", "Fusión"],
+    "respuestaCorrecta": "Evaporación"
+  },
+  {
+    "id": 32,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué rama de la biología se ocupa del estudio de los animales?",
+    "opciones": ["Botánica", "Genética", "Zoología", "Ecología"],
+    "respuestaCorrecta": "Zoología"
+  },
+  {
+    "id": 33,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas es esencial para la respiración humana?",
+    "opciones": ["Nitrógeno", "Dióxido de carbono", "Oxígeno", "Helio"],
+    "respuestaCorrecta": "Oxígeno"
+  },
+  {
+    "id": 34,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el centro del sistema solar?",
+    "opciones": ["La Tierra", "Marte", "La Luna", "El Sol"],
+    "respuestaCorrecta": "El Sol"
+  },
+  {
+    "id": 35,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el punto de ebullición del agua a nivel del mar en grados Celsius?",
+    "opciones": ["0°C", "50°C", "100°C", "212°C"],
+    "respuestaCorrecta": "100°C"
+  },
+  {
+    "id": 36,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué partícula subatómica tiene carga negativa?",
+    "opciones": ["Protón", "Neutrón", "Electrón", "Fotón"],
+    "respuestaCorrecta": "Electrón"
+  },
+  {
+    "id": 37,
+    "categoria": "Ciencia",
+    "pregunta": "¿Quién formuló las tres leyes del movimiento y la Ley de la Gravitación Universal?",
+    "opciones": ["Albert Einstein", "Galileo Galilei", "Isaac Newton", "Nikola Tesla"],
+    "respuestaCorrecta": "Isaac Newton"
+  },
+  {
+    "id": 38,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué hueso protege el cerebro?",
+    "opciones": ["Vértebra", "Costilla", "Clavícula", "Cráneo"],
+    "respuestaCorrecta": "Cráneo"
+  },
+  {
+    "id": 39,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas compone la mayor parte de la atmósfera terrestre?",
+    "opciones": ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Argón"],
+    "respuestaCorrecta": "Nitrógeno"
+  },
+  {
+    "id": 40,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el metal más abundante en la corteza terrestre?",
+    "opciones": ["Hierro", "Aluminio", "Oro", "Cobre"],
+    "respuestaCorrecta": "Aluminio"
+  },
+  {
+    "id": 41,
+    "categoria": "Ciencia",
+    "pregunta": "¿La unidad de medida para la intensidad de la corriente eléctrica es el:",
+    "opciones": ["Voltio", "Ohmio", "Vatio", "Amperio"],
+    "respuestaCorrecta": "Amperio"
+  },
+  {
+    "id": 42,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico es conocido por la tabla periódica de los elementos?",
+    "opciones": ["Marie Curie", "Dmitri Mendeléyev", "Antoine Lavoisier", "John Dalton"],
+    "respuestaCorrecta": "Dmitri Mendeléyev"
+  },
+  {
+    "id": 43,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el órgano más grande del cuerpo humano?",
+    "opciones": ["El cerebro", "El corazón", "El hígado", "La piel"],
+    "respuestaCorrecta": "La piel"
+  },
+  {
+    "id": 44,
+    "categoria": "Ciencia",
+    "pregunta": "¿El estudio de los hongos se llama:",
+    "opciones": ["Virología", "Micología", "Botánica", "Ictiología"],
+    "respuestaCorrecta": "Micología"
+  },
+  {
+    "id": 45,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de eclipse ocurre cuando la Tierra se interpone entre el Sol y la Luna?",
+    "opciones": ["Eclipse solar", "Eclipse lunar", "Tránsito de Venus", "Ocultación"],
+    "respuestaCorrecta": "Eclipse lunar"
+  },
+  {
+    "id": 46,
+    "categoria": "Ciencia",
+    "pregunta": "¿La unidad básica de la herencia es:",
+    "opciones": ["El cromosoma", "El núcleo", "La célula", "El gen"],
+    "respuestaCorrecta": "El gen"
+  },
+  {
+    "id": 47,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el ácido que se encuentra en el estómago y ayuda a la digestión?",
+    "opciones": ["Ácido sulfúrico", "Ácido cítrico", "Ácido clorhídrico", "Ácido acético"],
+    "respuestaCorrecta": "Ácido clorhídrico"
+  },
+  {
+    "id": 48,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué inventó Thomas Edison?",
+    "opciones": ["El teléfono", "La bombilla incandescente", "El motor de gasolina", "La radio"],
+    "respuestaCorrecta": "La bombilla incandescente"
+  },
+  {
+    "id": 49,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la galaxia a la que pertenece nuestro sistema solar?",
+    "opciones": ["Andrómeda", "El Triángulo", "La Vía Láctea", "Centauro A"],
+    "respuestaCorrecta": "La Vía Láctea"
+  },
+  {
+    "id": 50,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cómo se llama el proceso por el cual las bacterias se multiplican asexualmente?",
+    "opciones": ["Fecundación", "Mitosis", "Bipartición", "Meiosis"],
+    "respuestaCorrecta": "Bipartición"
+  },
+  {
+    "id": 51,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico descubrió la penicilina?",
+    "opciones": ["Louis Pasteur", "Robert Koch", "Alexander Fleming", "Jonas Salk"],
+    "respuestaCorrecta": "Alexander Fleming"
+  },
+  {
+    "id": 52,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la fuerza que se opone al movimiento entre dos superficies en contacto?",
+    "opciones": ["Gravedad", "Fricción", "Tensión", "Inercia"],
+    "respuestaCorrecta": "Fricción"
+  },
+  {
+    "id": 53,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta tiene el sistema de anillos más prominente?",
+    "opciones": ["Júpiter", "Urano", "Neptuno", "Saturno"],
+    "respuestaCorrecta": "Saturno"
+  },
+  {
+    "id": 54,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué son las plaquetas en la sangre?",
+    "opciones": ["Células que transportan oxígeno", "Células de defensa", "Fragmentos que ayudan a la coagulación", "Células que transportan nutrientes"],
+    "respuestaCorrecta": "Fragmentos que ayudan a la coagulación"
+  },
+  {
+    "id": 55,
+    "categoria": "Ciencia",
+    "pregunta": "¿El aparato de Golgi se encuentra en qué parte de la célula?",
+    "opciones": ["Núcleo", "Mitocondria", "Membrana", "Citoplasma"],
+    "respuestaCorrecta": "Citoplasma"
+  },
+  {
+    "id": 56,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos lados tiene un pentágono?",
+    "opciones": ["Cuatro", "Cinco", "Seis", "Siete"],
+    "respuestaCorrecta": "Cinco"
+  },
+  {
+    "id": 57,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de lente utilizan las personas con miopía para ver de lejos?",
+    "opciones": ["Convexa", "Convergente", "Cilíndrica", "Cóncava"],
+    "respuestaCorrecta": "Cóncava"
+  },
+  {
+    "id": 58,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué órgano del cuerpo humano produce la bilis?",
+    "opciones": ["Riñón", "Páncreas", "Estómago", "Hígado"],
+    "respuestaCorrecta": "Hígado"
+  },
+  {
+    "id": 59,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es un meteorito?",
+    "opciones": ["Un cometa congelado", "Un asteroide que arde en la atmósfera", "Un fragmento de roca espacial que llega a la Tierra", "Una estrella fugaz"],
+    "respuestaCorrecta": "Un fragmento de roca espacial que llega a la Tierra"
+  },
+  {
+    "id": 60,
+    "categoria": "Ciencia",
+    "pregunta": "¿La enfermedad causada por la deficiencia de vitamina C se llama:",
+    "opciones": ["Raquitismo", "Escorbuto", "Anemia", "Poliomielitis"],
+    "respuestaCorrecta": "Escorbuto"
+  },
+  {
+    "id": 61,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué mide un sismógrafo?",
+    "opciones": ["Humedad", "Terremotos", "Temperatura", "Presión atmosférica"],
+    "respuestaCorrecta": "Terremotos"
+  },
+  {
+    "id": 62,
+    "categoria": "Ciencia",
+    "pregunta": "¿El color de la sangre arterial es:",
+    "opciones": ["Azul brillante", "Rojo oscuro", "Rojo brillante", "Transparente"],
+    "respuestaCorrecta": "Rojo brillante"
+  },
+  {
+    "id": 63,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es la 'gravedad'?",
+    "opciones": ["Fuerza que atrae objetos con masa", "Energía que genera el Sol", "Una forma de magnetismo", "La fuerza que detiene el movimiento"],
+    "respuestaCorrecta": "Fuerza que atrae objetos con masa"
+  },
+  {
+    "id": 64,
+    "categoria": "Ciencia",
+    "pregunta": "¿La unidad de resistencia eléctrica es el:",
+    "opciones": ["Voltio", "Amperio", "Vatio", "Ohmio"],
+    "respuestaCorrecta": "Ohmio"
+  },
+  {
+    "id": 65,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el componente principal del aire que exhalamos (además de nitrógeno)?",
+    "opciones": ["Oxígeno", "Vapor de agua", "Dióxido de carbono", "Monóxido de carbono"],
+    "respuestaCorrecta": "Dióxido de carbono"
+  },
+  {
+    "id": 66,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de célula no tiene núcleo definido?",
+    "opciones": ["Eucariota", "Procariota", "Animal", "Vegetal"],
+    "respuestaCorrecta": "Procariota"
+  },
+  {
+    "id": 67,
+    "categoria": "Ciencia",
+    "pregunta": "¿El estudio del universo en su conjunto se llama:",
+    "opciones": ["Astrofísica", "Geología", "Cosmología", "Meteorología"],
+    "respuestaCorrecta": "Cosmología"
+  },
+  {
+    "id": 68,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué hormona es producida por el páncreas y regula el azúcar en la sangre?",
+    "opciones": ["Adrenalina", "Tiroxina", "Insulina", "Estrógeno"],
+    "respuestaCorrecta": "Insulina"
+  },
+  {
+    "id": 69,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es un isótopo?",
+    "opciones": ["Un compuesto químico", "Átomos con diferente número de protones", "Átomos con diferente número de neutrones", "Una partícula fundamental"],
+    "respuestaCorrecta": "Átomos con diferente número de neutrones"
+  },
+  {
+    "id": 70,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la función principal de los glóbulos rojos?",
+    "opciones": ["Luchar contra infecciones", "Coagular la sangre", "Transportar oxígeno", "Producir anticuerpos"],
+    "respuestaCorrecta": "Transportar oxígeno"
+  },
+  {
+    "id": 71,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de energía utiliza un panel solar?",
+    "opciones": ["Eólica", "Geotérmica", "Térmica", "Solar"],
+    "respuestaCorrecta": "Solar"
+  },
+  {
+    "id": 72,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico desarrolló la teoría de la evolución por selección natural?",
+    "opciones": ["Gregor Mendel", "Charles Darwin", "Alfred Wallace", "Carl Linneo"],
+    "respuestaCorrecta": "Charles Darwin"
+  },
+  {
+    "id": 73,
+    "categoria": "Ciencia",
+    "pregunta": "¿El punto de congelación del agua en grados Fahrenheit es:",
+    "opciones": ["0°F", "32°F", "100°F", "212°F"],
+    "respuestaCorrecta": "32°F"
+  },
+  {
+    "id": 74,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué capa de la atmósfera terrestre contiene la capa de ozono?",
+    "opciones": ["Troposfera", "Mesosfera", "Estratosfera", "Termosfera"],
+    "respuestaCorrecta": "Estratosfera"
+  },
+  {
+    "id": 75,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es la 'masa' de un objeto?",
+    "opciones": ["La cantidad de espacio que ocupa", "La fuerza con la que la Tierra lo atrae", "La cantidad de materia que contiene", "Su densidad"],
+    "respuestaCorrecta": "La cantidad de materia que contiene"
+  },
+  {
+    "id": 76,
+    "categoria": "Ciencia",
+    "pregunta": "¿El pH neutro es igual a:",
+    "opciones": ["0", "7", "14", "10"],
+    "respuestaCorrecta": "7"
+  },
+  {
+    "id": 77,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el principal componente del gas natural?",
+    "opciones": ["Propano", "Butano", "Metano", "Etano"],
+    "respuestaCorrecta": "Metano"
+  },
+  {
+    "id": 78,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué parte del ojo humano se encarga de enfocar la luz en la retina?",
+    "opciones": ["La córnea", "El iris", "El cristalino", "La pupila"],
+    "respuestaCorrecta": "El cristalino"
+  },
+  {
+    "id": 79,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué estudia la paleontología?",
+    "opciones": ["Los océanos", "Los volcanes", "Los fósiles", "Los insectos"],
+    "respuestaCorrecta": "Los fósiles"
+  },
+  {
+    "id": 80,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de animales son los anfibios?",
+    "opciones": ["Que viven solo en tierra", "Que viven solo en agua", "Que pueden vivir en tierra y agua", "Que vuelan"],
+    "respuestaCorrecta": "Que pueden vivir en tierra y agua"
+  },
+  {
+    "id": 81,
+    "categoria": "Ciencia",
+    "pregunta": "¿El color de la luz con la longitud de onda más corta es:",
+    "opciones": ["Rojo", "Naranja", "Azul/Violeta", "Verde"],
+    "respuestaCorrecta": "Azul/Violeta"
+  },
+  {
+    "id": 82,
+    "categoria": "Ciencia",
+    "pregunta": "¿Quién inventó el teléfono?",
+    "opciones": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"],
+    "respuestaCorrecta": "Alexander Graham Bell"
+  },
+  {
+    "id": 83,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué mide la escala de Richter?",
+    "opciones": ["Temperatura", "Intensidad del viento", "Magnitud de un terremoto", "Presión del agua"],
+    "respuestaCorrecta": "Magnitud de un terremoto"
+  },
+  {
+    "id": 84,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es la 'capilaridad'?",
+    "opciones": ["El punto donde el agua hierve", "La tensión superficial del agua", "El movimiento del líquido a través de poros estrechos", "La resistencia eléctrica"],
+    "respuestaCorrecta": "El movimiento del líquido a través de poros estrechos"
+  },
+  {
+    "id": 85,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico propuso que los planetas orbitan el Sol (modelo heliocéntrico)?",
+    "opciones": ["Claudio Ptolomeo", "Nicolás Copérnico", "Johannes Kepler", "Tycho Brahe"],
+    "respuestaCorrecta": "Nicolás Copérnico"
+  },
+  {
+    "id": 86,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué órgano del cuerpo humano actúa como la 'central de energía' de la célula?",
+    "opciones": ["Núcleo", "Ribosoma", "Lisosoma", "Mitocondria"],
+    "respuestaCorrecta": "Mitocondria"
+  },
+  {
+    "id": 87,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el símbolo químico del oro?",
+    "opciones": ["Ag", "Au", "Fe", "Cu"],
+    "respuestaCorrecta": "Au"
+  },
+  {
+    "id": 88,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué órgano bombea la sangre a todo el cuerpo?",
+    "opciones": ["Riñón", "Pulmón", "Corazón", "Hígado"],
+    "respuestaCorrecta": "Corazón"
+  },
+  {
+    "id": 89,
+    "categoria": "Ciencia",
+    "pregunta": "¿De qué está hecha la mayor parte de la capa exterior de la Tierra (corteza)?",
+    "opciones": ["Magma líquido", "Hierro sólido", "Rocas y minerales", "Gases comprimidos"],
+    "respuestaCorrecta": "Rocas y minerales"
+  },
+  {
+    "id": 90,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es un 'híbrido' en biología?",
+    "opciones": ["Un animal clonado", "Un organismo con un gen mutado", "Un descendiente de dos especies distintas", "Una bacteria"],
+    "respuestaCorrecta": "Un descendiente de dos especies distintas"
+  },
+  {
+    "id": 91,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el gas noble más ligero?",
+    "opciones": ["Neón", "Argón", "Helio", "Kriptón"],
+    "respuestaCorrecta": "Helio"
+  },
+  {
+    "id": 92,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico es famoso por el experimento del 'gato en la caja' (paradoja de la mecánica cuántica)?",
+    "opciones": ["Niels Bohr", "Erwin Schrödinger", "Werner Heisenberg", "Max Planck"],
+    "respuestaCorrecta": "Erwin Schrödinger"
+  },
+  {
+    "id": 93,
+    "categoria": "Ciencia",
+    "pregunta": "¿La presión arterial se mide en unidades de:",
+    "opciones": ["Milímetros de mercurio (mmHg)", "Pascales", "Newtons", "Julios"],
+    "respuestaCorrecta": "Milímetros de mercurio (mmHg)"
+  },
+  {
+    "id": 94,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué fenómeno óptico separa la luz blanca en sus colores constituyentes (arcoíris)?",
+    "opciones": ["Reflexión", "Refracción", "Difracción", "Dispersión"],
+    "respuestaCorrecta": "Dispersión"
+  },
+  {
+    "id": 95,
+    "categoria": "Ciencia",
+    "pregunta": "¿A qué se le llama 'fuerza centrípeta'?",
+    "opciones": ["Fuerza que aleja del centro", "Fuerza de fricción", "Fuerza que atrae hacia el centro de una trayectoria curva", "Fuerza generada por imanes"],
+    "respuestaCorrecta": "Fuerza que atrae hacia el centro de una trayectoria curva"
+  },
+  {
+    "id": 96,
+    "categoria": "Ciencia",
+    "pregunta": "¿Los compuestos con un pH menor a 7 son:",
+    "opciones": ["Básicos", "Neutros", "Alcalinos", "Ácidos"],
+    "respuestaCorrecta": "Ácidos"
+  },
+  {
+    "id": 97,
+    "categoria": "Ciencia",
+    "pregunta": "¿El proceso de convertir la luz solar en energía química en las plantas se llama:",
+    "opciones": ["Transpiración", "Respiración", "Fototropismo", "Fotosíntesis"],
+    "respuestaCorrecta": "Fotosíntesis"
+  },
+  {
+    "id": 98,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el hueso más largo del cuerpo humano?",
+    "opciones": ["Tibia", "Peroné", "Fémur", "Húmero"],
+    "respuestaCorrecta": "Fémur"
+  },
+  {
+    "id": 99,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué se necesita para que una combustión ocurra?",
+    "opciones": ["Agua, combustible y calor", "Combustible, oxígeno y calor", "Dióxido de carbono y oxígeno", "Electricidad y agua"],
+    "respuestaCorrecta": "Combustible, oxígeno y calor"
+  },
+  {
+    "id": 100,
+    "categoria": "Ciencia",
+    "pregunta": "¿La capa de gases que rodea la Tierra se llama:",
+    "opciones": ["Biosfera", "Hidrosfera", "Litosfera", "Atmósfera"],
+    "respuestaCorrecta": "Atmósfera"
+  },
+  {
+    "id": 101,
+    "categoria": "Ciencia",
+    "pregunta": "¿La rama de la física que estudia el calor y la temperatura es:",
+    "opciones": ["Mecánica", "Termodinámica", "Óptica", "Electromagnetismo"],
+    "respuestaCorrecta": "Termodinámica"
+  },
+  {
+    "id": 102,
+    "categoria": "Ciencia",
+    "pregunta": "¿El proceso de división de células sexuales se llama:",
+    "opciones": ["Mitosis", "Fisión binaria", "Meiosis", "Gemación"],
+    "respuestaCorrecta": "Meiosis"
+  },
+  {
+    "id": 103,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué químico desarrolló la vacuna contra la rabia?",
+    "opciones": ["Edward Jenner", "Louis Pasteur", "Robert Koch", "Marie Curie"],
+    "respuestaCorrecta": "Louis Pasteur"
+  },
+  {
+    "id": 104,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la velocidad máxima de propagación de cualquier interacción física?",
+    "opciones": ["Velocidad del sonido", "Velocidad de la luz", "Velocidad de la gravedad", "Velocidad del electrón"],
+    "respuestaCorrecta": "Velocidad de la luz"
+  },
+  {
+    "id": 105,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico demostró que la Tierra gira alrededor del Sol?",
+    "opciones": ["Ptolomeo", "Aristóteles", "Copérnico", "Kepler"],
+    "respuestaCorrecta": "Copérnico"
+  },
+  {
+    "id": 106,
+    "categoria": "Ciencia",
+    "pregunta": "¿Los organismos que producen su propio alimento se llaman:",
+    "opciones": ["Consumidores", "Descomponedores", "Autótrofos", "Heterótrofos"],
+    "respuestaCorrecta": "Autótrofos"
+  },
+  {
+    "id": 107,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el símbolo químico del dióxido de carbono?",
+    "opciones": ["CO", "O2", "C2O", "CO2"],
+    "respuestaCorrecta": "CO2"
+  },
+  {
+    "id": 108,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué parte del sistema nervioso central controla el equilibrio y la postura?",
+    "opciones": ["Cerebro", "Cerebelo", "Tronco encefálico", "Médula espinal"],
+    "respuestaCorrecta": "Cerebelo"
+  },
+  {
+    "id": 109,
+    "categoria": "Ciencia",
+    "pregunta": "¿La fuerza que mantiene unidas a las moléculas de agua en la superficie se llama:",
+    "opciones": ["Adhesión", "Cohesión", "Tensión superficial", "Viscosidad"],
+    "respuestaCorrecta": "Tensión superficial"
+  },
+  {
+    "id": 110,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de animales son los mamíferos?",
+    "opciones": ["Ponen huevos", "Son de sangre fría", "Alimentan a sus crías con leche", "Tienen escamas"],
+    "respuestaCorrecta": "Alimentan a sus crías con leche"
+  },
+  {
+    "id": 111,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el nombre científico del ser humano?",
+    "opciones": ["Australopithecus", "Homo Erectus", "Homo Sapiens", "Homo Habilis"],
+    "respuestaCorrecta": "Homo Sapiens"
+  },
+  {
+    "id": 112,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico inventó la máquina de vapor moderna?",
+    "opciones": ["James Watt", "George Stephenson", "Richard Trevithick", "Nikolaus Otto"],
+    "respuestaCorrecta": "James Watt"
+  },
+  {
+    "id": 113,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la unidad básica de la vida?",
+    "opciones": ["Molécula", "Tejido", "Célula", "Órgano"],
+    "respuestaCorrecta": "Célula"
+  },
+  {
+    "id": 114,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento tiene el número atómico 1?",
+    "opciones": ["Helio", "Oxígeno", "Hidrógeno", "Carbono"],
+    "respuestaCorrecta": "Hidrógeno"
+  },
+  {
+    "id": 115,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cómo se llama el instrumento que se utiliza para medir la temperatura?",
+    "opciones": ["Barómetro", "Anemómetro", "Termómetro", "Higrómetro"],
+    "respuestaCorrecta": "Termómetro"
+  },
+  {
+    "id": 116,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico descubrió que la órbita de los planetas es elíptica?",
+    "opciones": ["Galileo Galilei", "Isaac Newton", "Johannes Kepler", "Nicolás Copérnico"],
+    "respuestaCorrecta": "Johannes Kepler"
+  },
+  {
+    "id": 117,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es un 'neutrón'?",
+    "opciones": ["Partícula sin carga en el núcleo del átomo", "Partícula con carga positiva", "Partícula con carga negativa", "Una forma de energía"],
+    "respuestaCorrecta": "Partícula sin carga en el núcleo del átomo"
+  },
+  {
+    "id": 118,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la función principal del páncreas?",
+    "opciones": ["Filtrar la sangre", "Producir bilis", "Regular la temperatura", "Producir insulina y enzimas digestivas"],
+    "respuestaCorrecta": "Producir insulina y enzimas digestivas"
+  },
+  {
+    "id": 119,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué son los 'Agujeros Negros'?",
+    "opciones": ["Regiones del espacio sin estrellas", "Zonas de extrema gravedad de donde ni la luz escapa", "Nubes de gas y polvo", "Estrellas en formación"],
+    "respuestaCorrecta": "Zonas de extrema gravedad de donde ni la luz escapa"
+  },
+  {
+    "id": 120,
+    "categoria": "Ciencia",
+    "pregunta": "¿La unidad de medida de la frecuencia es:",
+    "opciones": ["Julio", "Vatio", "Hertz", "Newton"],
+    "respuestaCorrecta": "Hertz"
+  },
+  {
+    "id": 121,
+    "categoria": "Ciencia",
+    "pregunta": "¿El color del hierro oxidado (óxido de hierro) es generalmente:",
+    "opciones": ["Verde", "Azul", "Rojo/Naranja", "Negro"],
+    "respuestaCorrecta": "Rojo/Naranja"
+  },
+  {
+    "id": 122,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué famoso científico fue el primero en observar la Luna y los satélites de Júpiter con un telescopio?",
+    "opciones": ["Isaac Newton", "Galileo Galilei", "Edmond Halley", "Carl Sagan"],
+    "respuestaCorrecta": "Galileo Galilei"
+  },
+  {
+    "id": 123,
+    "categoria": "Ciencia",
+    "pregunta": "¿La longitud de onda más larga de la luz visible corresponde al color:",
+    "opciones": ["Azul", "Verde", "Violeta", "Rojo"],
+    "respuestaCorrecta": "Rojo"
+  },
+  {
+    "id": 124,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la función principal de los pulmones?",
+    "opciones": ["Filtrar la sangre", "Procesar alimentos", "Intercambiar gases (O2 y CO2)", "Controlar el ritmo cardíaco"],
+    "respuestaCorrecta": "Intercambiar gases (O2 y CO2)"
+  },
+  {
+    "id": 125,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué metal se encuentra en estado líquido a temperatura ambiente?",
+    "opciones": ["Plata", "Aluminio", "Mercurio", "Plomo"],
+    "respuestaCorrecta": "Mercurio"
+  },
+  {
+    "id": 126,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es un 'virus'?",
+    "opciones": ["Una bacteria grande", "Un hongo", "Un parásito unicelular", "Un agente infeccioso que requiere una célula huésped"],
+    "respuestaCorrecta": "Un agente infeccioso que requiere una célula huésped"
+  },
+  {
+    "id": 127,
+    "categoria": "Ciencia",
+    "pregunta": "¿La fuerza que se usa para medir el peso de un objeto es:",
+    "opciones": ["Masa", "Gravedad", "Fricción", "Inercia"],
+    "respuestaCorrecta": "Gravedad"
+  },
+  {
+    "id": 128,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el principal gas de efecto invernadero responsable del calentamiento global?",
+    "opciones": ["Oxígeno", "Metano", "Nitrógeno", "Dióxido de carbono"],
+    "respuestaCorrecta": "Dióxido de carbono"
+  },
+  {
+    "id": 129,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el planeta más grande de nuestro sistema solar?",
+    "opciones": ["Saturno", "Urano", "Júpiter", "Tierra"],
+    "respuestaCorrecta": "Júpiter"
+  },
+  {
+    "id": 130,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es la 'clorofila'?",
+    "opciones": ["Una enzima digestiva", "El pigmento verde que permite la fotosíntesis", "Una hormona vegetal", "Un tipo de azúcar"],
+    "respuestaCorrecta": "El pigmento verde que permite la fotosíntesis"
+  },
+  {
+    "id": 131,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es un 'agujero de gusano' en física teórica?",
+    "opciones": ["Un tipo de estrella", "Un túnel espacio-tiempo que conecta puntos distantes", "Un tipo de agujero negro", "Una galaxia colapsada"],
+    "respuestaCorrecta": "Un túnel espacio-tiempo que conecta puntos distantes"
+  },
+  {
+    "id": 132,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el metal más denso conocido?",
+    "opciones": ["Oro", "Platino", "Osmio", "Plomo"],
+    "respuestaCorrecta": "Osmio"
+  },
+  {
+    "id": 133,
+    "categoria": "Ciencia",
+    "pregunta": "¿La disciplina que se ocupa del estudio de los átomos y moléculas se llama:",
+    "opciones": ["Biología molecular", "Física de partículas", "Química", "Bioquímica"],
+    "respuestaCorrecta": "Química"
+  },
+  {
+    "id": 134,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué parte de la célula contiene la información genética (ADN)?",
+    "opciones": ["Citoplasma", "Ribosomas", "Membrana celular", "Núcleo"],
+    "respuestaCorrecta": "Núcleo"
+  },
+  {
+    "id": 135,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de eclipse ocurre cuando la Luna se interpone entre el Sol y la Tierra?",
+    "opciones": ["Eclipse solar", "Eclipse lunar", "Tránsito de Mercurio", "Ocultación"],
+    "respuestaCorrecta": "Eclipse solar"
+  },
+  {
+    "id": 136,
+    "categoria": "Ciencia",
+    "pregunta": "¿La unidad de medida para la potencia eléctrica es el:",
+    "opciones": ["Ohmio", "Voltio", "Vatio (Watt)", "Amperio"],
+    "respuestaCorrecta": "Vatio (Watt)"
+  },
+  {
+    "id": 137,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento tiene el símbolo 'K'?",
+    "opciones": ["Potasio", "Kriptón", "Kobalio", "Calcio"],
+    "respuestaCorrecta": "Potasio"
+  },
+  {
+    "id": 138,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la función principal de las células nerviosas (neuronas)?",
+    "opciones": ["Transportar oxígeno", "Producir hormonas", "Generar movimientos", "Transmitir información"],
+    "respuestaCorrecta": "Transmitir información"
+  },
+  {
+    "id": 139,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es un 'cometa'?",
+    "opciones": ["Un asteroide de metal", "Un cuerpo de hielo y polvo que orbita el Sol", "Una estrella fugaz", "Un planeta enano"],
+    "respuestaCorrecta": "Un cuerpo de hielo y polvo que orbita el Sol"
+  },
+  {
+    "id": 140,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el nombre del gas que se utiliza en los globos aerostáticos para hacerlos flotar?",
+    "opciones": ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Helio"],
+    "respuestaCorrecta": "Helio"
+  },
+  {
+    "id": 141,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de animal es el ornitorrinco?",
+    "opciones": ["Reptil", "Ave", "Mamífero que pone huevos", "Anfibio"],
+    "respuestaCorrecta": "Mamífero que pone huevos"
+  },
+  {
+    "id": 142,
+    "categoria": "Ciencia",
+    "pregunta": "¿Quién inventó la imprenta moderna?",
+    "opciones": ["Leonardo da Vinci", "Johannes Gutenberg", "Galileo Galilei", "Thomas Edison"],
+    "respuestaCorrecta": "Johannes Gutenberg"
+  },
+  {
+    "id": 143,
+    "categoria": "Ciencia",
+    "pregunta": "¿La disciplina que estudia las plantas se llama:",
+    "opciones": ["Zoología", "Micología", "Botánica", "Geología"],
+    "respuestaCorrecta": "Botánica"
+  },
+  {
+    "id": 144,
+    "categoria": "Ciencia",
+    "pregunta": "¿El símbolo químico de la plata es:",
+    "opciones": ["Pt", "Au", "Ag", "Pb"],
+    "respuestaCorrecta": "Ag"
+  },
+  {
+    "id": 145,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la temperatura normal del cuerpo humano en grados Celsius?",
+    "opciones": ["36.0°C", "37.0°C", "38.5°C", "39.0°C"],
+    "respuestaCorrecta": "37.0°C"
+  },
+  {
+    "id": 146,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué ley de Newton establece que a toda acción corresponde una reacción igual y opuesta?",
+    "opciones": ["Primera Ley", "Segunda Ley", "Tercera Ley", "Ley de Gravitación"],
+    "respuestaCorrecta": "Tercera Ley"
+  },
+  {
+    "id": 147,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué componente del ADN determina las características hereditarias?",
+    "opciones": ["El azúcar (desoxirribosa)", "El grupo fosfato", "Las bases nitrogenadas", "El agua"],
+    "respuestaCorrecta": "Las bases nitrogenadas"
+  },
+  {
+    "id": 148,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué glándula produce la hormona de crecimiento?",
+    "opciones": ["Tiroides", "Suprarrenal", "Hipotálamo", "Hipófisis (Pituitaria)"],
+    "respuestaCorrecta": "Hipófisis (Pituitaria)"
+  },
+  {
+    "id": 149,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el elemento químico esencial para la vida que tiene la capacidad de formar largas cadenas?",
+    "opciones": ["Oxígeno", "Hidrógeno", "Nitrógeno", "Carbono"],
+    "respuestaCorrecta": "Carbono"
+  },
+  {
+    "id": 150,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es la 'entropía' en termodinámica?",
+    "opciones": ["Medida de la temperatura", "Medida de la potencia", "Medida del desorden de un sistema", "Medida de la energía potencial"],
+    "respuestaCorrecta": "Medida del desorden de un sistema"
+  },
+  {
+    "id": 151,
+    "categoria": "Ciencia",
+    "pregunta": "¿Quién descubrió el átomo y lo describió como una esfera maciza, indivisible e indestructible?",
+    "opciones": ["Ernest Rutherford", "Niels Bohr", "John Dalton", "Joseph Thomson"],
+    "respuestaCorrecta": "John Dalton"
+  },
+  {
+    "id": 152,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el proceso de conversión de vapor de agua en líquido?",
+    "opciones": ["Evaporación", "Sublimación", "Fusión", "Condensación"],
+    "respuestaCorrecta": "Condensación"
+  },
+  {
+    "id": 153,
+    "categoria": "Ciencia",
+    "pregunta": "¿La sangre se vuelve de color rojo oscuro cuando carece de:",
+    "opciones": ["Glucosa", "Oxígeno", "Plaquetas", "Glóbulos blancos"],
+    "respuestaCorrecta": "Oxígeno"
+  },
+  {
+    "id": 154,
+    "categoria": "Ciencia",
+    "pregunta": "¿El órgano que filtra la sangre y produce la orina es:",
+    "opciones": ["Hígado", "Páncreas", "Riñón", "Bazo"],
+    "respuestaCorrecta": "Riñón"
+  },
+  {
+    "id": 155,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es un 'tsunami'?",
+    "opciones": ["Un volcán submarino", "Una tormenta tropical intensa", "Una ola gigante causada por terremotos submarinos", "Un remolino de agua"],
+    "respuestaCorrecta": "Una ola gigante causada por terremotos submarinos"
+  },
+  {
+    "id": 156,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué metal se utiliza en la fabricación de baterías de ion-litio?",
+    "opciones": ["Plomo", "Cobre", "Litio", "Cadmio"],
+    "respuestaCorrecta": "Litio"
+  },
+  {
+    "id": 157,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el hueso que comúnmente se conoce como 'rótula'?",
+    "opciones": ["Patela", "Tibia", "Fíbula", "Cúbito"],
+    "respuestaCorrecta": "Patela"
+  },
+  {
+    "id": 158,
+    "categoria": "Ciencia",
+    "pregunta": "¿La rama de la biología que estudia la herencia se llama:",
+    "opciones": ["Ecología", "Genética", "Anatomía", "Fisiología"],
+    "respuestaCorrecta": "Genética"
+  },
+  {
+    "id": 159,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es la 'densidad'?",
+    "opciones": ["Masa por unidad de volumen", "Volumen por unidad de área", "Peso por unidad de tiempo", "Fuerza por unidad de longitud"],
+    "respuestaCorrecta": "Masa por unidad de volumen"
+  },
+  {
+    "id": 160,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el nombre del primer homínido conocido en usar herramientas de piedra?",
+    "opciones": ["Homo Sapiens", "Homo Erectus", "Homo Habilis", "Australopithecus"],
+    "respuestaCorrecta": "Homo Habilis"
+  },
+  {
+    "id": 161,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de número es el valor de Pi (π)?",
+    "opciones": ["Racional", "Entero", "Irracional", "Fraccionario"],
+    "respuestaCorrecta": "Irracional"
+  },
+  {
+    "id": 162,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico es considerado el padre de la química moderna?",
+    "opciones": ["Robert Boyle", "Antoine Lavoisier", "John Dalton", "Jöns Jacob Berzelius"],
+    "respuestaCorrecta": "Antoine Lavoisier"
+  },
+  {
+    "id": 163,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el componente básico de las proteínas?",
+    "opciones": ["Glucosa", "Lípidos", "Ácidos nucleicos", "Aminoácidos"],
+    "respuestaCorrecta": "Aminoácidos"
+  },
+  {
+    "id": 164,
+    "categoria": "Ciencia",
+    "pregunta": "¿El órgano que regula la temperatura corporal es:",
+    "opciones": ["Hipófisis", "Hipocampo", "Cerebelo", "Hipotálamo"],
+    "respuestaCorrecta": "Hipotálamo"
+  },
+  {
+    "id": 165,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es un 'pulso electromagnético' (EMP)?",
+    "opciones": ["Una tormenta solar", "Una explosión nuclear controlada", "Una breve ráfaga de radiación electromagnética intensa", "Una onda de radio de baja frecuencia"],
+    "respuestaCorrecta": "Una breve ráfaga de radiación electromagnética intensa"
+  },
+  {
+    "id": 166,
+    "categoria": "Ciencia",
+    "pregunta": "¿La unidad de medida de la diferencia de potencial eléctrico (voltaje) es el:",
+    "opciones": ["Amperio", "Vatio", "Ohmio", "Voltio"],
+    "respuestaCorrecta": "Voltio"
+  },
+  {
+    "id": 167,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el símbolo químico del Calcio?",
+    "opciones": ["Ca", "Cl", "K", "Cd"],
+    "respuestaCorrecta": "Ca"
+  },
+  {
+    "id": 168,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de reacción química libera energía en forma de calor y luz?",
+    "opciones": ["Endotérmica", "Síntesis", "Exotérmica", "Descomposición"],
+    "respuestaCorrecta": "Exotérmica"
+  },
+  {
+    "id": 169,
+    "categoria": "Ciencia",
+    "pregunta": "¿El proceso de convertir un sólido directamente en gas, sin pasar por líquido, se llama:",
+    "opciones": ["Evaporación", "Condensación", "Sublimación", "Fusión"],
+    "respuestaCorrecta": "Sublimación"
+  },
+  {
+    "id": 170,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es un 'clon'?",
+    "opciones": ["Un organismo genéticamente distinto", "Un organismo genéticamente idéntico a otro", "Un híbrido", "Un organismo que se reproduce sexualmente"],
+    "respuestaCorrecta": "Un organismo genéticamente idéntico a otro"
+  },
+  {
+    "id": 171,
+    "categoria": "Ciencia",
+    "pregunta": "¿Quién formuló la teoría de que la materia y la energía son intercambiables (E=mc²)?",
+    "opciones": ["Max Planck", "Marie Curie", "Albert Einstein", "Stephen Hawking"],
+    "respuestaCorrecta": "Albert Einstein"
+  },
+  {
+    "id": 172,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué fenómeno natural es la principal fuente de energía de los huracanes?",
+    "opciones": ["La gravedad", "La energía geotérmica", "El calor latente del agua condensada", "La energía eólica"],
+    "respuestaCorrecta": "El calor latente del agua condensada"
+  },
+  {
+    "id": 173,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la capa protectora alrededor de la Tierra que nos protege de la radiación ultravioleta?",
+    "opciones": ["Troposfera", "Litosfera", "Capa de Ozono", "Ionosfera"],
+    "respuestaCorrecta": "Capa de Ozono"
+  },
+  {
+    "id": 174,
+    "categoria": "Ciencia",
+    "pregunta": "¿El estudio de la forma y estructura de los organismos se llama:",
+    "opciones": ["Fisiología", "Genética", "Anatomía", "Ecología"],
+    "respuestaCorrecta": "Anatomía"
+  },
+  {
+    "id": 175,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es la 'potencia' en física?",
+    "opciones": ["Fuerza por distancia", "Trabajo realizado por unidad de tiempo", "Energía total", "Velocidad constante"],
+    "respuestaCorrecta": "Trabajo realizado por unidad de tiempo"
+  },
+  {
+    "id": 176,
+    "categoria": "Ciencia",
+    "pregunta": "¿El mineral más duro conocido es:",
+    "opciones": ["Cuarzo", "Topacio", "Diamante", "Corindón"],
+    "respuestaCorrecta": "Diamante"
+  },
+  {
+    "id": 177,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué partícula tiene carga positiva y se encuentra en el núcleo del átomo?",
+    "opciones": ["Electrón", "Neutrón", "Protón", "Gluón"],
+    "respuestaCorrecta": "Protón"
+  },
+  {
+    "id": 178,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la función principal de los glóbulos blancos?",
+    "opciones": ["Transportar oxígeno", "Coagular la sangre", "Proteger el cuerpo contra infecciones", "Eliminar desechos"],
+    "respuestaCorrecta": "Proteger el cuerpo contra infecciones"
+  },
+  {
+    "id": 179,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de estrella está en la etapa final de su vida, con una densidad extremadamente alta?",
+    "opciones": ["Gigante roja", "Enana blanca", "Supernova", "Agujero negro"],
+    "respuestaCorrecta": "Enana blanca"
+  },
+  {
+    "id": 180,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cómo se llama el proceso de copiar el ADN para crear una nueva cadena?",
+    "opciones": ["Traducción", "Transcripción", "Replicación", "Mutación"],
+    "respuestaCorrecta": "Replicación"
+  },
+  {
+    "id": 181,
+    "categoria": "Ciencia",
+    "pregunta": "¿La enfermedad causada por la deficiencia de yodo se llama:",
+    "opciones": ["Diabetes", "Raquitismo", "Bocio", "Ceguera nocturna"],
+    "respuestaCorrecta": "Bocio"
+  },
+  {
+    "id": 182,
+    "categoria": "Ciencia",
+    "pregunta": "¿Quién descubrió el neutrón?",
+    "opciones": ["Ernest Rutherford", "Niels Bohr", "James Chadwick", "J. J. Thomson"],
+    "respuestaCorrecta": "James Chadwick"
+  },
+  {
+    "id": 183,
+    "categoria": "Ciencia",
+    "pregunta": "¿El instrumento utilizado para ver objetos muy pequeños (células, bacterias) es el:",
+    "opciones": ["Telescopio", "Periscopio", "Microscopio", "Barómetro"],
+    "respuestaCorrecta": "Microscopio"
+  },
+  {
+    "id": 184,
+    "categoria": "Ciencia",
+    "pregunta": "¿El fenómeno de atracción entre dos moléculas distintas se llama:",
+    "opciones": ["Cohesión", "Tensión superficial", "Adhesión", "Capilaridad"],
+    "respuestaCorrecta": "Adhesión"
+  },
+  {
+    "id": 185,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la principal fuente de energía de la Tierra?",
+    "opciones": ["El núcleo terrestre", "La Luna", "El Sol", "La energía eólica"],
+    "respuestaCorrecta": "El Sol"
+  },
+  {
+    "id": 186,
+    "categoria": "Ciencia",
+    "pregunta": "¿Los organismos que se alimentan de otros organismos se llaman:",
+    "opciones": ["Autótrofos", "Productores", "Heterótrofos", "Descomponedores"],
+    "respuestaCorrecta": "Heterótrofos"
+  },
+  {
+    "id": 187,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el símbolo químico del Potasio?",
+    "opciones": ["Po", "P", "K", "Pt"],
+    "respuestaCorrecta": "K"
+  },
+  {
+    "id": 188,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué órgano es afectado principalmente por la cirrosis?",
+    "opciones": ["Riñón", "Páncreas", "Hígado", "Corazón"],
+    "respuestaCorrecta": "Hígado"
+  },
+  {
+    "id": 189,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el nombre del gas que se utiliza en la mayoría de los globos de fiesta para que floten?",
+    "opciones": ["Oxígeno", "Hidrógeno", "Nitrógeno", "Helio"],
+    "respuestaCorrecta": "Helio"
+  },
+  {
+    "id": 190,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué proceso químico convierte el azúcar en alcohol o ácidos, utilizando microorganismos?",
+    "opciones": ["Destilación", "Fermentación", "Saponificación", "Neutralización"],
+    "respuestaCorrecta": "Fermentación"
+  },
+  {
+    "id": 191,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es un 'huso horario'?",
+    "opciones": ["Una unidad de medida de tiempo espacial", "Región de la Tierra que comparte la misma hora estándar", "Un tipo de reloj solar", "Una línea de latitud"],
+    "respuestaCorrecta": "Región de la Tierra que comparte la misma hora estándar"
+  },
+  {
+    "id": 192,
+    "categoria": "Ciencia",
+    "pregunta": "¿Quién inventó el transistor?",
+    "opciones": ["Robert Noyce", "Jack Kilby", "Shockley, Bardeen y Brattain", "Alan Turing"],
+    "respuestaCorrecta": "Shockley, Bardeen y Brattain"
+  },
+  {
+    "id": 193,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la sustancia más abundante en el cuerpo humano?",
+    "opciones": ["Proteínas", "Grasas", "Agua", "Minerales"],
+    "respuestaCorrecta": "Agua"
+  },
+  {
+    "id": 194,
+    "categoria": "Ciencia",
+    "pregunta": "¿El símbolo químico del Bario es:",
+    "opciones": ["Ba", "B", "Be", "Bi"],
+    "respuestaCorrecta": "Ba"
+  },
+  {
+    "id": 195,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué fenómeno óptico permite que la luz se 'doble' al pasar de un medio a otro?",
+    "opciones": ["Reflexión", "Dispersión", "Refracción", "Absorción"],
+    "respuestaCorrecta": "Refracción"
+  },
+  {
+    "id": 196,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué parte de la planta se encarga de la absorción de agua y nutrientes del suelo?",
+    "opciones": ["Hojas", "Flores", "Tallo", "Raíz"],
+    "respuestaCorrecta": "Raíz"
+  },
+  {
+    "id": 197,
+    "categoria": "Ciencia",
+    "pregunta": "¿El nombre del azúcar en la sangre es:",
+    "opciones": ["Sacarosa", "Lactosa", "Glucosa", "Fructosa"],
+    "respuestaCorrecta": "Glucosa"
+  },
+  {
+    "id": 198,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es la 'energía cinética'?",
+    "opciones": ["Energía almacenada en reposo", "Energía debida al movimiento", "Energía térmica", "Energía nuclear"],
+    "respuestaCorrecta": "Energía debida al movimiento"
+  },
+  {
+    "id": 199,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el nombre del primer satélite artificial lanzado al espacio?",
+    "opciones": ["Apollo 11", "Voyager 1", "Sputnik 1", "Hubble"],
+    "respuestaCorrecta": "Sputnik 1"
+  },
+  {
+    "id": 200,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué estructura de la célula vegetal es responsable de su rigidez?",
+    "opciones": ["Mitocondria", "Vacuola", "Membrana plasmática", "Pared celular"],
+    "respuestaCorrecta": "Pared celular"
+  },
+  {
+    "id": 201,
+    "categoria": "Ciencia",
+    "pregunta": "¿La fuerza de la gravedad en la Luna es aproximadamente qué fracción de la gravedad terrestre?",
+    "opciones": ["1/2", "1/4", "1/6", "1/10"],
+    "respuestaCorrecta": "1/6"
+  },
+  {
+    "id": 202,
+    "categoria": "Ciencia",
+    "pregunta": "¿Quién descubrió el núcleo atómico mediante el experimento de la lámina de oro?",
+    "opciones": ["Niels Bohr", "Ernest Rutherford", "J. J. Thomson", "John Dalton"],
+    "respuestaCorrecta": "Ernest Rutherford"
+  },
+  {
+    "id": 203,
+    "categoria": "Ciencia",
+    "pregunta": "¿La unidad de medida de la fuerza es el:",
+    "opciones": ["Julio", "Vatio", "Newton", "Pascal"],
+    "respuestaCorrecta": "Newton"
+  },
+  {
+    "id": 204,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué científico fue el padre de la genética moderna al estudiar guisantes?",
+    "opciones": ["Charles Darwin", "Gregor Mendel", "James Watson", "Francis Crick"],
+    "respuestaCorrecta": "Gregor Mendel"
+  },
+  {
+    "id": 205,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el único mamífero que puede volar?",
+    "opciones": ["Ardilla voladora", "Murciélago", "Pterodáctilo", "Pingüino"],
+    "respuestaCorrecta": "Murciélago"
+  },
+  {
+    "id": 206,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué capa de la Tierra está compuesta principalmente de roca fundida (magma)?",
+    "opciones": ["Núcleo interno", "Corteza", "Núcleo externo", "Manto"],
+    "respuestaCorrecta": "Manto"
+  },
+  {
+    "id": 207,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el metal líquido más denso a temperatura ambiente (después del osmio)?",
+    "opciones": ["Plomo", "Oro", "Mercurio", "Tungsteno"],
+    "respuestaCorrecta": "Mercurio"
+  },
+  {
+    "id": 208,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es la 'anemia'?",
+    "opciones": ["Falta de vitamina C", "Baja producción de insulina", "Deficiencia de glóbulos rojos o hemoglobina", "Infección bacteriana"],
+    "respuestaCorrecta": "Deficiencia de glóbulos rojos o hemoglobina"
+  },
+  {
+    "id": 209,
+    "categoria": "Ciencia",
+    "pregunta": "¿El fenómeno de atracción entre dos moléculas del mismo tipo se llama:",
+    "opciones": ["Adhesión", "Cohesión", "Tensión superficial", "Viscosidad"],
+    "respuestaCorrecta": "Cohesión"
+  },
+  {
+    "id": 210,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es un 'holograma'?",
+    "opciones": ["Una pintura 3D", "Una imagen 3D creada por láseres", "Una imagen en 2D de alta resolución", "Un modelo de escultura"],
+    "respuestaCorrecta": "Una imagen 3D creada por láseres"
+  },
+  {
+    "id": 211,
+    "categoria": "Ciencia",
+    "pregunta": "¿Quién descubrió el electrón?",
+    "opciones": ["Ernest Rutherford", "J. J. Thomson", "Niels Bohr", "James Chadwick"],
+    "respuestaCorrecta": "J. J. Thomson"
+  },
+  {
+    "id": 212,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la unidad de medida para la presión?",
+    "opciones": ["Newton", "Julio", "Pascal", "Vatio"],
+    "respuestaCorrecta": "Pascal"
+  },
+  {
+    "id": 213,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de célula es la neurona?",
+    "opciones": ["Célula muscular", "Célula sanguínea", "Célula nerviosa", "Célula ósea"],
+    "respuestaCorrecta": "Célula nerviosa"
+  },
+  {
+    "id": 214,
+    "categoria": "Ciencia",
+    "pregunta": "¿El proceso de curtir la piel se llama:",
+    "opciones": ["Melanización", "Fotólisis", "Bronceado", "Exfoliación"],
+    "respuestaCorrecta": "Bronceado"
+  },
+  {
+    "id": 215,
+    "categoria": "Ciencia",
+    "pregunta": "¿La capacidad de un cuerpo de producir trabajo se llama:",
+    "opciones": ["Potencia", "Fuerza", "Energía", "Velocidad"],
+    "respuestaCorrecta": "Energía"
+  },
+  {
+    "id": 216,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el metal más ligero conocido?",
+    "opciones": ["Aluminio", "Litio", "Sodio", "Magnesio"],
+    "respuestaCorrecta": "Litio"
+  },
+  {
+    "id": 217,
+    "categoria": "Ciencia",
+    "pregunta": "¿El símbolo químico del Níquel es:",
+    "opciones": ["Ni", "Na", "N", "Ne"],
+    "respuestaCorrecta": "Ni"
+  },
+  {
+    "id": 218,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es la 'presbicia'?",
+    "opciones": ["Visión borrosa de lejos", "Dificultad para distinguir colores", "Pérdida de la capacidad de enfocar de cerca con la edad", "Glaucoma"],
+    "respuestaCorrecta": "Pérdida de la capacidad de enfocar de cerca con la edad"
+  },
+  {
+    "id": 219,
+    "categoria": "Ciencia",
+    "pregunta": "¿El instrumento para medir la intensidad del viento es el:",
+    "opciones": ["Barómetro", "Anemómetro", "Termómetro", "Pluviómetro"],
+    "respuestaCorrecta": "Anemómetro"
+  },
+  {
+    "id": 220,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de animal es un cetáceo?",
+    "opciones": ["Pez", "Reptil", "Mamífero marino", "Anfibio"],
+    "respuestaCorrecta": "Mamífero marino"
+  },
+  {
+    "id": 221,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es una 'erupción volcánica'?",
+    "opciones": ["Un terremoto", "Liberación de gases, lava y ceniza desde el interior de la Tierra", "Una tormenta tropical", "Un cambio de placas tectónicas"],
+    "respuestaCorrecta": "Liberación de gases, lava y ceniza desde el interior de la Tierra"
+  },
+  {
+    "id": 222,
+    "categoria": "Ciencia",
+    "pregunta": "¿Quién inventó el motor de corriente alterna (AC)?",
+    "opciones": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "James Watt"],
+    "respuestaCorrecta": "Nikola Tesla"
+  },
+  {
+    "id": 223,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el ácido responsable de darle el sabor agrio a las frutas cítricas?",
+    "opciones": ["Ácido acético", "Ácido cítrico", "Ácido sulfúrico", "Ácido láctico"],
+    "respuestaCorrecta": "Ácido cítrico"
+  },
+  {
+    "id": 224,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué órgano del cuerpo humano es afectado por la hepatitis?",
+    "opciones": ["Páncreas", "Riñón", "Hígado", "Estómago"],
+    "respuestaCorrecta": "Hígado"
+  },
+  {
+    "id": 225,
+    "categoria": "Ciencia",
+    "pregunta": "¿El proceso de curación de heridas que involucra la formación de tejido nuevo se llama:",
+    "opciones": ["Necrosis", "Regeneración", "Atrofia", "Inflamación"],
+    "respuestaCorrecta": "Regeneración"
+  },
+  {
+    "id": 226,
+    "categoria": "Ciencia",
+    "pregunta": "¿La unidad de medida de la temperatura en el Sistema Internacional es el:",
+    "opciones": ["Fahrenheit", "Celsius", "Kelvin", "Rankine"],
+    "respuestaCorrecta": "Kelvin"
+  },
+  {
+    "id": 227,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué color absorbe más calor?",
+    "opciones": ["Blanco", "Gris", "Rojo", "Negro"],
+    "respuestaCorrecta": "Negro"
+  },
+  {
+    "id": 228,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué es un 'protón'?",
+    "opciones": ["Partícula con carga negativa", "Partícula sin carga", "Partícula con carga positiva en el núcleo", "Una forma de luz"],
+    "respuestaCorrecta": "Partícula con carga positiva en el núcleo"
+  },
+  {
+    "id": 229,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el nombre del primer ser humano en el espacio?",
+    "opciones": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"],
+    "respuestaCorrecta": "Yuri Gagarin"
+  },
+  {
+    "id": 230,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué fenómeno es la causa del 'día' y la 'noche' en la Tierra?",
+    "opciones": ["Traslación de la Tierra alrededor del Sol", "Inclinación del eje terrestre", "Rotación de la Tierra sobre su eje", "Efecto de la Luna"],
+    "respuestaCorrecta": "Rotación de la Tierra sobre su eje"
+  }
+]

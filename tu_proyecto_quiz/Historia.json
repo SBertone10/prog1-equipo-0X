@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "categoria": "Historia",
+    "pregunta": "¿En qué año cayó el Imperio Romano de Occidente?",
+    "opciones": [
+      "476 d.C.",
+      "395 d.C.",
+      "800 d.C.",
+      "1492"
+    ],
+    "respuestaCorrecta": "476 d.C."
+  },
+  {
+    "id": 2,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el primer emperador romano?",
+    "opciones": [
+      "Julio César",
+      "Augusto",
+      "Nerón",
+      "Tiberio"
+    ],
+    "respuestaCorrecta": "Augusto"
+  },
+  {
+    "id": 3,
+    "categoria": "Historia",
+    "pregunta": "¿Qué civilización construyó las pirámides de Giza?",
+    "opciones": [
+      "Mesopotámica",
+      "Egipcia",
+      "Maya",
+      "Persa"
+    ],
+    "respuestaCorrecta": "Egipcia"
+  },
+  {
+    "id": 4,
+    "categoria": "Historia",
+    "pregunta": "¿Quién descubrió América en 1492?",
+    "opciones": [
+      "Américo Vespucio",
+      "Cristóbal Colón",
+      "Magallanes",
+      "Vasco da Gama"
+    ],
+    "respuestaCorrecta": "Cristóbal Colón"
+  },
+  {
+    "id": 5,
+    "categoria": "Historia",
+    "pregunta": "¿Qué famosa muralla se construyó para proteger a China de las invasiones?",
+    "opciones": [
+      "Muralla China",
+      "Muralla de Berlín",
+      "Muralla de Adriano",
+      "Muralla Persa"
+    ],
+    "respuestaCorrecta": "Muralla China"
+  },
+  {
+    "id": 6,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el líder militar que cruzó los Alpes con elefantes?",
+    "opciones": [
+      "Alejandro Magno",
+      "Aníbal",
+      "César",
+      "Atila"
+    ],
+    "respuestaCorrecta": "Aníbal"
+  },
+  {
+    "id": 7,
+    "categoria": "Historia",
+    "pregunta": "¿Cuál fue la primera civilización en usar la escritura cuneiforme?",
+    "opciones": [
+      "Egipcia",
+      "Mesopotámica",
+      "China",
+      "Fenicia"
+    ],
+    "respuestaCorrecta": "Mesopotámica"
+  },
+  {
+    "id": 8,
+    "categoria": "Historia",
+    "pregunta": "¿Qué emperador romano legalizó el cristianismo?",
+    "opciones": [
+      "Nerón",
+      "Constantino",
+      "Julio César",
+      "Trajano"
+    ],
+    "respuestaCorrecta": "Constantino"
+  },
+  {
+    "id": 9,
+    "categoria": "Historia",
+    "pregunta": "¿En qué año comenzó la Primera Guerra Mundial?",
+    "opciones": [
+      "1912",
+      "1914",
+      "1918",
+      "1920"
+    ],
+    "respuestaCorrecta": "1914"
+  },
+  {
+    "id": 10,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el último faraón de Egipto?",
+    "opciones": [
+      "Ramsés II",
+      "Cleopatra",
+      "Tutankamón",
+      "Nefertiti"
+    ],
+    "respuestaCorrecta": "Cleopatra"
+  },
+  {
+    "id": 11,
+    "categoria": "Historia",
+    "pregunta": "¿Qué civilización creó el calendario de 365 días?",
+    "opciones": [
+      "Maya",
+      "Egipcia",
+      "Griega",
+      "Romana"
+    ],
+    "respuestaCorrecta": "Egipcia"
+  },
+  {
+    "id": 12,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el líder de la independencia de la India?",
+    "opciones": [
+      "Gandhi",
+      "Nehru",
+      "Indira Gandhi",
+      "Bose"
+    ],
+    "respuestaCorrecta": "Gandhi"
+  },
+  {
+    "id": 13,
+    "categoria": "Historia",
+    "pregunta": "¿Qué país fue gobernado por los zares?",
+    "opciones": [
+      "Rusia",
+      "Alemania",
+      "Polonia",
+      "Francia"
+    ],
+    "respuestaCorrecta": "Rusia"
+  },
+  {
+    "id": 14,
+    "categoria": "Historia",
+    "pregunta": "¿Quién lideró la Revolución Cubana?",
+    "opciones": [
+      "Che Guevara",
+      "Fidel Castro",
+      "Raúl Castro",
+      "Camilo Cienfuegos"
+    ],
+    "respuestaCorrecta": "Fidel Castro"
+  },
+  {
+    "id": 15,
+    "categoria": "Historia",
+    "pregunta": "¿En qué año cayó el Muro de Berlín?",
+    "opciones": [
+      "1989",
+      "1991",
+      "1985",
+      "1990"
+    ],
+    "respuestaCorrecta": "1989"
+  },
+  {
+    "id": 16,
+    "categoria": "Historia",
+    "pregunta": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
+    "opciones": [
+      "Tratado de Versalles",
+      "Tratado de París",
+      "Tratado de Roma",
+      "Tratado de Viena"
+    ],
+    "respuestaCorrecta": "Tratado de Versalles"
+  },
+  {
+    "id": 17,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el primer presidente de Estados Unidos?",
+    "opciones": [
+      "Thomas Jefferson",
+      "George Washington",
+      "Abraham Lincoln",
+      "John Adams"
+    ],
+    "respuestaCorrecta": "George Washington"
+  },
+  {
+    "id": 18,
+    "categoria": "Historia",
+    "pregunta": "¿Qué civilización construyó Machu Picchu?",
+    "opciones": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "respuestaCorrecta": "Inca"
+  },
+  {
+    "id": 19,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el dictador italiano aliado de Hitler?",
+    "opciones": [
+      "Mussolini",
+      "Franco",
+      "Stalin",
+      "Napoleón"
+    ],
+    "respuestaCorrecta": "Mussolini"
+  },
+  {
+    "id": 20,
+    "categoria": "Historia",
+    "pregunta": "¿Qué conflicto enfrentó a Estados Unidos y la URSS sin combates directos?",
+    "opciones": [
+      "Guerra Fría",
+      "Guerra de Vietnam",
+      "Guerra de Corea",
+      "Primera Guerra Mundial"
+    ],
+    "respuestaCorrecta": "Guerra Fría"
+  },
+  {
+    "id": 21,
+    "categoria": "Historia",
+    "pregunta": "¿En qué año llegó el hombre a la Luna?",
+    "opciones": [
+      "1965",
+      "1969",
+      "1972",
+      "1959"
+    ],
+    "respuestaCorrecta": "1969"
+  },
+  {
+    "id": 22,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue conocido como 'El Libertador' en Sudamérica?",
+    "opciones": [
+      "San Martín",
+      "Bolívar",
+      "Sucre",
+      "O'Higgins"
+    ],
+    "respuestaCorrecta": "Bolívar"
+  },
+  {
+    "id": 23,
+    "categoria": "Historia",
+    "pregunta": "¿Qué peste devastó Europa en el siglo XIV?",
+    "opciones": [
+      "Viruela",
+      "Peste Negra",
+      "Cólera",
+      "Gripe Española"
+    ],
+    "respuestaCorrecta": "Peste Negra"
+  },
+  {
+    "id": 24,
+    "categoria": "Historia",
+    "pregunta": "¿En qué país comenzó la Revolución Industrial?",
+    "opciones": [
+      "Francia",
+      "Alemania",
+      "Inglaterra",
+      "Estados Unidos"
+    ],
+    "respuestaCorrecta": "Inglaterra"
+  },
+  {
+    "id": 25,
+    "categoria": "Historia",
+    "pregunta": "¿Qué famosa reina inglesa fue hija de Enrique VIII?",
+    "opciones": [
+      "Isabel I",
+      "Victoria",
+      "Ana",
+      "María Estuardo"
+    ],
+    "respuestaCorrecta": "Isabel I"
+  },
+  {
+    "id": 26,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el líder nazi durante la Segunda Guerra Mundial?",
+    "opciones": [
+      "Hitler",
+      "Goebbels",
+      "Himmler",
+      "Mussolini"
+    ],
+    "respuestaCorrecta": "Hitler"
+  },
+  {
+    "id": 27,
+    "categoria": "Historia",
+    "pregunta": "¿Qué civilización inventó la pólvora?",
+    "opciones": [
+      "China",
+      "Egipto",
+      "India",
+      "Mesopotamia"
+    ],
+    "respuestaCorrecta": "China"
+  },
+  {
+    "id": 28,
+    "categoria": "Historia",
+    "pregunta": "¿En qué año terminó la Segunda Guerra Mundial?",
+    "opciones": [
+      "1942",
+      "1945",
+      "1948",
+      "1950"
+    ],
+    "respuestaCorrecta": "1945"
+  },
+  {
+    "id": 29,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el líder de la Revolución Rusa en 1917?",
+    "opciones": [
+      "Lenin",
+      "Trotski",
+      "Stalin",
+      "Kerensky"
+    ],
+    "respuestaCorrecta": "Lenin"
+  },
+  {
+    "id": 30,
+    "categoria": "Historia",
+    "pregunta": "¿Qué emperador francés fue derrotado en Waterloo?",
+    "opciones": [
+      "Napoleón Bonaparte",
+      "Luis XIV",
+      "Carlos X",
+      "Luis XVI"
+    ],
+    "respuestaCorrecta": "Napoleón Bonaparte"
+  },
+  {
+    "id": 31,
+    "categoria": "Historia",
+    "pregunta": "¿Quién descubrió la penicilina?",
+    "opciones": [
+      "Alexander Fleming",
+      "Louis Pasteur",
+      "Marie Curie",
+      "Edward Jenner"
+    ],
+    "respuestaCorrecta": "Alexander Fleming"
+  },
+  {
+    "id": 32,
+    "categoria": "Historia",
+    "pregunta": "¿En qué país se originó la Revolución Francesa?",
+    "opciones": [
+      "Inglaterra",
+      "Francia",
+      "Italia",
+      "España"
+    ],
+    "respuestaCorrecta": "Francia"
+  },
+  {
+    "id": 33,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el primer hombre en circunnavegar el globo?",
+    "opciones": [
+      "Cristóbal Colón",
+      "Fernando de Magallanes",
+      "Vasco da Gama",
+      "James Cook"
+    ],
+    "respuestaCorrecta": "Fernando de Magallanes"
+  },
+  {
+    "id": 34,
+    "categoria": "Historia",
+    "pregunta": "¿Qué imperio construyó la ciudad de Petra?",
+    "opciones": [
+      "Romano",
+      "Nabateo",
+      "Griego",
+      "Persa"
+    ],
+    "respuestaCorrecta": "Nabateo"
+  },
+  {
+    "id": 35,
+    "categoria": "Historia",
+    "pregunta": "¿En qué país se originó el Renacimiento?",
+    "opciones": [
+      "Francia",
+      "Italia",
+      "España",
+      "Alemania"
+    ],
+    "respuestaCorrecta": "Italia"
+  },
+  {
+    "id": 36,
+    "categoria": "Historia",
+    "pregunta": "¿Qué faraón fue niño y murió joven?",
+    "opciones": [
+      "Tutankamón",
+      "Ramsés II",
+      "Keops",
+      "Amenhotep III"
+    ],
+    "respuestaCorrecta": "Tutankamón"
+  },
+  {
+    "id": 37,
+    "categoria": "Historia",
+    "pregunta": "¿Qué batalla marcó el fin de Napoleón?",
+    "opciones": [
+      "Austerlitz",
+      "Waterloo",
+      "Leipzig",
+      "Borodino"
+    ],
+    "respuestaCorrecta": "Waterloo"
+  },
+  {
+    "id": 38,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el primer hombre en viajar al espacio?",
+    "opciones": [
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "Buzz Aldrin",
+      "Valentina Tereshkova"
+    ],
+    "respuestaCorrecta": "Yuri Gagarin"
+  },
+  {
+    "id": 39,
+    "categoria": "Historia",
+    "pregunta": "¿Qué imperio estaba gobernado por los zares?",
+    "opciones": [
+      "Rusia",
+      "Austria",
+      "Prusia",
+      "China"
+    ],
+    "respuestaCorrecta": "Rusia"
+  },
+  {
+    "id": 40,
+    "categoria": "Historia",
+    "pregunta": "¿Qué líder escribió 'Mein Kampf'?",
+    "opciones": [
+      "Hitler",
+      "Mussolini",
+      "Stalin",
+      "Lenin"
+    ],
+    "respuestaCorrecta": "Hitler"
+  },
+  {
+    "id": 41,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el creador del Imperio Mongol?",
+    "opciones": [
+      "Gengis Kan",
+      "Kublai Kan",
+      "Tamerlán",
+      "Atila"
+    ],
+    "respuestaCorrecta": "Gengis Kan"
+  },
+  {
+    "id": 42,
+    "categoria": "Historia",
+    "pregunta": "¿Qué evento marcó el inicio de la Segunda Guerra Mundial?",
+    "opciones": [
+      "Invasión de Polonia",
+      "Ataque a Pearl Harbor",
+      "Batalla de Stalingrado",
+      "Día D"
+    ],
+    "respuestaCorrecta": "Invasión de Polonia"
+  },
+  {
+    "id": 43,
+    "categoria": "Historia",
+    "pregunta": "¿Quién lideró la independencia de México?",
+    "opciones": [
+      "Hidalgo",
+      "Bolívar",
+      "San Martín",
+      "Morelos"
+    ],
+    "respuestaCorrecta": "Hidalgo"
+  },
+  {
+    "id": 44,
+    "categoria": "Historia",
+    "pregunta": "¿Qué emperador romano es famoso por sus reformas legales?",
+    "opciones": [
+      "Augusto",
+      "Justiniano",
+      "César",
+      "Trajano"
+    ],
+    "respuestaCorrecta": "Justiniano"
+  },
+  {
+    "id": 45,
+    "categoria": "Historia",
+    "pregunta": "¿Qué tratado puso fin a la Guerra de los Cien Años?",
+    "opciones": [
+      "Tratado de París",
+      "Tratado de Bruselas",
+      "Tratado de Troyes",
+      "Tratado de Versalles"
+    ],
+    "respuestaCorrecta": "Tratado de París"
+  },
+  {
+    "id": 46,
+    "categoria": "Historia",
+    "pregunta": "¿Qué civilización construyó Stonehenge?",
+    "opciones": [
+      "Egipcia",
+      "Celta",
+      "Mesopotámica",
+      "Romana"
+    ],
+    "respuestaCorrecta": "Celta"
+  },
+  {
+    "id": 47,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el primer ministro británico durante la Segunda Guerra Mundial?",
+    "opciones": [
+      "Winston Churchill",
+      "Neville Chamberlain",
+      "Clement Attlee",
+      "Tony Blair"
+    ],
+    "respuestaCorrecta": "Winston Churchill"
+  },
+  {
+    "id": 48,
+    "categoria": "Historia",
+    "pregunta": "¿Qué imperio construyó la Gran Muralla?",
+    "opciones": [
+      "Mongol",
+      "Persa",
+      "Chino",
+      "Romano"
+    ],
+    "respuestaCorrecta": "Chino"
+  },
+  {
+    "id": 49,
+    "categoria": "Historia",
+    "pregunta": "¿Qué explorador descubrió la ruta marítima a India?",
+    "opciones": [
+      "Magallanes",
+      "Vasco da Gama",
+      "Colón",
+      "Caboto"
+    ],
+    "respuestaCorrecta": "Vasco da Gama"
+  },
+  {
+    "id": 50,
+    "categoria": "Historia",
+    "pregunta": "¿Qué líder sudafricano luchó contra el apartheid?",
+    "opciones": [
+      "Mandela",
+      "Gandhi",
+      "Nkrumah",
+      "Lumumba"
+    ],
+    "respuestaCorrecta": "Mandela"
+  },
+  {
+    "id": 51,
+    "categoria": "Historia",
+    "pregunta": "¿Qué imperio gobernó gran parte de la India antes del colonialismo británico?",
+    "opciones": [
+      "Maurya",
+      "Mughal",
+      "Gupta",
+      "Chola"
+    ],
+    "respuestaCorrecta": "Mughal"
+  },
+  {
+    "id": 52,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el primer presidente negro de Sudáfrica?",
+    "opciones": [
+      "Nelson Mandela",
+      "Desmond Tutu",
+      "Thabo Mbeki",
+      "Cyril Ramaphosa"
+    ],
+    "respuestaCorrecta": "Nelson Mandela"
+  },
+  {
+    "id": 53,
+    "categoria": "Historia",
+    "pregunta": "¿Qué imperio utilizaba gladiadores en sus espectáculos?",
+    "opciones": [
+      "Griego",
+      "Romano",
+      "Egipcio",
+      "Persa"
+    ],
+    "respuestaCorrecta": "Romano"
+  },
+  {
+    "id": 54,
+    "categoria": "Historia",
+    "pregunta": "¿Quién escribió 'La República'?",
+    "opciones": [
+      "Aristóteles",
+      "Platón",
+      "Sócrates",
+      "Cicerón"
+    ],
+    "respuestaCorrecta": "Platón"
+  },
+  {
+    "id": 55,
+    "categoria": "Historia",
+    "pregunta": "¿Qué ciudad fue destruida por el Vesubio en el 79 d.C.?",
+    "opciones": [
+      "Herculano",
+      "Pompeya",
+      "Roma",
+      "Nápoles"
+    ],
+    "respuestaCorrecta": "Pompeya"
+  },
+  {
+    "id": 56,
+    "categoria": "Historia",
+    "pregunta": "¿Qué tratado dividió América entre España y Portugal?",
+    "opciones": [
+      "Tratado de Tordesillas",
+      "Tratado de París",
+      "Tratado de Lisboa",
+      "Tratado de Utrecht"
+    ],
+    "respuestaCorrecta": "Tratado de Tordesillas"
+  },
+  {
+    "id": 57,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el último emperador de China?",
+    "opciones": [
+      "Qin Shi Huang",
+      "Puyi",
+      "Kangxi",
+      "Qianlong"
+    ],
+    "respuestaCorrecta": "Puyi"
+  },
+  {
+    "id": 58,
+    "categoria": "Historia",
+    "pregunta": "¿Qué revolución terminó con la monarquía en Rusia?",
+    "opciones": [
+      "Revolución de 1905",
+      "Revolución de Febrero",
+      "Revolución de Octubre",
+      "Revolución Bolchevique"
+    ],
+    "respuestaCorrecta": "Revolución de Octubre"
+  },
+  {
+    "id": 59,
+    "categoria": "Historia",
+    "pregunta": "¿Qué país fue invadido por Alemania en la Segunda Guerra Mundial en 1940?",
+    "opciones": [
+      "Polonia",
+      "Francia",
+      "Dinamarca",
+      "Bélgica"
+    ],
+    "respuestaCorrecta": "Francia"
+  },
+  {
+    "id": 60,
+    "categoria": "Historia",
+    "pregunta": "¿Quién inventó la imprenta?",
+    "opciones": [
+      "Leonardo da Vinci",
+      "Johannes Gutenberg",
+      "Arquímedes",
+      "Isaac Newton"
+    ],
+    "respuestaCorrecta": "Johannes Gutenberg"
+  },
+  {
+    "id": 61,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el líder de la independencia de Argentina?",
+    "opciones": [
+      "José de San Martín",
+      "Simón Bolívar",
+      "Miguel Hidalgo",
+      "Bernardo O'Higgins"
+    ],
+    "respuestaCorrecta": "José de San Martín"
+  },
+  {
+    "id": 62,
+    "categoria": "Historia",
+    "pregunta": "¿Qué imperio construyó la ciudad de Babilonia?",
+    "opciones": [
+      "Asirio",
+      "Babilónico",
+      "Persa",
+      "Egipcio"
+    ],
+    "respuestaCorrecta": "Babilónico"
+  },
+  {
+    "id": 63,
+    "categoria": "Historia",
+    "pregunta": "¿Qué faraón construyó la Gran Pirámide de Guiza?",
+    "opciones": [
+      "Keops",
+      "Tutankamón",
+      "Ramsés II",
+      "Kefrén"
+    ],
+    "respuestaCorrecta": "Keops"
+  },
+  {
+    "id": 64,
+    "categoria": "Historia",
+    "pregunta": "¿En qué año se firmó la Declaración de Independencia de Estados Unidos?",
+    "opciones": [
+      "1776",
+      "1789",
+      "1812",
+      "1754"
+    ],
+    "respuestaCorrecta": "1776"
+  },
+  {
+    "id": 65,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el líder revolucionario de Haití?",
+    "opciones": [
+      "Toussaint Louverture",
+      "Simón Bolívar",
+      "José de San Martín",
+      "Jean-Jacques Dessalines"
+    ],
+    "respuestaCorrecta": "Toussaint Louverture"
+  },
+  {
+    "id": 66,
+    "categoria": "Historia",
+    "pregunta": "¿Qué imperio construyó la ciudad de Tenochtitlán?",
+    "opciones": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Tolteca"
+    ],
+    "respuestaCorrecta": "Azteca"
+  },
+  {
+    "id": 67,
+    "categoria": "Historia",
+    "pregunta": "¿Qué conflicto enfrentó a Roma y Cartago?",
+    "opciones": [
+      "Guerras Púnicas",
+      "Guerras Médicas",
+      "Guerras Civiles",
+      "Guerras Persas"
+    ],
+    "respuestaCorrecta": "Guerras Púnicas"
+  },
+  {
+    "id": 68,
+    "categoria": "Historia",
+    "pregunta": "¿Quién lideró la independencia de Chile?",
+    "opciones": [
+      "Bernardo O'Higgins",
+      "José de San Martín",
+      "Simón Bolívar",
+      "Artigas"
+    ],
+    "respuestaCorrecta": "Bernardo O'Higgins"
+  },
+  {
+    "id": 69,
+    "categoria": "Historia",
+    "pregunta": "¿Qué civilización creó los jeroglíficos?",
+    "opciones": [
+      "Egipcia",
+      "Mesopotámica",
+      "China",
+      "Maya"
+    ],
+    "respuestaCorrecta": "Egipcia"
+  },
+  {
+    "id": 70,
+    "categoria": "Historia",
+    "pregunta": "¿Qué país fue invadido por Napoleón en 1812?",
+    "opciones": [
+      "España",
+      "Rusia",
+      "Austria",
+      "Prusia"
+    ],
+    "respuestaCorrecta": "Rusia"
+  },
+  {
+    "id": 71,
+    "categoria": "Historia",
+    "pregunta": "¿Qué ciudad fue sede de los juicios por crímenes de guerra nazis?",
+    "opciones": [
+      "Berlín",
+      "Nuremberg",
+      "París",
+      "Viena"
+    ],
+    "respuestaCorrecta": "Nuremberg"
+  },
+  {
+    "id": 72,
+    "categoria": "Historia",
+    "pregunta": "¿Quién lideró la independencia de Venezuela?",
+    "opciones": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Antonio José de Sucre",
+      "Francisco de Miranda"
+    ],
+    "respuestaCorrecta": "Simón Bolívar"
+  },
+  {
+    "id": 73,
+    "categoria": "Historia",
+    "pregunta": "¿Qué civilización construyó Chichén Itzá?",
+    "opciones": [
+      "Maya",
+      "Azteca",
+      "Inca",
+      "Olmeca"
+    ],
+    "respuestaCorrecta": "Maya"
+  },
+  {
+    "id": 74,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el dictador de España durante la posguerra?",
+    "opciones": [
+      "Francisco Franco",
+      "Mussolini",
+      "Hitler",
+      "Salazar"
+    ],
+    "respuestaCorrecta": "Francisco Franco"
+  },
+  {
+    "id": 75,
+    "categoria": "Historia",
+    "pregunta": "¿En qué año terminó la Guerra de Vietnam?",
+    "opciones": [
+      "1973",
+      "1975",
+      "1972",
+      "1970"
+    ],
+    "respuestaCorrecta": "1975"
+  },
+  {
+    "id": 76,
+    "categoria": "Historia",
+    "pregunta": "¿Qué imperio fundó Alejandro Magno?",
+    "opciones": [
+      "Macedonio",
+      "Persa",
+      "Griego",
+      "Egipcio"
+    ],
+    "respuestaCorrecta": "Macedonio"
+  },
+  {
+    "id": 77,
+    "categoria": "Historia",
+    "pregunta": "¿Qué evento marcó el inicio de la Revolución Francesa?",
+    "opciones": [
+      "Toma de la Bastilla",
+      "Guerra de los Cien Años",
+      "Batalla de Waterloo",
+      "Reinado de Luis XVI"
+    ],
+    "respuestaCorrecta": "Toma de la Bastilla"
+  },
+  {
+    "id": 78,
+    "categoria": "Historia",
+    "pregunta": "¿Qué imperio conquistó gran parte de América Central antes de la llegada de los europeos?",
+    "opciones": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Tolteca"
+    ],
+    "respuestaCorrecta": "Azteca"
+  },
+  {
+    "id": 79,
+    "categoria": "Historia",
+    "pregunta": "¿Qué país colonizó Brasil?",
+    "opciones": [
+      "España",
+      "Portugal",
+      "Francia",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": "Portugal"
+  },
+  {
+    "id": 80,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el primer presidente de México?",
+    "opciones": [
+      "Guadalupe Victoria",
+      "Benito Juárez",
+      "Porfirio Díaz",
+      "Antonio López de Santa Anna"
+    ],
+    "respuestaCorrecta": "Guadalupe Victoria"
+  },
+  {
+    "id": 81,
+    "categoria": "Historia",
+    "pregunta": "¿Qué ciudad fue el centro del Imperio Bizantino?",
+    "opciones": [
+      "Roma",
+      "Constantinopla",
+      "Atenas",
+      "Alejandría"
+    ],
+    "respuestaCorrecta": "Constantinopla"
+  },
+  {
+    "id": 82,
+    "categoria": "Historia",
+    "pregunta": "¿Qué país sufrió la Revolución Cultural en los años 60-70?",
+    "opciones": [
+      "Japón",
+      "China",
+      "Corea del Norte",
+      "Vietnam"
+    ],
+    "respuestaCorrecta": "China"
+  },
+  {
+    "id": 83,
+    "categoria": "Historia",
+    "pregunta": "¿Qué líder alemán fue responsable del Holocausto?",
+    "opciones": [
+      "Hitler",
+      "Goebbels",
+      "Stalin",
+      "Mussolini"
+    ],
+    "respuestaCorrecta": "Hitler"
+  },
+  {
+    "id": 84,
+    "categoria": "Historia",
+    "pregunta": "¿Qué imperio estaba en Anatolia antes del Imperio Otomano?",
+    "opciones": [
+      "Hitita",
+      "Persa",
+      "Griego",
+      "Mongol"
+    ],
+    "respuestaCorrecta": "Hitita"
+  },
+  {
+    "id": 85,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el líder revolucionario argentino que cruzó los Andes?",
+    "opciones": [
+      "José de San Martín",
+      "Artigas",
+      "Bolívar",
+      "Sucre"
+    ],
+    "respuestaCorrecta": "José de San Martín"
+  },
+  {
+    "id": 86,
+    "categoria": "Historia",
+    "pregunta": "¿Qué imperio construyó el Coliseo?",
+    "opciones": [
+      "Griego",
+      "Romano",
+      "Persa",
+      "Egipcio"
+    ],
+    "respuestaCorrecta": "Romano"
+  },
+  {
+    "id": 87,
+    "categoria": "Historia",
+    "pregunta": "¿Qué tratado puso fin a la Guerra de Secesión de Estados Unidos?",
+    "opciones": [
+      "Tratado de París",
+      "Capitulación de Appomattox",
+      "Tratado de Versalles",
+      "Tratado de Londres"
+    ],
+    "respuestaCorrecta": "Capitulación de Appomattox"
+  },
+  {
+    "id": 88,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el líder de la independencia de Colombia?",
+    "opciones": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Antonio José de Sucre",
+      "Francisco de Miranda"
+    ],
+    "respuestaCorrecta": "Simón Bolívar"
+  },
+  {
+    "id": 89,
+    "categoria": "Historia",
+    "pregunta": "¿Qué civilización construyó la ciudad de Cuzco?",
+    "opciones": [
+      "Inca",
+      "Azteca",
+      "Maya",
+      "Olmeca"
+    ],
+    "respuestaCorrecta": "Inca"
+  },
+  {
+    "id": 90,
+    "categoria": "Historia",
+    "pregunta": "¿Qué guerra enfrentó a Estados Unidos y México?",
+    "opciones": [
+      "Guerra de Secesión",
+      "Guerra México-Estados Unidos",
+      "Guerra Hispanoamericana",
+      "Guerra de Vietnam"
+    ],
+    "respuestaCorrecta": "Guerra México-Estados Unidos"
+  },
+  {
+    "id": 91,
+    "categoria": "Historia",
+    "pregunta": "¿Qué líder francés fue ejecutado durante la Revolución Francesa?",
+    "opciones": [
+      "Luis XVI",
+      "Robespierre",
+      "Napoleón",
+      "Luis XIV"
+    ],
+    "respuestaCorrecta": "Luis XVI"
+  },
+  {
+    "id": 92,
+    "categoria": "Historia",
+    "pregunta": "¿Qué imperio se dividió en este y oeste tras la muerte de Teodosio?",
+    "opciones": [
+      "Romano",
+      "Persa",
+      "Bizantino",
+      "Egipcio"
+    ],
+    "respuestaCorrecta": "Romano"
+  },
+  {
+    "id": 93,
+    "categoria": "Historia",
+    "pregunta": "¿Qué país fue escenario del Apartheid?",
+    "opciones": [
+      "Sudáfrica",
+      "Nigeria",
+      "Egipto",
+      "Kenia"
+    ],
+    "respuestaCorrecta": "Sudáfrica"
+  },
+  {
+    "id": 94,
+    "categoria": "Historia",
+    "pregunta": "¿Qué conflicto enfrentó a Francia e Inglaterra por el control de Norteamérica?",
+    "opciones": [
+      "Guerra de los Siete Años",
+      "Guerra de 1812",
+      "Guerra de los Cien Años",
+      "Revolución Americana"
+    ],
+    "respuestaCorrecta": "Guerra de los Siete Años"
+  },
+  {
+    "id": 95,
+    "categoria": "Historia",
+    "pregunta": "¿Qué imperio conquistó Egipto antes de la era romana?",
+    "opciones": [
+      "Persa",
+      "Griego",
+      "Asirio",
+      "Cartaginés"
+    ],
+    "respuestaCorrecta": "Persa"
+  },
+  {
+    "id": 96,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el líder de la independencia de Perú junto a Bolívar?",
+    "opciones": [
+      "José de San Martín",
+      "Antonio José de Sucre",
+      "Simón Bolívar",
+      "San Martín solo"
+    ],
+    "respuestaCorrecta": "José de San Martín"
+  },
+  {
+    "id": 97,
+    "categoria": "Historia",
+    "pregunta": "¿Qué emperador romano es famoso por perseguir cristianos?",
+    "opciones": [
+      "Nerón",
+      "Augusto",
+      "Trajano",
+      "César"
+    ],
+    "respuestaCorrecta": "Nerón"
+  },
+  {
+    "id": 98,
+    "categoria": "Historia",
+    "pregunta": "¿Qué revolución terminó con la monarquía en Francia?",
+    "opciones": [
+      "Revolución Francesa",
+      "Revolución Industrial",
+      "Revolución Rusa",
+      "Revolución Americana"
+    ],
+    "respuestaCorrecta": "Revolución Francesa"
+  },
+  {
+    "id": 99,
+    "categoria": "Historia",
+    "pregunta": "¿Qué civilización construyó la ciudad de Teotihuacán?",
+    "opciones": [
+      "Azteca",
+      "Maya",
+      "Olmeca",
+      "Tolteca"
+    ],
+    "respuestaCorrecta": "Tolteca"
+  },
+  {
+    "id": 100,
+    "categoria": "Historia",
+    "pregunta": "¿Qué tratado dividió Alemania después de la Segunda Guerra Mundial?",
+    "opciones": [
+      "Tratado de Versalles",
+      "Acuerdos de Potsdam",
+      "Conferencia de Yalta",
+      "Tratado de París"
+    ],
+    "respuestaCorrecta": "Acuerdos de Potsdam"
+  }
+]

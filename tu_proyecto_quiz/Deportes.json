@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 36,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo ganó la primera edición de la Primera División del fútbol español?",
+    "opciones": ["Real Madrid", "FC Barcelona", "Athletic Club", "Valencia CF"],
+    "respuestaCorrecta": "Athletic Club"
+  },
+  {
+    "id": 37,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país fue subcampeón del Mundial de Fútbol de 2014?",
+    "opciones": ["Alemania", "Argentina", "Brasil", "Holanda"],
+    "respuestaCorrecta": "Argentina"
+  },
+  {
+    "id": 38,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién es el máximo goleador histórico de la Liga de Campeones de la UEFA?",
+    "opciones": ["Raúl González", "Lionel Messi", "Cristiano Ronaldo", "Karim Benzema"],
+    "respuestaCorrecta": "Cristiano Ronaldo"
+  },
+  {
+    "id": 39,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el nombre del estadio del FC Barcelona?",
+    "opciones": ["Santiago Bernabéu", "Wanda Metropolitano", "Camp Nou", "Mestalla"],
+    "respuestaCorrecta": "Camp Nou"
+  },
+  {
+    "id": 40,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuántos Balones de Oro ganó Johan Cruyff?",
+    "opciones": ["Dos", "Tres", "Cuatro", "Uno"],
+    "respuestaCorrecta": "Tres"
+  },
+  {
+    "id": 41,
+    "categoria": "Futbol",
+    "pregunta": "¿En qué año se celebró el primer Mundial Femenino de la FIFA?",
+    "opciones": ["1970", "1991", "1999", "2003"],
+    "respuestaCorrecta": "1991"
+  },
+  {
+    "id": 42,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo se enfrenta al Inter de Milán en el 'Derbi della Madonnina'?",
+    "opciones": ["Juventus FC", "AS Roma", "AC Milán", "SSC Napoli"],
+    "respuestaCorrecta": "AC Milán"
+  },
+  {
+    "id": 43,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el país de origen de la Copa Libertadores?",
+    "opciones": ["Brasil", "Argentina", "Uruguay", "Sudamérica (CONMEBOL)"],
+    "respuestaCorrecta": "Sudamérica (CONMEBOL)"
+  },
+  {
+    "id": 44,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué entrenador llevó al FC Barcelona a ganar el 'sextete' en 2009?",
+    "opciones": ["Frank Rijkaard", "Louis van Gaal", "Pep Guardiola", "Tito Vilanova"],
+    "respuestaCorrecta": "Pep Guardiola"
+  },
+  {
+    "id": 45,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país ganó la Copa Confederaciones 2017?",
+    "opciones": ["Chile", "Portugal", "Alemania", "México"],
+    "respuestaCorrecta": "Alemania"
+  },
+  {
+    "id": 46,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el club con más títulos de liga en Inglaterra (Premier League)?",
+    "opciones": ["Liverpool FC", "Chelsea FC", "Arsenal FC", "Manchester United"],
+    "respuestaCorrecta": "Manchester United"
+  },
+  {
+    "id": 47,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuántos jugadores deben permanecer en el círculo central al inicio del partido?",
+    "opciones": ["Dos", "Uno", "Tres", "Ninguno"],
+    "respuestaCorrecta": "Uno"
+  },
+  {
+    "id": 48,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué significa 'Offside' en español?",
+    "opciones": ["Falta", "Penalti", "Fuera de Juego", "Gol válido"],
+    "respuestaCorrecta": "Fuera de Juego"
+  },
+  {
+    "id": 49,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué futbolista sueco tuvo una cláusula que le prohibía viajar al espacio?",
+    "opciones": ["Henrik Larsson", "Zlatan Ibrahimovic", "Tomas Brolin", "Sven-Göran Eriksson"],
+    "respuestaCorrecta": "Stefan Schwarz"
+  },
+  {
+    "id": 50,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el club con más títulos de la Ligue 1 de Francia?",
+    "opciones": ["Olympique de Marsella", "AS Saint-Étienne", "Paris Saint-Germain", "AS Mónaco"],
+    "respuestaCorrecta": "AS Saint-Étienne"
+  },
+  {
+    "id": 51,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador posee el récord de más goles en la historia de la Copa Mundial de la FIFA?",
+    "opciones": ["Ronaldo Nazário", "Miroslav Klose", "Gerd Müller", "Pelé"],
+    "respuestaCorrecta": "Miroslav Klose"
+  },
+  {
+    "id": 52,
+    "categoria": "Futbol",
+    "pregunta": "¿De qué país es el equipo conocido como 'Los Cafeteros'?",
+    "opciones": ["Chile", "Colombia", "Perú", "Ecuador"],
+    "respuestaCorrecta": "Colombia"
+  },
+  {
+    "id": 53,
+    "categoria": "Futbol",
+    "pregunta": "¿En qué año se fundó el Real Madrid Club de Fútbol?",
+    "opciones": ["1898", "1902", "1910", "1905"],
+    "respuestaCorrecta": "1902"
+  },
+  {
+    "id": 54,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador ganó el Balón de Oro 2007?",
+    "opciones": ["Kaká", "Cristiano Ronaldo", "Lionel Messi", "Ronaldinho"],
+    "respuestaCorrecta": "Kaká"
+  },
+  {
+    "id": 55,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuántos minutos dura el tiempo de descanso (entre tiempo) de un partido?",
+    "opciones": ["10 minutos", "15 minutos", "20 minutos", "5 minutos"],
+    "respuestaCorrecta": "15 minutos"
+  },
+  {
+    "id": 56,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo es conocido por el apodo 'The Red Devils' (Los Diablos Rojos)?",
+    "opciones": ["Liverpool FC", "Manchester United", "Arsenal FC", "Bayern Múnich"],
+    "respuestaCorrecta": "Manchester United"
+  },
+  {
+    "id": 57,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país ganó el Mundial de 2002?",
+    "opciones": ["Alemania", "Francia", "Brasil", "Italia"],
+    "respuestaCorrecta": "Brasil"
+  },
+  {
+    "id": 58,
+    "categoria": "Futbol",
+    "pregunta": "¿El Trofeo Zamora se otorga al mejor...?",
+    "opciones": ["Delantero", "Mediocampista", "Defensa", "Portero"],
+    "respuestaCorrecta": "Portero"
+  },
+  {
+    "id": 59,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién es el máximo goleador histórico de la selección brasileña?",
+    "opciones": ["Ronaldo Nazário", "Pelé", "Neymar Jr.", "Romário"],
+    "respuestaCorrecta": "Neymar Jr."
+  },
+  {
+    "id": 60,
+    "categoria": "Futbol",
+    "pregunta": "¿El famoso 'Clásico' español enfrenta al Real Madrid contra qué equipo?",
+    "opciones": ["Atlético de Madrid", "Sevilla FC", "FC Barcelona", "Valencia CF"],
+    "respuestaCorrecta": "FC Barcelona"
+  },
+  {
+    "id": 61,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el máximo organismo rector del fútbol sudamericano?",
+    "opciones": ["UEFA", "CONCACAF", "CAF", "CONMEBOL"],
+    "respuestaCorrecta": "CONMEBOL"
+  },
+  {
+    "id": 62,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo ganó la Copa América 2021?",
+    "opciones": ["Brasil", "Argentina", "Uruguay", "Chile"],
+    "respuestaCorrecta": "Argentina"
+  },
+  {
+    "id": 63,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál fue el primer equipo español en ganar la Liga de Campeones de la UEFA?",
+    "opciones": ["Atlético de Madrid", "FC Barcelona", "Real Madrid", "Valencia CF"],
+    "respuestaCorrecta": "Real Madrid"
+  },
+  {
+    "id": 64,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador fue expulsado por morder a un rival en el Mundial de 2014?",
+    "opciones": ["Pepe", "Zinedine Zidane", "Luis Suárez", "Gennaro Gattuso"],
+    "respuestaCorrecta": "Luis Suárez"
+  },
+  {
+    "id": 65,
+    "categoria": "Futbol",
+    "pregunta": "¿De qué colores es la camiseta tradicional del Atlético de Madrid?",
+    "opciones": ["Rojo y negro", "Azul y blanco", "Rojo y blanco", "Amarillo y rojo"],
+    "respuestaCorrecta": "Rojo y blanco"
+  },
+  {
+    "id": 66,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país organizó el Mundial de Fútbol de 1994?",
+    "opciones": ["México", "Estados Unidos", "Italia", "Canadá"],
+    "respuestaCorrecta": "Estados Unidos"
+  },
+  {
+    "id": 67,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué se castiga con un tiro libre indirecto?",
+    "opciones": ["Una mano intencional", "Una entrada violenta", "Una falta menos grave o técnica", "Un penalti fallado"],
+    "respuestaCorrecta": "Una falta menos grave o técnica"
+  },
+  {
+    "id": 68,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club juega sus partidos de local en el estadio 'Anfield'?",
+    "opciones": ["Manchester United", "Chelsea FC", "Liverpool FC", "Arsenal FC"],
+    "respuestaCorrecta": "Liverpool FC"
+  },
+  {
+    "id": 69,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador fue el primer ganador del Balón de Oro en 1956?",
+    "opciones": ["Alfredo Di Stéfano", "Stanley Matthews", "Raymond Kopa", "Bobby Charlton"],
+    "respuestaCorrecta": "Stanley Matthews"
+  },
+  {
+    "id": 70,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país ganó la medalla de oro en fútbol masculino en los Juegos Olímpicos de Río 2016?",
+    "opciones": ["Alemania", "Brasil", "Argentina", "México"],
+    "respuestaCorrecta": "Brasil"
+  },
+  {
+    "id": 71,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es la altura mínima reglamentaria de los banderines de esquina?",
+    "opciones": ["1 metro", "1.5 metros", "2 metros", "0.5 metros"],
+    "respuestaCorrecta": "1.5 metros"
+  },
+  {
+    "id": 72,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador se conoce con el apodo de 'El Buitre'?",
+    "opciones": ["Emilio Butragueño", "Hugo Sánchez", "Fernando Hierro", "Manolo Sanchís"],
+    "respuestaCorrecta": "Emilio Butragueño"
+  },
+  {
+    "id": 73,
+    "categoria": "Futbol",
+    "pregunta": "¿En qué país se inventó el 'Fútbol Total' (Totaalvoetbal)?",
+    "opciones": ["Brasil", "Alemania", "Holanda", "Italia"],
+    "respuestaCorrecta": "Holanda"
+  },
+  {
+    "id": 74,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país es conocido por su selección como 'La Roja'?",
+    "opciones": ["Portugal", "Chile", "España", "Argentina"],
+    "respuestaCorrecta": "España"
+  },
+  {
+    "id": 75,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo jugó la final de la UEFA Champions League en su estadio, perdiéndola?",
+    "opciones": ["AC Milán", "Bayern Múnich", "Real Madrid", "FC Barcelona"],
+    "respuestaCorrecta": "Bayern Múnich"
+  },
+  {
+    "id": 76,
+    "categoria": "Futbol",
+    "pregunta": "¿El máximo número de sustituciones permitidas en un partido oficial (regla estándar 2024, sin alargue) es:",
+    "opciones": ["Tres", "Cuatro", "Cinco", "Seis"],
+    "respuestaCorrecta": "Cinco"
+  },
+  {
+    "id": 77,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué es un 'gol olímpico'?",
+    "opciones": ["Gol anotado de chilena", "Gol anotado directamente desde un saque de esquina", "Gol anotado en tiempo extra", "Gol de campo"],
+    "respuestaCorrecta": "Gol anotado directamente desde un saque de esquina"
+  },
+  {
+    "id": 78,
+    "categoria": "Futbol",
+    "pregunta": "¿En qué ciudad se encuentra el estadio San Siro?",
+    "opciones": ["Roma", "Turín", "Milán", "Nápoles"],
+    "respuestaCorrecta": "Milán"
+  },
+  {
+    "id": 79,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo ganó el Mundial de Clubes de 2023?",
+    "opciones": ["Real Madrid", "Al-Ahly", "Manchester City", "Fluminense"],
+    "respuestaCorrecta": "Manchester City"
+  },
+  {
+    "id": 80,
+    "categoria": "Futbol",
+    "pregunta": "¿El 'Golden Boy' se otorga al mejor jugador joven sub-21 de qué continente?",
+    "opciones": ["América", "Asia", "Europa", "Mundial"],
+    "respuestaCorrecta": "Europa"
+  },
+  {
+    "id": 81,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el trofeo que se entrega al campeón de la Copa del Rey española?",
+    "opciones": ["Copa del Rey", "Copa del Generalísimo", "Copa del Presidente de la República", "Copa del Monarca"],
+    "respuestaCorrecta": "Copa del Rey"
+  },
+  {
+    "id": 82,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país fue el primer bicampeón mundial (ganar dos Copas Mundiales consecutivas)?",
+    "opciones": ["Brasil", "Italia", "Uruguay", "Alemania"],
+    "respuestaCorrecta": "Italia"
+  },
+  {
+    "id": 83,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué es un 'córner' o saque de esquina?",
+    "opciones": ["Saque desde el medio campo", "Saque desde el área grande", "Reanudación desde el banderín tras salir por la línea de fondo", "Saque del portero"],
+    "respuestaCorrecta": "Reanudación desde el banderín tras salir por la línea de fondo"
+  },
+  {
+    "id": 84,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién es el máximo goleador histórico del Mundial de Clubes de la FIFA?",
+    "opciones": ["Gareth Bale", "Cristiano Ronaldo", "Luis Suárez", "Lionel Messi"],
+    "respuestaCorrecta": "Cristiano Ronaldo"
+  },
+  {
+    "id": 85,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo juega el 'Superclásico' contra el Boca Juniors?",
+    "opciones": ["Independiente", "San Lorenzo", "Racing Club", "River Plate"],
+    "respuestaCorrecta": "River Plate"
+  },
+  {
+    "id": 86,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el nombre del estadio donde juega sus partidos de local el Paris Saint-Germain?",
+    "opciones": ["Stade de France", "Parc des Princes", "Velódromo", "Gerland"],
+    "respuestaCorrecta": "Parc des Princes"
+  },
+  {
+    "id": 87,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador dio el nombre a una galaxia en 2015?",
+    "opciones": ["Zinedine Zidane", "David Beckham", "Cristiano Ronaldo", "Sergio Ramos"],
+    "respuestaCorrecta": "Cristiano Ronaldo"
+  },
+  {
+    "id": 88,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién fue el ganador del primer Balón de Oro de la historia?",
+    "opciones": ["Alfredo Di Stéfano", "Stanley Matthews", "Bobby Charlton", "Pelé"],
+    "respuestaCorrecta": "Stanley Matthews"
+  },
+  {
+    "id": 89,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país ganó la Copa Africana de Naciones 2024?",
+    "opciones": ["Senegal", "Egipto", "Costa de Marfil", "Nigeria"],
+    "respuestaCorrecta": "Costa de Marfil"
+  },
+  {
+    "id": 90,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club ha ganado más veces la FA Cup de Inglaterra?",
+    "opciones": ["Manchester United", "Arsenal FC", "Liverpool FC", "Chelsea FC"],
+    "respuestaCorrecta": "Arsenal FC"
+  },
+  {
+    "id": 91,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué se castiga con un tiro penal?",
+    "opciones": ["Falta dentro del área que impide oportunidad de gol", "Falta fuera del área", "Fuera de juego", "Tarjeta amarilla"],
+    "respuestaCorrecta": "Falta dentro del área que impide oportunidad de gol"
+  },
+  {
+    "id": 92,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es la medida de la portería de fútbol (ancho entre postes)?",
+    "opciones": ["5.32 metros", "7.32 metros", "9.15 metros", "6.24 metros"],
+    "respuestaCorrecta": "7.32 metros"
+  },
+  {
+    "id": 93,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo se enfrenta al Celtic FC en el 'Old Firm' de Escocia?",
+    "opciones": ["Heart of Midlothian", "Aberdeen FC", "Rangers FC", "Hibernian FC"],
+    "respuestaCorrecta": "Rangers FC"
+  },
+  {
+    "id": 94,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador marcó el gol que le dio a España el Mundial de 2010?",
+    "opciones": ["David Villa", "Fernando Torres", "Andrés Iniesta", "Xavi Hernández"],
+    "respuestaCorrecta": "Andrés Iniesta"
+  },
+  {
+    "id": 95,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país fue campeón de la Copa Mundial de 1970?",
+    "opciones": ["Italia", "Alemania", "Brasil", "Inglaterra"],
+    "respuestaCorrecta": "Brasil"
+  },
+  {
+    "id": 96,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el país de origen de la UEFA Champions League?",
+    "opciones": ["Inglaterra", "España", "Europa (UEFA)", "Alemania"],
+    "respuestaCorrecta": "Europa (UEFA)"
+  },
+  {
+    "id": 97,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club italiano tiene el récord de más títulos de liga consecutivos?",
+    "opciones": ["AC Milán", "Inter de Milán", "Juventus FC", "AS Roma"],
+    "respuestaCorrecta": "Juventus FC"
+  },
+  {
+    "id": 98,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club ganó el 'triplete' (Liga, Copa y Champions) en 1999?",
+    "opciones": ["FC Barcelona", "AC Milán", "Manchester United", "Bayern Múnich"],
+    "respuestaCorrecta": "Manchester United"
+  },
+  {
+    "id": 99,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién es la futbolista con más Balones de Oro Femeninos (Ballon d'Or Féminin)?",
+    "opciones": ["Alexia Putellas", "Ada Hegerberg", "Megan Rapinoe", "Marta Vieira da Silva"],
+    "respuestaCorrecta": "Alexia Putellas"
+  },
+  {
+    "id": 100,
+    "categoria": "Futbol",
+    "pregunta": "¿El famoso 'derbi del Ruhr' en Alemania enfrenta al Borussia Dortmund contra qué equipo?",
+    "opciones": ["Bayern Múnich", "Schalke 04", "Hamburger SV", "VfB Stuttgart"],
+    "respuestaCorrecta": "Schalke 04"
+  },
+  {
+    "id": 101,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el apodo de la selección argentina de fútbol?",
+    "opciones": ["La Albiceleste", "La Vinotinto", "La Roja", "Los Cafeteros"],
+    "respuestaCorrecta": "La Albiceleste"
+  },
+  {
+    "id": 102,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué número de dorsal suele llevar el delantero centro principal en el fútbol?",
+    "opciones": ["7", "10", "9", "8"],
+    "respuestaCorrecta": "9"
+  },
+  {
+    "id": 103,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es la ciudad de origen del Chelsea Football Club?",
+    "opciones": ["Mánchester", "Liverpool", "Londres", "Newcastle"],
+    "respuestaCorrecta": "Londres"
+  },
+  {
+    "id": 104,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador fue el segundo en la historia en ganar cinco Balones de Oro (detrás de Messi)?",
+    "opciones": ["Johan Cruyff", "Michel Platini", "Cristiano Ronaldo", "Marco van Basten"],
+    "respuestaCorrecta": "Cristiano Ronaldo"
+  },
+  {
+    "id": 105,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién es el máximo goleador histórico de la Juventus FC?",
+    "opciones": ["Alessandro Del Piero", "Roberto Baggio", "Cristiano Ronaldo", "David Trezeguet"],
+    "respuestaCorrecta": "Alessandro Del Piero"
+  },
+  {
+    "id": 106,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el trofeo que se entrega al campeón de la Bundesliga alemana?",
+    "opciones": ["Copa de Alemania", "Plato de Ensalada", "Meisterschale", "Copa DFB"],
+    "respuestaCorrecta": "Meisterschale"
+  },
+  {
+    "id": 107,
+    "categoria": "Futbol",
+    "pregunta": "¿En qué año se jugó la final de la Liga de Campeones entre el Real Madrid y el Atlético de Madrid en Lisboa?",
+    "opciones": ["2010", "2012", "2014", "2016"],
+    "respuestaCorrecta": "2014"
+  },
+  {
+    "id": 108,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país ganó la Copa Mundial Femenina de 2019?",
+    "opciones": ["Holanda", "Estados Unidos", "Inglaterra", "Francia"],
+    "respuestaCorrecta": "Estados Unidos"
+  },
+  {
+    "id": 109,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué es la 'Bota de Oro'?",
+    "opciones": ["Premio al mejor jugador del Mundial", "Premio al mejor goleador de ligas europeas", "Premio al mejor jugador de la Champions", "Premio al mejor goleador de la Copa América"],
+    "respuestaCorrecta": "Premio al mejor goleador de ligas europeas"
+  },
+  {
+    "id": 110,
+    "categoria": "Futbol",
+    "pregunta": "¿En qué ciudad se encuentra el estadio popularmente conocido como 'La Bombonera'?",
+    "opciones": ["Madrid", "Río de Janeiro", "Buenos Aires", "Múnich"],
+    "respuestaCorrecta": "Buenos Aires"
+  },
+  {
+    "id": 111,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo fue el primer campeón de la Premier League (formato actual, 1992-93)?",
+    "opciones": ["Liverpool FC", "Manchester United", "Arsenal FC", "Blackburn Rovers"],
+    "respuestaCorrecta": "Manchester United"
+  },
+  {
+    "id": 112,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuántos puntos se otorgan por una victoria en el fútbol (regla actual)?",
+    "opciones": ["Uno", "Dos", "Tres", "Cuatro"],
+    "respuestaCorrecta": "Tres"
+  },
+  {
+    "id": 113,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué famoso futbolista es conocido por el apodo 'El Pelusa'?",
+    "opciones": ["Pelé", "Ronaldo Nazário", "Lionel Messi", "Diego Maradona"],
+    "respuestaCorrecta": "Diego Maradona"
+  },
+  {
+    "id": 114,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es la medida de la portería de fútbol (alto desde el suelo al larguero)?",
+    "opciones": ["2.44 metros", "3.00 metros", "1.85 metros", "2.10 metros"],
+    "respuestaCorrecta": "2.44 metros"
+  },
+  {
+    "id": 115,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país ganó el Mundial de 1982?",
+    "opciones": ["Alemania Federal", "Argentina", "Italia", "Brasil"],
+    "respuestaCorrecta": "Italia"
+  },
+  {
+    "id": 116,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo ganó la Copa Libertadores 2023?",
+    "opciones": ["Boca Juniors", "Fluminense", "Palmeiras", "Flamengo"],
+    "respuestaCorrecta": "Fluminense"
+  },
+  {
+    "id": 117,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién es el máximo goleador histórico de la selección portuguesa?",
+    "opciones": ["Eusébio", "Luis Figo", "Cristiano Ronaldo", "Pauleta"],
+    "respuestaCorrecta": "Cristiano Ronaldo"
+  },
+  {
+    "id": 118,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo se enfrenta al Tottenham Hotspur en el 'Derbi del Norte de Londres'?",
+    "opciones": ["Chelsea FC", "West Ham United", "Arsenal FC", "Fulham FC"],
+    "respuestaCorrecta": "Arsenal FC"
+  },
+  {
+    "id": 119,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es la duración del medio tiempo en el fútbol profesional?",
+    "opciones": ["10 minutos", "15 minutos", "20 minutos", "5 minutos"],
+    "respuestaCorrecta": "15 minutos"
+  },
+  {
+    "id": 120,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país ganó la primera edición de la Eurocopa en 1960?",
+    "opciones": ["Francia", "Unión Soviética", "Yugoslavia", "Checoslovaquia"],
+    "respuestaCorrecta": "Unión Soviética"
+  },
+  {
+    "id": 121,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué es un 'gol de oro'?",
+    "opciones": ["Un gol anotado en el último minuto", "Un gol de gran belleza técnica", "Una regla usada para terminar partidos en prórroga tras el primer gol", "Un gol validado por el VAR"],
+    "respuestaCorrecta": "Una regla usada para terminar partidos en prórroga tras el primer gol"
+  },
+  {
+    "id": 122,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo es conocido por el apodo 'Los Azzurri'?",
+    "opciones": ["Selección Francesa", "Selección Italiana", "Selección Brasileña", "Selección Alemana"],
+    "respuestaCorrecta": "Selección Italiana"
+  },
+  {
+    "id": 123,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el estadio con mayor capacidad del mundo?",
+    "opciones": ["Camp Nou", "Azteca", "Maracaná", "Rungrado Primero de Mayo"],
+    "respuestaCorrecta": "Rungrado Primero de Mayo"
+  },
+  {
+    "id": 124,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador fue el máximo goleador del Mundial de 2014?",
+    "opciones": ["Thomas Müller", "Neymar Jr.", "James Rodríguez", "Lionel Messi"],
+    "respuestaCorrecta": "James Rodríguez"
+  },
+  {
+    "id": 125,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el nombre del trofeo de la Premier League inglesa?",
+    "opciones": ["FA Cup", "EFL Cup", "Premier League Trophy", "Community Shield"],
+    "respuestaCorrecta": "Premier League Trophy"
+  },
+  {
+    "id": 126,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo ganó la Copa Mundial Femenina de 2023?",
+    "opciones": ["Inglaterra", "Australia", "España", "Estados Unidos"],
+    "respuestaCorrecta": "España"
+  },
+  {
+    "id": 127,
+    "categoria": "Futbol",
+    "pregunta": "¿El Trofeo Pichichi se otorga al máximo goleador de qué liga?",
+    "opciones": ["Premier League", "Serie A", "LaLiga", "Bundesliga"],
+    "respuestaCorrecta": "LaLiga"
+  },
+  {
+    "id": 128,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo se enfrenta al Boca Juniors en el 'Clásico' uruguayo?",
+    "opciones": ["Nacional", "Peñarol", "Defensor Sporting", "Cerro"],
+    "respuestaCorrecta": "No aplica (Boca es argentino)"
+  },
+  {
+    "id": 129,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuántos árbitros asistentes (jueces de línea) participan en un partido profesional?",
+    "opciones": ["Uno", "Dos", "Tres", "Cuatro"],
+    "respuestaCorrecta": "Dos"
+  },
+  {
+    "id": 130,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club inglés es conocido por el apodo 'The Gunners'?",
+    "opciones": ["Arsenal FC", "Tottenham Hotspur", "Chelsea FC", "Manchester City"],
+    "respuestaCorrecta": "Arsenal FC"
+  },
+  {
+    "id": 131,
+    "categoria": "Futbol",
+    "pregunta": "¿En qué país se inventó el deporte del fútbol (moderno)?",
+    "opciones": ["Italia", "Escocia", "Inglaterra", "China"],
+    "respuestaCorrecta": "Inglaterra"
+  },
+  {
+    "id": 132,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es la distancia del punto penal a la línea de gol?",
+    "opciones": ["9.15 metros", "11 metros", "10.97 metros", "12 yardas"],
+    "respuestaCorrecta": "11 metros"
+  },
+  {
+    "id": 133,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué selección ganó la Copa Mundial de 1998?",
+    "opciones": ["Brasil", "Italia", "Francia", "Alemania"],
+    "respuestaCorrecta": "Francia"
+  },
+  {
+    "id": 134,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador del Real Madrid fue conocido como 'El Siete de Europa'?",
+    "opciones": ["Cristiano Ronaldo", "Raúl González", "Emilio Butragueño", "Di Stéfano"],
+    "respuestaCorrecta": "Raúl González"
+  },
+  {
+    "id": 135,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo juega el 'Derby della Capitale' contra el AS Roma?",
+    "opciones": ["SSC Napoli", "AC Milán", "Lazio", "Fiorentina"],
+    "respuestaCorrecta": "Lazio"
+  },
+  {
+    "id": 136,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el nombre del estadio del Atlético de Madrid?",
+    "opciones": ["Vicente Calderón", "Camp Nou", "Wanda Metropolitano", "Mestalla"],
+    "respuestaCorrecta": "Wanda Metropolitano"
+  },
+  {
+    "id": 137,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién fue el ganador del primer Balón de Oro Africano (mejor jugador africano)?",
+    "opciones": ["Didier Drogba", "George Weah", "Roger Milla", "Samuel Eto'o"],
+    "respuestaCorrecta": "George Weah"
+  },
+  {
+    "id": 138,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué se castiga con una tarjeta amarilla?",
+    "opciones": ["Una falta grave", "Conducta antideportiva o infracciones menores", "Expulsión directa", "Una falta dentro del área"],
+    "respuestaCorrecta": "Conducta antideportiva o infracciones menores"
+  },
+  {
+    "id": 139,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué futbolista español es conocido por el apodo 'El Niño'?",
+    "opciones": ["Iker Casillas", "Xavi Hernández", "Fernando Torres", "Sergio Ramos"],
+    "respuestaCorrecta": "Fernando Torres"
+  },
+  {
+    "id": 140,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el trofeo que se entrega al campeón de la Copa América Centenario 2016?",
+    "opciones": ["Copa Centenario", "Copa América", "Copa Sudamericana", "Copa FIFA"],
+    "respuestaCorrecta": "Copa Centenario"
+  },
+  {
+    "id": 141,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuántos equipos descienden en LaLiga española al final de la temporada?",
+    "opciones": ["Dos", "Tres", "Cuatro", "Uno"],
+    "respuestaCorrecta": "Tres"
+  },
+  {
+    "id": 142,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club ganó la primera Liga de Campeones de la UEFA (1992-93) bajo su nuevo formato?",
+    "opciones": ["AC Milán", "FC Barcelona", "Olympique de Marsella", "Real Madrid"],
+    "respuestaCorrecta": "Olympique de Marsella"
+  },
+  {
+    "id": 143,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador es el máximo goleador histórico de la selección alemana?",
+    "opciones": ["Miroslav Klose", "Gerd Müller", "Lukas Podolski", "Franz Beckenbauer"],
+    "respuestaCorrecta": "Miroslav Klose"
+  },
+  {
+    "id": 144,
+    "categoria": "Futbol",
+    "pregunta": "¿El famoso 'Der Klassiker' alemán enfrenta al Bayern Múnich contra qué equipo?",
+    "opciones": ["RB Leipzig", "Borussia Dortmund", "Schalke 04", "Hamburger SV"],
+    "respuestaCorrecta": "Borussia Dortmund"
+  },
+  {
+    "id": 145,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién fue el ganador del Balón de Oro 1998?",
+    "opciones": ["Ronaldo Nazário", "Zinedine Zidane", "Dennis Bergkamp", "Gabriel Batistuta"],
+    "respuestaCorrecta": "Zinedine Zidane"
+  },
+  {
+    "id": 146,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es la medida de la línea de medio campo (el círculo central)?",
+    "opciones": ["5.15 metros de radio", "9.15 metros de radio", "10 metros de radio", "11 metros de radio"],
+    "respuestaCorrecta": "9.15 metros de radio"
+  },
+  {
+    "id": 147,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país ganó el Mundial de 1978?",
+    "opciones": ["Holanda", "Italia", "Argentina", "Brasil"],
+    "respuestaCorrecta": "Argentina"
+  },
+  {
+    "id": 148,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo se enfrenta al Fluminense en el 'Clásico Fla-Flu' de Río de Janeiro?",
+    "opciones": ["Vasco da Gama", "Botafogo", "Flamengo", "Corinthians"],
+    "respuestaCorrecta": "Flamengo"
+  },
+  {
+    "id": 149,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el límite de edad para la participación en el fútbol olímpico masculino (con excepciones)?",
+    "opciones": ["Sub-21", "Sub-23", "Sub-25", "Sin límite"],
+    "respuestaCorrecta": "Sub-23"
+  },
+  {
+    "id": 150,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo juega en el estadio 'Old Trafford'?",
+    "opciones": ["Liverpool FC", "Manchester City", "Manchester United", "Arsenal FC"],
+    "respuestaCorrecta": "Manchester United"
+  },
+  {
+    "id": 151,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué es la 'Supercopa de Europa'?",
+    "opciones": ["Trofeo entre los campeones de Champions y Europa League", "Trofeo entre los campeones de liga y copa", "Trofeo de pretemporada", "Trofeo que da inicio a la temporada"],
+    "respuestaCorrecta": "Trofeo entre los campeones de Champions y Europa League"
+  },
+  {
+    "id": 152,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país es conocido por su selección como 'La Canarinha'?",
+    "opciones": ["Argentina", "Uruguay", "Portugal", "Brasil"],
+    "respuestaCorrecta": "Brasil"
+  },
+  {
+    "id": 153,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club inglés ganó la FA Cup en 2023?",
+    "opciones": ["Liverpool FC", "Manchester United", "Manchester City", "Arsenal FC"],
+    "respuestaCorrecta": "Manchester City"
+  },
+  {
+    "id": 154,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién es el máximo goleador de la historia de la Serie A italiana?",
+    "opciones": ["Francesco Totti", "Giuseppe Meazza", "Silvio Piola", "Alessandro Del Piero"],
+    "respuestaCorrecta": "Silvio Piola"
+  },
+  {
+    "id": 155,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador fue el primer africano en ganar el Balón de Oro?",
+    "opciones": ["Didier Drogba", "George Weah", "Samuel Eto'o", "Roger Milla"],
+    "respuestaCorrecta": "George Weah"
+  },
+  {
+    "id": 156,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el trofeo que se entrega al campeón de la Copa Sudamericana?",
+    "opciones": ["Copa Mercosur", "Copa Sudamericana", "Copa Libertadores", "Recopa Sudamericana"],
+    "respuestaCorrecta": "Copa Sudamericana"
+  },
+  {
+    "id": 157,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuántos jugadores de campo debe tener un equipo para que el partido pueda comenzar o continuar?",
+    "opciones": ["7", "9", "10", "11"],
+    "respuestaCorrecta": "7"
+  },
+  {
+    "id": 158,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador tiene el récord de más goles anotados en un partido de la Liga de Campeones de la UEFA?",
+    "opciones": ["Lionel Messi", "Cristiano Ronaldo", "Erling Haaland", "Ambos (Messi y Luiz Adriano)"],
+    "respuestaCorrecta": "Ambos (Messi y Luiz Adriano)"
+  },
+  {
+    "id": 159,
+    "categoria": "Futbol",
+    "pregunta": "¿El 'Clásico de Avellaneda' enfrenta al Racing Club contra qué equipo?",
+    "opciones": ["Boca Juniors", "River Plate", "Independiente", "San Lorenzo"],
+    "respuestaCorrecta": "Independiente"
+  },
+  {
+    "id": 160,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el nombre del estadio donde juega sus partidos de local el Boca Juniors?",
+    "opciones": ["Monumental", "El Cilindro", "La Bombonera", "Pedro Bidegain"],
+    "respuestaCorrecta": "La Bombonera"
+  },
+  {
+    "id": 161,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál fue el ganador del Mundial de 1950 (el Maracanazo)?",
+    "opciones": ["Brasil", "Italia", "Uruguay", "Argentina"],
+    "respuestaCorrecta": "Uruguay"
+  },
+  {
+    "id": 162,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo se enfrenta al Benfica en el 'Derbi de Lisboa'?",
+    "opciones": ["Porto FC", "Sporting CP", "Braga", "Boavista"],
+    "respuestaCorrecta": "Sporting CP"
+  },
+  {
+    "id": 163,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué significa la sigla VAR en el fútbol?",
+    "opciones": ["Voz de Asistencia Rápida", "Video Arbitral Revisado", "Video Assistant Referee", "Visualización Arbitral Rápida"],
+    "respuestaCorrecta": "Video Assistant Referee"
+  },
+  {
+    "id": 164,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador tiene el récord de más apariciones en la historia de la Liga de Campeones de la UEFA?",
+    "opciones": ["Lionel Messi", "Cristiano Ronaldo", "Iker Casillas", "Xavi Hernández"],
+    "respuestaCorrecta": "Cristiano Ronaldo"
+  },
+  {
+    "id": 165,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país ganó la primera edición de la Copa Mundial de Clubes de la FIFA en 2000?",
+    "opciones": ["Real Madrid", "Vasco da Gama", "Corinthians", "Manchester United"],
+    "respuestaCorrecta": "Corinthians"
+  },
+  {
+    "id": 166,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el nombre del estadio del Atlético Mineiro en Brasil?",
+    "opciones": ["Maracaná", "Arena do Grêmio", "Estádio Independência", "Mineirão"],
+    "respuestaCorrecta": "Mineirão"
+  },
+  {
+    "id": 167,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién es el máximo goleador histórico de la selección española?",
+    "opciones": ["Raúl González", "Fernando Torres", "David Villa", "Álvaro Morata"],
+    "respuestaCorrecta": "David Villa"
+  },
+  {
+    "id": 168,
+    "categoria": "Futbol",
+    "pregunta": "¿El famoso 'Derby d'Italia' enfrenta a la Juventus contra qué equipo?",
+    "opciones": ["AC Milán", "AS Roma", "Inter de Milán", "SSC Napoli"],
+    "respuestaCorrecta": "Inter de Milán"
+  },
+  {
+    "id": 169,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el trofeo que se otorga al mejor portero de la Liga de Campeones de la UEFA?",
+    "opciones": ["Premio Yashin", "Guante de Oro", "Trofeo Zamora", "The Best"],
+    "respuestaCorrecta": "Premio Yashin"
+  },
+  {
+    "id": 170,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club inglés es conocido por el apodo 'Los Citizens'?",
+    "opciones": ["Chelsea FC", "Liverpool FC", "Manchester United", "Manchester City"],
+    "respuestaCorrecta": "Manchester City"
+  },
+  {
+    "id": 171,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál fue el marcador de la final del Mundial 2014 entre Alemania y Argentina?",
+    "opciones": ["0-0 (Penales)", "2-1", "1-0", "3-2"],
+    "respuestaCorrecta": "1-0"
+  },
+  {
+    "id": 172,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué se castiga con un tiro libre directo?",
+    "opciones": ["Una falta menor o técnica", "Una infracción sin contacto", "Una falta peligrosa o con contacto físico", "Fuera de juego"],
+    "respuestaCorrecta": "Una falta peligrosa o con contacto físico"
+  },
+  {
+    "id": 173,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién es la jugadora con más partidos disputados en la historia de la selección femenina de EE. UU.?",
+    "opciones": ["Mia Hamm", "Abby Wambach", "Kristine Lilly", "Carli Lloyd"],
+    "respuestaCorrecta": "Kristine Lilly"
+  },
+  {
+    "id": 174,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país organizó el Mundial de Fútbol de 2006?",
+    "opciones": ["Corea/Japón", "Sudáfrica", "Alemania", "Italia"],
+    "respuestaCorrecta": "Alemania"
+  },
+  {
+    "id": 175,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club es conocido por el apodo 'Los Culés'?",
+    "opciones": ["Real Madrid", "Valencia CF", "FC Barcelona", "Atlético de Madrid"],
+    "respuestaCorrecta": "FC Barcelona"
+  },
+  {
+    "id": 176,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo ganó la Copa Libertadores por primera vez en 2019?",
+    "opciones": ["Boca Juniors", "River Plate", "Flamengo", "Palmeiras"],
+    "respuestaCorrecta": "Flamengo"
+  },
+  {
+    "id": 177,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador anotó el gol de 'chilena' más famoso en una final de Champions League (2018)?",
+    "opciones": ["Cristiano Ronaldo", "Gareth Bale", "Zinedine Zidane", "Ronaldinho"],
+    "respuestaCorrecta": "Gareth Bale"
+  },
+  {
+    "id": 178,
+    "categoria": "Futbol",
+    "pregunta": "¿El famoso 'Derbi de Mánchester' enfrenta al Manchester United contra qué equipo?",
+    "opciones": ["Liverpool FC", "Manchester City", "Arsenal FC", "Leeds United"],
+    "respuestaCorrecta": "Manchester City"
+  },
+  {
+    "id": 179,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país ganó la Eurocopa 2020 (celebrada en 2021)?",
+    "opciones": ["Inglaterra", "Francia", "Italia", "España"],
+    "respuestaCorrecta": "Italia"
+  },
+  {
+    "id": 180,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el trofeo que se otorga al campeón de la Copa Alemana (DFB-Pokal)?",
+    "opciones": ["Bundesliga Meisterschale", "Copa Alemana", "DFB-Pokal", "Ambos (Copa Alemana y DFB-Pokal)"],
+    "respuestaCorrecta": "DFB-Pokal"
+  },
+  {
+    "id": 181,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país fue el primer campeón de la Copa Mundial Femenina de la FIFA?",
+    "opciones": ["Noruega", "Alemania", "Estados Unidos", "China"],
+    "respuestaCorrecta": "Estados Unidos"
+  },
+  {
+    "id": 182,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el club con más títulos de liga en Portugal?",
+    "opciones": ["Sporting CP", "FC Porto", "SL Benfica", "Sporting Braga"],
+    "respuestaCorrecta": "SL Benfica"
+  },
+  {
+    "id": 183,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué significa la sigla LALIGA en el fútbol español?",
+    "opciones": ["Liga Nacional de Fútbol Profesional", "Liga de Asociaciones de Fútbol", "Liga Española de Fútbol", "Liga Autónoma de Fútbol"],
+    "respuestaCorrecta": "Liga Nacional de Fútbol Profesional"
+  },
+  {
+    "id": 184,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador fue el segundo máximo goleador de LaLiga, por detrás de Messi, hasta 2021?",
+    "opciones": ["Cristiano Ronaldo", "Telmo Zarra", "Hugo Sánchez", "Alfredo Di Stéfano"],
+    "respuestaCorrecta": "Cristiano Ronaldo"
+  },
+  {
+    "id": 185,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién es el máximo goleador histórico de la selección uruguaya?",
+    "opciones": ["Diego Forlán", "Luis Suárez", "Edinson Cavani", "Álvaro Recoba"],
+    "respuestaCorrecta": "Luis Suárez"
+  },
+  {
+    "id": 186,
+    "categoria": "Futbol",
+    "pregunta": "¿El famoso 'Derbi del Tyne and Wear' en Inglaterra enfrenta al Newcastle United contra qué equipo?",
+    "opciones": ["Sunderland AFC", "Middlesbrough FC", "West Ham United", "Everton FC"],
+    "respuestaCorrecta": "Sunderland AFC"
+  },
+  {
+    "id": 187,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club ha ganado más veces la Copa Sudamericana?",
+    "opciones": ["Boca Juniors", "Independiente", "LDU Quito", "Independiente del Valle"],
+    "respuestaCorrecta": "Independiente"
+  },
+  {
+    "id": 188,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién fue el ganador del Balón de Oro 2018?",
+    "opciones": ["Luka Modrić", "Cristiano Ronaldo", "Lionel Messi", "Antoine Griezmann"],
+    "respuestaCorrecta": "Luka Modrić"
+  },
+  {
+    "id": 189,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuántos tiempos extra (prórroga) de 15 minutos se juegan en total?",
+    "opciones": ["Uno", "Dos", "Tres", "Depende del árbitro"],
+    "respuestaCorrecta": "Dos"
+  },
+  {
+    "id": 190,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo juega en el estadio 'Emirates Stadium'?",
+    "opciones": ["Chelsea FC", "Manchester United", "Tottenham Hotspur", "Arsenal FC"],
+    "respuestaCorrecta": "Arsenal FC"
+  },
+  {
+    "id": 191,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el trofeo que se entrega al campeón de la Copa América Femenina?",
+    "opciones": ["Copa Femenina", "Copa Libertadores Femenina", "Copa América Femenina", "Copa CONMEBOL"],
+    "respuestaCorrecta": "Copa América Femenina"
+  },
+  {
+    "id": 192,
+    "categoria": "Futbol",
+    "pregunta": "¿En qué año se utilizó por primera vez la tecnología VAR en la Copa Mundial de la FIFA?",
+    "opciones": ["2014", "2018", "2022", "2010"],
+    "respuestaCorrecta": "2018"
+  },
+  {
+    "id": 193,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo se enfrenta al AC Milán en el 'Derbi della Madonnina'?",
+    "opciones": ["Juventus FC", "AS Roma", "Inter de Milán", "SSC Napoli"],
+    "respuestaCorrecta": "Inter de Milán"
+  },
+  {
+    "id": 194,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el nombre del estadio del River Plate en Argentina?",
+    "opciones": ["La Bombonera", "El Cilindro", "Monumental", "Pedro Bidegain"],
+    "respuestaCorrecta": "Monumental"
+  },
+  {
+    "id": 195,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país ganó el Mundial de 1966?",
+    "opciones": ["Alemania Federal", "Brasil", "Inglaterra", "Italia"],
+    "respuestaCorrecta": "Inglaterra"
+  },
+  {
+    "id": 196,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador ganó la Bota de Oro en la Copa Mundial de 2022?",
+    "opciones": ["Kylian Mbappé", "Lionel Messi", "Olivier Giroud", "Richarlison"],
+    "respuestaCorrecta": "Kylian Mbappé"
+  },
+  {
+    "id": 197,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué se castiga con una tarjeta roja directa?",
+    "opciones": ["Una falta táctica", "Una protesta al árbitro", "Juego brusco grave o conducta violenta", "Dos tarjetas amarillas"],
+    "respuestaCorrecta": "Juego brusco grave o conducta violenta"
+  },
+  {
+    "id": 198,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién es el máximo goleador histórico de la Serie A de Italia?",
+    "opciones": ["Silvio Piola", "Francesco Totti", "Gunnar Nordahl", "Giuseppe Meazza"],
+    "respuestaCorrecta": "Silvio Piola"
+  },
+  {
+    "id": 199,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo es conocido por el apodo 'Los Bianconeri'?",
+    "opciones": ["AC Milán", "Inter de Milán", "Juventus FC", "AS Roma"],
+    "respuestaCorrecta": "Juventus FC"
+  },
+  {
+    "id": 200,
+    "categoria": "Futbol",
+    "pregunta": "¿En qué ciudad se encuentra el estadio 'Maracaná'?",
+    "opciones": ["Sao Paulo", "Buenos Aires", "Río de Janeiro", "Belo Horizonte"],
+    "respuestaCorrecta": "Río de Janeiro"
+  },
+  {
+    "id": 201,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el trofeo que se entrega al campeón de la Copa MX (Copa de México)?",
+    "opciones": ["Copa MX", "Copa Campeón de Campeones", "Copa de Oro", "Copa Azteca"],
+    "respuestaCorrecta": "Copa MX"
+  },
+  {
+    "id": 202,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador es conocido por el apodo 'O Fenômeno'?",
+    "opciones": ["Pelé", "Romário", "Ronaldo Nazário", "Ronaldinho"],
+    "respuestaCorrecta": "Ronaldo Nazário"
+  },
+  {
+    "id": 203,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es la medida de la línea de gol (línea de fondo) del campo de juego?",
+    "opciones": ["Máximo 100 metros", "Mínimo 45 metros", "Máximo 90 metros", "Entre 64 y 75 metros"],
+    "respuestaCorrecta": "Entre 64 y 75 metros"
+  },
+  {
+    "id": 204,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país ganó la medalla de oro en fútbol masculino en los Juegos Olímpicos de Tokio 2020?",
+    "opciones": ["Brasil", "España", "México", "Japón"],
+    "respuestaCorrecta": "Brasil"
+  },
+  {
+    "id": 205,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién es el máximo goleador histórico de la selección chilena?",
+    "opciones": ["Iván Zamorano", "Marcelo Salas", "Alexis Sánchez", "Arturo Vidal"],
+    "respuestaCorrecta": "Alexis Sánchez"
+  },
+  {
+    "id": 206,
+    "categoria": "Futbol",
+    "pregunta": "¿El 'Derbi de la Superliga Argentina' enfrenta a River Plate contra qué equipo?",
+    "opciones": ["Independiente", "Racing Club", "Boca Juniors", "San Lorenzo"],
+    "respuestaCorrecta": "Boca Juniors"
+  },
+  {
+    "id": 207,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo ganó la Copa Libertadores por primera vez en 2020?",
+    "opciones": ["Boca Juniors", "Santos FC", "Palmeiras", "River Plate"],
+    "respuestaCorrecta": "Palmeiras"
+  },
+  {
+    "id": 208,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién es el único jugador en ganar la Copa Mundial tres veces?",
+    "opciones": ["Lionel Messi", "Miroslav Klose", "Franz Beckenbauer", "Pelé"],
+    "respuestaCorrecta": "Pelé"
+  },
+  {
+    "id": 209,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el nombre del estadio donde juega sus partidos de local el Arsenal FC?",
+    "opciones": ["Old Trafford", "Stamford Bridge", "Emirates Stadium", "Anfield"],
+    "respuestaCorrecta": "Emirates Stadium"
+  },
+  {
+    "id": 210,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club ha ganado más veces la Copa del Rey española?",
+    "opciones": ["Real Madrid", "Athletic Club", "FC Barcelona", "Atlético de Madrid"],
+    "respuestaCorrecta": "FC Barcelona"
+  },
+  {
+    "id": 211,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué se castiga con un saque de meta (saque de puerta)?",
+    "opciones": ["El balón sale por la línea lateral", "El balón sale por la línea de fondo, tocado por un atacante", "El balón sale por la línea de fondo, tocado por un defensor", "El balón golpea el banderín"],
+    "respuestaCorrecta": "El balón sale por la línea de fondo, tocado por un atacante"
+  },
+  {
+    "id": 212,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es la medida del área de meta (área pequeña) del campo de juego?",
+    "opciones": ["16.5m x 5.5m", "5.5m x 18.32m", "11m x 5.5m", "18.32m x 5.5m"],
+    "respuestaCorrecta": "18.32m x 5.5m"
+  },
+  {
+    "id": 213,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué selección ganó el Mundial de 1958?",
+    "opciones": ["Suecia", "Brasil", "Alemania Federal", "Francia"],
+    "respuestaCorrecta": "Brasil"
+  },
+  {
+    "id": 214,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club es conocido por el apodo 'Los Bávaros'?",
+    "opciones": ["Borussia Dortmund", "Schalke 04", "Bayern Múnich", "RB Leipzig"],
+    "respuestaCorrecta": "Bayern Múnich"
+  },
+  {
+    "id": 215,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién fue el ganador del Balón de Oro 2004?",
+    "opciones": ["Ronaldinho", "Andriy Shevchenko", "Thierry Henry", "Deco"],
+    "respuestaCorrecta": "Andriy Shevchenko"
+  },
+  {
+    "id": 216,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el trofeo que se entrega al campeón de la Copa Italia?",
+    "opciones": ["Scudetto", "Copa Italia", "Coppa Nazionale", "Supercopa Italiana"],
+    "respuestaCorrecta": "Copa Italia"
+  },
+  {
+    "id": 217,
+    "categoria": "Futbol",
+    "pregunta": "¿En qué año se fundó el Club Atlético River Plate?",
+    "opciones": ["1890", "1901", "1905", "1910"],
+    "respuestaCorrecta": "1901"
+  },
+  {
+    "id": 218,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué equipo se enfrenta al Boca Juniors en el 'Superclásico' argentino?",
+    "opciones": ["Racing Club", "Independiente", "River Plate", "San Lorenzo"],
+    "respuestaCorrecta": "River Plate"
+  },
+  {
+    "id": 219,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el trofeo que se otorga al mejor jugador joven del Mundial (Premio al Jugador Joven de la FIFA)?",
+    "opciones": ["Bota de Oro", "Balón de Oro", "Jugador Joven", "Golden Boy"],
+    "respuestaCorrecta": "Jugador Joven"
+  },
+  {
+    "id": 220,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club inglés es conocido por el apodo 'Los Reds' (además del Manchester United)?",
+    "opciones": ["Chelsea FC", "Liverpool FC", "Arsenal FC", "Tottenham Hotspur"],
+    "respuestaCorrecta": "Liverpool FC"
+  },
+  {
+    "id": 221,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es la medida de la línea de banda (línea lateral) del campo de juego?",
+    "opciones": ["Entre 90 y 120 metros", "Entre 100 y 110 metros", "Entre 90 y 100 metros", "Entre 110 y 120 metros"],
+    "respuestaCorrecta": "Entre 90 y 120 metros"
+  },
+  {
+    "id": 222,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador tiene el récord de más goles en la historia de la Copa América?",
+    "opciones": ["Pelé", "Lionel Messi", "Zizinho y Norberto Méndez (empatados)", "Teófilo Cubillas"],
+    "respuestaCorrecta": "Zizinho y Norberto Méndez (empatados)"
+  },
+  {
+    "id": 223,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué selección ganó el Mundial de 1986?",
+    "opciones": ["Alemania Federal", "Italia", "Argentina", "Brasil"],
+    "respuestaCorrecta": "Argentina"
+  },
+  {
+    "id": 224,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club es conocido por el apodo 'Los Nerazzurri'?",
+    "opciones": ["AC Milán", "Juventus FC", "Inter de Milán", "SSC Napoli"],
+    "respuestaCorrecta": "Inter de Milán"
+  },
+  {
+    "id": 225,
+    "categoria": "Futbol",
+    "pregunta": "¿Quién fue el ganador del Balón de Oro 2014?",
+    "opciones": ["Lionel Messi", "Cristiano Ronaldo", "Manuel Neuer", "Neymar Jr."],
+    "respuestaCorrecta": "Cristiano Ronaldo"
+  },
+  {
+    "id": 226,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el nombre del estadio donde juega sus partidos de local el Liverpool FC?",
+    "opciones": ["Old Trafford", "Anfield", "Stamford Bridge", "Etihad Stadium"],
+    "respuestaCorrecta": "Anfield"
+  },
+  {
+    "id": 227,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué país ganó la medalla de oro en fútbol femenino en los Juegos Olímpicos de Río 2016?",
+    "opciones": ["Alemania", "Suecia", "Estados Unidos", "Brasil"],
+    "respuestaCorrecta": "Alemania"
+  },
+  {
+    "id": 228,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador tiene el récord de más goles en la historia de la Premier League?",
+    "opciones": ["Alan Shearer", "Wayne Rooney", "Thierry Henry", "Sergio Agüero"],
+    "respuestaCorrecta": "Alan Shearer"
+  },
+  {
+    "id": 229,
+    "categoria": "Futbol",
+    "pregunta": "¿El 'Clásico de Holanda' (De Klassieker) enfrenta al Ajax contra qué equipo?",
+    "opciones": ["PSV Eindhoven", "Feyenoord", "AZ Alkmaar", "FC Twente"],
+    "respuestaCorrecta": "Feyenoord"
+  },
+  {
+    "id": 230,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el trofeo que se entrega al campeón de la Supercopa de España?",
+    "opciones": ["Copa del Rey", "Supercopa de España", "Copa de la Liga", "Trofeo Joan Gamper"],
+    "respuestaCorrecta": "Supercopa de España"
+  },
+  {
+    "id": 231,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué se castiga con un 'saque de banda' (throw-in)?",
+    "opciones": ["El balón sale por la línea de fondo", "El balón sale por la línea lateral", "Una falta en el medio campo", "Una mano involuntaria"],
+    "respuestaCorrecta": "El balón sale por la línea lateral"
+  },
+  {
+    "id": 232,
+    "categoria": "Futbol",
+    "pregunta": "¿Cuál es el país de origen de la Copa Oro de la CONCACAF?",
+    "opciones": ["Estados Unidos", "México", "América del Norte, Central y Caribe (CONCACAF)", "Canadá"],
+    "respuestaCorrecta": "América del Norte, Central y Caribe (CONCACAF)"
+  },
+  {
+    "id": 233,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué club es conocido por el apodo 'Los Merengues'?",
+    "opciones": ["Atlético de Madrid", "FC Barcelona", "Real Madrid", "Valencia CF"],
+    "respuestaCorrecta": "Real Madrid"
+  },
+  {
+    "id": 234,
+    "categoria": "Futbol",
+    "pregunta": "¿Qué jugador anotó el gol de 'tijera' más famoso en una final de Champions League (2002)?",
+    "opciones": ["Zinedine Zidane", "Raúl González", "Roberto Carlos", "Fernando Morientes"],
+    "respuestaCorrecta": "Zinedine Zidane"
+  },
+  {
+    "id": 235,
+    "categoria": "Futbol",
+    "pregunta": "¿En qué ciudad se encuentra el estadio 'La Rosaleda'?",
+    "opciones": ["Sevilla", "Valencia", "Málaga", "Bilbao"],
+    "respuestaCorrecta": "Málaga"
+  }
+]
