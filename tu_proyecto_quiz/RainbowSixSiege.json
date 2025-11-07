@@ -1,0 +1,602 @@
+[
+    {
+      "id": 1,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Thermite?",
+      "opciones": [
+        "SAS",
+        "FBI SWAT",
+        "Spetsnaz",
+        "JTF2"
+      ],
+      "respuestaCorrecta": "FBI SWAT"
+    },
+    {
+      "id": 2,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Sledge?",
+      "opciones": [
+        "GIGN",
+        "Spetsnaz",
+        "SAS",
+        "GEO"
+      ],
+      "respuestaCorrecta": "SAS"
+    },
+    {
+      "id": 3,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Ash?",
+      "opciones": [
+        "3 velocidad - 1 armadura",
+        "2 velocidad - 2 armadura",
+        "1 velocidad - 3 armadura",
+        "3 velocidad - 3 armadura"
+      ],
+      "respuestaCorrecta": "3 velocidad - 1 armadura"
+    },
+    {
+      "id": 4,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Frost?",
+      "opciones": [
+        "JTF2",
+        "GEO",
+        "BOPE",
+        "NIGHTHAVEN"
+      ],
+      "respuestaCorrecta": "JTF2"
+    },
+    {
+      "id": 5,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Rook?",
+      "opciones": [
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 2 armadura",
+        "3 velocidad - 1 armadura",
+        "1 velocidad - 2 armadura"
+      ],
+      "respuestaCorrecta": "1 velocidad - 3 armadura"
+    },
+    {
+      "id": 6,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Montagne?",
+      "opciones": [
+        "BOPE",
+        "NIGHTHAVEN",
+        "REU",
+        "GIGN"
+      ],
+      "respuestaCorrecta": "GIGN"
+    },
+    {
+      "id": 7,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Caveira?",
+      "opciones": [
+        "3 velocidad - 1 armadura",
+        "2 velocidad - 2 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "3 velocidad - 1 armadura"
+    },
+    {
+      "id": 8,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Ela?",
+      "opciones": [
+        "REU",
+        "Redhammer",
+        "FBI SWAT",
+        "GROM"
+      ],
+      "respuestaCorrecta": "GROM"
+    },
+    {
+      "id": 9,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Doc?",
+      "opciones": [
+        "1 velocidad - 3 armadura",
+        "3 velocidad - 1 armadura",
+        "2 velocidad - 2 armadura",
+        "1 velocidad - 2 armadura"
+      ],
+      "respuestaCorrecta": "1 velocidad - 3 armadura"
+    },
+    {
+      "id": 10,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Mozzie?",
+      "opciones": [
+        "FBI SWAT",
+        "SAS",
+        "GIGN",
+        "SASR"
+      ],
+      "respuestaCorrecta": "SASR"
+    },
+    {
+      "id": 11,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Jäger?",
+      "opciones": [
+        "3 velocidad - 1 armadura",
+        "2 velocidad - 2 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 3 armadura"
+      ],
+      "respuestaCorrecta": "3 velocidad - 1 armadura"
+    },
+    {
+      "id": 12,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Ash?",
+      "opciones": [
+        "GIGN",
+        "Spetsnaz",
+        "JTF2",
+        "FBI SWAT"
+      ],
+      "respuestaCorrecta": "FBI SWAT"
+    },
+    {
+      "id": 13,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Tachanka?",
+      "opciones": [
+        "1 velocidad - 3 armadura",
+        "3 velocidad - 1 armadura",
+        "2 velocidad - 2 armadura",
+        "1 velocidad - 2 armadura"
+      ],
+      "respuestaCorrecta": "1 velocidad - 3 armadura"
+    },
+    {
+      "id": 14,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Smoke?",
+      "opciones": [
+        "JTF2",
+        "GEO",
+        "BOPE",
+        "SAS"
+      ],
+      "respuestaCorrecta": "SAS"
+    },
+    {
+      "id": 15,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Pulse?",
+      "opciones": [
+        "3 velocidad - 1 armadura",
+        "2 velocidad - 2 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "3 velocidad - 1 armadura"
+    },
+    {
+      "id": 16,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Kapkan?",
+      "opciones": [
+        "BOPE",
+        "NIGHTHAVEN",
+        "REU",
+        "Spetsnaz"
+      ],
+      "respuestaCorrecta": "Spetsnaz"
+    },
+    {
+      "id": 17,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Bandit?",
+      "opciones": [
+        "3 velocidad - 1 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 2 armadura",
+        "3 velocidad - 2 armadura"
+      ],
+      "respuestaCorrecta": "3 velocidad - 1 armadura"
+    },
+    {
+      "id": 18,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Jäger?",
+      "opciones": [
+        "REU",
+        "Redhammer",
+        "FBI SWAT",
+        "GSG 9"
+      ],
+      "respuestaCorrecta": "GSG 9"
+    },
+    {
+      "id": 19,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene IQ?",
+      "opciones": [
+        "3 velocidad - 1 armadura",
+        "2 velocidad - 2 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "3 velocidad - 1 armadura"
+    },
+    {
+      "id": 20,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Blitz?",
+      "opciones": [
+        "FBI SWAT",
+        "SAS",
+        "GIGN",
+        "GSG 9"
+      ],
+      "respuestaCorrecta": "GSG 9"
+    },
+    {
+      "id": 21,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Fuze?",
+      "opciones": [
+        "1 velocidad - 3 armadura",
+        "3 velocidad - 1 armadura",
+        "2 velocidad - 2 armadura",
+        "1 velocidad - 2 armadura"
+      ],
+      "respuestaCorrecta": "1 velocidad - 3 armadura"
+    },
+    {
+      "id": 22,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Doc?",
+      "opciones": [
+        "GIGN",
+        "Spetsnaz",
+        "JTF2",
+        "GEO"
+      ],
+      "respuestaCorrecta": "GIGN"
+    },
+    {
+      "id": 23,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Twitch?",
+      "opciones": [
+        "2 velocidad - 2 armadura",
+        "3 velocidad - 1 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "2 velocidad - 2 armadura"
+    },
+    {
+      "id": 24,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Fuze?",
+      "opciones": [
+        "JTF2",
+        "GEO",
+        "BOPE",
+        "Spetsnaz"
+      ],
+      "respuestaCorrecta": "Spetsnaz"
+    },
+    {
+      "id": 25,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Buck?",
+      "opciones": [
+        "2 velocidad - 2 armadura",
+        "3 velocidad - 1 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "2 velocidad - 2 armadura"
+    },
+    {
+      "id": 26,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Blackbeard?",
+      "opciones": [
+        "BOPE",
+        "NIGHTHAVEN",
+        "REU",
+        "Navy SEALs"
+      ],
+      "respuestaCorrecta": "Navy SEALs"
+    },
+    {
+      "id": 27,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Caveira?",
+      "opciones": [
+        "3 velocidad - 1 armadura",
+        "2 velocidad - 2 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "3 velocidad - 1 armadura"
+    },
+    {
+      "id": 28,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Capitão?",
+      "opciones": [
+        "REU",
+        "Redhammer",
+        "FBI SWAT",
+        "BOPE"
+      ],
+      "respuestaCorrecta": "BOPE"
+    },
+    {
+      "id": 29,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Hibana?",
+      "opciones": [
+        "3 velocidad - 1 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 2 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "3 velocidad - 1 armadura"
+    },
+    {
+      "id": 30,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Echo?",
+      "opciones": [
+        "FBI SWAT",
+        "SAS",
+        "GIGN",
+        "SAT"
+      ],
+      "respuestaCorrecta": "SAT"
+    },
+    {
+      "id": 31,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Jackal?",
+      "opciones": [
+        "2 velocidad - 2 armadura",
+        "3 velocidad - 1 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "2 velocidad - 2 armadura"
+    },
+    {
+      "id": 32,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Mira?",
+      "opciones": [
+        "GIGN",
+        "Spetsnaz",
+        "JTF2",
+        "GEO"
+      ],
+      "respuestaCorrecta": "GEO"
+    },
+    {
+      "id": 33,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Lesion?",
+      "opciones": [
+        "2 velocidad - 2 armadura",
+        "3 velocidad - 1 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "2 velocidad - 2 armadura"
+    },
+    {
+      "id": 34,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Lesion?",
+      "opciones": [
+        "JTF2",
+        "GEO",
+        "BOPE",
+        "SDU"
+      ],
+      "respuestaCorrecta": "SDU"
+    },
+    {
+      "id": 35,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Vigil?",
+      "opciones": [
+        "3 velocidad - 1 armadura",
+        "2 velocidad - 2 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "3 velocidad - 1 armadura"
+    },
+    {
+      "id": 36,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Vigil?",
+      "opciones": [
+        "BOPE",
+        "NIGHTHAVEN",
+        "REU",
+        "707th SMB"
+      ],
+      "respuestaCorrecta": "707th SMB"
+    },
+    {
+      "id": 37,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Lion?",
+      "opciones": [
+        "2 velocidad - 2 armadura",
+        "3 velocidad - 1 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "2 velocidad - 2 armadura"
+    },
+    {
+      "id": 38,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Finka?",
+      "opciones": [
+        "REU",
+        "Redhammer",
+        "FBI SWAT",
+        "CBRN"
+      ],
+      "respuestaCorrecta": "CBRN"
+    },
+    {
+      "id": 39,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Maestro?",
+      "opciones": [
+        "1 velocidad - 3 armadura",
+        "3 velocidad - 1 armadura",
+        "2 velocidad - 2 armadura",
+        "1 velocidad - 2 armadura"
+      ],
+      "respuestaCorrecta": "1 velocidad - 3 armadura"
+    },
+    {
+      "id": 40,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Alibi?",
+      "opciones": [
+        "FBI SWAT",
+        "SAS",
+        "GIGN",
+        "GIS"
+      ],
+      "respuestaCorrecta": "GIS"
+    },
+    {
+      "id": 41,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Clash?",
+      "opciones": [
+        "1 velocidad - 3 armadura",
+        "3 velocidad - 1 armadura",
+        "2 velocidad - 2 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "1 velocidad - 3 armadura"
+    },
+    {
+      "id": 42,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Maverick?",
+      "opciones": [
+        "GIGN",
+        "Spetsnaz",
+        "JTF2",
+        "GSUTR"
+      ],
+      "respuestaCorrecta": "GSUTR"
+    },
+    {
+      "id": 43,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Nomad?",
+      "opciones": [
+        "2 velocidad - 2 armadura",
+        "3 velocidad - 1 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "2 velocidad - 2 armadura"
+    },
+    {
+      "id": 44,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Kaid?",
+      "opciones": [
+        "JTF2",
+        "GEO",
+        "BOPE",
+        "GIGR"
+      ],
+      "respuestaCorrecta": "GIGR"
+    },
+    {
+      "id": 45,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Gridlock?",
+      "opciones": [
+        "1 velocidad - 3 armadura",
+        "3 velocidad - 1 armadura",
+        "2 velocidad - 2 armadura",
+        "1 velocidad - 2 armadura"
+      ],
+      "respuestaCorrecta": "1 velocidad - 3 armadura"
+    },
+    {
+      "id": 46,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Nokk?",
+      "opciones": [
+        "BOPE",
+        "NIGHTHAVEN",
+        "REU",
+        "Jaeger Corps"
+      ],
+      "respuestaCorrecta": "Jaeger Corps"
+    },
+    {
+      "id": 47,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Amaru?",
+      "opciones": [
+        "2 velocidad - 2 armadura",
+        "3 velocidad - 1 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "2 velocidad - 2 armadura"
+    },
+    {
+      "id": 48,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Goyo?",
+      "opciones": [
+        "REU",
+        "Redhammer",
+        "FBI SWAT",
+        "FES"
+      ],
+      "respuestaCorrecta": "FES"
+    },
+    {
+      "id": 49,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿Qué estadísticas de velocidad y armadura tiene Kali?",
+      "opciones": [
+        "2 velocidad - 2 armadura",
+        "3 velocidad - 1 armadura",
+        "1 velocidad - 3 armadura",
+        "2 velocidad - 1 armadura"
+      ],
+      "respuestaCorrecta": "2 velocidad - 2 armadura"
+    },
+    {
+      "id": 50,
+      "categoria": "Rainbow Six Siege",
+      "pregunta": "¿A qué unidad pertenece el operador Wamai?",
+      "opciones": [
+        "FBI SWAT",
+        "SAS",
+        "GIGN",
+        "NIGHTHAVEN"
+      ],
+      "respuestaCorrecta": "NIGHTHAVEN"
+    }
+]

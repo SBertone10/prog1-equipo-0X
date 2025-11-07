@@ -1398,5 +1398,75 @@
     "pregunta": "¿Qué actor interpretó a C-3PO en todas las películas principales?",
     "opciones": ["Kenny Baker", "Anthony Daniels", "Peter Mayhew", "Frank Oz"],
     "respuestaCorrecta": "Anthony Daniels"
-  }
+  },
+  {
+  "id": 399,
+  "categoria": "Star Wars",
+  "pregunta": "¿Cuál era el verdadero nombre del maestro Sith conocido como Darth Plagueis?",
+  "opciones": ["Hego Damask", "Tenebrous", "Sidious", "Sifo-Dyas"],
+  "respuestaCorrecta": "Hego Damask"
+},
+{
+  "id": 400,
+  "categoria": "Star Wars",
+  "pregunta": "¿Cuál fue el planeta donde se estableció la primera academia Jedi según el canon actual?",
+  "opciones": ["Ahch-To", "Coruscant", "Jedha", "Ossus"],
+  "respuestaCorrecta": "Ahch-To"
+},
+{
+  "id": 401,
+  "categoria": "Star Wars",
+  "pregunta": "¿Qué título le otorgó Darth Sidious a su aprendiz Dooku cuando se convirtió en Sith?",
+  "opciones": ["Darth Tyranus", "Darth Maul", "Darth Tenebrous", "Darth Malgus"],
+  "respuestaCorrecta": "Darth Tyranus"
+},
+{
+  "id": 402,
+  "categoria": "Star Wars",
+  "pregunta": "¿Cuál es el nombre del templo Sith en Mustafar donde residía Darth Vader?",
+  "opciones": ["Fortaleza Vader", "Santuario de Sidious", "Templo Inquisitorial", "Torre Mustafar"],
+  "respuestaCorrecta": "Fortaleza Vader"
+},
+{
+  "id": 403,
+  "categoria": "Star Wars",
+  "pregunta": "¿Qué especie era el maestro Jedi Ki-Adi-Mundi?",
+  "opciones": ["Cereano", "Togruta", "Iktotchi", "Mirialano"],
+  "respuestaCorrecta": "Cereano"
+},
+{
+  "id": 404,
+  "categoria": "Star Wars",
+  "pregunta": "¿Cuál era el verdadero propósito del Proyecto Stardust?",
+  "opciones": ["Desarrollar el superláser de la Estrella de la Muerte", "Clonar soldados sensibles a la Fuerza", "Crear la flota de la Primera Orden", "Desarrollar naves con hipervelocidad oculta"],
+  "respuestaCorrecta": "Desarrollar el superláser de la Estrella de la Muerte"
+},
+{
+  "id": 405,
+  "categoria": "Star Wars",
+  "pregunta": "¿Cuál es el nombre de la orden Jedi que sobrevivió más tiempo tras la Orden 66 y entrenó a Cal Kestis?",
+  "opciones": ["Cere Junda", "Depa Billaba", "Shaak Ti", "Luminara Unduli"],
+  "respuestaCorrecta": "Cere Junda"
+},
+{
+  "id": 406,
+  "categoria": "Star Wars",
+  "pregunta": "¿Qué planeta sirvió como base principal de la Inquisición Imperial?",
+  "opciones": ["Nur", "Mustafar", "Coruscant", "Eriadu"],
+  "respuestaCorrecta": "Nur"
+},
+{
+  "id": 407,
+  "categoria": "Star Wars",
+  "pregunta": "¿Qué tipo de cristal Kyber utilizaba el sable oscuro (Darksaber)?",
+  "opciones": ["Kyber sintético", "Kyber natural", "Cristal Bendu", "Desconocido"],
+  "respuestaCorrecta": "Kyber sintético"
+},
+{
+  "id": 408,
+  "categoria": "Star Wars",
+  "pregunta": "¿Quién fue el primer portador del sable oscuro (Darksaber)?",
+  "opciones": ["Tarre Vizsla", "Pre Vizsla", "Bo-Katan Kryze", "Paz Vizsla"],
+  "respuestaCorrecta": "Tarre Vizsla"
+}
 ]
