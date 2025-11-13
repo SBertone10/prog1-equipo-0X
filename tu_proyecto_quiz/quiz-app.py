@@ -1,3 +1,4 @@
+# (Empieza el archivo completo modificado)
 """
 RESPONDIDOS - APLICACIÓN DE PREGUNTAS Y RESPUESTAS - ESTILO KAHOOT
 Versión sin clases - Enfoque procedural
@@ -11,9 +12,6 @@ from tkinter import messagebox
 from tkinter import ttk
 import os
 
-# ==============================
-# 1️⃣  CONFIGURACIÓN Y CARGA DE DATOS
-# ==============================
 # --- 1. CONFIGURACIÓN Y CARGA DE DATOS ---
 
 FILE_MAP = {
@@ -63,15 +61,9 @@ CATEGORY_COLORS = {
     "Rainbow Six Siege": {"bg": "#C0C0C0", "hover": "#A9A9A9", "icon": "🎯", "fg": "#000000"},
 }
 
-
-# --- Función: script_dir ---
-# Devuelve la ruta del script actual.
 def script_dir():
     return os.path.dirname(os.path.abspath(__file__))
 
-
-# --- Función: load_questions ---
-# Carga o muestra preguntas en la interfaz.
 def load_questions(file_map):
     """Carga todas las preguntas desde los archivos JSON. Devuelve dict por categoría."""
     all_data = {}
@@ -100,9 +92,6 @@ def load_questions(file_map):
             all_data[category_name] = []
     return all_data
 
-
-# --- Función: save_question_to_json ---
-# Guarda una nueva pregunta en el archivo JSON.
 def save_question_to_json(category, new_question):
     """Agrega una nueva pregunta al JSON de la categoría."""
     base = script_dir()
@@ -124,14 +113,8 @@ def save_question_to_json(category, new_question):
     except Exception as e:
         return False, str(e)
 
-# ==============================
-# 2️⃣  LÓGICA DEL QUIZ (funciones principales del juego)
-# ==============================
 # --- 2. LÓGICA DEL QUIZ ---
 
-
-# --- Función: start_quiz ---
-# Inicia una nueva partida del quiz.
 def start_quiz(category):
     """Inicia un nuevo quiz para la categoría seleccionada"""
     global current_questions, current_question_index, score, current_category, time_left, helps_remaining, helps_used_this_question
@@ -150,18 +133,12 @@ def start_quiz(category):
     current_questions = questions[:NUM_QUESTIONS]
     return True
 
-
-# --- Función: get_current_question ---
-# Obtiene datos del estado actual (pregunta, resultado, etc.).
 def get_current_question():
     """Obtiene la pregunta actual"""
     if current_question_index < len(current_questions):
         return current_questions[current_question_index]
     return None
 
-
-# --- Función: check_answer ---
-# Verifica si la respuesta seleccionada es correcta.
 def check_answer(selected_option_index):
     """Verifica si la respuesta es correcta"""
     global score
@@ -179,9 +156,6 @@ def check_answer(selected_option_index):
         score += 1
     return correct
 
-
-# --- Función: next_question ---
-# Avanza a la siguiente pregunta o pantalla.
 def next_question():
     """Avanza a la siguiente pregunta"""
     global current_question_index, time_left, helps_used_this_question
@@ -190,21 +164,12 @@ def next_question():
     helps_used_this_question = False
     return current_question_index < len(current_questions)
 
-
-# --- Función: get_results ---
-# Muestra o calcula los resultados finales.
 def get_results():
     """Obtiene los resultados del quiz"""
     return score, len(current_questions)
 
-# ==============================
-# 3️⃣  TEMPORIZADOR Y BARRA DE TIEMPO
-# ==============================
 # --- 3. TEMPORIZADOR Y BARRA DE TIEMPO ---
 
-
-# --- Función: start_timer ---
-# Controla el temporizador o la barra de tiempo.
 def start_timer():
     """Inicia el temporizador para la pregunta actual"""
     global timer_running, time_left, timer_id
@@ -214,9 +179,6 @@ def start_timer():
     update_time_bar()
     timer_id = master_window.after(1000, update_timer)
 
-
-# --- Función: stop_timer ---
-# Controla el temporizador o la barra de tiempo.
 def stop_timer():
     """Detiene el temporizador"""
     global timer_running, timer_id
@@ -225,9 +187,6 @@ def stop_timer():
         master_window.after_cancel(timer_id)
         timer_id = None
 
-
-# --- Función: update_timer ---
-# Controla el temporizador o la barra de tiempo.
 def update_timer():
     """Actualiza el temporizador cada segundo"""
     global time_left, timer_running, timer_id
@@ -246,26 +205,15 @@ def update_timer():
     else:
         timer_id = master_window.after(1000, update_timer)
 
-
-# --- Función: update_timer_display ---
-# Controla el temporizador o la barra de tiempo.
 def update_timer_display():
     """Actualiza la visualización del temporizador en la interfaz"""
     if hasattr(update_timer_display, 'timer_label') and update_timer_display.timer_label:
         color = COLOR_PALETTE["SUCCESS"] if time_left > 5 else COLOR_PALETTE["ERROR"]
         update_timer_display.timer_label.config(text=f"⏱️ {time_left}s", fg=color)
 
-
-# --- Función: update_time_bar ---
-# Controla el temporizador o la barra de tiempo.
 def update_time_bar():
     """Actualiza la barra de tiempo horizontal"""
     if hasattr(update_time_bar, 'time_bar_canvas') and update_time_bar.time_bar_canvas:
-        # Obtener el ancho actual del canvas
-        canvas_width = update_time_bar.time_bar_canvas.winfo_width()
-        if canvas_width <= 1:  # Si aún no se ha renderizado, usar ancho por defecto
-            canvas_width = 860
-        
         # Calcular el porcentaje de tiempo restante
         percentage = (time_left / 15) * 100
         
@@ -278,38 +226,26 @@ def update_time_bar():
             color = COLOR_PALETTE["ERROR"]
         
         # Actualizar ancho de la barra (de derecha a izquierda)
-        bar_width = (percentage / 100) * canvas_width
-        x_start = canvas_width - bar_width  # Comenzar desde la derecha
-        update_time_bar.time_bar_canvas.coords(update_time_bar.time_bar_rect, x_start, 0, canvas_width, 10)
+        bar_width = (percentage / 100) * 860  # 860 es el ancho aproximado del canvas
+        x_start = 860 - bar_width  # Comenzar desde la derecha
+        update_time_bar.time_bar_canvas.coords(update_time_bar.time_bar_rect, x_start, 0, 860, 10)
         update_time_bar.time_bar_canvas.itemconfig(update_time_bar.time_bar_rect, fill=color)
 
-
-# --- Función: create_time_bar ---
-# Controla el temporizador o la barra de tiempo.
 def create_time_bar(parent):
     """Crea la barra de tiempo horizontal dentro de la caja de pregunta"""
-    # Frame para contener la barra de tiempo (mismo ancho que la caja de pregunta)
-    time_bar_container = Frame(parent, bg=cat_info["hover"], height=15)
-    time_bar_container.pack(fill="x", padx=0, pady=(0, 0))
-    time_bar_container.pack_propagate(False)
+    # Frame para contener la barra de tiempo
+    time_bar_container = Frame(parent, bg=COLOR_PALETTE["BACKGROUND_LIGHT"], height=15)
+    time_bar_container.pack(fill="x", padx=20, pady=(0, 0))
     
-    # Canvas para la barra de tiempo con ancho completo
-    update_time_bar.time_bar_canvas = Canvas(time_bar_container, height=10, bg=cat_info["hover"], highlightthickness=0)
+    # Canvas para la barra de tiempo
+    update_time_bar.time_bar_canvas = Canvas(time_bar_container, height=10, bg="#e5e7eb", highlightthickness=0, width=860)
     update_time_bar.time_bar_canvas.pack(fill="x", padx=0)
     
     # Crear la barra de tiempo (inicialmente llena, desde la derecha)
-    # El ancho se actualizará automáticamente cuando el canvas se renderice
     update_time_bar.time_bar_rect = update_time_bar.time_bar_canvas.create_rectangle(
         0, 0, 860, 10, fill=COLOR_PALETTE["SUCCESS"], outline=""
     )
-    
-    # Forzar actualización después de que la ventana se renderice
-    master_window.update_idletasks()
-    update_time_bar()
 
-
-# --- Función: time_up ---
-# Controla el temporizador o la barra de tiempo.
 def time_up():
     """Maneja cuando se acaba el tiempo"""
     global current_buttons
@@ -343,9 +279,6 @@ def time_up():
     # Avanzar después de un breve delay
     master_window.after(2000, advance_after_timeout)
 
-
-# --- Función: advance_after_timeout ---
-# Controla el temporizador o la barra de tiempo.
 def advance_after_timeout():
     """Avanza a la siguiente pregunta después de que se acabe el tiempo"""
     if next_question():
@@ -353,14 +286,8 @@ def advance_after_timeout():
     else:
         show_results_ui()
 
-# ==============================
-# 4️⃣  SISTEMA DE AYUDAS (elimina opciones incorrectas)
-# ==============================
 # --- 4. SISTEMA DE AYUDAS ---
 
-
-# --- Función: use_help ---
-# Gestiona las ayudas (elimina opciones incorrectas).
 def use_help():
     """Usa una ayuda para eliminar 2 opciones incorrectas"""
     global helps_remaining, helps_used_this_question, current_buttons
@@ -403,9 +330,6 @@ def use_help():
     elif len(incorrect_indices) == 1:
         current_buttons[incorrect_indices[0]].config(state="disabled", bg="#666666", fg="#999999", text="❌ Eliminada")
 
-# ==============================
-# 5️⃣  INTERFAZ GRÁFICA CON TKINTER
-# ==============================
 # --- 5. INTERFAZ GRÁFICA (TKINTER) ---
 
 # Variables globales para la interfaz
@@ -427,24 +351,15 @@ font_large = ("Inter", 18, "bold")
 font_medium = ("Inter", 12)
 font_small = ("Inter", 10)
 
-
-# --- Función: clear_all_frames ---
-# Limpia frames o widgets previos para cambiar de pantalla.
 def clear_all_frames():
     """Limpia todos los frames de contenido"""
     for f in [category_frame, quiz_frame, results_frame, add_question_frame]:
         if f:
             f.pack_forget()
 
-
-# --- Función: create_tooltip ---
-# Función auxiliar del juego.
 def create_tooltip(widget, text):
     """Crea un tooltip para un widget"""
     tooltip_window = None
-
-# --- Función: enter ---
-# Función auxiliar del juego.
     def enter(event):
         nonlocal tooltip_window
         x, y, _, _ = widget.bbox("insert")
@@ -456,9 +371,6 @@ def create_tooltip(widget, text):
         Label(tooltip_window, text=text, background="#ffffe0", relief="solid", borderwidth=1,
               font=("tahoma", "8", "normal")).pack()
     
-
-# --- Función: leave ---
-# Función auxiliar del juego.
     def leave(event):
         nonlocal tooltip_window
         if tooltip_window:
@@ -468,15 +380,10 @@ def create_tooltip(widget, text):
     widget.bind("<Enter>", enter)
     widget.bind("<Leave>", leave)
 
-
-# --- Función: show_category_selection ---
-# Muestra la pantalla de selección de categorías.
 def show_category_selection():
     """Muestra la pantalla de selección de categorías"""
     stop_timer()  # Detener cualquier temporizador activo
     clear_all_frames()
-    for w in category_frame.winfo_children():
-        w.destroy()
     category_frame.pack(fill="both", expand=True)
 
     Label(category_frame, text=f"Cada quiz tiene {NUM_QUESTIONS} preguntas", font=font_medium,
@@ -485,19 +392,8 @@ def show_category_selection():
     grid = Frame(category_frame, bg=COLOR_PALETTE["BACKGROUND_LIGHT"])
     grid.pack(expand=True, fill="both", pady=10)
 
-    # CORREGIDO: Usar solo las categorías definidas en CATEGORY_COLORS
-    # y asegurarse de que no haya duplicados
-    cats = list(CATEGORY_COLORS.keys())
-    
-    # Verificar que no haya duplicados
-    seen = set()
-    unique_cats = []
-    for cat in cats:
-        if cat not in seen:
-            seen.add(cat)
-            unique_cats.append(cat)
-    
-    cats = unique_cats
+    # Hacemos la unión entre las categorías definidas en los colores y las cargadas
+    cats = list(dict.fromkeys(list(CATEGORY_COLORS.keys()) + list(all_questions_data.keys())))
 
     for i, cat in enumerate(cats):
         colors = CATEGORY_COLORS.get(cat, {"bg": "#DDDDDD", "hover": "#CCCCCC", "icon": "❓", "fg": "#111"})
@@ -526,9 +422,6 @@ def show_category_selection():
            bg="#4CAF50", fg="white", activebackground="#45a049", relief="flat", bd=0, padx=12, pady=10,
            command=show_add_question_ui).pack(pady=8)
 
-
-# --- Función: start_quiz_ui ---
-# Inicia una nueva partida del quiz.
 def start_quiz_ui(category):
     """Inicia la interfaz del quiz para una categoría"""
     if start_quiz(category):
@@ -538,12 +431,9 @@ def start_quiz_ui(category):
     else:
         messagebox.showerror("Error", f"No hay suficientes preguntas disponibles para esta categoría. Necesitas {NUM_QUESTIONS}.")
 
-
-# --- Función: load_question_ui ---
-# Carga o muestra preguntas en la interfaz.
 def load_question_ui():
     """Carga y muestra la pregunta actual en la interfaz"""
-    global current_buttons, cat_info
+    global current_buttons
     
     # Limpiar widgets previos
     for w in quiz_frame.winfo_children():
@@ -598,6 +488,24 @@ def load_question_ui():
     options_shuffled = random.sample(question["opciones"], len(question["opciones"]))
     current_buttons = []
 
+    # 🔧 Ajuste automático del tamaño de los botones según la altura de la pantalla
+    screen_height = master_window.winfo_screenheight() if master_window else 900
+    if screen_height < 800:
+        b_width = 26
+        b_height = 2
+        b_wrap = 250
+        b_pad = 8
+    elif screen_height < 1000:
+        b_width = 30
+        b_height = 3
+        b_wrap = 300
+        b_pad = 12
+    else:
+        b_width = 35
+        b_height = 4
+        b_wrap = 350
+        b_pad = 20
+
     for i, opt_text in enumerate(options_shuffled):
         try:
             original_index = question["opciones"].index(opt_text)
@@ -605,19 +513,18 @@ def load_question_ui():
             original_index = -1
 
         btn_color = kahoot_colors[i % len(kahoot_colors)]
-        
-        # Creación de botones con tamaño fijo
+
         btn = Button(options_frame, text=opt_text, font=("Inter", 14, "bold"),
-                     bg=btn_color, fg="white", activeforeground="white", 
-                     wraplength=BUTTON_WRAPLENGTH,
-                     width=BUTTON_WIDTH_FIXED,
-                     height=BUTTON_HEIGHT_FIXED,
-                     relief="flat", bd=0, 
-                     padx=BUTTON_PAD_NORMAL, pady=BUTTON_PAD_NORMAL,
+                     bg=btn_color, fg="white", activeforeground="white",
+                     wraplength=b_wrap,
+                     width=b_width,
+                     height=b_height,
+                     relief="flat", bd=0,
+                     padx=b_pad, pady=b_pad,
                      command=lambda idx=original_index, opt=opt_text: handle_answer(idx, opt))
-        
+
         btn.grid(row=i // 2, column=i % 2, padx=12, pady=12, sticky="nsew")
-        
+
         current_buttons.append(btn)
 
     for col in range(2):
@@ -635,12 +542,9 @@ def load_question_ui():
                                          command=use_help)
     load_question_ui.help_button.pack()
 
-    # Iniciar temporizador después de que la interfaz se haya renderizado
-    master_window.after(100, start_timer)
+    # Iniciar temporizador
+    start_timer()
 
-
-# --- Función: handle_answer ---
-# Maneja la acción del jugador al seleccionar una respuesta.
 def handle_answer(selected_option_index, selected_option_text):
     """Maneja la selección de una respuesta"""
     global current_buttons
@@ -679,9 +583,6 @@ def handle_answer(selected_option_index, selected_option_text):
     # Avanzar después de un breve delay para ver los resultados
     master_window.after(2000, advance_to_next)
 
-
-# --- Función: advance_to_next ---
-# Avanza a la siguiente pregunta o pantalla.
 def advance_to_next():
     """Avanza a la siguiente pregunta después de mostrar los resultados"""
     if next_question():
@@ -689,9 +590,6 @@ def advance_to_next():
     else:
         show_results_ui()
 
-
-# --- Función: show_results_ui ---
-# Muestra o calcula los resultados finales.
 def show_results_ui():
     """Muestra la pantalla de resultados"""
     stop_timer()  # Detener cualquier temporizador activo
@@ -721,9 +619,6 @@ new_question_text = None
 new_option_vars = []
 correct_var = None
 
-
-# --- Función: show_add_question_ui ---
-# Función auxiliar del juego.
 def show_add_question_ui():
     """Muestra la interfaz para agregar nuevas preguntas"""
     global new_cat_var, new_question_text, new_option_vars, correct_var
@@ -745,8 +640,7 @@ def show_add_question_ui():
     # Categoría
     Label(form, text="Categoría:", font=font_medium, bg=COLOR_PALETTE["BACKGROUND_LIGHT"]).grid(row=0, column=0, sticky="w", pady=6)
     new_cat_var = StringVar()
-    # CORREGIDO: Usar solo las categorías definidas en CATEGORY_COLORS
-    cats = list(CATEGORY_COLORS.keys())
+    cats = list(all_questions_data.keys())
     new_cat_var.set(cats[0] if cats else "Seleccionar")
     cat_combo = ttk.Combobox(form, textvariable=new_cat_var, values=cats, state="readonly", font=font_medium)
     cat_combo.grid(row=0, column=1, sticky="ew", pady=6)
@@ -786,9 +680,6 @@ def show_add_question_ui():
     # Ajustes de grid
     form.grid_columnconfigure(1, weight=1)
 
-
-# --- Función: save_new_question ---
-# Guarda una nueva pregunta en el archivo JSON.
 def save_new_question():
     """Guarda una nueva pregunta en el archivo JSON"""
     global all_questions_data
@@ -834,9 +725,6 @@ def save_new_question():
     else:
         messagebox.showerror("Error al guardar", f"No se pudo guardar: {err}")
 
-
-# --- Función: initialize_app ---
-# Inicializa la aplicación y la ventana principal.
 def initialize_app():
     """Inicializa la aplicación"""
     global all_questions_data, master_window
@@ -850,8 +738,6 @@ def initialize_app():
     master_window.title("🎯 Respondidos - Estilo Kahoot")
     master_window.geometry("900x720")
     master_window.config(bg=COLOR_PALETTE["BACKGROUND_LIGHT"])
-    # Hacer la ventana responsive
-    master_window.minsize(800, 600)
 
     # TÍTULO PERMANENTE
     title_label = Label(master_window, text="🎯Respondidos🎯", font=font_title,
@@ -874,9 +760,6 @@ def initialize_app():
     # Iniciar loop principal
     master_window.mainloop()
 
-# ==============================
-# 🔚 EJECUCIÓN PRINCIPAL DEL PROGRAMA
-# ==============================
 # --- EJECUCIÓN ---
 if __name__ == "__main__":
     initialize_app()
