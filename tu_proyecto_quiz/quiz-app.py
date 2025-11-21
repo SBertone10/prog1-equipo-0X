@@ -65,7 +65,6 @@ COLORES_CATEGORIAS = {
     "Rainbow Six Siege": {"bg": "#C0C0C0", "hover": "#A9A9A9", "icon": "🎯", "fg": "#000000"},  # Fondo gris
 }
 
-# ==================== NUEVAS IMPLEMENTACIONES ====================
 
 # TUPLA INMUTABLE para colores Kahoot
 COLORES_KAHOOT = ("#E74C3C", "#3498DB", "#F1C40F", "#2ECC71")  # Tupla inmutable (rojo, azul, amarillo, verde)
@@ -774,33 +773,100 @@ def mostrar_interfaz_resultados():
     valor_puntaje, total = obtener_resultados()  # Obtiene el puntaje y total
     porcentaje = (valor_puntaje / total) * 100 if total > 0 else 0.0  # Calcula el porcentaje
 
-    # USO DE TUPLA MENSAJES_RESULTADO basado en el porcentaje
+    # Determinar el mensaje y color basado en el porcentaje
     if porcentaje >= 90:
         mensaje = MENSAJES_RESULTADO[0]  # "¡Excelente! 🎉"
+        color_mensaje = "#10b981"  # Verde
+        emoji = "🎉"
     elif porcentaje >= 70:
         mensaje = MENSAJES_RESULTADO[1]  # "Muy bien 👍"
+        color_mensaje = "#3b82f6"  # Azul
+        emoji = "👍"
     elif porcentaje >= 50:
         mensaje = MENSAJES_RESULTADO[2]  # "Buen trabajo 👏"
+        color_mensaje = "#8b5cf6"  # Morado
+        emoji = "👏"
     elif porcentaje >= 30:
         mensaje = MENSAJES_RESULTADO[3]  # "Puedes mejorar 💪"
+        color_mensaje = "#f59e0b"  # Amarillo/naranja
+        emoji = "💪"
     else:
         mensaje = MENSAJES_RESULTADO[4]  # "Sigue practicando 📚"
+        color_mensaje = "#ef4444"  # Rojo
+        emoji = "📚"
 
-    Label(marco_resultados, text="RESULTADOS", font=fuente_titulo,  # Título
-          bg=PALETA_COLORES["FONDO_CLARO"]).pack(pady=10)
-    
-    Label(marco_resultados, text=f"{valor_puntaje}/{total} correctas - {porcentaje:.1f}%", font=fuente_grande,  # Resultado principal
-          bg=PALETA_COLORES["FONDO_CLARO"]).pack(pady=8)
-    
-    Label(marco_resultados, text=mensaje, font=fuente_mediana,  # Mensaje personalizado
-          bg=PALETA_COLORES["FONDO_CLARO"], fg=PALETA_COLORES["EXITO"]).pack(pady=5)
+    # Contenedor principal
+    contenedor_principal = Frame(marco_resultados, bg=PALETA_COLORES["FONDO_CLARO"])
+    contenedor_principal.pack(fill="both", expand=True, padx=20, pady=10)
 
-    ttk.Button(marco_resultados, text="🔄 Jugar de nuevo (misma categoría)",  # Botón para reintentar
-               command=lambda: iniciar_interfaz_quiz(categoria_actual)).pack(pady=10)
+    # Título de resultados
+    Label(contenedor_principal, text="🎯 RESULTADOS", font=("Inter", 28, "bold"),
+          bg=PALETA_COLORES["FONDO_CLARO"], fg="#1f2937").pack(pady=(10, 5))
+
+    # Tarjeta de resultados
+    tarjeta_resultados = Frame(contenedor_principal, bg="white", relief="raised", bd=2)
+    tarjeta_resultados.pack(pady=10, padx=20, fill="x")
+
+    # Puntaje principal
+    Label(tarjeta_resultados, text=f"{valor_puntaje}/{total}", 
+          font=("Inter", 36, "bold"), bg="white", fg=color_mensaje).pack(pady=(20, 5))
     
-    ttk.Button(marco_resultados, text="🏠 Volver al menú", command=mostrar_seleccion_categorias).pack(pady=6)  # Botón para volver al menú
+    # Porcentaje
+    Label(tarjeta_resultados, text=f"{porcentaje:.1f}%", 
+          font=("Inter", 18), bg="white", fg=PALETA_COLORES["TEXTO_SECUNDARIO"]).pack(pady=(0, 15))
+
+    # Mensaje con emoji grande
+    marco_mensaje = Frame(tarjeta_resultados, bg="white")
+    marco_mensaje.pack(pady=10, fill="x")
     
-    ttk.Button(marco_resultados, text="➕ Agregar Pregunta", command=mostrar_interfaz_agregar_pregunta).pack(pady=6)  # Botón para agregar pregunta
+    Label(marco_mensaje, text=emoji, font=("Inter", 24), bg="white").pack(side=LEFT, padx=(30, 15))
+    Label(marco_mensaje, text=mensaje, font=("Inter", 18, "bold"), 
+          bg="white", fg=color_mensaje, wraplength=400).pack(side=LEFT, padx=5)
+
+    # Barra de progreso visual - CORREGIDA
+    marco_barra = Frame(tarjeta_resultados, bg="white", height=25)
+    marco_barra.pack(fill="x", padx=30, pady=15)
+    
+    # Usar un ancho fijo pero bien calculado
+    ancho_fijo = 500  # Ancho fijo suficiente
+    
+    canvas_barra = Canvas(marco_barra, height=20, bg="#e5e7eb", highlightthickness=0, width=ancho_fijo)
+    canvas_barra.pack()
+    
+    # Dibujar barra de progreso - CÁLCULO CORREGIDO
+    ancho_barra = (porcentaje / 100) * ancho_fijo
+    
+    # Crear la barra de progreso
+    canvas_barra.create_rectangle(0, 0, ancho_barra, 20, fill=color_mensaje, outline="")
+    
+    # Texto del porcentaje centrado
+    canvas_barra.create_text(ancho_fijo/2, 10, text=f"{porcentaje:.0f}%", 
+                            font=("Inter", 10, "bold"), fill="white")
+
+    # Botones de acción
+    marco_botones = Frame(contenedor_principal, bg=PALETA_COLORES["FONDO_CLARO"])
+    marco_botones.pack(pady=20, fill="x", padx=50)
+
+    # Botón jugar de nuevo
+    btn_reintentar = Button(marco_botones, text=f"🔄 Jugar de nuevo - {categoria_actual}", 
+                           font=("Inter", 12, "bold"), bg="#3b82f6", fg="white",
+                           relief="flat", bd=0, padx=20, pady=10,
+                           command=lambda: iniciar_interfaz_quiz(categoria_actual))
+    btn_reintentar.pack(pady=6, fill="x")
+
+    # Botón volver al menú
+    btn_menu = Button(marco_botones, text="🏠 Volver al menú de categorías", 
+                     font=("Inter", 11), bg="#6b7280", fg="white",
+                     relief="flat", bd=0, padx=20, pady=8,
+                     command=mostrar_seleccion_categorias)
+    btn_menu.pack(pady=6, fill="x")
+
+    # Botón agregar pregunta
+    btn_agregar = Button(marco_botones, text="➕ Agregar Nueva Pregunta", 
+                        font=("Inter", 11), bg="#10b981", fg="white",
+                        relief="flat", bd=0, padx=20, pady=8,
+                        command=mostrar_interfaz_agregar_pregunta)
+    btn_agregar.pack(pady=6, fill="x")
 
 # VARIABLES GLOBALES para el formulario de agregar preguntas
 variable_nueva_categoria = None  # Variable para guardar la categoría seleccionada
